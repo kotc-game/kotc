@@ -2,7 +2,7 @@ Card images in cards found under the "cards" directory are under CC BY,
 CC BY-SA, or CC0, indicated on the images along with the appropriate
 attribution.
 
-The card cost calculator (card_cost_calculator.py) is licensed under the
+Python scripts found under the "tools" directory are licensed under the
 Apache License.
 
 All other files in this directory and its sub-directories are dedicated
