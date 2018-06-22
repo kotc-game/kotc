@@ -2,7 +2,10 @@ Card images in cards found under the "cards" directory are under CC BY,
 CC BY-SA, or CC0, indicated on the images along with the appropriate
 attribution.
 
-All other files in this directory are dedicated to the public domain via
-CC0. See here for more information:
+The card cost calculator (card_cost_calculator.py) is licensed under the
+Apache License.
+
+All other files in this directory and its sub-directories are dedicated
+to the public domain via CC0. See here for more information:
 
 https://creativecommons.org/publicdomain/zero/1.0/

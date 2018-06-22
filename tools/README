@@ -1,0 +1,10 @@
+This directory contains Python 3 scripts. To run:
+
+* Install Python 3 (www.python.org)
+
+* Double-click on the script. If you are asked how to open it, choose
+  "Run in Terminal".
+
+* If double-clicking doesn't work (e.g. if it opens the script in a text
+  editor), open a terminal in this directory and then type "./" followed
+  by the script name (e.g. "./card_cost_calculator.py").
