@@ -1,0 +1,57 @@
+Want to contribute to Keeper of the Cards? Awesome!
+
+Of course, the first thing you could do is simply to play the game,
+introduce it to others, and make your own cool cards. The more the
+merrier, as they say! More players makes the game more and more
+interesting, especially given the nature of the game.
+
+If you want to go further, example card contributions are absolutely
+welcome. We can add any card as an example card, as long as it is legal
+for use in the current ruleset (i.e. has no redacted texts), does not
+break any U.S. laws (in particular, does not infringe any copyrights or
+trademarks recognized by the U.S.), is not pornographic in nature, and
+carries a libre license.
+
+The last point (carrying a libre license) means that you give any
+recipient of the card the freedom (liberty) to use, modify, and
+redistribute the card for any purpose, in any way, both commercially and
+non-commercially. You can find a more formal definition here:
+
+https://freedomdefined.org
+
+Recommended libre licenses are the Creative Commons Attribution License
+(CC BY), the Creative Commons Attribution-ShareAlike License (CC BY-SA),
+and the Creative Commons Public Domain Dedication tool (CC0). These
+licenses can be found here:
+
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Creative Commons also supplies logos for each license, so the way we
+recommend licensing a card is simply to embed the appropriate license
+logo into the card image; the small text below the image, by default,
+clarifies that any such license indicates the license of the entire
+card. The images can be found here:
+
+https://creativecommons.org/about/downloads/
+
+If you are not the copyright holder of the entire card (e.g. because the
+image was made by someone else, or because it uses a copyrighted work in
+a manner that is fair use), please alter the text below the image to
+properly indicate all authors and licenses as required by copyright law.
+
+We do not accept the GNU GPL or the GNU FDL for example cards; these
+licenses require inclusion of the full text of the license for copying
+and redistribution, which would mean that a card under one of these
+licenses would require a supplimentary page if you print it and then
+give it to someone else. Most copyright holders probably wouldn't
+enforce this requirement, but if they did, it would be a burden for
+professional card printing services and a waste of paper.
+
+In any case, if you would like to contribute, you can either use Git (if
+you know how to use it), or you can open an issue; either works fine.
+You can also send me an email at the following email address if you
+prefer:
+
+onpon4@riseup.net
