@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2018-06-30T11:22:53.336005701</dc:date><dc:creator>Julie </dc:creator><meta:editing-duration>P1DT8H51M4S</meta:editing-duration><meta:editing-cycles>70</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="10" meta:paragraph-count="105" meta:word-count="4349" meta:character-count="24576" meta:non-whitespace-character-count="20373"/></office:meta>
+ <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2018-07-02T08:17:04.492185672</dc:date><dc:creator>Julie </dc:creator><meta:editing-duration>P1DT8H51M4S</meta:editing-duration><meta:editing-cycles>71</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="10" meta:paragraph-count="105" meta:word-count="4347" meta:character-count="24568" meta:non-whitespace-character-count="20367"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">285538</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">35059</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">11882</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">12913</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">22490</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">290290</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">21860</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">10887</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">285538</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">35057</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">297418</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">12912</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -81,7 +81,7 @@
    <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="Rsid" config:type="int">6861217</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">6985279</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
@@ -315,260 +315,268 @@
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="006591bb" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:paragraph-rsid="0058e982"/>
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="003e2523" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="004642ac" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0058e982"/>
   </style:style>
   <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="004642ac" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000ec713" officeooo:paragraph-rsid="000ec713" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="000e443f" officeooo:paragraph-rsid="000e443f" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00105c06" officeooo:paragraph-rsid="00105c06" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="000e443f" officeooo:paragraph-rsid="000e443f" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00105c06" officeooo:paragraph-rsid="00105c06" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="006556da" officeooo:paragraph-rsid="006556da" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000e443f" officeooo:paragraph-rsid="000e443f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000ec713" officeooo:paragraph-rsid="000ec713" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
   <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00136e7e" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000ec713" officeooo:paragraph-rsid="000ec713" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00133c18" officeooo:paragraph-rsid="00133c18" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00136e7e" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="003c5338" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00133c18" officeooo:paragraph-rsid="00133c18" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="001de214" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="003c5338" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="001611e9" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="001de214" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="005323b2" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="001611e9" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="0058e982" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="005323b2" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00189433" officeooo:paragraph-rsid="00189433" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001611e9" officeooo:paragraph-rsid="0058e982" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00189433" officeooo:paragraph-rsid="005c621b" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00189433" officeooo:paragraph-rsid="00189433" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d1951" officeooo:paragraph-rsid="001d1951" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00189433" officeooo:paragraph-rsid="005c621b" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d2b8f" officeooo:paragraph-rsid="001d2b8f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d1951" officeooo:paragraph-rsid="001d1951" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00105c06" officeooo:paragraph-rsid="00105c06" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d2b8f" officeooo:paragraph-rsid="001d2b8f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023953d" officeooo:paragraph-rsid="0023953d" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00105c06" officeooo:paragraph-rsid="00105c06" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023953d" officeooo:paragraph-rsid="0023953d" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0016af5e" officeooo:paragraph-rsid="0016af5e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002e6d56" officeooo:paragraph-rsid="002e6d56" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0016af5e" officeooo:paragraph-rsid="0016af5e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0038df72" officeooo:paragraph-rsid="0038df72" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="002e6d56" officeooo:paragraph-rsid="002e6d56" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0038df72" officeooo:paragraph-rsid="0038df72" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0044cd3c" officeooo:paragraph-rsid="0044cd3c" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0047e467" officeooo:paragraph-rsid="0047e467" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0044cd3c" officeooo:paragraph-rsid="0044cd3c" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00187420" officeooo:paragraph-rsid="00187420" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0047e467" officeooo:paragraph-rsid="0047e467" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="003b834d" officeooo:paragraph-rsid="004a9915" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00187420" officeooo:paragraph-rsid="00187420" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="003b834d" officeooo:paragraph-rsid="004a9915" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="003e2523" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="001d2b8f" officeooo:paragraph-rsid="001d2b8f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="0058e982" officeooo:paragraph-rsid="0058e982"/>
   </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="0058e982"/>
-  </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="0014fa3c" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="00133c18" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0014fa3c" officeooo:paragraph-rsid="0014fa3c" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="001d1951" officeooo:paragraph-rsid="001d1951" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="00133c18" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="001d1951" officeooo:paragraph-rsid="001d1951" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="0038df72" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="0038df72" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.25in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="000e443f" officeooo:paragraph-rsid="001de214" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
   </style:style>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1" style:master-page-name="">
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.3701in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000ec713" officeooo:paragraph-rsid="000ec713" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="000ec713" officeooo:paragraph-rsid="000ec713" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00136e7e" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00136e7e" officeooo:paragraph-rsid="004e31c8" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0013aafc" officeooo:paragraph-rsid="0013aafc" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0016441d" officeooo:paragraph-rsid="0058e982" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
+  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d2b8f" officeooo:paragraph-rsid="001d2b8f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="00299a1a" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="003132d5" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="00299a1a" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="003132d5" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="0038df72" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="006591bb" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="0038df72" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="003e2523" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="006591bb" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00136e7e" officeooo:paragraph-rsid="00136e7e" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0021abe9" officeooo:paragraph-rsid="0021abe9" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00133c18" officeooo:paragraph-rsid="00133c18" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
+  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="0058e982"/>
   </style:style>
-  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
+  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="004642ac" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
+  <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
+  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="0058e982"/>
   </style:style>
-  <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
+  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="001d2b8f" officeooo:paragraph-rsid="001d2b8f" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0.3701in" fo:margin-bottom="0.5in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="24pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" officeooo:rsid="0038df72" officeooo:paragraph-rsid="003f1ca0" style:font-size-asian="21pt" style:font-size-complex="24pt"/>
+  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="006a963f" officeooo:paragraph-rsid="006a963f" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
@@ -39404,220 +39412,220 @@
     </draw:image>
    </draw:frame>
    <text:p text:style-name="P1">Keeper of the Cards Rulebook</text:p>
-   <text:p text:style-name="P30">3<text:span text:style-name="T26">rd</text:span> Edition, <text:span text:style-name="T67">rev. 1</text:span></text:p>
-   <text:p text:style-name="P64">Introduction</text:p>
-   <text:p text:style-name="P28">Keeper of the Cards is a trading card game, loosely inspired by elements from various popul<text:span text:style-name="T65">a</text:span>r trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don&apos;t just trade cards; you <text:span text:style-name="T1">create</text:span><text:span text:style-name="T2"> cards.</text:span></text:p>
-   <text:p text:style-name="P31">Unlike other trading card games, there are no official cards for Keeper of the Cards. Instead, there are official effect components that can be used for cards and official rules for calculating the cost of playing any given card. These rules are laid out separately in the document titled, “Card Building Guide”.</text:p>
-   <text:p text:style-name="P31">This document, on the other hand, serves to explain the rules of the game.</text:p>
-   <text:p text:style-name="P56">Setup</text:p>
-   <text:p text:style-name="P51">You can find pre-existing sets of example cards under the “sets” directory to get you started. You can also find those same example cards in individual form under the “cards” directory. To print one each of the example cards, print all of the PDFs with names like “setX.pdf” under “sets”, then on the other side of these same pages, print “backs.pdf” (optional if you use card sleeves with opaque backings). Then cut the cards out with a straight-cutter or scissors.</text:p>
-   <text:p text:style-name="P42">Keeper of the Cards <text:span text:style-name="T16">can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than two players, each player works alone, with their own hitpoints and field.</text:span></text:p>
-   <text:p text:style-name="P43">Each player starts with their shuffled deck, a hand of 5 cards, and <text:span text:style-name="T41">6</text:span>0 hitpoints. A piece of paper is recommended to keep track of hitpoints. In addition, you should have a reasonable amount of six-sided dice (preferably at least 10-20 dice), and some objects such as coins or chips to use as counters. You must also determine who goes first. One suggested method is for each player to roll two six-sided dice and for the player with the highest roll to go first.</text:p>
+   <text:p text:style-name="P89">4<text:span text:style-name="T26">th</text:span> Edition</text:p>
+   <text:p text:style-name="P65">Introduction</text:p>
+   <text:p text:style-name="P29">Keeper of the Cards is a trading card game, loosely inspired by elements from various popul<text:span text:style-name="T65">a</text:span>r trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don&apos;t just trade cards; you <text:span text:style-name="T1">create</text:span><text:span text:style-name="T2"> cards.</text:span></text:p>
+   <text:p text:style-name="P32">Unlike other trading card games, there are no official cards for Keeper of the Cards. Instead, there are official effect components that can be used for cards and official rules for calculating the cost of playing any given card. These rules are laid out separately in the document titled, “Card Building Guide”.</text:p>
+   <text:p text:style-name="P32">This document, on the other hand, serves to explain the rules of the game.</text:p>
+   <text:p text:style-name="P57">Setup</text:p>
+   <text:p text:style-name="P52">You can find pre-existing sets of example cards under the “sets” directory to get you started. You can also find those same example cards in individual form under the “cards” directory. To print one each of the example cards, print all of the PDFs with names like “setX.pdf” under “sets”, then on the other side of these same pages, print “backs.pdf” (optional if you use card sleeves with opaque backings). Then cut the cards out with a straight-cutter or scissors.</text:p>
+   <text:p text:style-name="P43">Keeper of the Cards <text:span text:style-name="T16">can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than two players, each player works alone, with their own hitpoints and field.</text:span></text:p>
+   <text:p text:style-name="P44">Each player starts with their shuffled deck, a hand of 5 cards, and <text:span text:style-name="T41">6</text:span>0 hitpoints. A piece of paper is recommended to keep track of hitpoints. In addition, you should have a reasonable amount of six-sided dice (preferably at least 10-20 dice), and some objects such as coins or chips to use as counters. You must also determine who goes first. One suggested method is for each player to roll two six-sided dice and for the player with the highest roll to go first.</text:p>
    <text:p text:style-name="P2">Card Types and Layout</text:p>
-   <text:p text:style-name="P28"><text:span text:style-name="T2">There are two types of cards in Keeper of the Cards: creatures, and spells. </text:span><text:span text:style-name="T3">Below are some examples of both:</text:span></text:p>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P28"/>
-   <text:p text:style-name="P32">The card on the left is a creature, and the card on the right is a spell. As you can see, they are both very similar; the only real difference is that spells have a pair of triangles instead of the additional elements found on a creature.</text:p>
-   <text:p text:style-name="P32">The elements marked on <text:span text:style-name="T49">the cards</text:span> are:</text:p>
-   <text:list xml:id="list4817255347686131029" text:style-name="L1">
+   <text:p text:style-name="P29"><text:span text:style-name="T2">There are two types of cards in Keeper of the Cards: creatures, and spells. </text:span><text:span text:style-name="T3">Below are some examples of both:</text:span></text:p>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P29"/>
+   <text:p text:style-name="P33">The card on the left is a creature, and the card on the right is a spell. As you can see, they are both very similar; the only real difference is that spells have a pair of triangles instead of the additional elements found on a creature.</text:p>
+   <text:p text:style-name="P33">The elements marked on <text:span text:style-name="T49">the cards</text:span> are:</text:p>
+   <text:list xml:id="list7152526947352417548" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P65">The name of the card. This is purely cosmetic and has no effect on the game.</text:p>
+     <text:p text:style-name="P67">The name of the card. This is purely cosmetic and has no effect on the game.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The card image. This is purely cosmetic and has no effect on the game.</text:p>
+     <text:p text:style-name="P68">The card image. This is purely cosmetic and has no effect on the game.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The ability text of the card.</text:p>
+     <text:p text:style-name="P68">The ability text of the card.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The resource cost of the card.</text:p>
+     <text:p text:style-name="P68">The resource cost of the card.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The flavor text of the card. This is purely cosmetic and has no effect on the game.</text:p>
+     <text:p text:style-name="P68">The flavor text of the card. This is purely cosmetic and has no effect on the game.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The offensive power (“offense”) of the card.</text:p>
+     <text:p text:style-name="P68">The offensive power (“offense”) of the card.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P66">The defensive power (“defense”) of the card.</text:p>
+     <text:p text:style-name="P68">The defensive power (“defense”) of the card.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P9"/>
    <text:p text:style-name="P3">Deck Building Considerations</text:p>
-   <text:p text:style-name="P29"><text:span text:style-name="T2">A deck in Keeper of the Cards must have </text:span><text:span text:style-name="T11">between 40 and 60</text:span><text:span text:style-name="T4"> cards </text:span><text:span text:style-name="T11">(i.e. no less than 40 and no more than 60)</text:span><text:span text:style-name="T4">. All cards must </text:span><text:span text:style-name="T6">look the same from the back; this can be achieved by using sleeves if necessary</text:span><text:span text:style-name="T8">.</text:span></text:p>
-   <text:p text:style-name="P44">Other than that, there are no restrictions on what legal cards you can put in your deck. In particular, there is no restriction on how many copies of a given card you may have in your deck; if you like, you can populate your deck with <text:span text:style-name="T53">5</text:span>0 identical cards. The reason for this is simply that such a rule would be difficult to enforce; any dedicated deck builder would be able to get around such a requirement simply by adding unnecessary targetings, slightly varied activation costs, slightly varied power levels, etc. Secondarily, even if it could be enforced properly, such a rule is unnecessary as things such as instant win conditions are not a particular issue for this game.</text:p>
-   <text:p text:style-name="P60">T<text:span text:style-name="T12">he Field</text:span></text:p>
-   <text:p text:style-name="P33">Each player&apos;s field contains the following zones:</text:p>
-   <text:list xml:id="list5800800033074868719" text:style-name="L2">
+   <text:p text:style-name="P30"><text:span text:style-name="T2">A deck in Keeper of the Cards must have </text:span><text:span text:style-name="T11">between 40 and 60</text:span><text:span text:style-name="T4"> cards </text:span><text:span text:style-name="T11">(i.e. no less than 40 and no more than 60)</text:span><text:span text:style-name="T4">. All cards must </text:span><text:span text:style-name="T6">look the same from the back; this can be achieved by using sleeves if necessary</text:span><text:span text:style-name="T8">.</text:span></text:p>
+   <text:p text:style-name="P45">Other than that, there are no restrictions on what legal cards you can put in your deck. In particular, there is no restriction on how many copies of a given card you may have in your deck; if you like, you can populate your deck with <text:span text:style-name="T53">5</text:span>0 identical cards. The reason for this is simply that such a rule would be difficult to enforce; any dedicated deck builder would be able to get around such a requirement simply by adding unnecessary targetings, slightly varied activation costs, slightly varied power levels, etc. Secondarily, even if it could be enforced properly, such a rule is unnecessary as things such as instant win conditions are not a particular issue for this game.</text:p>
+   <text:p text:style-name="P61">T<text:span text:style-name="T12">he Field</text:span></text:p>
+   <text:p text:style-name="P34">Each player&apos;s field contains the following zones:</text:p>
+   <text:list xml:id="list7038740271373674222" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P78"><text:span text:style-name="T2">Deck: Contains your deck. The deck&apos;s contents are not revealed to anyone, and it is shuffled </text:span><text:span text:style-name="T5">before</text:span><text:span text:style-name="T2"> the start of the game.</text:span></text:p>
+     <text:p text:style-name="P80"><text:span text:style-name="T2">Deck: Contains your deck. The deck&apos;s contents are not revealed to anyone, and it is shuffled </text:span><text:span text:style-name="T5">before</text:span><text:span text:style-name="T2"> the start of the game.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P67">Graveyard: Typically to the right of your Deck. Any card which is destroyed or sacrificed is sent here, face-down. The contents of the graveyard are not public knowledge, but its owner may look through it at any time.</text:p>
+     <text:p text:style-name="P69">Graveyard: Typically to the right of your Deck. Any card which is destroyed or sacrificed is sent here, face-down. The contents of the graveyard are not public knowledge, but its owner may look through it at any time.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P68">Creature Zone: Typically above your Trap Zone. Contains your “in play” creatures. The contents of this zone are public knowledge. <text:s/><text:span text:style-name="T48">There is no limit to the number of cards that can be in your Creature Zone.</text:span></text:p>
+     <text:p text:style-name="P70">Creature Zone: Typically above your Trap Zone. Contains your “in play” creatures. The contents of this zone are public knowledge. <text:s/><text:span text:style-name="T48">There is no limit to the number of cards that can be in your Creature Zone.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P68">Trap Zone: Typically to the left of your Deck. Contains your “in play” spells (a.k.a. “traps”). The contents of this zone are not public knowledge, but its owner may look at the cards within at any time. <text:s/><text:span text:style-name="T48">There is no limit to the number of cards that can be in your Trap Zone.</text:span></text:p>
+     <text:p text:style-name="P70">Trap Zone: Typically to the left of your Deck. Contains your “in play” spells (a.k.a. “traps”). The contents of this zone are not public knowledge, but its owner may look at the cards within at any time. <text:s/><text:span text:style-name="T48">There is no limit to the number of cards that can be in your Trap Zone.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P78"><text:span text:style-name="T2">Resource Zone: Typically below your your Trap Zone. Contains your resources. The contents of this zone are not public knowledge, but its own</text:span><text:span text:style-name="T5">er may look at the cards within at any time. </text:span><text:bookmark-start text:name="__DdeLink__413_468531554"/><text:span text:style-name="T9">There is no limit to the number of cards that can be in your</text:span><text:bookmark-end text:name="__DdeLink__413_468531554"/><text:span text:style-name="T9"> Resource Zone.</text:span></text:p>
+     <text:p text:style-name="P80"><text:span text:style-name="T2">Resource Zone: Typically below your your Trap Zone. Contains your resources. The contents of this zone are not public knowledge, but its own</text:span><text:span text:style-name="T5">er may look at the cards within at any time. </text:span><text:bookmark-start text:name="__DdeLink__413_468531554"/><text:span text:style-name="T9">There is no limit to the number of cards that can be in your</text:span><text:bookmark-end text:name="__DdeLink__413_468531554"/><text:span text:style-name="T9"> Resource Zone.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P79"><text:span text:style-name="T5">H</text:span><text:span text:style-name="T2">and: The cards you currently have available to play, held in your hand. The contents of a hand are not public knowledge, but its owner may look at the cards within at any time. </text:span><text:span text:style-name="T9">There is no limit to the number of cards that can be in your hand.</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T5">H</text:span><text:span text:style-name="T2">and: The cards you currently have available to play, held in your hand. The contents of a hand are not public knowledge, but its owner may look at the cards within at any time. </text:span><text:span text:style-name="T9">There is no limit to the number of cards that can be in your hand.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P4">Turn Order</text:p>
-   <text:p text:style-name="P34">Each turn in Keeper of the Cards consists of the following phases:</text:p>
-   <text:list xml:id="list4406423306974618142" text:style-name="L3">
+   <text:p text:style-name="P35">Each turn in Keeper of the Cards consists of the following phases:</text:p>
+   <text:list xml:id="list2041470238074323991" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P80"><text:span text:style-name="T2">Resource Phase: </text:span><text:span text:style-name="T5">Place up to two cards from your hand, face-down, onto the Resource Zone, </text:span><text:span text:style-name="T7">oriented vertically (unexhausted)</text:span><text:span text:style-name="T5">. Then draw a number of cards equal to two minus the number of cards you placed into the Resource Zone. </text:span><text:span text:style-name="T10">In other words, you can either place none and draw two, place one and draw one, or place two and draw none.</text:span></text:p>
+     <text:p text:style-name="P82"><text:span text:style-name="T2">Resource Phase: </text:span><text:span text:style-name="T5">Place up to two cards from your hand, face-down, onto the Resource Zone, </text:span><text:span text:style-name="T7">oriented vertically (unexhausted)</text:span><text:span text:style-name="T5">. Then draw a number of cards equal to two minus the number of cards you placed into the Resource Zone. </text:span><text:span text:style-name="T10">In other words, you can either place none and draw two, place one and draw one, or place two and draw none.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P69">Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps with no activation condition.</text:p>
+     <text:p text:style-name="P71">Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps with no activation condition.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P69">Battle Phase: You may do battle with your unexhausted creatures.</text:p>
+     <text:p text:style-name="P71">Battle Phase: You may do battle with your unexhausted creatures.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P69">Recovery Phase: <text:span text:style-name="T44">Every card in play and every resource is unexhausted. Every creature in play has its offense and defense reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</text:span></text:p>
+     <text:p text:style-name="P71">Recovery Phase: <text:span text:style-name="T44">Every card in play and every resource is unexhausted. Every creature in play has its offense and defense reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P59">Resources,<text:span text:style-name="T13"> Exhaustion, and Recovery</text:span></text:p>
-   <text:p text:style-name="P35">Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the Resource Zone <text:span text:style-name="T30">unexhausted (oriented vertically)</text:span> during the Resource Phase <text:span text:style-name="T30">(as explained above)</text:span>. When you place a resource into the Resource Zone, it is always played face-down, as its identity is not public knowledge.</text:p>
-   <text:p text:style-name="P35">To pay a resource cost is to exhaust a number of unexhausted resources. For example, to pay a resource cost of 3, exhaust three of your currently unexhausted resources by turning them sideways.</text:p>
-   <text:p text:style-name="P36">“Exhausted”, for any card, means that the card cannot currently be used, and is marked by turning the card sideways. To unexhaust a card, return it to an upright orientation. This is done only during the Recovery Phase.</text:p>
-   <text:p text:style-name="P52"><text:span text:style-name="T54">During the Recovery Phase, all cards in every player&apos;s Creature Zone, Trap Zone, and Resource Zone are unexhausted. </text:span>In addition, every creature <text:span text:style-name="T55">in every player&apos;s Creature Zone</text:span> has its offense and defense returned to the value printed on its card during the Recovery Phase. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even though this is not explicitly stated in card effects.</text:p>
-   <text:p text:style-name="P52">For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see “Creatures, Abilities, and Battles”), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature&apos;s stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</text:p>
+   <text:p text:style-name="P60">Resources,<text:span text:style-name="T13"> Exhaustion, and Recovery</text:span></text:p>
+   <text:p text:style-name="P36">Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the Resource Zone <text:span text:style-name="T30">unexhausted (oriented vertically)</text:span> during the Resource Phase <text:span text:style-name="T30">(as explained above)</text:span>. When you place a resource into the Resource Zone, it is always played face-down, as its identity is not public knowledge.</text:p>
+   <text:p text:style-name="P36">To pay a resource cost is to exhaust a number of unexhausted resources. For example, to pay a resource cost of 3, exhaust three of your currently unexhausted resources by turning them sideways.</text:p>
+   <text:p text:style-name="P37">“Exhausted”, for any card, means that the card cannot currently be used, and is marked by turning the card sideways. To unexhaust a card, return it to an upright orientation. This is done only during the Recovery Phase.</text:p>
+   <text:p text:style-name="P53"><text:span text:style-name="T54">During the Recovery Phase, all cards in every player&apos;s Creature Zone, Trap Zone, and Resource Zone are unexhausted. </text:span>In addition, every creature <text:span text:style-name="T55">in every player&apos;s Creature Zone</text:span> has its offense and defense returned to the value printed on its card during the Recovery Phase. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even though this is not explicitly stated in card effects.</text:p>
+   <text:p text:style-name="P53">For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see “Creatures, Abilities, and Battles”), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature&apos;s stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</text:p>
    <text:p text:style-name="P5">Creatures, Abilities, and Battles</text:p>
-   <text:p text:style-name="P37">Creatures are used to do battle, but may also have special abilities.</text:p>
-   <text:p text:style-name="P37">To summon a creature, pay a number of resources equal to the card&apos;s resource cost, and then place it, <text:span text:style-name="T50">face-up and</text:span> exhausted, into the Creature Zone.</text:p>
-   <text:p text:style-name="P54">Some creatures have “caveats”, special rules which apply to them. Caveats are always on the first <text:span text:style-name="T51">paragraph</text:span> of the ability text and include the term “this creature” somewhere in the text. <text:span text:style-name="T51">For example, “Mammon the Dark Angel” has the caveat, “You must sacrifice 1 card in play to summon this creature.”</text:span> Caveats may include such things as extra costs for summoning the creature, costs for attacking or defending, and restrictions on what the creature can do. <text:span text:style-name="T46">Creatures with caveats that create requirements for summoning (such as the aforementioned “Mammon the Dark Angel”) include a silhouette of a padlock behind the ability text (demonstrated by “Mourning a Loss” in the Card Types and Layout section).</text:span></text:p>
-   <text:p text:style-name="P38">A creature&apos;s abilities are indicated in the <text:span text:style-name="T17">ability</text:span> text <text:span text:style-name="T29">(after the caveat, if any)</text:span>, one paragraph for each ability. <text:span text:style-name="T51">For example, “Dark Necromancer” has two abilities. The first is: “Activate in response to an opponent&apos;s summon. Target this card. Place 1 counter on each target.” The second is: “Remove 2 counters from this card. Target up to 2 cards in one player&apos;s graveyard randomly. Reveal all targets, then summon or cast any number of targets that are not in play (paying the usual costs).”</text:span> You can activate an ability of an unexhausted creature by exhausting it. <text:span text:style-name="T51">Note: you can only activate one ability at a time.</text:span></text:p>
-   <text:p text:style-name="P37">Some abilities have an activation condition, which is a sentence <text:span text:style-name="T52">(the first sentence of the ability)</text:span> indicating when to activate the ability; <text:span text:style-name="T51">for example, the aforementioned first ability of “Dark Necromancer” has the activation condition: “Activate in response to an opponent&apos;s summon.”</text:span> <text:span text:style-name="T51">I</text:span>n this case, you may only use the ability <text:span text:style-name="T51">when the activation condition says</text:span>. If an ability has no explicit activation condition, <text:span text:style-name="T51">as is the case with the aforementioned second ability of “Dark Necromancer”</text:span>, you may only use it during your own Action Phase. These rules apply to the abilities of spells as well.</text:p>
-   <text:p text:style-name="P40">Some activation conditions may cause abilities to activate <text:span text:style-name="T14">while the card is not in play. Therefore, if any creature or spell has its ability activated when it is not in play and was not in play immediately prior to the action responsible for fulfilling the condition, the card&apos;s resource cost is paid before the effect activates. This, again, also applies to spells. For example, if an activation condition is triggered by the card being destroyed while in the deck, you must pay that card&apos;s resource cost; however, if the activation condition is instead triggered by the card being destroyed while in play, you do not have to pay the card&apos;s resource cost in that case.</text:span></text:p>
-   <text:p text:style-name="P42">Some abilities also have an activation cost, which is a special cost (such as removing a certain number of counters, sacrificing one of your cards, or paying a certain number of hitpoints) that you must pay upon activation of the ability. Activation costs are designated at the beginning, after any activation condition, but before any targeting or effect text. <text:span text:style-name="T21">If you activate an ability you are unable to fully pay the activation cost for, the effect of the ability disappears.</text:span> It should be noted that “sacrificing” a card is not considered to be the same as “destroying” the card, and “paying” hitpoints is not the same as taking damage; therefore, these costs cannot be used to satisfy activation conditions referring to the destruction of a card or damage to hitpoints.</text:p>
-   <text:p text:style-name="P39"><text:soft-page-break/><text:span text:style-name="T56">To battle, go through the following steps (only during the attacking player&apos;s Battle Phase)</text:span>:</text:p>
-   <text:list xml:id="list3329437189028767640" text:style-name="L4">
+   <text:p text:style-name="P38">Creatures are used to do battle, but may also have special abilities.</text:p>
+   <text:p text:style-name="P38">To summon a creature, pay a number of resources equal to the card&apos;s resource cost, and then place it, <text:span text:style-name="T50">face-up and</text:span> exhausted, into the Creature Zone.</text:p>
+   <text:p text:style-name="P55">Some creatures have “caveats”, special rules which apply to them. Caveats are always on the first <text:span text:style-name="T51">paragraph</text:span> of the ability text and include the term “this creature” somewhere in the text. <text:span text:style-name="T51">For example, “Mammon the Dark Angel” has the caveat, “You must sacrifice 1 card in play to summon this creature.”</text:span> Caveats may include such things as extra costs for summoning the creature, costs for attacking or defending, and restrictions on what the creature can do. <text:span text:style-name="T46">Creatures with caveats that create requirements for summoning (such as the aforementioned “Mammon the Dark Angel”) include a silhouette of a padlock behind the ability text (demonstrated by “Mourning a Loss” in the Card Types and Layout section).</text:span></text:p>
+   <text:p text:style-name="P39">A creature&apos;s abilities are indicated in the <text:span text:style-name="T17">ability</text:span> text <text:span text:style-name="T29">(after the caveat, if any)</text:span>, one paragraph for each ability. <text:span text:style-name="T51">For example, “Dark Necromancer” has two abilities. The first is: “Activate in response to an opponent&apos;s summon. Target this card. Place 1 counter on each target.” The second is: “Remove 2 counters from this card. Target up to 2 cards in one player&apos;s graveyard randomly. Reveal all targets, then summon or cast any number of targets that are not in play (paying the usual costs).”</text:span> You can activate an ability of an unexhausted creature by exhausting it. <text:span text:style-name="T51">Note: you can only activate one ability at a time.</text:span></text:p>
+   <text:p text:style-name="P38">Some abilities have an activation condition, which is a sentence <text:span text:style-name="T52">(the first sentence of the ability)</text:span> indicating when to activate the ability; <text:span text:style-name="T51">for example, the aforementioned first ability of “Dark Necromancer” has the activation condition: “Activate in response to an opponent&apos;s summon.”</text:span> <text:span text:style-name="T51">I</text:span>n this case, you may only use the ability <text:span text:style-name="T51">when the activation condition says</text:span>. If an ability has no explicit activation condition, <text:span text:style-name="T51">as is the case with the aforementioned second ability of “Dark Necromancer”</text:span>, you may only use it during your own Action Phase. These rules apply to the abilities of spells as well.</text:p>
+   <text:p text:style-name="P41">Some activation conditions may cause abilities to activate <text:span text:style-name="T14">while the card is not in play. Therefore, if any creature or spell has its ability activated when it is not in play and was not in play immediately prior to the action responsible for fulfilling the condition, the card&apos;s resource cost is paid before the effect activates. This, again, also applies to spells. For example, if an activation condition is triggered by the card being destroyed while in the deck, you must pay that card&apos;s resource cost; however, if the activation condition is instead triggered by the card being destroyed while in play, you do not have to pay the card&apos;s resource cost in that case.</text:span></text:p>
+   <text:p text:style-name="P43">Some abilities also have an activation cost, which is a special cost (such as removing a certain number of counters, sacrificing one of your cards, or paying a certain number of hitpoints) that you must pay upon activation of the ability. Activation costs are designated at the beginning, after any activation condition, but before any targeting or effect text. <text:span text:style-name="T21">If you activate an ability you are unable to fully pay the activation cost for, the effect of the ability disappears.</text:span> It should be noted that “sacrificing” a card is not considered to be the same as “destroying” the card, and “paying” hitpoints is not the same as taking damage; therefore, these costs cannot be used to satisfy activation conditions referring to the destruction of a card or damage to hitpoints.</text:p>
+   <text:p text:style-name="P40"><text:soft-page-break/><text:span text:style-name="T56">To battle, go through the following steps (only during the attacking player&apos;s Battle Phase)</text:span>:</text:p>
+   <text:list xml:id="list4374002112087208133" text:style-name="L4">
     <text:list-item>
-     <text:p text:style-name="P81"><text:span text:style-name="T62">T</text:span><text:span text:style-name="T59">he attacking player</text:span><text:span text:style-name="T58"> exhaust</text:span><text:span text:style-name="T59">s</text:span><text:span text:style-name="T58"> any number of unexhausted creatures, </text:span><text:span text:style-name="T59">which become the attacking team,</text:span><text:span text:style-name="T58"> and declare</text:span><text:span text:style-name="T61">s</text:span><text:span text:style-name="T58"> one target: a player, or a creature.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T62">T</text:span><text:span text:style-name="T59">he attacking player</text:span><text:span text:style-name="T58"> exhaust</text:span><text:span text:style-name="T59">s</text:span><text:span text:style-name="T58"> any number of unexhausted creatures, </text:span><text:span text:style-name="T59">which become the attacking team,</text:span><text:span text:style-name="T58"> and declare</text:span><text:span text:style-name="T61">s</text:span><text:span text:style-name="T58"> one target: a player, or a creature.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P81"><text:span text:style-name="T58">The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures </text:span><text:span text:style-name="T59">(which may or may not include the target itself)</text:span><text:span text:style-name="T58">, </text:span><text:span text:style-name="T59">which become the defending team</text:span><text:span text:style-name="T58">.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T58">The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures </text:span><text:span text:style-name="T59">(which may or may not include the target itself)</text:span><text:span text:style-name="T58">, </text:span><text:span text:style-name="T59">which become the defending team</text:span><text:span text:style-name="T58">.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P81"><text:span text:style-name="T62">A</text:span><text:span text:style-name="T60">ll other players have an opportunity to respond to the attack (see “Chains” below). </text:span><text:span text:style-name="T63">Note: any involved creatures destroyed during this step are excluded from the remaining steps.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T62">A</text:span><text:span text:style-name="T60">ll other players have an opportunity to respond to the attack (see “Chains” below). </text:span><text:span text:style-name="T63">Note: any involved creatures destroyed during this step are excluded from the remaining steps.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P81"><text:span text:style-name="T62">T</text:span><text:span text:style-name="T59">he attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T62">T</text:span><text:span text:style-name="T59">he attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P70">Each player must take each of the opposing team&apos;s dice, one at a time (in any order), and inflict the result as damage to any one creature in their respective team until either all dice are used or all creatures in their respective team are destroyed.</text:p>
+     <text:p text:style-name="P72">Each player must take each of the opposing team&apos;s dice, one at a time (in any order), and inflict the result as damage to any one creature in their respective team until either all dice are used or all creatures in their respective team are destroyed.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P81"><text:span text:style-name="T62">I</text:span><text:span text:style-name="T59">f the target and any of the attacking team&apos;s dice remain, inflict the total result of these remaining dice </text:span><text:span text:style-name="T62">as damage</text:span><text:span text:style-name="T59"> to the target.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T62">I</text:span><text:span text:style-name="T59">f the target and any of the attacking team&apos;s dice remain, inflict the total result of these remaining dice </text:span><text:span text:style-name="T62">as damage</text:span><text:span text:style-name="T59"> to the target.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P84"><text:span text:style-name="T62">I</text:span><text:span text:style-name="T59">f the target was a player and any of the defending team&apos;s dice remain, inflict the total result of these remaining dice </text:span><text:span text:style-name="T62">as damage</text:span><text:span text:style-name="T59"> to the attacking player.</text:span></text:p>
+     <text:p text:style-name="P86"><text:span text:style-name="T62">I</text:span><text:span text:style-name="T59">f the target was a player and any of the defending team&apos;s dice remain, inflict the total result of these remaining dice </text:span><text:span text:style-name="T62">as damage</text:span><text:span text:style-name="T59"> to the attacking player.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P57"><text:span text:style-name="T59">F</text:span><text:span text:style-name="T57">or the purposes of timing, steps </text:span><text:span text:style-name="T63">4-7</text:span><text:span text:style-name="T57"> are considered to happen simultaneously. This can matter for the timing of certain cards, and it also means that if both players&apos; hitpoints reach zero during a battle, both players will lose simultaneously.</text:span></text:p>
-   <text:p text:style-name="P47">To inflict damage to a creature, subtract the damage <text:span text:style-name="T56">amount</text:span> from the creature&apos;s defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 dam<text:span text:style-name="T55">a</text:span>ge is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. <text:span text:style-name="T55">Note that it is possible for creatures to have 0 defense; in such a case, any amount of damage will destroy the creature.</text:span></text:p>
-   <text:p text:style-name="P48">As an example, consider an attacking team with t<text:span text:style-name="T23">hree</text:span> creatures that each have 2 offense and <text:span text:style-name="T23">5</text:span> defense, targeting a player, who then chooses to defend with <text:span text:style-name="T23">two</text:span> creatures that each have 1 offense and <text:span text:style-name="T23">10</text:span> defense. The attacking player rolls <text:span text:style-name="T23">six</text:span> dice, and the defending player rolls t<text:span text:style-name="T23">wo</text:span> dice. Suppose the attacking player rolls <text:span text:style-name="T23">the following numbers: 1, 6, 5, 5, 3, 6; </text:span>while the defending player roll<text:span text:style-name="T23">s the following numbers: 6, 2. The attacking player chooses to apply the 2 to one creature, reducing its defense to 3, and then apply the 6 to that same creature, reducing its defense to 0 and destroying it. The defending player chooses to apply a 6 and the 3 to one creature, reducing its defense to 1, then apply a 5 and the 3 to the other creature, reducing its defense to 2. They then apply the remaining 6 to one creature, destroying it, and apply the remaining 5 to the other creature, also destroying it. Since all of the defending team&apos;s creatures have been destroyed and one die is left over, the remaining die (the 1) is applied as damage to the target (in this case, the defending player), so the defending player loses 1 hitpoint.</text:span></text:p>
-   <text:p text:style-name="P53">During your battle phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining.</text:p>
+   <text:p text:style-name="P58"><text:span text:style-name="T59">F</text:span><text:span text:style-name="T57">or the purposes of timing, steps </text:span><text:span text:style-name="T63">4-7</text:span><text:span text:style-name="T57"> are considered to happen simultaneously. This can matter for the timing of certain cards, and it also means that if both players&apos; hitpoints reach zero during a battle, both players will lose simultaneously.</text:span></text:p>
+   <text:p text:style-name="P48">To inflict damage to a creature, subtract the damage <text:span text:style-name="T56">amount</text:span> from the creature&apos;s defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 dam<text:span text:style-name="T55">a</text:span>ge is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. <text:span text:style-name="T55">Note that it is possible for creatures to have 0 defense; in such a case, any amount of damage will destroy the creature.</text:span></text:p>
+   <text:p text:style-name="P49">As an example, consider an attacking team with t<text:span text:style-name="T23">hree</text:span> creatures that each have 2 offense and <text:span text:style-name="T23">5</text:span> defense, targeting a player, who then chooses to defend with <text:span text:style-name="T23">two</text:span> creatures that each have 1 offense and <text:span text:style-name="T23">10</text:span> defense. The attacking player rolls <text:span text:style-name="T23">six</text:span> dice, and the defending player rolls t<text:span text:style-name="T23">wo</text:span> dice. Suppose the attacking player rolls <text:span text:style-name="T23">the following numbers: 1, 6, 5, 5, 3, 6; </text:span>while the defending player roll<text:span text:style-name="T23">s the following numbers: 6, 2. The attacking player chooses to apply the 2 to one creature, reducing its defense to 3, and then apply the 6 to that same creature, reducing its defense to 0 and destroying it. The defending player chooses to apply a 6 and the 3 to one creature, reducing its defense to 1, then apply a 5 and the 3 to the other creature, reducing its defense to 2. They then apply the remaining 6 to one creature, destroying it, and apply the remaining 5 to the other creature, also destroying it. Since all of the defending team&apos;s creatures have been destroyed and one die is left over, the remaining die (the 1) is applied as damage to the target (in this case, the defending player), so the defending player loses 1 hitpoint.</text:span></text:p>
+   <text:p text:style-name="P54">During your battle phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining.</text:p>
    <text:p text:style-name="P8">Casting Spells and Setting Traps</text:p>
-   <text:p text:style-name="P40"><text:span text:style-name="T17">Spells are cards that only have a single ability (like creatures, shown in the card&apos;s ability text). Spells</text:span> can be used in two ways: they can be cast <text:span text:style-name="T64">from your hand</text:span> during your action phase, and they can be set as traps for use later.</text:p>
-   <text:p text:style-name="P41">To cast a spell, pay a number of resources equal to the card&apos;s resource cost, reveal the spell to all other players, follow the instructions on the card immediately, <text:span text:style-name="T15">and send the spell to the graveyard</text:span>. <text:span text:style-name="T15">Note: a spell cast this way is not considered to be “in play”.</text:span> Only a spell with no activation condition can be cast in this way; any spell with an activation condition must first be set as a trap before it can be activated. <text:span text:style-name="T45">To help you distinguish between those spells you can cast from your hand and those you cannot, spells with activation conditions include a silhouette of a padlock behind the ability text (demonstrated by “Mourning a Loss” in the Card Types and Layout section).</text:span></text:p>
-   <text:p text:style-name="P40">Traps function the same way as spells, but there are two key differences. Firstly, a spell with an activation condition <text:span text:style-name="T64">cannot be cast from your hand and therefore</text:span> may only be activated as a trap. Secondly, the resource cost of a trap is paid <text:span text:style-name="T64">when the trap is set and not when it</text:span> is activated.</text:p>
-   <text:p text:style-name="P40">To set a trap, pay a number of resources equal to the card&apos;s resource cost <text:span text:style-name="T64">(note: you do </text:span><text:span text:style-name="T38">not</text:span><text:span text:style-name="T64"> reveal the trap)</text:span>, then place the card into the Trap Zone, face-down and exhausted. Note: the identity of the card is not public knowledge.</text:p>
-   <text:p text:style-name="P40">To activate a trap, it must be unexhausted. Additionally, just like with creature abilities, a trap with an activation condition can only be activated in the designated condition, and a trap with no activation can on<text:span text:style-name="T64">l</text:span>y be activated during your own action phase. Note that activating a trap does not incur any additional resource cost. Simply turn the trap over to reveal it to all other players <text:span text:style-name="T64">(note: at this point, the trap is no longer “in play”)</text:span>, follow the instructions on the card, <text:span text:style-name="T45">and then send it to the graveyard</text:span>.</text:p>
+   <text:p text:style-name="P41"><text:span text:style-name="T17">Spells are cards that only have a single ability (like creatures, shown in the card&apos;s ability text). Spells</text:span> can be used in two ways: they can be cast <text:span text:style-name="T64">from your hand</text:span> during your action phase, and they can be set as traps for use later.</text:p>
+   <text:p text:style-name="P42">To cast a spell, pay a number of resources equal to the card&apos;s resource cost, reveal the spell to all other players, follow the instructions on the card immediately, <text:span text:style-name="T15">and send the spell to the graveyard</text:span>. <text:span text:style-name="T15">Note: a spell cast this way is not considered to be “in play”.</text:span> Only a spell with no activation condition can be cast in this way; any spell with an activation condition must first be set as a trap before it can be activated. <text:span text:style-name="T45">To help you distinguish between those spells you can cast from your hand and those you cannot, spells with activation conditions include a silhouette of a padlock behind the ability text (demonstrated by “Mourning a Loss” in the Card Types and Layout section).</text:span></text:p>
+   <text:p text:style-name="P41">Traps function the same way as spells, but there are two key differences. Firstly, a spell with an activation condition <text:span text:style-name="T64">cannot be cast from your hand and therefore</text:span> may only be activated as a trap. Secondly, the resource cost of a trap is paid <text:span text:style-name="T64">when the trap is set and not when it</text:span> is activated.</text:p>
+   <text:p text:style-name="P41">To set a trap, pay a number of resources equal to the card&apos;s resource cost <text:span text:style-name="T64">(note: you do </text:span><text:span text:style-name="T38">not</text:span><text:span text:style-name="T64"> reveal the trap)</text:span>, then place the card into the Trap Zone, face-down and exhausted. Note: the identity of the card is not public knowledge.</text:p>
+   <text:p text:style-name="P41">To activate a trap, it must be unexhausted. Additionally, just like with creature abilities, a trap with an activation condition can only be activated in the designated condition, and a trap with no activation can on<text:span text:style-name="T64">l</text:span>y be activated during your own action phase. Note that activating a trap does not incur any additional resource cost. Simply turn the trap over to reveal it to all other players <text:span text:style-name="T64">(note: at this point, the trap is no longer “in play”)</text:span>, follow the instructions on the card, <text:span text:style-name="T45">and then send it to the graveyard</text:span>.</text:p>
    <text:p text:style-name="P6">Chains</text:p>
-   <text:p text:style-name="P42">Some abilities are activated in response to other actions. In such a case, it is important to understand what chains are and how they work.</text:p>
-   <text:p text:style-name="P42">Every time a <text:span text:style-name="T64">creature is summoned,</text:span> an attack is initiated, <text:span text:style-name="T64">or</text:span> a<text:span text:style-name="T64">n</text:span> ability <text:span text:style-name="T64">or spell</text:span> is activated <text:span text:style-name="T19">(after selecting targets, if applicable)</text:span>, that starts a “chain”, and the action that started the chain is the first “link”. At this point, after all appropriate costs are paid, any player may then activate the ability of an unexhausted creature or an unexhausted trap (but not a spell within their hand) that has an appropriate activation condition. Such conditions are phrased as “Activate in response to X”, where X is the specific event the condition refers to. When such a<text:span text:style-name="T18">n ability</text:span> is activated, it becomes the next chain link, and the process repeats until no player wishes to activate another creature effect or trap. Then, each chain link&apos;s effects are resolved, starting with the most recent link and working backwards until the first link is resolved.</text:p>
-   <text:p text:style-name="P45">Each chain link can only have one ability activated in response to it. If multiple players wish to respond to the current chain link, then the player who most recently completed their turn is given priority. You may not respond to your own chain links.</text:p>
-   <text:p text:style-name="P42">Note that once a chain is completed, it must be resolved before any additional action is taken by any player. This rule is to prevent potential confusion that can arise if the resolution of a chain has to be paused mid-way.</text:p>
-   <text:p text:style-name="P42">All links in a chain are considered to have happened at the same time. This means, in particular, that after a chain finishes resolving, you may activate “when” effects that are triggered by <text:span text:style-name="T64">any of the chain links</text:span>.</text:p>
-   <text:p text:style-name="P42">One important term when it comes to chains is the term “negate”. To “negate” something means to make it so that it never happens. If something is negated, any relevant costs are still paid (including the exhaustion required for creature attacks and abilities).</text:p>
-   <text:p text:style-name="P61">Winning <text:span text:style-name="T16">and Losing</text:span></text:p>
-   <text:p text:style-name="P43">Any given player can lose in three ways:</text:p>
-   <text:list xml:id="list7679457675762172147" text:style-name="L5">
+   <text:p text:style-name="P43">Some abilities are activated in response to other actions. In such a case, it is important to understand what chains are and how they work.</text:p>
+   <text:p text:style-name="P43">Every time a <text:span text:style-name="T64">creature is summoned,</text:span> an attack is initiated, <text:span text:style-name="T64">or</text:span> a<text:span text:style-name="T64">n</text:span> ability <text:span text:style-name="T64">or spell</text:span> is activated <text:span text:style-name="T19">(after selecting targets, if applicable)</text:span>, that starts a “chain”, and the action that started the chain is the first “link”. At this point, after all appropriate costs are paid, any player may then activate the ability of an unexhausted creature or an unexhausted trap (but not a spell within their hand) that has an appropriate activation condition. Such conditions are phrased as “Activate in response to X”, where X is the specific event the condition refers to. When such a<text:span text:style-name="T18">n ability</text:span> is activated, it becomes the next chain link, and the process repeats until no player wishes to activate another creature effect or trap. Then, each chain link&apos;s effects are resolved, starting with the most recent link and working backwards until the first link is resolved.</text:p>
+   <text:p text:style-name="P46">Each chain link can only have one ability activated in response to it. If multiple players wish to respond to the current chain link, then the player who most recently completed their turn is given priority. You may not respond to your own chain links.</text:p>
+   <text:p text:style-name="P43">Note that once a chain is completed, it must be resolved before any additional action is taken by any player. This rule is to prevent potential confusion that can arise if the resolution of a chain has to be paused mid-way.</text:p>
+   <text:p text:style-name="P43">All links in a chain are considered to have happened at the same time. This means, in particular, that after a chain finishes resolving, you may activate “when” effects that are triggered by <text:span text:style-name="T64">any of the chain links</text:span>.</text:p>
+   <text:p text:style-name="P43">One important term when it comes to chains is the term “negate”. To “negate” something means to make it so that it never happens. If something is negated, any relevant costs are still paid (including the exhaustion required for creature attacks and abilities).</text:p>
+   <text:p text:style-name="P62">Winning <text:span text:style-name="T16">and Losing</text:span></text:p>
+   <text:p text:style-name="P44">Any given player can lose in three ways:</text:p>
+   <text:list xml:id="list5448721221758016638" text:style-name="L5">
     <text:list-item>
-     <text:p text:style-name="P71">by having their hitpoints reduced to 0;</text:p>
+     <text:p text:style-name="P73">by having their hitpoints reduced to 0;</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P71">by having an empty deck; or</text:p>
+     <text:p text:style-name="P73">by having an empty deck; or</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P85">by voluntarily forfeiting.</text:p>
+     <text:p text:style-name="P87">by voluntarily forfeiting.</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P43">Any player who loses is out of the game and can no longer affect the game in any way. When only one player remains in the game, that player is declared the winner.</text:p>
+   <text:p text:style-name="P44">Any player who loses is out of the game and can no longer affect the game in any way. When only one player remains in the game, that player is declared the winner.</text:p>
    <text:p text:style-name="P7">Ability Clarifications/Rulings</text:p>
-   <text:p text:style-name="P46">This section serves to clarify some things regarding ability texts. It is listed alphabetically based on the text portion at hand.</text:p>
-   <text:list xml:id="list9103055798444559310" text:style-name="L6">
+   <text:p text:style-name="P47">This section serves to clarify some things regarding ability texts. It is listed alphabetically based on the text portion at hand.</text:p>
+   <text:list xml:id="list6920510511991923690" text:style-name="L6">
     <text:list-item>
-     <text:p text:style-name="P72">“<text:span text:style-name="T64">Activate when...”: “Activate when X” is </text:span><text:span text:style-name="T38">not</text:span><text:span text:style-name="T64"> the same as “activate in response to X”. “Activate when X” abilities do not chain to other cards under any circumstances. In addition, unlike abilities that chain to other cards, multiple “activate when...” effects can be activated in response to the same event. If this happens, all such abilities must be activated at the same time, before any of them are resolved.</text:span></text:p>
+     <text:p text:style-name="P74">“<text:span text:style-name="T64">Activate when...”: “Activate when X” is </text:span><text:span text:style-name="T38">not</text:span><text:span text:style-name="T64"> the same as “activate in response to X”. “Activate when X” abilities do not chain to other cards under any circumstances. In addition, unlike abilities that chain to other cards, multiple “activate when...” effects can be activated in response to the same event. If this happens, all such abilities must be activated at the same time, before any of them are resolved.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P72">“<text:span text:style-name="T20">A total of”: Texts that indicate “a total of” some number mean that the number indicated is spread out among targets in a way determined by you. You must use the entirety of that number if possible (and otherwise must use as much of it as possible). You may not reduce either the offense or the defense of any one creature below 0 (so for example, if an effect inflicts “a total of” 10 damage and one of the targets has only 6 defense, you cannot apply all 10 damage to that target; you can apply 6 damage to it only, and the remaining 4 damage must be applied to other cards). You may not manipulate attributes that don&apos;t exist on a given card (i.e. offense and defense of spells may not be manipulated because they don&apos;t have these attributes).</text:span></text:p>
+     <text:p text:style-name="P74">“<text:span text:style-name="T20">A total of”: Texts that indicate “a total of” some number mean that the number indicated is spread out among targets in a way determined by you. You must use the entirety of that number if possible (and otherwise must use as much of it as possible). You may not reduce either the offense or the defense of any one creature below 0 (so for example, if an effect inflicts “a total of” 10 damage and one of the targets has only 6 defense, you cannot apply all 10 damage to that target; you can apply 6 damage to it only, and the remaining 4 damage must be applied to other cards). You may not manipulate attributes that don&apos;t exist on a given card (i.e. offense and defense of spells may not be manipulated because they don&apos;t have these attributes).</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P72">“<text:span text:style-name="T47">Counters”: A counter is any marker which can be placed on an in-play creature (but not a trap or resource; if an effect places a counter on one of these types of card, ignore this part of the effect). Counters are typically removed from creatures as activation costs. See also the entry for “Offense counter” below.</text:span></text:p>
+     <text:p text:style-name="P74">“<text:span text:style-name="T47">Counters”: A counter is any marker which can be placed on an in-play creature (but not a trap or resource; if an effect places a counter on one of these types of card, ignore this part of the effect). Counters are typically removed from creatures as activation costs. See also the entry for “Offense counter” below.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P72">“<text:span text:style-name="T43">Dice in the current chain”: Any die is considered to be “in the current chain” if it is rolled as a part of an ability or attack which is a part of the current chain.</text:span></text:p>
+     <text:p text:style-name="P74">“<text:span text:style-name="T43">Dice in the current chain”: Any die is considered to be “in the current chain” if it is rolled as a part of an ability or attack which is a part of the current chain.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P73">“<text:span text:style-name="T24">Different player of your choice”: This refers not to opponents, but to players other than the current controller of the card(s) in question. For example, if the effect is talking about a creature controlled by an opponent, the “different player” can be you, but it cannot be the opponent who currently controls the creature.</text:span></text:p>
+     <text:p text:style-name="P75">“<text:span text:style-name="T24">Different player of your choice”: This refers not to opponents, but to players other than the current controller of the card(s) in question. For example, if the effect is talking about a creature controlled by an opponent, the “different player” can be you, but it cannot be the opponent who currently controls the creature.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P73">“<text:span text:style-name="T24">Each”: When the term “each” is used to refer to targets, it means that each target is affected separately, i.e. any decision required by the effect is made for each card separately.</text:span></text:p>
+     <text:p text:style-name="P75">“<text:span text:style-name="T24">Each”: When the term “each” is used to refer to targets, it means that each target is affected separately, i.e. any decision required by the effect is made for each card separately.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P73">“<text:span text:style-name="T25">Offense counter”, “defense counter”, etc: Special, named counters can be removed at any time to cause some effect stated by the card text. These counters can be removed literally at any time, that is to say, during any phase of any player&apos;s turn, and even during resolution of a chain or immediately after placing them, triggering the stated effect. Removing such counters for this reason does not require exhausting the creature and does not start a chain. The player who placed the counters is the one who can remove them for this purpose, regardless of who controls the creature; for example, if you place one of these counters on an opponent&apos;s creature, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so.</text:span></text:p>
+     <text:p text:style-name="P75">“<text:span text:style-name="T25">Offense counter”, “defense counter”, etc: Special, named counters can be removed at any time to cause some effect stated by the card text. These counters can be removed literally at any time, that is to say, during any phase of any player&apos;s turn, and even during resolution of a chain or immediately after placing them, triggering the stated effect. Removing such counters for this reason does not require exhausting the creature and does not start a chain. The player who placed the counters is the one who can remove them for this purpose, regardless of who controls the creature; for example, if you place one of these counters on an opponent&apos;s creature, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P74">“One player”: For texts that say “one player”, you select the player. It can be any player, including yourself.</text:p>
+     <text:p text:style-name="P76">“One player”: For texts that say “one player”, you select the player. It can be any player, including yourself.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P74">“Reveal”: To “reveal” a card is to show it to all players, including yourself.</text:p>
+     <text:p text:style-name="P76">“Reveal”: To “reveal” a card is to show it to all players, including yourself.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P74"><text:soft-page-break/>“Sacrifice”: You can only “sacrifice” cards that you control. A sacrificed card is not “destroyed”. <text:span text:style-name="T28">No card is permitted to “sacrifice” itself under any conditions, which also means that an opponent may not select the activated card when choosing a card for you to sacrifice.</text:span></text:p>
+     <text:p text:style-name="P76"><text:soft-page-break/>“Sacrifice”: You can only “sacrifice” cards that you control. A sacrificed card is not “destroyed”. <text:span text:style-name="T28">No card is permitted to “sacrifice” itself under any conditions, which also means that an opponent may not select the activated card when choosing a card for you to sacrifice.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P86">“Selected by an opponent”: When a variable number of targets are selected by an opponent, you choose the number; the opponent must choose that number of cards for you to target. For example, an opponent cannot choose to target zero cards. <text:span text:style-name="T22">However, note that the opponent does not have to choose targets that make sense for the effect. For example, if the effect inflicts damage to targets, the opponent may wish to choose traps that are in play, since traps cannot be damaged, and creatures on your field, since that may force you to inflict damage to your own creatures.</text:span></text:p>
-    </text:list-item>
-   </text:list>
-   <text:p text:style-name="P63">Revised Ability Text</text:p>
-   <text:p text:style-name="P49">This section lists old ability text portions which have been revised. The revision is indicated as the old text, then an arrow pointing to the right, and then the new text. <text:span text:style-name="T32">Redacted text is crossed out in the old text, and added text is bold in the new text.</text:span> If you see any of these old text portions in a card, you must use the card in the way indicated by the new text, if applicable. These are listed in alphabetical order. <text:span text:style-name="T40">Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
-   <text:list xml:id="list7759496715261142202" text:style-name="L7">
-    <text:list-item>
-     <text:p text:style-name="P75">“<text:bookmark-start text:name="__DdeLink__384_973168994"/><text:span text:style-name="T27">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T33">cards</text:span><text:span text:style-name="T27"> in play.</text:span><text:bookmark-end text:name="__DdeLink__384_973168994"/><text:span text:style-name="T27">” → </text:span>“<text:bookmark-start text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T27">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T36">creatures</text:span><text:span text:style-name="T27"> in play.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T27">”</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P77">“<text:bookmark-start text:name="__DdeLink__378_973168994"/><text:span text:style-name="T31">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T34">cards</text:span><text:span text:style-name="T31"> in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_973168994"/><text:span text:style-name="T31">” → </text:span>“<text:bookmark-start text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T31">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T37">creatures</text:span><text:span text:style-name="T31"> in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T31">”</text:span></text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P76"><text:span text:style-name="T66">“You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T66">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T35">cards</text:span><text:span text:style-name="T66"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T66">” → “You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T66">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T39">creatures</text:span><text:span text:style-name="T66"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T66">”</text:span></text:p>
+     <text:p text:style-name="P88">“Selected by an opponent”: When a variable number of targets are selected by an opponent, you choose the number; the opponent must choose that number of cards for you to target. For example, an opponent cannot choose to target zero cards. <text:span text:style-name="T22">However, note that the opponent does not have to choose targets that make sense for the effect. For example, if the effect inflicts damage to targets, the opponent may wish to choose traps that are in play, since traps cannot be damaged, and creatures on your field, since that may force you to inflict damage to your own creatures.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P87">Re<text:span text:style-name="T40">dacted</text:span> Ability Text <text:span text:style-name="T40">(Banned Cards)</text:span></text:p>
-   <text:p text:style-name="P50">This section lists <text:span text:style-name="T40">ability texts which have been redacted. This is generally because the text results in cards that are too powerful or create a bad game experience. Any card with any of these texts is considered to be banned, i.e. may not be used in a game. Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
-   <text:list xml:id="list5122803445789798192" text:style-name="L8">
+   <text:p text:style-name="P64">Revised Ability Text</text:p>
+   <text:p text:style-name="P50">This section lists old ability text portions which have been revised. The revision is indicated as the old text, then an arrow pointing to the right, and then the new text. <text:span text:style-name="T32">Redacted text is crossed out in the old text, and added text is bold in the new text.</text:span> If you see any of these old text portions in a card, you must use the card in the way indicated by the new text, if applicable. These are listed in alphabetical order. <text:span text:style-name="T40">Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
+   <text:list xml:id="list7999459279895861307" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P82">“<text:span text:style-name="T42">Inflict a total of [x] damage to targets.</text:span>”</text:p>
+     <text:p text:style-name="P77">“<text:bookmark-start text:name="__DdeLink__384_973168994"/><text:span text:style-name="T27">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T33">cards</text:span><text:span text:style-name="T27"> in play.</text:span><text:bookmark-end text:name="__DdeLink__384_973168994"/><text:span text:style-name="T27">” → </text:span>“<text:bookmark-start text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T27">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T36">creatures</text:span><text:span text:style-name="T27"> in play.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T27">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P83">“<text:bookmark-start text:name="__DdeLink__395_722314610"/>Inflict [x] damage to any one player.<text:bookmark-end text:name="__DdeLink__395_722314610"/>”</text:p>
+     <text:p text:style-name="P78">“<text:bookmark-start text:name="__DdeLink__378_973168994"/><text:span text:style-name="T31">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T34">cards</text:span><text:span text:style-name="T31"> in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_973168994"/><text:span text:style-name="T31">” → </text:span>“<text:bookmark-start text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T31">Exhaust [x] of your unexhausted </text:span><text:span text:style-name="T37">creatures</text:span><text:span text:style-name="T31"> in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T31">”</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P79"><text:span text:style-name="T66">“You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T66">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T35">cards</text:span><text:span text:style-name="T66"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T66">” → “You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T66">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T39">creatures</text:span><text:span text:style-name="T66"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T66">”</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P66">Re<text:span text:style-name="T40">dacted</text:span> Ability Text <text:span text:style-name="T40">(Banned Cards)</text:span></text:p>
+   <text:p text:style-name="P51">This section lists <text:span text:style-name="T40">ability texts which have been redacted. This is generally because the text results in cards that are too powerful or create a bad game experience. Any card with any of these texts is considered to be banned, i.e. may not be used in a game. Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
+   <text:list xml:id="list9042761785198721518" text:style-name="L8">
+    <text:list-item>
+     <text:p text:style-name="P84">“<text:span text:style-name="T42">Inflict a total of [x] damage to targets.</text:span>”</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P85">“<text:bookmark-start text:name="__DdeLink__395_722314610"/>Inflict [x] damage to any one player.<text:bookmark-end text:name="__DdeLink__395_722314610"/>”</text:p>
     </text:list-item>
    </text:list>
   </office:text>
