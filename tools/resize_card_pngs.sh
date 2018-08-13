@@ -4,4 +4,4 @@
 # Requires ImageMagick (package "imagemagick" in Debian and its derivatives)
 # License: CC0 (public domain)
 
-mogrify -extent 1200x1600 -gravity Center -fill white ../cards/*.png
+mogrify -extent 1200x1600 -gravity Center -fill white ../cards/*.png ../tip_cards/*.png
