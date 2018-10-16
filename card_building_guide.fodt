@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2018-10-16T11:56:26.047896376</dc:date><meta:editing-duration>P1DT20H49M6S</meta:editing-duration><meta:editing-cycles>136</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="12" meta:paragraph-count="158" meta:word-count="3020" meta:character-count="17024" meta:non-whitespace-character-count="14272"/></office:meta>
+ <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2018-10-16T13:57:04.459546945</dc:date><meta:editing-duration>P1DT21H5M10S</meta:editing-duration><meta:editing-cycles>139</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="12" meta:paragraph-count="158" meta:word-count="3020" meta:character-count="17024" meta:non-whitespace-character-count="14272"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">143722</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">151553</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">46145</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">19581</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">15595</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">157563</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">10672</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">158050</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">143722</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">151553</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">46143</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">163301</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">171133</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -68,7 +68,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">12893594</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">13001119</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -1286,6 +1286,9 @@
   <style:style style:name="T130" style:family="text">
    <style:text-properties officeooo:rsid="00c4bd9a"/>
   </style:style>
+  <style:style style:name="T131" style:family="text">
+   <style:text-properties officeooo:rsid="00c6619f"/>
+  </style:style>
   <style:style style:name="Sect1" style:family="section">
    <style:section-properties text:dont-balance-text-columns="false" style:editable="false">
     <style:columns fo:column-count="2" fo:column-gap="0in">
@@ -2164,7 +2167,7 @@
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P40">Constructing Abilities</text:p>
    <text:p text:style-name="P6">Abilities are composed of as many as four components:</text:p>
-   <text:list xml:id="list9131674689155035739" text:style-name="L1">
+   <text:list xml:id="list3625868266150230840" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P112">One activation condition (optional)</text:p>
     </text:list-item>
@@ -2214,17 +2217,17 @@
    <text:p text:style-name="P16">For the back of cards, an image is provided as “card_base/card_back.png”. You can print a full sheet of card backs with sets/backs.pdf. You can simply print this onto the back of a sheet which has cards printed on it. This is optional as long as sleeves are used that are opaque when viewed from the back.</text:p>
    <text:p text:style-name="P49">Caveats</text:p>
    <text:p text:style-name="P14">Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the resource cost of their power levels.<text:span text:style-name="T42"> </text:span>Of course, caveats can only be given to creatures, not spells. <text:span text:style-name="T104">The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
-   <text:list xml:id="list5383249279368198273" text:style-name="L2">
+   <text:list xml:id="list6899095957586681583" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P154">“<text:span text:style-name="T69">You must p</text:span>ay [x] hitpoints <text:span text:style-name="T69">to summon this creature</text:span>.” (x/<text:span text:style-name="T71">2</text:span>) <text:span text:style-name="T119">{</text:span><text:span text:style-name="T79">x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T82">14}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list7784465252059623113" text:style-name="L3">
+   <text:list xml:id="list993049659413287032" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P142"><text:span text:style-name="T85">L</text:span><text:span text:style-name="T84">imit revised (6</text:span><text:span text:style-name="T76">th</text:span><text:span text:style-name="T84"> Edition); was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115626331240515" text:continue-list="list5383249279368198273" text:style-name="L2">
+   <text:list xml:id="list135706499330996" text:continue-list="list6899095957586681583" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P114">“<text:span text:style-name="T69">You must e</text:span><text:bookmark-start text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T69">xhaust [x] of your unexhausted creatures in play to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T69">” (x)</text:span></text:p>
     </text:list-item>
@@ -2232,22 +2235,22 @@
      <text:p text:style-name="P114">“<text:span text:style-name="T69">You must e</text:span><text:bookmark-start text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T69">xhaust [x] of your unexhausted creatures in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T69">” (2x)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list5876400286573431846" text:style-name="L4">
+   <text:list xml:id="list4814316276279559085" text:style-name="L4">
     <text:list-item>
      <text:p text:style-name="P147">Revised from: “<text:span text:style-name="T69">You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T69">xhaust [x] of your unexhausted c</text:span>ards<text:span text:style-name="T69"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T69">” </text:span>(3<text:span text:style-name="T4">rd</text:span> Edition)</text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115627720305149" text:continue-list="list115626331240515" text:style-name="L2">
+   <text:list xml:id="list135705383903010" text:continue-list="list135706499330996" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P120">“<text:span text:style-name="T69">You must s</text:span>acrifice [x] cards on the top of your deck <text:span text:style-name="T69">to summon this creature</text:span>.” <text:span text:style-name="T45">(x) {x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T83">7</text:span><text:span text:style-name="T82">}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list4559250444125326266" text:style-name="L5">
+   <text:list xml:id="list8187835733554028362" text:style-name="L5">
     <text:list-item>
      <text:p text:style-name="P143"><text:span text:style-name="T85">Limit revised (6</text:span><text:span text:style-name="T77">th</text:span><text:span text:style-name="T85"> Edition)</text:span><text:span text:style-name="T84">; was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115626530465554" text:continue-list="list115627720305149" text:style-name="L2">
+   <text:list xml:id="list135705348988919" text:continue-list="list135705383903010" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P121">“<text:span text:style-name="T69">You must s</text:span>acrifice [x] random cards in your hand <text:span text:style-name="T69">to summon this creature</text:span>.” <text:span text:style-name="T45">(3x/2)</text:span></text:p>
     </text:list-item>
@@ -2261,12 +2264,12 @@
      <text:p text:style-name="P115">“<text:span text:style-name="T107">You must destroy [x] cards on the top of your deck to summon this creature.” (x/2) {x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T83">7}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list4712732147333337142" text:style-name="L6">
+   <text:list xml:id="list8997158962962860216" text:style-name="L6">
     <text:list-item>
      <text:p text:style-name="P144"><text:span text:style-name="T85">L</text:span><text:span text:style-name="T84">imit revised (6</text:span><text:span text:style-name="T76">th</text:span><text:span text:style-name="T84"> Edition); was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115626126793441" text:continue-list="list115626530465554" text:style-name="L2">
+   <text:list xml:id="list135704851969085" text:continue-list="list135705348988919" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P116">“<text:span text:style-name="T107">You must destroy [x] random cards in your hand to summon this creature.” (3x/4)</text:span></text:p>
     </text:list-item>
@@ -2294,7 +2297,7 @@
    </text:list>
    <text:p text:style-name="P45">Activatio<text:span text:style-name="T42">n Conditions</text:span></text:p>
    <text:p text:style-name="P5"><text:span text:style-name="T42">Activation conditions</text:span> indicate special conditions under which the spell or ability is to be activated. If a spell or ability has a<text:span text:style-name="T42">n activation condition</text:span>, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one <text:span text:style-name="T42">activation condition</text:span> can be used per ability. <text:span text:style-name="T104">Some activation conditions also reduce the resource cost of the ability; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
-   <text:list xml:id="list6938581476109590351" text:style-name="L7">
+   <text:list xml:id="list6190573369149782135" text:style-name="L7">
     <text:list-item>
      <text:p text:style-name="P155">“<text:span text:style-name="T129">Activate when this card is damaged, but not destroyed.” (3)</text:span></text:p>
     </text:list-item>
@@ -2337,7 +2340,7 @@
    </text:list>
    <text:p text:style-name="P46">Activation Costs</text:p>
    <text:p text:style-name="P8">Activation costs serve to reduce the resource cost of an ability by “paying” in other ways. <text:span text:style-name="T57">Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</text:span></text:p>
-   <text:list xml:id="list115627214566966" text:continue-list="list115626126793441" text:style-name="L2">
+   <text:list xml:id="list135705184501078" text:continue-list="list135704851969085" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P157">“<text:span text:style-name="T42">Remove [x] counters from this card.” (2x)</text:span></text:p>
     </text:list-item>
@@ -2345,12 +2348,12 @@
      <text:p text:style-name="P115">“Pay [x] hitpoints.” (x) <text:span text:style-name="T120">{x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T83">14}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list4729989184110656235" text:style-name="L8">
+   <text:list xml:id="list4641289536635072671" text:style-name="L8">
     <text:list-item>
      <text:p text:style-name="P145"><text:span text:style-name="T85">L</text:span><text:span text:style-name="T84">imit revised (6</text:span><text:span text:style-name="T76">th</text:span><text:span text:style-name="T84"> Edition); was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115628205118113" text:continue-list="list115627214566966" text:style-name="L2">
+   <text:list xml:id="list135705602409823" text:continue-list="list135705184501078" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P133">“<text:bookmark-start text:name="__DdeLink__971_1819021500"/>Exhaust [x] of your resources.<text:bookmark-end text:name="__DdeLink__971_1819021500"/>” (x/2)</text:p>
     </text:list-item>
@@ -2358,32 +2361,32 @@
      <text:p text:style-name="P118">“<text:bookmark-start text:name="__DdeLink__384_973168994"/><text:bookmark-start text:name="__DdeLink__802_1334210204"/><text:span text:style-name="T53">Exhaust [x] of your unexhausted creatures in play.</text:span><text:bookmark-end text:name="__DdeLink__384_973168994"/><text:bookmark-end text:name="__DdeLink__802_1334210204"/><text:span text:style-name="T53">” (2x)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list5646296391878955480" text:style-name="L9">
+   <text:list xml:id="list1571802532794682616" text:style-name="L9">
     <text:list-item>
      <text:p text:style-name="P151"><text:span text:style-name="T114">Revised from: </text:span><text:span text:style-name="T115">“</text:span><text:bookmark-start text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T115">Exhaust [x] of your unexhausted cards in play.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T115">” </text:span><text:span text:style-name="T114">(2</text:span><text:span text:style-name="T14">nd</text:span><text:span text:style-name="T114"> Edition)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115627981826714" text:continue-list="list115628205118113" text:style-name="L2">
+   <text:list xml:id="list135705447173779" text:continue-list="list135705602409823" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P118">“<text:bookmark-start text:name="__DdeLink__378_973168994"/><text:span text:style-name="T60">Exhaust [x] of your unexhausted creatures in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_973168994"/><text:span text:style-name="T60">” (4x)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list7850736539038468952" text:style-name="L10">
+   <text:list xml:id="list8991417669022209227" text:style-name="L10">
     <text:list-item>
      <text:p text:style-name="P148">Revised from: “<text:bookmark-start text:name="__DdeLink__378_9731689944"/><text:span text:style-name="T60">Exhaust [x] of your unexhausted cards in play chosen by an opponent of your choice.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689944"/><text:span text:style-name="T60">” </text:span>(2<text:span text:style-name="T4">nd</text:span> Edition)</text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115627651679628" text:continue-list="list115627981826714" text:style-name="L2">
+   <text:list xml:id="list135705344208998" text:continue-list="list135705447173779" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P122">“Sacrifice [x] cards on the top of your deck.” <text:span text:style-name="T45">(2x) {x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T83">7}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list6069158591714649510" text:style-name="L11">
+   <text:list xml:id="list6200047925184870547" text:style-name="L11">
     <text:list-item>
      <text:p text:style-name="P150"><text:span text:style-name="T85">L</text:span><text:span text:style-name="T84">imit revised (6</text:span><text:span text:style-name="T76">th</text:span><text:span text:style-name="T84"> Edition); was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115627489727291" text:continue-list="list115627651679628" text:style-name="L2">
+   <text:list xml:id="list135705632349918" text:continue-list="list135705344208998" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P123">“Sacrifice [x] random cards in your hand.” <text:span text:style-name="T45">(3x)</text:span></text:p>
     </text:list-item>
@@ -2397,12 +2400,12 @@
      <text:p text:style-name="P115">“<text:span text:style-name="T102">Destroy [x] cards on the top of your deck.” (x) {</text:span><text:span text:style-name="T83">x</text:span><text:span text:style-name="T81">≤</text:span><text:span text:style-name="T83">7}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list4700382067605909579" text:style-name="L12">
+   <text:list xml:id="list2108345721431335518" text:style-name="L12">
     <text:list-item>
      <text:p text:style-name="P146"><text:span text:style-name="T85">L</text:span><text:span text:style-name="T84">imit revised (6</text:span><text:span text:style-name="T76">th</text:span><text:span text:style-name="T84"> Edition); was: {no limit}</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115626159272591" text:continue-list="list115627489727291" text:style-name="L2">
+   <text:list xml:id="list135705802458062" text:continue-list="list135705632349918" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P119">“<text:span text:style-name="T102">Destroy [x] random cards in your hand.” (3x/2)</text:span></text:p>
     </text:list-item>
@@ -2421,7 +2424,7 @@
    </text:list>
    <text:p text:style-name="P47">Target Selections</text:p>
    <text:p text:style-name="P9">Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. <text:span text:style-name="T57">Only one target selection can be used per ability. Note: the costs listed here become the variable “t” on the ability&apos;s effect(s).</text:span></text:p>
-   <text:list xml:id="list4704401235295177407" text:style-name="L13">
+   <text:list xml:id="list1196037960783536322" text:style-name="L13">
     <text:list-item>
      <text:p text:style-name="P160">“Target this card.” <text:span text:style-name="T45">(0.5)</text:span></text:p>
     </text:list-item>
@@ -2435,12 +2438,12 @@
      <text:p text:style-name="P158">“<text:bookmark-start text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T43">Target up to [x] of your resources.</text:span><text:bookmark-end text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T43">” (x)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list5675722095279241856" text:style-name="L14">
+   <text:list xml:id="list6203927566195808191" text:style-name="L14">
     <text:list-item>
      <text:p text:style-name="P149">Revised from: “Target up to [x] resources.” (6<text:span text:style-name="T4">th</text:span> Edition)</text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115626806843406" text:continue-list="list4704401235295177407" text:style-name="L13">
+   <text:list xml:id="list135705088216371" text:continue-list="list1196037960783536322" text:style-name="L13">
     <text:list-item>
      <text:p text:style-name="P124">“<text:span text:style-name="T53">Target up to [x] exhausted cards in play.” (x/2)</text:span></text:p>
     </text:list-item>
@@ -2486,7 +2489,7 @@
    </text:list>
    <text:p text:style-name="P48">Effects</text:p>
    <text:p text:style-name="P10">Effects are the main component of abilities, and at least one is required for any given ability. <text:span text:style-name="T104">Every effect has a cost, listed in parentheses.</text:span></text:p>
-   <text:list xml:id="list5828041935560215208" text:style-name="L15">
+   <text:list xml:id="list1255524383567144195" text:style-name="L15">
     <text:list-item>
      <text:p text:style-name="P161">“Place <text:span text:style-name="T66">[x]</text:span> counter<text:span text:style-name="T66">s</text:span> <text:span text:style-name="T63">on</text:span> <text:span text:style-name="T55">each</text:span> <text:span text:style-name="T63">target</text:span>.” <text:span text:style-name="T45">(2xt)</text:span></text:p>
     </text:list-item>
@@ -2566,12 +2569,12 @@
      <text:p text:style-name="P140">“<text:bookmark-start text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T101">You may re-roll up to [x] dice for the rest of this turn up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T101">” (xy)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list8171487674725425273" text:style-name="L16">
+   <text:list xml:id="list141131444069981155" text:style-name="L16">
     <text:list-item>
      <text:p text:style-name="P152"><text:span text:style-name="T116">Revised from: </text:span><text:span text:style-name="T117">“</text:span><text:bookmark-start text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T117">You may re-roll up to [x] dice for the rest of this turn (excluding the current chain) up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T117">” </text:span><text:span text:style-name="T116">(7</text:span><text:span text:style-name="T15">th</text:span><text:span text:style-name="T116"> Edition)</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list115627240465537" text:continue-list="list5828041935560215208" text:style-name="L15">
+   <text:list xml:id="list135704930009586" text:continue-list="list1255524383567144195" text:style-name="L15">
     <text:list-item>
      <text:p text:style-name="P153">“<text:bookmark-start text:name="__DdeLink__395_722314610"/>Inflict [x] damage to any one player.<text:bookmark-end text:name="__DdeLink__395_722314610"/>” <text:span text:style-name="T45">(x/2)</text:span><text:span text:style-name="T72"> </text:span><text:span text:style-name="T78">Redacted (2</text:span><text:span text:style-name="T73">nd</text:span><text:span text:style-name="T78"> Edition)</text:span></text:p>
     </text:list-item>
