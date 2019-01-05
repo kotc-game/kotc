@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2018-12-13T01:34:39.838229102</dc:date><meta:editing-duration>P2DT1H8M17S</meta:editing-duration><meta:editing-cycles>129</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="19" meta:paragraph-count="134" meta:word-count="5002" meta:character-count="28114" meta:non-whitespace-character-count="23316"/></office:meta>
+ <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2019-01-05T10:31:04.932551327</dc:date><meta:editing-duration>P2DT1H8M25S</meta:editing-duration><meta:editing-cycles>130</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="3" meta:object-count="0" meta:page-count="19" meta:paragraph-count="134" meta:word-count="5001" meta:character-count="28100" meta:non-whitespace-character-count="23303"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">199178</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">46145</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">19581</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">20613</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">27132</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">202128</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">12905</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">7574</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">199178</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">46143</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">218758</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">20611</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -68,7 +68,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">9931586</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">10031319</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -894,15 +894,11 @@
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P166" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P167" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
+  <style:style style:name="P166" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L8">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" loext:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="008d1436" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P168" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
+  <style:style style:name="P167" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L7">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" loext:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false" fo:break-before="page"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="0026e528" officeooo:paragraph-rsid="0026e528" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
@@ -40157,7 +40153,7 @@
     </draw:image>
    </draw:frame>
    <text:p text:style-name="P6">Keeper of the Cards Rulebook</text:p>
-   <text:p text:style-name="P71">8<text:span text:style-name="T5">th</text:span> Edition (pre-release)</text:p>
+   <text:p text:style-name="P71">8<text:span text:style-name="T5">th</text:span> Edition</text:p>
    <text:p text:style-name="P126"/>
    <text:p text:style-name="P113">Introduction</text:p>
    <text:p text:style-name="P66">Keeper of the Cards is a trading card game, loosely inspired by elements from various popul<text:span text:style-name="T91">a</text:span>r trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don&apos;t just trade cards; you <text:span text:style-name="T10">create</text:span><text:span text:style-name="T11"> cards.</text:span></text:p>
@@ -40179,7 +40175,7 @@
    <text:p text:style-name="P66"/>
    <text:p text:style-name="P74">The card on the left is a creature, and the card on the right is a spell. As you can see, they are both very similar; the only real difference is that spells have a pair of triangles instead of the additional elements found on a creature.</text:p>
    <text:p text:style-name="P74">The elements marked on <text:span text:style-name="T72">the cards</text:span> are:</text:p>
-   <text:list xml:id="list5141896649897148530" text:style-name="L1">
+   <text:list xml:id="list8872944167250066288" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P128">The name of the card. This is purely cosmetic and has no effect on the game.</text:p>
     </text:list-item>
@@ -40208,7 +40204,7 @@
    <text:p text:style-name="P120"/>
    <text:p text:style-name="P10">T<text:span text:style-name="T23">he Field</text:span></text:p>
    <text:p text:style-name="P75">Each player&apos;s field contains the following zones:</text:p>
-   <text:list xml:id="list5815810019329771225" text:style-name="L2">
+   <text:list xml:id="list7694513942954105660" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P149"><text:span text:style-name="T11">Deck: Contains your deck. The deck&apos;s contents are not revealed to anyone, and it is shuffled </text:span><text:span text:style-name="T14">before</text:span><text:span text:style-name="T11"> the start of the game.</text:span></text:p>
     </text:list-item>
@@ -40230,12 +40226,12 @@
    </text:list>
    <text:p text:style-name="P9">Turn Order</text:p>
    <text:p text:style-name="P76">Each turn in Keeper of the Cards consists of the following phases:</text:p>
-   <text:list xml:id="list9007407355939502880" text:style-name="L3">
+   <text:list xml:id="list7165246525197326015" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P151"><text:span text:style-name="T11">Resource Phase: </text:span><text:span text:style-name="T14">Place up to two cards from your hand, face-down, onto the Resource Zone, </text:span><text:span text:style-name="T16">oriented vertically (unexhausted)</text:span><text:span text:style-name="T14">. Then draw a number of cards equal to two minus the number of cards you placed into the Resource Zone. </text:span><text:span text:style-name="T19">In other words, you can either place none and draw two, place one and draw one, or place two and draw none.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list7804078626697031836" text:style-name="L4">
+   <text:list xml:id="list115709425076552040" text:style-name="L4">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -40244,7 +40240,7 @@
      </text:list>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list13441917401766" text:continue-list="list9007407355939502880" text:style-name="L3">
+   <text:list xml:id="list103105195404409" text:continue-list="list7165246525197326015" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P133">Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps with no activation condition.</text:p>
     </text:list-item>
@@ -40274,7 +40270,7 @@
    <text:p text:style-name="P87">Some abilities also have an activation cost, which is a special cost (such as removing a certain number of counters, sacrificing one of your cards, or paying a certain number of hitpoints) that you must pay upon activation of the ability. Activation costs are designated at the beginning, after any activation condition, but before any targeting or effect text. <text:span text:style-name="T32">If you activate an ability you are unable to fully pay the activation cost for, the effect of the ability disappears.</text:span> It should be noted that “sacrificing” a card is not considered to be the same as “destroying” the card, and “paying” hitpoints is not the same as taking damage; therefore, these costs cannot be used to satisfy activation conditions referring to the destruction of a card or damage to hitpoints. <text:span text:style-name="T115">It should also be noted for timing purposes that the cost is considered to be paid at the exact same time that the ability is activated.</text:span></text:p>
    <text:p text:style-name="P19">Battles</text:p>
    <text:p text:style-name="P83"><text:span text:style-name="T79">To battle, go through the following steps (only during the attacking player&apos;s Battle Phase)</text:span>:</text:p>
-   <text:list xml:id="list7470717883005794237" text:style-name="L5">
+   <text:list xml:id="list845759974940276656" text:style-name="L5">
     <text:list-item>
      <text:p text:style-name="P153"><text:span text:style-name="T85">T</text:span><text:span text:style-name="T82">he attacking player</text:span><text:span text:style-name="T81"> exhaust</text:span><text:span text:style-name="T82">s</text:span><text:span text:style-name="T81"> any number of </text:span><text:span text:style-name="T87">their</text:span><text:span text:style-name="T81"> unexhausted creatures, </text:span><text:span text:style-name="T82">which become the attacking team,</text:span><text:span text:style-name="T81"> and declare</text:span><text:span text:style-name="T84">s</text:span><text:span text:style-name="T81"> one target: a player, or a creature. </text:span><text:span text:style-name="T87">Note: any given player or creature can only be targeted once per battle phase.</text:span><text:span text:style-name="T81"> </text:span><text:span text:style-name="T87">The attacking player selects and announces the defending order of the attacking team (the order in which these creatures will be damaged).</text:span></text:p>
     </text:list-item>
@@ -40308,7 +40304,7 @@
    <text:p text:style-name="P85">To activate a trap, it must be unexhausted. Note that activating a trap does not incur any additional resource cost. Simply turn the trap over to reveal it to all other players <text:span text:style-name="T90">(note: at this point, the trap is no longer “in play”)</text:span>, follow the instructions on the card, <text:span text:style-name="T68">and then send it to the graveyard</text:span>.</text:p>
    <text:p text:style-name="P12">Winning <text:span text:style-name="T27">and Losing</text:span></text:p>
    <text:p text:style-name="P90">Any given player can lose in <text:span text:style-name="T122">one of</text:span> three ways:</text:p>
-   <text:list xml:id="list2520072835116499349" text:style-name="L6">
+   <text:list xml:id="list8898146489378890757" text:style-name="L6">
     <text:list-item>
      <text:p text:style-name="P135">by having their hitpoints reduced to 0;</text:p>
     </text:list-item>
@@ -40322,7 +40318,7 @@
    <text:p text:style-name="P90">Any player who loses is out of the game and can no longer affect the game in any way. When only one player remains in the game, that player is declared the winner.</text:p>
    <text:p text:style-name="P13">Ability Clarifications/Rulings</text:p>
    <text:p text:style-name="P93">This section serves to clarify some things regarding ability texts. It is listed alphabetically based on the text portion at hand.</text:p>
-   <text:list xml:id="list484051790796990825" text:style-name="L7">
+   <text:list xml:id="list3135568328997214911" text:style-name="L7">
     <text:list-item>
      <text:p text:style-name="P136">“<text:span text:style-name="T113">Activate when this [card] is destroyed.”: A card’s ability that activates when it is destroyed is activated while the card is in the graveyard, by the player who owns the zone it was in when it was destroyed. So for example, it is possible for a creature with graveyard-targeting abilities of this nature to target itself, and if a player takes control of an opponent’s card with such an effect, they (and not the owner of the card) get to use that effect if it gets destroyed.</text:span></text:p>
     </text:list-item>
@@ -40374,16 +40370,16 @@
      <text:p text:style-name="P165">“<text:span text:style-name="T117">Target”: Any sentence which has you “target” something is a target selection. All targets continue to be targeted throughout the respective ability regardless of what happens to them; for example, if an in-play target is sent to its owner’s hand, it is still a target and therefore can still be affected by applicable effects.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P166"/>
-   <text:list xml:id="list13440925321984" text:continue-numbering="true" text:style-name="L7">
+   <text:p text:style-name="P93"/>
+   <text:list xml:id="list103106387533161" text:continue-numbering="true" text:style-name="L7">
     <text:list-item>
-     <text:p text:style-name="P168">“<text:span text:style-name="T144">Your”: A card is considered to be “yours” if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example), but while it remains in your creature zone, it is “your” in-play creature and you can use it the same way as cards coming from your own deck.</text:span></text:p>
+     <text:p text:style-name="P167">“<text:span text:style-name="T144">Your”: A card is considered to be “yours” if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example), but while it remains in your creature zone, it is “your” in-play creature and you can use it the same way as cards coming from your own deck.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P21"/>
    <text:p text:style-name="P17">Revised Ability Text</text:p>
    <text:p text:style-name="P97">This section lists old ability text portions which have been revised. The revision is indicated as the old text, then an arrow pointing to the right, and then the new text. <text:span text:style-name="T42">Redacted text is crossed out in the old text, and added text is bold in the new text.</text:span> If you see any of these old text portions in a card, you must use the card in the way indicated by the new text, if applicable. These are listed in alphabetical order <text:span text:style-name="T132">(based on the original text)</text:span>. <text:span text:style-name="T63">Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
-   <text:list xml:id="list4851178615279170696" text:style-name="L8">
+   <text:list xml:id="list3731086614337730353" text:style-name="L8">
     <text:list-item>
      <text:p text:style-name="P142">“Activate when <text:span text:style-name="T43">a</text:span> card in your deck is destroyed.” →<text:span text:style-name="T132"> </text:span>“Activate when <text:span text:style-name="T49">a</text:span><text:span text:style-name="T57">t least 1</text:span> card in your deck <text:span text:style-name="T132">is</text:span> destroyed.”</text:p>
     </text:list-item>
@@ -40421,12 +40417,12 @@
      <text:p text:style-name="P148">“<text:bookmark-start text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T127">You may re-roll up to [x] dice for the rest of this turn (excluding the current chain) up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T127">” → </text:span>“<text:bookmark-start text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T127">You may re-roll up to [x] dice for the rest of this turn up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T127">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P167"><text:soft-page-break/><text:span text:style-name="T21">“You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T21">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T48">cards</text:span><text:span text:style-name="T21"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T21">” → “You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T21">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T22">creatures</text:span><text:span text:style-name="T21"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T21">”</text:span></text:p>
+     <text:p text:style-name="P166"><text:soft-page-break/><text:span text:style-name="T21">“You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T21">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T48">cards</text:span><text:span text:style-name="T21"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899412"/><text:span text:style-name="T21">” → “You must e</text:span><text:bookmark-start text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T21">xhaust [x] of your unexhausted </text:span><text:span text:style-name="T22">creatures</text:span><text:span text:style-name="T21"> in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_97316899411"/><text:span text:style-name="T21">”</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P122">Re<text:span text:style-name="T63">dacted</text:span> Ability Text <text:span text:style-name="T63">(Banned Cards)</text:span></text:p>
    <text:p text:style-name="P98">This section lists <text:span text:style-name="T63">ability texts which have been redacted. This is generally because the text results in cards that are too powerful or create a bad game experience. Any card with any of these texts is considered to be banned, i.e. may not be used in a game. Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
-   <text:list xml:id="list3500063573611199186" text:style-name="L9">
+   <text:list xml:id="list5834402240577772924" text:style-name="L9">
     <text:list-item>
      <text:p text:style-name="P156">“Activate in response to an opponent’s summon.”</text:p>
     </text:list-item>
@@ -40458,7 +40454,7 @@
    <text:p text:style-name="P124"/>
    <text:p text:style-name="P18">Revised <text:span text:style-name="T100">Variable</text:span> <text:span text:style-name="T99">Limits</text:span></text:p>
    <text:p text:style-name="P112">This section lists<text:span text:style-name="T100"> limits on what variables are allowed to be that have changed since a previous edition, shown as standard inequalities in curly braces (e.g. “{x</text:span><text:span text:style-name="T101">≤</text:span><text:span text:style-name="T109">10</text:span><text:span text:style-name="T100">}”). Any card which sets the respective variable(s) to a value greater than what is specified here is considered to be banned, i.e. may not used in a game. For example, if the limit is listed as {x</text:span><text:span text:style-name="T101">≤</text:span><text:span text:style-name="T109">10}, any card that uses that text and sets x to a value greater than 10 is banned.</text:span></text:p>
-   <text:list xml:id="list7919363815465003846" text:style-name="L10">
+   <text:list xml:id="list7453989035421617123" text:style-name="L10">
     <text:list-item>
      <text:p text:style-name="P129">“<text:span text:style-name="T110">You must p</text:span>ay [x] hitpoints <text:span text:style-name="T110">to summon this creature</text:span>.” <text:span text:style-name="T112">{x</text:span><text:span text:style-name="T101">≤</text:span><text:span text:style-name="T102">14}</text:span></text:p>
     </text:list-item>
