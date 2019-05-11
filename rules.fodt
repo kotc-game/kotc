@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2019-05-11T05:48:00.736770927</dc:date><meta:editing-duration>P2DT8H55M46S</meta:editing-duration><meta:editing-cycles>149</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="19" meta:paragraph-count="152" meta:word-count="5897" meta:character-count="33247" meta:non-whitespace-character-count="27584"/></office:meta>
+ <office:meta><meta:initial-creator>Julie </meta:initial-creator><meta:creation-date>2018-05-24T22:43:50.533284555</meta:creation-date><dc:date>2019-05-11T06:07:35.271870043</dc:date><meta:editing-duration>P2DT9H15M20S</meta:editing-duration><meta:editing-cycles>150</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="19" meta:paragraph-count="152" meta:word-count="5896" meta:character-count="33233" meta:non-whitespace-character-count="27571"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">213360</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">48500</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">20428</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">21459</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">29198</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">217041</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">14083</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">7574</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">213360</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">48498</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">233786</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">21458</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -2176,7 +2176,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
    <text:p text:style-name="P6">Keeper of the Cards Rulebook</text:p>
-   <text:p text:style-name="P86"><text:span text:style-name="T172">9</text:span><text:span text:style-name="T9">th</text:span> Edition <text:span text:style-name="T172">(pre-release)</text:span></text:p>
+   <text:p text:style-name="P86"><text:span text:style-name="T172">9</text:span><text:span text:style-name="T9">th</text:span> Edition</text:p>
    <text:p text:style-name="P150"/>
    <text:p text:style-name="P136">Introduction</text:p>
    <text:p text:style-name="P79">Keeper of the Cards is a trading card game, loosely inspired by elements from various popul<text:span text:style-name="T107">a</text:span>r trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don&apos;t just trade cards; you <text:span text:style-name="T14">create</text:span><text:span text:style-name="T15"> cards.</text:span></text:p>
@@ -41835,7 +41835,7 @@
      </text:list>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list54802308356864" text:continue-list="list1320240251172684730" text:style-name="L3">
+   <text:list xml:id="list60737320141223" text:continue-list="list1320240251172684730" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P167">Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps with no activation condition. <text:span text:style-name="T185">See the “Creatures”, “Creature Abilities”, and “Casting Spells and Setting Traps” sections for more information.</text:span></text:p>
     </text:list-item>
@@ -42088,7 +42088,7 @@
    </text:list>
    <text:p text:style-name="P149">Revised Costs</text:p>
    <text:p text:style-name="P135"><text:span text:style-name="T126">This section lists </text:span><text:span text:style-name="T127">ability texts whose costs have been revised, and the edition in which such revision occurred. Any card bearing any of these texts MUST bear an Edition Indicator (see the section, “Card Types and Layout”), which MUST indicate an edition number no less than the cost revision edition for the respective text(s). For instance, if a text cost was revised as of 10</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T127"> <text:s/>Edition, then cards indicated as 10</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T127"> Edition, 11</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T127"> Edition, etc are allowed, but cards indicated as 9</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T127"> Edition, or whose edition is not indicated, are banned.</text:span><text:span text:style-name="T117"> </text:span><text:span text:style-name="T126">Note: [x], [y], and [z] are replaced with numbers in cards.</text:span></text:p>
-   <text:list xml:id="list54801827872915" text:continue-numbering="true" text:style-name="L10">
+   <text:list xml:id="list60736091160168" text:continue-numbering="true" text:style-name="L10">
     <text:list-item>
      <text:p text:style-name="P160">“Draw [x] cards.” <text:span text:style-name="T181">(9</text:span><text:span text:style-name="T11">th</text:span><text:span text:style-name="T181"> Edition)</text:span></text:p>
     </text:list-item>
