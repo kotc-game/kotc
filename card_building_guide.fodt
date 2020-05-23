@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Layla Marchant</meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2020-05-09T10:30:19.702702212</dc:date><meta:editing-duration>P2DT1H15M36S</meta:editing-duration><meta:editing-cycles>179</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="15" meta:paragraph-count="182" meta:word-count="3679" meta:character-count="20544" meta:non-whitespace-character-count="17177"/></office:meta>
+ <office:meta><meta:initial-creator>Layla Marchant</meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2020-05-23T17:39:52.987885746</dc:date><meta:editing-duration>P2DT1H17M31S</meta:editing-duration><meta:editing-cycles>180</meta:editing-cycles><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="15" meta:paragraph-count="182" meta:word-count="3681" meta:character-count="20556" meta:non-whitespace-character-count="17187"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">115147</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">116205</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">49108</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">19978</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8897</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">131969</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13399</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">124478</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">115147</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">116205</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">49107</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">135123</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">136181</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -93,7 +93,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">14449305</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">14479521</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -2247,7 +2247,7 @@
    <text:p text:style-name="P7">There are two types of cards: creatures, and spells. Creatures have an offensive power (“offense”), a defensive power (“defense”), and any number of abilities. <text:span text:style-name="T27">Offense and defense must each be no lower than 0 and no higher than 99.</text:span> Spells have only a single ability (which may itself be referred to as a “spell”).</text:p>
    <text:p text:style-name="P44">Constructing Abilities</text:p>
    <text:p text:style-name="P6">Abilities are composed of as many as four components:</text:p>
-   <text:list xml:id="list3274207050" text:style-name="L1">
+   <text:list xml:id="list3929858698" text:style-name="L1">
     <text:list-item>
      <text:p text:style-name="P177">One activation condition (optional)</text:p>
     </text:list-item>
@@ -2298,7 +2298,7 @@
    <text:p text:style-name="P17">For the back of cards, an image is provided as “card_base/card_back.png”. <text:span text:style-name="T227">A file for a</text:span> sheet of card backs <text:span text:style-name="T227">is available as</text:span> sets/backs.pdf; <text:span text:style-name="T227">y</text:span>ou can simply print this onto the back of a sheet which has cards printed on it. This is optional as long as sleeves are used that are opaque when viewed from the back.</text:p>
    <text:p text:style-name="P54">Caveats</text:p>
    <text:p text:style-name="P15">Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the resource cost of their power levels.<text:span text:style-name="T51"> </text:span>Of course, caveats can only be given to creatures, not spells. <text:span text:style-name="T172">The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
-   <text:list xml:id="list3727078088" text:style-name="L2">
+   <text:list xml:id="list120200739" text:style-name="L2">
     <text:list-item>
      <text:p text:style-name="P225"><text:span text:style-name="T78">(x) </text:span>“<text:span text:style-name="T78">You must e</text:span><text:bookmark-start text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">xhaust [x] of your unexhausted creatures in play to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">”</text:span></text:p>
     </text:list-item>
@@ -2359,10 +2359,10 @@
      <text:p text:style-name="P181"><text:span text:style-name="T170">(3x/2) </text:span>“<text:span text:style-name="T228">You must destroy [x] random cards in your hand to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P181"><text:span text:style-name="T170">(2x) </text:span>“<text:span text:style-name="T228">You must d</text:span><text:bookmark-start text:name="__DdeLink__1867_4642893872"/><text:span text:style-name="T228">estroy [x] of your cards in play to attack with, defend with, or use an ability of this creature.</text:span><text:bookmark-end text:name="__DdeLink__1867_4642893872"/><text:span text:style-name="T228">”</text:span></text:p>
+     <text:p text:style-name="P181"><text:span text:style-name="T170">(2x) </text:span>“<text:span text:style-name="T228">You must d</text:span><text:bookmark-start text:name="__DdeLink__1867_4642893872"/><text:span text:style-name="T228">estroy [x] of your other cards in play to attack with, defend with, or use an ability of this creature.</text:span><text:bookmark-end text:name="__DdeLink__1867_4642893872"/><text:span text:style-name="T228">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P181"><text:span text:style-name="T170">(3x) </text:span>“<text:span text:style-name="T228">You must destroy [x] of your cards in play chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
+     <text:p text:style-name="P181"><text:span text:style-name="T170">(3x) </text:span>“<text:span text:style-name="T228">You must destroy [x] of your other cards in play chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P181"><text:span text:style-name="T170">(2x) </text:span>“<text:span text:style-name="T228">You must destroy [x] of your resources to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
@@ -2404,7 +2404,7 @@
    </text:list>
    <text:p text:style-name="P50">Activatio<text:span text:style-name="T51">n Conditions</text:span></text:p>
    <text:p text:style-name="P5"><text:span text:style-name="T51">Activation conditions</text:span> indicate special conditions under which the spell or ability is to be activated. If a spell or ability has a<text:span text:style-name="T51">n activation condition</text:span>, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one <text:span text:style-name="T51">activation condition</text:span> can be used per ability. <text:span text:style-name="T172">Some activation conditions also reduce the resource cost of the ability; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
-   <text:list xml:id="list50118683" text:style-name="L3">
+   <text:list xml:id="list2000116085" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P231"><text:span text:style-name="T208">(3) </text:span>“<text:span text:style-name="T208">Activate when this card is damaged, but not destroyed.”</text:span></text:p>
     </text:list-item>
@@ -2461,7 +2461,7 @@
     </text:list-item>
    </text:list>
    <text:p text:style-name="P103"/>
-   <text:list xml:id="list103020722177137" text:continue-numbering="true" text:style-name="L3">
+   <text:list xml:id="list173953464707307" text:continue-numbering="true" text:style-name="L3">
     <text:list-item>
      <text:p text:style-name="P235"><text:span text:style-name="T74">(x) </text:span>“Activate when a<text:span text:style-name="T211">t least [x]</text:span> card<text:span text:style-name="T211">s</text:span> in your deck <text:span text:style-name="T211">are</text:span> destroyed.”</text:p>
      <text:list>
@@ -2493,7 +2493,7 @@
    </text:list>
    <text:p text:style-name="P51">Activation Costs</text:p>
    <text:p text:style-name="P9">Activation costs serve to reduce the resource cost of an ability by “paying” in other ways. <text:span text:style-name="T66">Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</text:span></text:p>
-   <text:list xml:id="list1955834612" text:style-name="L4">
+   <text:list xml:id="list3595511533" text:style-name="L4">
     <text:list-item>
      <text:p text:style-name="P229"><text:span text:style-name="T51">(2x) </text:span>“<text:span text:style-name="T51">Remove [x] counters from this card.”</text:span></text:p>
     </text:list-item>
@@ -2552,7 +2552,7 @@
    </text:list>
    <text:p text:style-name="P52">Target Selections</text:p>
    <text:p text:style-name="P10">Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. <text:span text:style-name="T66">Only one target selection can be used per ability. Note: the costs listed here become the variable “t” on the ability&apos;s effect(s).</text:span></text:p>
-   <text:list xml:id="list675980402" text:style-name="L5">
+   <text:list xml:id="list1887711503" text:style-name="L5">
     <text:list-item>
      <text:p text:style-name="P232"><text:span text:style-name="T54">(0.5) </text:span>“Target this card.”</text:p>
     </text:list-item>
@@ -2615,7 +2615,7 @@
    </text:list>
    <text:p text:style-name="P53">Effects</text:p>
    <text:p text:style-name="P11">Effects are the main component of abilities, and at least one is required for any given ability. <text:span text:style-name="T172">Every effect has a cost, listed in parentheses.</text:span></text:p>
-   <text:list xml:id="list1689709164" text:style-name="L6">
+   <text:list xml:id="list3421410738" text:style-name="L6">
     <text:list-item>
      <text:p text:style-name="P233"><text:span text:style-name="T54">(xt) </text:span>“Place <text:span text:style-name="T75">[x]</text:span> counter<text:span text:style-name="T75">s</text:span> <text:span text:style-name="T72">on</text:span> <text:span text:style-name="T64">each</text:span> <text:span text:style-name="T72">target</text:span>.”</text:p>
      <text:list>
