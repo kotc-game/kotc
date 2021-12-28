@@ -3,3 +3,7 @@
 
 # Other backups
 *~
+
+# PNG exports
+cards/*.png
+cards-png
