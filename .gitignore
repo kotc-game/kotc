@@ -7,3 +7,7 @@
 # PNG exports
 cards/*.png
 cards-png
+
+# PDF exports
+card_building_guide.pdf
+rules.pdf
