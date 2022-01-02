@@ -111,7 +111,7 @@ if card_type == 0:
     else:
         caveat = 0
 
-    power_cost = offense + defense / 5 - caveat
+    power_cost = max(0, offense + defense/5 - caveat)
 
     ability_costs = 0
     if ask_bool("Does the creature have an ability?"):
