@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Layla Marchant</meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2022-06-22T04:07:35.566553938</dc:date><meta:editing-duration>P2DT3H10M43S</meta:editing-duration><meta:editing-cycles>204</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$Linux_X86_64 LibreOffice_project/00$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="16" meta:paragraph-count="196" meta:word-count="3916" meta:character-count="21928" meta:non-whitespace-character-count="18351"/></office:meta>
+ <office:meta><meta:initial-creator>Layla Marchant</meta:initial-creator><meta:creation-date>2018-05-23T11:45:32.168266259</meta:creation-date><dc:date>2022-06-22T04:20:57.336117343</dc:date><meta:editing-duration>P2DT3H24M4S</meta:editing-duration><meta:editing-cycles>205</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$Linux_X86_64 LibreOffice_project/00$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="16" meta:paragraph-count="197" meta:word-count="3932" meta:character-count="22020" meta:non-whitespace-character-count="18429"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">175895</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">176953</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">49214</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">20692</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">29596</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">181681</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6576</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">202128</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">175895</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">176953</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">49213</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">196585</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">197644</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -1121,163 +1121,171 @@
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00217a22" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P214" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P214" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00dd6537" officeooo:paragraph-rsid="00dd6537" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00217a22" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P215" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="002ecb34" officeooo:paragraph-rsid="00e03b2e" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00dd6537" officeooo:paragraph-rsid="00dd6537" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P216" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="002ecb34" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="002ecb34" officeooo:paragraph-rsid="00e03b2e" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P217" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00e01e99" officeooo:paragraph-rsid="00e01e99" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="002ecb34" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P218" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0022a67b" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00e01e99" officeooo:paragraph-rsid="00e01e99" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P219" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0022a67b" officeooo:paragraph-rsid="00cf2d69" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0022a67b" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P220" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0022a67b" officeooo:paragraph-rsid="00cf2d69" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P221" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P222" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00df98dd" officeooo:paragraph-rsid="00df98dd" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0023253a" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P223" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00a6e96d" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00df98dd" officeooo:paragraph-rsid="00df98dd" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P224" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00a6e96d" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="P225" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00235ecd" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P225" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d123b9" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
-  </style:style>
-  <style:style style:name="P226" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P226" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d123b9" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="P227" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d123b9" officeooo:paragraph-rsid="00d123b9" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d123b9" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P228" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P228" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00c7f781" officeooo:paragraph-rsid="00c7f781" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d123b9" officeooo:paragraph-rsid="00d123b9" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="P229" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00c7f781" officeooo:paragraph-rsid="00c7f781" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P230" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00c7c611" officeooo:paragraph-rsid="00c7c611" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P230" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
+  <style:style style:name="P231" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00af44bd" officeooo:paragraph-rsid="00af44bd" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P231" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P232" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e01e99" officeooo:paragraph-rsid="00e01e99" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P232" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e2f50a" officeooo:paragraph-rsid="00e2f50a" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P233" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e3070d" officeooo:paragraph-rsid="00e3070d" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P234" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00dd6537" officeooo:paragraph-rsid="00e03b2e" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P235" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="00d62a69"/>
   </style:style>
-  <style:style style:name="P236" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
+  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="00789bee"/>
   </style:style>
-  <style:style style:name="P237" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="00be4020"/>
   </style:style>
-  <style:style style:name="P238" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="00ca55f4"/>
   </style:style>
-  <style:style style:name="P239" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00d8a11f" officeooo:paragraph-rsid="00d8a11f" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P240" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00193632" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P241" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="12pt" fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00c7f781" officeooo:paragraph-rsid="00c7f781" style:font-size-asian="10.5pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="P242" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
+  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="00c8d4e3" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P243" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
+  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="001fc755" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P244" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
+  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0017c22d" officeooo:paragraph-rsid="00d62a69" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P245" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3" style:master-page-name="">
+  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0017c22d" officeooo:paragraph-rsid="00be4020" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P246" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4" style:master-page-name="">
+  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L4" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0017c22d" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P247" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5" style:master-page-name="">
+  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0017c22d" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P248" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3" style:master-page-name="">
+  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="001953cf" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P249" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5" style:master-page-name="">
+  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L5" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="0020d5fd" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P250" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6" style:master-page-name="">
+  <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00217a22" officeooo:paragraph-rsid="00d1af25" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P251" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
+  <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L2">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
    <style:text-properties officeooo:paragraph-rsid="00d62a69"/>
   </style:style>
-  <style:style style:name="P252" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
+  <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L3">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00331744" officeooo:paragraph-rsid="00c9596d" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P253" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+  <style:style style:name="P254" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L6">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.1201in" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="00217a22" officeooo:paragraph-rsid="00ca55f4" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="P255" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.25in" style:contextual-spacing="false" fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt" style:text-underline-style="none" officeooo:rsid="001953cf" officeooo:paragraph-rsid="001953cf" style:font-size-asian="10.5pt" style:font-size-complex="12pt"/>
   </style:style>
@@ -2368,7 +2376,7 @@
      <text:p text:style-name="P186">One target selection (optional)</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P253">One or more effects (required)</text:p>
+     <text:p text:style-name="P255">One or more effects (required)</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P8">These components must be listed on the card in that order, <text:span text:style-name="T204">and must be in the same paragraph (do </text:span><text:span text:style-name="T205">not</text:span><text:span text:style-name="T204"> split the text of one ability into multiple paragraphs)</text:span>. You must choose <text:span text:style-name="T230">non-redacted</text:span> components from the lists on the following pages only. Within these restrictions, you may design any ability you wish.</text:p>
@@ -2410,7 +2418,7 @@
    <text:p text:style-name="P15">Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the resource cost of their power levels.<text:span text:style-name="T51"> </text:span>Of course, caveats can only be given to creatures, not spells. <text:span text:style-name="T174">The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
    <text:list xml:id="list3527682562" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P242"><text:span text:style-name="T78">(x) </text:span>“<text:span text:style-name="T78">You must e</text:span><text:bookmark-start text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">xhaust [x] of your unexhausted creatures in play to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">”</text:span></text:p>
+     <text:p text:style-name="P243"><text:span text:style-name="T78">(x) </text:span>“<text:span text:style-name="T78">You must e</text:span><text:bookmark-start text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">xhaust [x] of your unexhausted creatures in play to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689942"/><text:span text:style-name="T78">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P188"><text:span text:style-name="T78">(2x) </text:span>“<text:span text:style-name="T78">You must e</text:span><text:bookmark-start text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T78">xhaust [x] of your unexhausted creatures in play chosen by an opponent of your choice to summon this creature.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689941"/><text:span text:style-name="T78">”</text:span></text:p>
@@ -2445,16 +2453,16 @@
      <text:p text:style-name="P204">(3x/2) “You must destroy [x] of your resources chosen by an opponent of your choice to summon this creature.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P244"><text:span text:style-name="T51">(2x) </text:span>“<text:span text:style-name="T1">You must remove [x] counters from this card to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
+     <text:p text:style-name="P245"><text:span text:style-name="T51">(2x) </text:span>“<text:span text:style-name="T1">You must remove [x] counters from this card to attack with, defend with, or use an ability of this creature.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P205">(x/<text:span text:style-name="T232">2</text:span>) “<text:span text:style-name="T1">You must e</text:span><text:bookmark-start text:name="__DdeLink__971_18190215001"/>xhaust [x] of your resources<text:span text:style-name="T1"> to attack with, defend with, or use an ability of this creature</text:span>.<text:bookmark-end text:name="__DdeLink__971_18190215001"/>”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P235"><text:span text:style-name="T197">(</text:span><text:span text:style-name="T200">2</text:span><text:span text:style-name="T197">x) </text:span><text:span text:style-name="T193">“</text:span><text:span text:style-name="T198">You must e</text:span><text:bookmark-start text:name="__DdeLink__802_13342102041"/><text:bookmark-start text:name="__DdeLink__384_9731689943"/><text:span text:style-name="T197">xhaust [x] of your </text:span><text:span text:style-name="T198">other</text:span><text:span text:style-name="T197"> unexhausted creatures in play</text:span><text:span text:style-name="T198"> to attack with, defend with, or use an ability of this creature</text:span><text:span text:style-name="T197">.</text:span><text:bookmark-end text:name="__DdeLink__802_13342102041"/><text:bookmark-end text:name="__DdeLink__384_9731689943"/><text:span text:style-name="T197">”</text:span></text:p>
+     <text:p text:style-name="P236"><text:span text:style-name="T197">(</text:span><text:span text:style-name="T200">2</text:span><text:span text:style-name="T197">x) </text:span><text:span text:style-name="T193">“</text:span><text:span text:style-name="T198">You must e</text:span><text:bookmark-start text:name="__DdeLink__802_13342102041"/><text:bookmark-start text:name="__DdeLink__384_9731689943"/><text:span text:style-name="T197">xhaust [x] of your </text:span><text:span text:style-name="T198">other</text:span><text:span text:style-name="T197"> unexhausted creatures in play</text:span><text:span text:style-name="T198"> to attack with, defend with, or use an ability of this creature</text:span><text:span text:style-name="T197">.</text:span><text:bookmark-end text:name="__DdeLink__802_13342102041"/><text:bookmark-end text:name="__DdeLink__384_9731689943"/><text:span text:style-name="T197">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P251"><text:span text:style-name="T199">(</text:span><text:span text:style-name="T200">4</text:span><text:span text:style-name="T199">x) </text:span><text:span text:style-name="T193">“</text:span><text:span text:style-name="T198">You must e</text:span><text:bookmark-start text:name="__DdeLink__378_9731689942"/><text:span text:style-name="T199">xhaust [x] of your unexhausted creatures in play chosen by an opponent of your choice</text:span><text:span text:style-name="T198"> to attack with, defend with, or use an ability of this creature</text:span><text:span text:style-name="T199">.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689942"/><text:span text:style-name="T199">”</text:span></text:p>
+     <text:p text:style-name="P252"><text:span text:style-name="T199">(</text:span><text:span text:style-name="T200">4</text:span><text:span text:style-name="T199">x) </text:span><text:span text:style-name="T193">“</text:span><text:span text:style-name="T198">You must e</text:span><text:bookmark-start text:name="__DdeLink__378_9731689942"/><text:span text:style-name="T199">xhaust [x] of your unexhausted creatures in play chosen by an opponent of your choice</text:span><text:span text:style-name="T198"> to attack with, defend with, or use an ability of this creature</text:span><text:span text:style-name="T199">.</text:span><text:bookmark-end text:name="__DdeLink__378_9731689942"/><text:span text:style-name="T199">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P197"><text:span text:style-name="T54">(3x) </text:span>“<text:span text:style-name="T232">You must s</text:span>acrifice [x] random cards in your hand<text:span text:style-name="T1"> to attack with, defend with, or use an ability of this creature</text:span>.”</text:p>
@@ -2484,7 +2492,7 @@
      <text:p text:style-name="P191"><text:span text:style-name="T79">(2) </text:span>“<text:span text:style-name="T79">This creature cannot attack.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P225"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 1</text:span></text:p>
+       <text:p text:style-name="P226"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 1</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2492,18 +2500,18 @@
      <text:p text:style-name="P191"><text:span text:style-name="T79">(2) </text:span>“<text:span text:style-name="T79">This creature cannot defend.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P225"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 1</text:span></text:p>
+       <text:p text:style-name="P226"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 1</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P239">(2) “<text:span text:style-name="T234">If this in-play creature is unexhausted at the end of your own Battle Phase, destroy this creature.</text:span>”</text:p>
+     <text:p text:style-name="P240">(2) “<text:span text:style-name="T234">If this in-play creature is unexhausted at the end of your own Battle Phase, destroy this creature.</text:span>”</text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P191"><text:span text:style-name="T161">(1.5) </text:span><text:span text:style-name="T110">“</text:span><text:span text:style-name="T161">This creature cannot attack or defend.”</text:span><text:span text:style-name="T100"> Redacted (9</text:span><text:span text:style-name="T88">th</text:span><text:span text:style-name="T100"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P243"><text:span text:style-name="T110">(x/</text:span><text:span text:style-name="T146">2</text:span><text:span text:style-name="T110">) </text:span><text:span text:style-name="T147">{</text:span><text:span text:style-name="T148">x</text:span><text:span text:style-name="T120">≤</text:span><text:span text:style-name="T122">14} </text:span><text:span text:style-name="T110">“</text:span><text:span text:style-name="T152">You must p</text:span><text:span text:style-name="T110">ay [x] hitpoints </text:span><text:span text:style-name="T152">to summon this creature</text:span><text:span text:style-name="T110">.”</text:span><text:span text:style-name="T100"> <text:line-break/>Redacted (9</text:span><text:span text:style-name="T88">th</text:span><text:span text:style-name="T100"> Edition)</text:span></text:p>
+     <text:p text:style-name="P244"><text:span text:style-name="T110">(x/</text:span><text:span text:style-name="T146">2</text:span><text:span text:style-name="T110">) </text:span><text:span text:style-name="T147">{</text:span><text:span text:style-name="T148">x</text:span><text:span text:style-name="T120">≤</text:span><text:span text:style-name="T122">14} </text:span><text:span text:style-name="T110">“</text:span><text:span text:style-name="T152">You must p</text:span><text:span text:style-name="T110">ay [x] hitpoints </text:span><text:span text:style-name="T152">to summon this creature</text:span><text:span text:style-name="T110">.”</text:span><text:span text:style-name="T100"> <text:line-break/>Redacted (9</text:span><text:span text:style-name="T88">th</text:span><text:span text:style-name="T100"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P198"><text:span text:style-name="T123">(x) {x</text:span><text:span text:style-name="T120">≤</text:span><text:span text:style-name="T121">7</text:span><text:span text:style-name="T122">} </text:span><text:span text:style-name="T124">“</text:span><text:span text:style-name="T125">You must s</text:span><text:span text:style-name="T124">acrifice [x] cards on the top of your deck </text:span><text:span text:style-name="T125">to summon this creature</text:span><text:span text:style-name="T124">.”</text:span><text:span text:style-name="T100"> Redacted (9</text:span><text:span text:style-name="T88">th</text:span><text:span text:style-name="T100"> Edition)</text:span></text:p>
@@ -2516,16 +2524,16 @@
    <text:p text:style-name="P5"><text:span text:style-name="T51">Activation conditions</text:span> indicate special conditions under which the spell or ability is to be activated. If a spell or ability has a<text:span text:style-name="T51">n activation condition</text:span>, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one <text:span text:style-name="T51">activation condition</text:span> can be used per ability. <text:span text:style-name="T174">Some activation conditions also reduce the resource cost of the ability; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</text:span></text:p>
    <text:list xml:id="list2258966386" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P248"><text:span text:style-name="T212">(3) </text:span>“<text:span text:style-name="T212">Activate when this card is damaged, but not destroyed.”</text:span></text:p>
+     <text:p text:style-name="P249"><text:span text:style-name="T212">(3) </text:span>“<text:span text:style-name="T212">Activate when this card is damaged, but not destroyed.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P207"><text:span text:style-name="T74">(2) </text:span>“<text:bookmark-start text:name="__DdeLink__804_995551539"/>Activate when this in-play card is destroyed.<text:bookmark-end text:name="__DdeLink__804_995551539"/>”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P240"><text:span text:style-name="T74">(2) </text:span>“Activate when this card as a resource is destroyed <text:span text:style-name="T220">by paying this card’s resource cost</text:span>.”</text:p>
+     <text:p text:style-name="P241"><text:span text:style-name="T74">(2) </text:span>“Activate when this card as a resource is destroyed <text:span text:style-name="T220">by paying this card’s resource cost</text:span>.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P241">Revised from: “<text:span text:style-name="T218">Activate when this card as a resource is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P242">Revised from: “<text:span text:style-name="T218">Activate when this card as a resource is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2533,7 +2541,7 @@
      <text:p text:style-name="P187"><text:span text:style-name="T74">(2) </text:span>“Activate when this card in your hand is destroyed <text:span text:style-name="T105">by paying this card’s resource cost</text:span><text:span text:style-name="T104">.</text:span>”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P228">Revised from: <text:span text:style-name="T219">“Activate when this card in your hand is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T219">“Activate when this card in your hand is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2541,7 +2549,7 @@
      <text:p text:style-name="P187"><text:span text:style-name="T74">(2) </text:span>“Activate when this card in your deck is destroyed <text:span text:style-name="T105">by paying this card’s resource cost</text:span><text:span text:style-name="T104">.</text:span>”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P228">Revised from: <text:span text:style-name="T219">“Activate when this card in your deck is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T219">“Activate when this card in your deck is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2549,7 +2557,7 @@
      <text:p text:style-name="P187"><text:span text:style-name="T212">(x) </text:span>“<text:span text:style-name="T212">Activate when at least [x] of your cards in play (excluding this card) are damaged, but not destroyed.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P229">Revised from: “<text:span text:style-name="T212">Activate when another of your cards in play is damaged, but not destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P230">Revised from: “<text:span text:style-name="T212">Activate when another of your cards in play is damaged, but not destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2557,7 +2565,7 @@
      <text:p text:style-name="P208"><text:span text:style-name="T74">(x) </text:span>“Activate when <text:span text:style-name="T215">at least [x]</text:span> of your cards in play <text:span text:style-name="T215">(excluding this card)</text:span> <text:span text:style-name="T215">are</text:span> destroyed.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T216">“Activate when another of your cards in play is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P230">Revised from: <text:span text:style-name="T216">“Activate when another of your cards in play is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2565,18 +2573,18 @@
      <text:p text:style-name="P208"><text:span text:style-name="T74">(x) </text:span>“Activate when <text:span text:style-name="T215">at least [x]</text:span> card<text:span text:style-name="T215">s</text:span> in your hand <text:span text:style-name="T215">are</text:span> destroyed.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T216">“Activate when a card in your hand is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P230">Revised from: <text:span text:style-name="T216">“Activate when a card in your hand is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P104"/>
-   <text:list xml:id="list40737332754329" text:continue-numbering="true" text:style-name="L3">
+   <text:list xml:id="list42058956226961" text:continue-numbering="true" text:style-name="L3">
     <text:list-item>
-     <text:p text:style-name="P252"><text:span text:style-name="T74">(x) </text:span>“Activate when a<text:span text:style-name="T215">t least [x]</text:span> card<text:span text:style-name="T215">s</text:span> in your deck <text:span text:style-name="T215">are</text:span> destroyed.”</text:p>
+     <text:p text:style-name="P253"><text:span text:style-name="T74">(x) </text:span>“Activate when a<text:span text:style-name="T215">t least [x]</text:span> card<text:span text:style-name="T215">s</text:span> in your deck <text:span text:style-name="T215">are</text:span> destroyed.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T216">“Activate when a card in your deck is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P230">Revised from: <text:span text:style-name="T216">“Activate when a card in your deck is destroyed.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2587,12 +2595,12 @@
      <text:p text:style-name="P208"><text:span text:style-name="T67">(x/5) </text:span>“<text:span text:style-name="T67">Activate when you take at least [x] damage.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P229">Revised from: <text:span text:style-name="T216">“Activate when you take damage.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P230">Revised from: <text:span text:style-name="T216">“Activate when you take damage.” </text:span>(8<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P245"><text:span text:style-name="T116">(0) </text:span><text:span text:style-name="T110">“Activate in response to an opponent&apos;s summon.”</text:span><text:span text:style-name="T74"> </text:span><text:span text:style-name="T164">Redacted (7</text:span><text:span text:style-name="T9">th</text:span><text:span text:style-name="T164"> Edition)</text:span></text:p>
+     <text:p text:style-name="P246"><text:span text:style-name="T116">(0) </text:span><text:span text:style-name="T110">“Activate in response to an opponent&apos;s summon.”</text:span><text:span text:style-name="T74"> </text:span><text:span text:style-name="T164">Redacted (7</text:span><text:span text:style-name="T9">th</text:span><text:span text:style-name="T164"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P209"><text:span text:style-name="T116">(0) </text:span><text:span text:style-name="T110">“Activate in response to an opponent&apos;s attack.”</text:span><text:span text:style-name="T74"> </text:span><text:span text:style-name="T164">Redacted (7</text:span><text:span text:style-name="T9">th</text:span><text:span text:style-name="T164"> Edition)</text:span></text:p>
@@ -2605,7 +2613,7 @@
    <text:p text:style-name="P9">Activation costs serve to reduce the resource cost of an ability by “paying” in other ways. <text:span text:style-name="T66">Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</text:span></text:p>
    <text:list xml:id="list3627155140" text:style-name="L4">
     <text:list-item>
-     <text:p text:style-name="P246"><text:span text:style-name="T51">(2x) </text:span>“<text:span text:style-name="T51">Remove [x] counters from this card.”</text:span></text:p>
+     <text:p text:style-name="P247"><text:span text:style-name="T51">(2x) </text:span>“<text:span text:style-name="T51">Remove [x] counters from this card.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P206">(x/2) “<text:bookmark-start text:name="__DdeLink__971_1819021500"/>Exhaust [x] of your resources.<text:bookmark-end text:name="__DdeLink__971_1819021500"/>”</text:p>
@@ -2614,7 +2622,7 @@
      <text:p text:style-name="P193"><text:span text:style-name="T62">(2x) </text:span>“<text:bookmark-start text:name="__DdeLink__384_973168994"/><text:bookmark-start text:name="__DdeLink__802_1334210204"/><text:span text:style-name="T62">Exhaust [x] of your unexhausted creatures in play.</text:span><text:bookmark-end text:name="__DdeLink__384_973168994"/><text:bookmark-end text:name="__DdeLink__802_1334210204"/><text:span text:style-name="T62">”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P236"><text:span text:style-name="T184">Revised from: </text:span><text:span text:style-name="T185">“</text:span><text:bookmark-start text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T185">Exhaust [x] of your unexhausted cards in play.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T185">” </text:span><text:span text:style-name="T184">(2</text:span><text:span text:style-name="T17">nd</text:span><text:span text:style-name="T184"> Edition)</text:span></text:p>
+       <text:p text:style-name="P237"><text:span text:style-name="T184">Revised from: </text:span><text:span text:style-name="T185">“</text:span><text:bookmark-start text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T185">Exhaust [x] of your unexhausted cards in play.</text:span><text:bookmark-end text:name="__DdeLink__384_9731689941"/><text:span text:style-name="T185">” </text:span><text:span text:style-name="T184">(2</text:span><text:span text:style-name="T17">nd</text:span><text:span text:style-name="T184"> Edition)</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2664,7 +2672,7 @@
    <text:p text:style-name="P10">Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. <text:span text:style-name="T66">Only one target selection can be used per ability. Note: the costs listed here become the variable “t” on the ability&apos;s effect(s).</text:span></text:p>
    <text:list xml:id="list2354511370" text:style-name="L5">
     <text:list-item>
-     <text:p text:style-name="P249"><text:span text:style-name="T54">(0.5) </text:span>“Target this card.”</text:p>
+     <text:p text:style-name="P250"><text:span text:style-name="T54">(0.5) </text:span>“Target this card.”</text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P210"><text:span text:style-name="T52">(x) </text:span>“<text:span text:style-name="T52">Target up to [x] cards in play.”</text:span></text:p>
@@ -2673,10 +2681,10 @@
      <text:p text:style-name="P210"><text:span text:style-name="T75">(x/(y+1)) </text:span>“<text:span text:style-name="T75">Target up to [x] cards in play with at least [y] counters.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P247"><text:span text:style-name="T52">(x) </text:span>“<text:bookmark-start text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T52">Target up to [x] of your resources.</text:span><text:bookmark-end text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T52">”</text:span></text:p>
+     <text:p text:style-name="P248"><text:span text:style-name="T52">(x) </text:span>“<text:bookmark-start text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T52">Target up to [x] of your resources.</text:span><text:bookmark-end text:name="__DdeLink__490_1944016114"/><text:span text:style-name="T52">”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P230">Revised from: “Target up to [x] resources.” (6<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P231">Revised from: “Target up to [x] resources.” (6<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2684,7 +2692,7 @@
      <text:p text:style-name="P201"><text:span text:style-name="T62">(x/2) </text:span>“<text:span text:style-name="T62">Target up to [x] exhausted cards in play.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P247"><text:span text:style-name="T52">(x/2) </text:span>“<text:span text:style-name="T52">Target up to [x] cards in play selected by an opponent of your choice.”</text:span></text:p>
+     <text:p text:style-name="P248"><text:span text:style-name="T52">(x/2) </text:span>“<text:span text:style-name="T52">Target up to [x] cards in play selected by an opponent of your choice.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P201"><text:span text:style-name="T60">(x) </text:span>“<text:span text:style-name="T60">Target up to [x] cards in your hand.”</text:span></text:p>
@@ -2727,10 +2735,10 @@
    <text:p text:style-name="P11">Effects are the main component of abilities, and at least one is required for any given ability. <text:span text:style-name="T174">Every effect has a cost, listed in parentheses.</text:span></text:p>
    <text:list xml:id="list912784218" text:style-name="L6">
     <text:list-item>
-     <text:p text:style-name="P250"><text:span text:style-name="T54">(xt) </text:span>“Place <text:span text:style-name="T75">[x]</text:span> counter<text:span text:style-name="T75">s</text:span> <text:span text:style-name="T72">on</text:span> <text:span text:style-name="T64">each</text:span> <text:span text:style-name="T72">target</text:span>.”</text:p>
+     <text:p text:style-name="P251"><text:span text:style-name="T54">(xt) </text:span>“Place <text:span text:style-name="T75">[x]</text:span> counter<text:span text:style-name="T75">s</text:span> <text:span text:style-name="T72">on</text:span> <text:span text:style-name="T64">each</text:span> <text:span text:style-name="T72">target</text:span>.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P226"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 2xt</text:span></text:p>
+       <text:p text:style-name="P227"><text:span text:style-name="T229">Cost Revised (9</text:span><text:span text:style-name="T25">th</text:span><text:span text:style-name="T229"> Edition); was: 2xt</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2738,13 +2746,18 @@
      <text:p text:style-name="P213"><text:span text:style-name="T75">(xt) </text:span>“<text:span text:style-name="T75">Remove up to [x] counters from each target.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P213"><text:span text:style-name="T76">(4xt) </text:span>“<text:span text:style-name="T76">Place [x] offense counters on each target; you can remove an offense counter from a card at any time to increase its offense by 1.”</text:span></text:p>
+     <text:p text:style-name="P213"><text:span text:style-name="T76">(4xt) </text:span>“<text:span text:style-name="T76">Place [x] offense counters on each target; remove to increase offense by 1.”</text:span></text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P234">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T76">Place [x] offense counters on each target; you can remove an offense counter from a card at any time to increase its offense by 1.”</text:span></text:p>
+      </text:list-item>
+     </text:list>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P213"><text:span text:style-name="T76">(4xt) </text:span>“<text:span text:style-name="T76">Place [x] defense counters on each target; </text:span><text:span text:style-name="T239">remove to increase</text:span><text:span text:style-name="T76"> defense by 5.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P233">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T76">Place [x] defense counters on each target; you can remove a defense counter from a card at any time to increase its defense by 5.”</text:span></text:p>
+       <text:p text:style-name="P234">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T76">Place [x] defense counters on each target; you can remove a defense counter from a card at any time to increase its defense by 5.”</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2752,7 +2765,7 @@
      <text:p text:style-name="P213"><text:span text:style-name="T77">(4xt) </text:span>“<text:span text:style-name="T77">Place [x] weakness counters on each target; </text:span><text:span text:style-name="T239">remove to decrease</text:span><text:span text:style-name="T77"> offense by 1.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P233">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T77">Place [x] weakness counters on each target; you can remove a weakness counter from a card at any time to decrease its offense by 1.”</text:span></text:p>
+       <text:p text:style-name="P234">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T77">Place [x] weakness counters on each target; you can remove a weakness counter from a card at any time to decrease its offense by 1.”</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2760,7 +2773,7 @@
      <text:p text:style-name="P213"><text:span text:style-name="T77">(4xt) </text:span>“<text:span text:style-name="T77">Place [x] damage counters on each target; </text:span><text:span text:style-name="T239">remove</text:span><text:span text:style-name="T77"> to roll a six-sided die and inflict damage equal to the result.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P233">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T77">Place [x] damage counters on each target; you can remove a damage counter from a card at any time to roll a six-sided die and inflict damage to it equal to the result.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P234">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T77">Place [x] damage counters on each target; you can remove a damage counter from a card at any time to roll a six-sided die and inflict damage to it equal to the result.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2768,7 +2781,7 @@
      <text:p text:style-name="P213"><text:span text:style-name="T108">(4xt) </text:span>“<text:span text:style-name="T108">Place [x] exhaustion counters on each target; </text:span><text:span text:style-name="T238">remove to exhaust</text:span><text:span text:style-name="T108">.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P232">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T108">Place [x] exhaustion counters on each target; you can remove an exhaustion counter from a card at any time to exhaust it.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P233">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T108">Place [x] exhaustion counters on each target; you can remove an exhaustion counter from a card at any time to exhaust it.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
@@ -2776,124 +2789,127 @@
      <text:p text:style-name="P213"><text:span text:style-name="T213">(4xt) </text:span>“<text:span text:style-name="T213">Place [x] dice counters on each target; </text:span><text:span text:style-name="T238">remove to re-roll any one die.</text:span><text:span text:style-name="T213">”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P232">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T213">Place [x] dice counters on each target; you can remove a dice counter from a card at any time to re-roll any one die.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
+       <text:p text:style-name="P233">Revised from: <text:span text:style-name="T53">“</text:span><text:span text:style-name="T213">Place [x] dice counters on each target; you can remove a dice counter from a card at any time to re-roll any one die.” </text:span>(11<text:span text:style-name="T4">th</text:span> Edition)</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P214">(<text:span text:style-name="T236">6</text:span>xt) “Place [x] immortality counters on each target; <text:span text:style-name="T238">remove to prevent effect destruction or movement to another zone</text:span>.”</text:p>
+     <text:p text:style-name="P215">(<text:span text:style-name="T236">6</text:span>xt) “Place [x] immortality counters on each target; <text:span text:style-name="T238">remove to prevent effect destruction or movement to another zone</text:span>.”</text:p>
     </text:list-item>
+   </text:list>
+   <text:p text:style-name="P214"/>
+   <text:list xml:id="list42058264413747" text:continue-numbering="true" text:style-name="L6">
     <text:list-item>
-     <text:p text:style-name="P213"><text:span text:style-name="T54">(t/2) </text:span>“See <text:span text:style-name="T72">all</text:span> targets.”</text:p>
+     <text:p text:style-name="P254"><text:span text:style-name="T54">(t/2) </text:span>“See <text:span text:style-name="T72">all</text:span> targets.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P227">Cost Revised (9<text:span text:style-name="T4">th</text:span> Edition); <text:span text:style-name="T227">was: 2t</text:span></text:p>
+       <text:p text:style-name="P228">Cost Revised (9<text:span text:style-name="T4">th</text:span> Edition); <text:span text:style-name="T227">was: 2t</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P215"><text:soft-page-break/>(<text:span text:style-name="T70">2t</text:span>) “<text:span text:style-name="T58">Exhaust</text:span> <text:span text:style-name="T72">all</text:span> targets.”</text:p>
+     <text:p text:style-name="P216">(<text:span text:style-name="T70">2t</text:span>) “<text:span text:style-name="T58">Exhaust</text:span> <text:span text:style-name="T72">all</text:span> targets.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P234"><text:span text:style-name="T210">(</text:span>2t) “Target in-play cards will not be unexhausted during this turn’s Recovery Phase.”</text:p>
+     <text:p text:style-name="P235"><text:span text:style-name="T210">(</text:span>2t) “Target in-play cards will not be unexhausted during this turn’s Recovery Phase.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P216"><text:span text:style-name="T61">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__1986_244014688"/><text:span text:style-name="T61">Send all targets to the resource zone of their owners (exhausted).</text:span><text:bookmark-end text:name="__DdeLink__1986_244014688"/><text:span text:style-name="T61">”</text:span></text:p>
+     <text:p text:style-name="P217"><text:span text:style-name="T61">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__1986_244014688"/><text:span text:style-name="T61">Send all targets to the resource zone of their owners (exhausted).</text:span><text:bookmark-end text:name="__DdeLink__1986_244014688"/><text:span text:style-name="T61">”</text:span></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P211"><text:span text:style-name="T53">(3t) </text:span>“<text:span text:style-name="T53">Destroy all targets.”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P217"><text:span text:style-name="T162">Cost Revised (11</text:span><text:span text:style-name="T7">th</text:span><text:span text:style-name="T162"> Edition); was: 8t</text:span></text:p>
+       <text:p text:style-name="P218"><text:span text:style-name="T162">Cost Revised (11</text:span><text:span text:style-name="T7">th</text:span><text:span text:style-name="T162"> Edition); was: 8t</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T54">((x+t)/2) </text:span>“<text:bookmark-start text:name="__DdeLink__1396_244014688"/>Increase targets<text:span text:style-name="T64">&apos;</text:span> offense by <text:span text:style-name="T64">a total of</text:span> [x].<text:bookmark-end text:name="__DdeLink__1396_244014688"/>”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T54">((x+t)/2) </text:span>“<text:bookmark-start text:name="__DdeLink__1396_244014688"/>Increase targets<text:span text:style-name="T64">&apos;</text:span> offense by <text:span text:style-name="T64">a total of</text:span> [x].<text:bookmark-end text:name="__DdeLink__1396_244014688"/>”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P231">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
+       <text:p text:style-name="P232">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T54">((x+t)/12) </text:span>“Increase targets<text:span text:style-name="T64">&apos;</text:span> defense by <text:span text:style-name="T64">a total of</text:span> [x].”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T54">((x+t)/12) </text:span>“Increase targets<text:span text:style-name="T64">&apos;</text:span> defense by <text:span text:style-name="T64">a total of</text:span> [x].”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P231">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x/5+t</text:p>
+       <text:p text:style-name="P232">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x/5+t</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T54">((x+t)/2) </text:span>“<text:bookmark-start text:name="__DdeLink__482_1944016114"/><text:bookmark-start text:name="__DdeLink__697_897024548"/>Decrease targets<text:span text:style-name="T64">&apos;</text:span> offense by <text:span text:style-name="T64">a total of</text:span> [x].<text:bookmark-end text:name="__DdeLink__482_1944016114"/><text:bookmark-end text:name="__DdeLink__697_897024548"/>”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T54">((x+t)/2) </text:span>“<text:bookmark-start text:name="__DdeLink__482_1944016114"/><text:bookmark-start text:name="__DdeLink__697_897024548"/>Decrease targets<text:span text:style-name="T64">&apos;</text:span> offense by <text:span text:style-name="T64">a total of</text:span> [x].<text:bookmark-end text:name="__DdeLink__482_1944016114"/><text:bookmark-end text:name="__DdeLink__697_897024548"/>”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P231">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
+       <text:p text:style-name="P232">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T109">((x+t)/4) </text:span>“<text:span text:style-name="T109">Roll [x] six-sided dice and inflict the result of each die as damage to one target.</text:span>”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T109">((x+t)/4) </text:span>“<text:span text:style-name="T109">Roll [x] six-sided dice and inflict the result of each die as damage to one target.</text:span>”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P231">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
+       <text:p text:style-name="P232">Cost Revised (11<text:span text:style-name="T4">th</text:span> Edition); was: x+t</text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T54">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__805_1334210204"/><text:span text:style-name="T71">Reveal</text:span> <text:span text:style-name="T73">all</text:span> targets<text:span text:style-name="T61">, then summon or cast any number of targets that are not in play</text:span> (paying the usual costs).<text:bookmark-end text:name="__DdeLink__805_1334210204"/>”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T54">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__805_1334210204"/><text:span text:style-name="T71">Reveal</text:span> <text:span text:style-name="T73">all</text:span> targets<text:span text:style-name="T61">, then summon or cast any number of targets that are not in play</text:span> (paying the usual costs).<text:bookmark-end text:name="__DdeLink__805_1334210204"/>”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T72">(4t) </text:span>“<text:span text:style-name="T72">Switch control of each target in-play creature to a different player of your choice until the end of this turn.”</text:span></text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T72">(4t) </text:span>“<text:span text:style-name="T72">Switch control of each target in-play creature to a different player of your choice until the end of this turn.”</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P218"><text:span text:style-name="T54">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__486_1944016114"/>Place <text:span text:style-name="T73">all</text:span> targets on top of owner&apos;s deck in any order.<text:bookmark-end text:name="__DdeLink__486_1944016114"/>”</text:p>
+     <text:p text:style-name="P219"><text:span text:style-name="T54">(3t) </text:span>“<text:bookmark-start text:name="__DdeLink__486_1944016114"/>Place <text:span text:style-name="T73">all</text:span> targets on top of owner&apos;s deck in any order.<text:bookmark-end text:name="__DdeLink__486_1944016114"/>”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P220"><text:span text:style-name="T54">(2x) </text:span>“Draw [x] cards.”</text:p>
+     <text:p text:style-name="P221"><text:span text:style-name="T54">(2x) </text:span>“Draw [x] cards.”</text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P226">Cost Revised (9<text:span text:style-name="T4">th</text:span> Edition); <text:span text:style-name="T227">was: 4x</text:span></text:p>
+       <text:p text:style-name="P227">Cost Revised (9<text:span text:style-name="T4">th</text:span> Edition); <text:span text:style-name="T227">was: 4x</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P222">(x) “All players draw [x] cards.”</text:p>
+     <text:p text:style-name="P223">(x) “All players draw [x] cards.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P221"><text:span text:style-name="T54">(2x) </text:span>“Increase your hitpoints by [x].”</text:p>
+     <text:p text:style-name="P222"><text:span text:style-name="T54">(2x) </text:span>“Increase your hitpoints by [x].”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P223">(4x) “Roll [x] six-sided dice and increase your hitpoints by the result.”</text:p>
+     <text:p text:style-name="P224">(4x) “Roll [x] six-sided dice and increase your hitpoints by the result.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P223">(2x) “Roll [x] six-sided dice and increase your hitpoints by the result, then roll [x] six-sided dice and increase the hitpoints of one opponent by the result.”</text:p>
+     <text:p text:style-name="P224">(2x) “Roll [x] six-sided dice and increase your hitpoints by the result, then roll [x] six-sided dice and increase the hitpoints of one opponent by the result.”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P221"><text:span text:style-name="T221">(2x) </text:span>“<text:span text:style-name="T108">Roll [x] six-sided dice and inflict the result as damage to yourself, then roll [x] six-sided dice and inflict the result as damage to any one player.</text:span>”</text:p>
+     <text:p text:style-name="P222"><text:span text:style-name="T221">(2x) </text:span>“<text:span text:style-name="T108">Roll [x] six-sided dice and inflict the result as damage to yourself, then roll [x] six-sided dice and inflict the result as damage to any one player.</text:span>”</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P224"><text:span text:style-name="T171">(xy) </text:span>“<text:bookmark-start text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T171">You may re-roll up to [x] dice for the rest of this turn up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T171">”</text:span></text:p>
+     <text:p text:style-name="P225"><text:soft-page-break/><text:span text:style-name="T171">(xy) </text:span>“<text:bookmark-start text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T171">You may re-roll up to [x] dice for the rest of this turn up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_1991979357"/><text:span text:style-name="T171">”</text:span></text:p>
      <text:list>
       <text:list-item>
-       <text:p text:style-name="P237"><text:span text:style-name="T186">Revised from: </text:span><text:span text:style-name="T187">“</text:span><text:bookmark-start text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T187">You may re-roll up to [x] dice for the rest of this turn (excluding the </text:span><text:soft-page-break/><text:span text:style-name="T187">current chain) up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T187">” </text:span><text:span text:style-name="T186">(7</text:span><text:span text:style-name="T18">th</text:span><text:span text:style-name="T186"> Edition)</text:span></text:p>
+       <text:p text:style-name="P238"><text:span text:style-name="T186">Revised from: </text:span><text:span text:style-name="T187">“</text:span><text:bookmark-start text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T187">You may re-roll up to [x] dice for the rest of this turn (excluding the current chain) up to [y] times each.</text:span><text:bookmark-end text:name="__DdeLink__2012_19919793571"/><text:span text:style-name="T187">” </text:span><text:span text:style-name="T186">(7</text:span><text:span text:style-name="T18">th</text:span><text:span text:style-name="T186"> Edition)</text:span></text:p>
       </text:list-item>
      </text:list>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P219"><text:span text:style-name="T112">(x/4+t) “</text:span><text:bookmark-start text:name="__DdeLink__373_1387822758"/><text:span text:style-name="T112">Inflict </text:span><text:span text:style-name="T111">a total of</text:span><text:span text:style-name="T112"> [x] damage to targets.</text:span><text:bookmark-end text:name="__DdeLink__373_1387822758"/><text:span text:style-name="T112">”</text:span><text:span text:style-name="T81"> </text:span><text:span text:style-name="T92">Redacted (2</text:span><text:span text:style-name="T83">nd</text:span><text:span text:style-name="T92"> Edition)</text:span></text:p>
+     <text:p text:style-name="P220"><text:span text:style-name="T112">(x/4+t) “</text:span><text:bookmark-start text:name="__DdeLink__373_1387822758"/><text:span text:style-name="T112">Inflict </text:span><text:span text:style-name="T111">a total of</text:span><text:span text:style-name="T112"> [x] damage to targets.</text:span><text:bookmark-end text:name="__DdeLink__373_1387822758"/><text:span text:style-name="T112">”</text:span><text:span text:style-name="T81"> </text:span><text:span text:style-name="T92">Redacted (2</text:span><text:span text:style-name="T83">nd</text:span><text:span text:style-name="T92"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P238"><text:span text:style-name="T117">(x/2) </text:span><text:span text:style-name="T118">“</text:span><text:bookmark-start text:name="__DdeLink__395_722314610"/><text:span text:style-name="T118">Inflict [x] damage to any one player.</text:span><text:bookmark-end text:name="__DdeLink__395_722314610"/><text:span text:style-name="T118">”</text:span><text:span text:style-name="T106"> </text:span><text:span text:style-name="T107">Redacted (2</text:span><text:span text:style-name="T90">nd</text:span><text:span text:style-name="T107"> Edition)</text:span></text:p>
+     <text:p text:style-name="P239"><text:span text:style-name="T117">(x/2) </text:span><text:span text:style-name="T118">“</text:span><text:bookmark-start text:name="__DdeLink__395_722314610"/><text:span text:style-name="T118">Inflict [x] damage to any one player.</text:span><text:bookmark-end text:name="__DdeLink__395_722314610"/><text:span text:style-name="T118">”</text:span><text:span text:style-name="T106"> </text:span><text:span text:style-name="T107">Redacted (2</text:span><text:span text:style-name="T90">nd</text:span><text:span text:style-name="T107"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P224"><text:span text:style-name="T112">(5t) </text:span><text:span text:style-name="T110">“Negate</text:span><text:span text:style-name="T111"> attack of all</text:span><text:span text:style-name="T110"> targets.”</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T163">Redacted (7</text:span><text:span text:style-name="T8">th</text:span><text:span text:style-name="T163"> Edition)</text:span></text:p>
+     <text:p text:style-name="P225"><text:span text:style-name="T112">(5t) </text:span><text:span text:style-name="T110">“Negate</text:span><text:span text:style-name="T111"> attack of all</text:span><text:span text:style-name="T110"> targets.”</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T163">Redacted (7</text:span><text:span text:style-name="T8">th</text:span><text:span text:style-name="T163"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P224"><text:span text:style-name="T112">(5t) </text:span><text:span text:style-name="T110">“</text:span><text:bookmark-start text:name="__DdeLink__1596_1991979357"/><text:span text:style-name="T110">Negate</text:span><text:span text:style-name="T111"> </text:span><text:span text:style-name="T110">activated effect </text:span><text:span text:style-name="T111">of all targets</text:span><text:span text:style-name="T110">.</text:span><text:bookmark-end text:name="__DdeLink__1596_1991979357"/><text:span text:style-name="T110">”</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T163">Redacted (7</text:span><text:span text:style-name="T8">th</text:span><text:span text:style-name="T163"> Edition)</text:span></text:p>
+     <text:p text:style-name="P225"><text:span text:style-name="T112">(5t) </text:span><text:span text:style-name="T110">“</text:span><text:bookmark-start text:name="__DdeLink__1596_1991979357"/><text:span text:style-name="T110">Negate</text:span><text:span text:style-name="T111"> </text:span><text:span text:style-name="T110">activated effect </text:span><text:span text:style-name="T111">of all targets</text:span><text:span text:style-name="T110">.</text:span><text:bookmark-end text:name="__DdeLink__1596_1991979357"/><text:span text:style-name="T110">”</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T163">Redacted (7</text:span><text:span text:style-name="T8">th</text:span><text:span text:style-name="T163"> Edition)</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P224"><text:span text:style-name="T114">(xy) </text:span><text:span text:style-name="T110">“</text:span><text:span text:style-name="T114">You may re-roll up to [x] dice in the current chain up to [y] times each.</text:span><text:span text:style-name="T110">”</text:span><text:span text:style-name="T109"> </text:span><text:span text:style-name="T166">Redacted (7</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T166"> Edition)</text:span></text:p>
+     <text:p text:style-name="P225"><text:span text:style-name="T114">(xy) </text:span><text:span text:style-name="T110">“</text:span><text:span text:style-name="T114">You may re-roll up to [x] dice in the current chain up to [y] times each.</text:span><text:span text:style-name="T110">”</text:span><text:span text:style-name="T109"> </text:span><text:span text:style-name="T166">Redacted (7</text:span><text:span text:style-name="T10">th</text:span><text:span text:style-name="T166"> Edition)</text:span></text:p>
     </text:list-item>
    </text:list>
   </office:text>
