@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rulebook - Keeper of the Cards</title>
+    <meta name="description" content="The ultimate DIY trading card game" />
+    <meta name="keywords" content="kotc" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+    <h1 class="header">Keeper of the Cards</h1>
+
+    <main>
+        <h2>Rulebook (11<sup>th</sup> Edition)</h2>
+
+        <p>Keeper of the Cards is a trading card game, loosely inspired by elements from various popular trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don't just trade cards; you <em>create</em> cards.</p>
+
+        <p>Unlike other trading card games, there are no official cards for Keeper of the Cards. Instead, there are official effect components that can be used for cards and official rules for calculating the cost of playing any given card. These rules are laid out separately in the <a href="cardbuilding.html">Card Building Guide</a>.</p>
+
+        <p>This document, on the other hand, serves to explain the rules of the game.</p>
+
+        <h3>Contents</h3>
+        <nav>
+            <ol type="1">
+                <li><a href="#cardtypes">Card Types and Layout</a></li>
+                <li><a href="#setup">Setup and Deck Building</a></li>
+                <li><a href="#field">The Field</a></li>
+                <li><a href="#turnorder">Turn Order</a></li>
+                <li><a href="#resources">Resources, Exhaustion, and Recovery</a></li>
+                <li><a href="#creatures">Creatures</a>
+                    <ol type="a">
+                        <li><a href="#abilities">Creature Abilities</a></li>
+                        <li><a href="#counters">Counters</a></li>
+                        <li><a href="#battles">Battles</a></li>
+                    </ol>
+                </li>
+                <li><a href="#spells">Casting Spells and Setting Traps</a></li>
+                <li><a href="#winning">Winning and Losing</a></li>
+                <li><a href="#rulings">Ability Clarifications/Rulings</a></li>
+                <li><a href="#revised">Revised Ability Text</a></li>
+                <li><a href="#redacted">Redacted Ability Text (Banned Cards)</a></li>
+                <li><a href="#costs">Revised Costs</a></li>
+            </ol>
+        </nav>
+
+        <h3 id="cardtypes">Card Types and Layout</h3>
+        <p>There are two types of cards in Keeper of the Cards: creatures, and spells. Here are some examples of both:</p>
+        <img class="example" src="images/card_examples.png" alt="Visual of two cards (&ldquo;Velociraptor&rdquo; and &ldquo;Mourning a Loss&rdquo;).">
+        <p>The card on the left is a creature, and the card on the right is a spell. They are visually very similar; the only noteworthy difference is that spells have a pair of triangles instead of the additional elements found on a creature.</p>
+        <p>The elements marked on the cards are:</p>
+        <ol>
+            <li>The name of the card. This is purely cosmetic and has no effect on the game.</li>
+            <li>The card image. This is purely cosmetic and has no effect on the game.</li>
+            <li>The ability text of the card.</li>
+            <li>Edition Indicator indicating the edition of the game the card was designed for.</li>
+            <li>The resource cost of the card.</li>
+            <li>The flavor text of the card. This is purely cosmetic and has no effect on the game.</li>
+            <li>The offensive power (&ldquo;offense&rdquo;) of the card.</li>
+            <li>The defensive power (&ldquo;defense&rdquo;) of the card.</li>
+        </ol>
+
+        <h3 id="setup">Setup and Deck Building</h3>
+        <p>A deck in Keeper of the Cards must have exactly 40 cards (10 of which will be placed in the reserves at the start of the game; see below). All cards must look the same from the back; this can be achieved by using sleeves if necessary.</p>
+        <p>Other than that, there are no restrictions on what legal cards you can put in your deck. In particular, there is no restriction on how many copies of a given card you may have in your deck; if you like, you can populate your deck with 40 identical cards. The reason for this is simply that such a rule would be difficult to enforce; any dedicated deck builder would be able to get around such a requirement simply by adding unnecessary targetings, slightly varied activation costs, slightly varied power levels, etc. Secondarily, even if it could be enforced properly, such a rule is unnecessary as things such as instant win conditions are not a particular issue for this game.</p>
+        <p>You can find preexisting sets of example cards, as well as instructions for how to print them, in the <a href="">Starter Set</a>.</p>
+        <p>Keeper of the Cards can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than two players, each player works alone with their own hitpoints and field.</p>
+        <p>Before each game, take 10 cards out of your 40-card deck and place them in your reserves pile, then shuffle the remaining 30 cards; these 30 cards will be your starting deck. Draw 5 cards from your starting deck; this will be your starting hand. You begin the game with 20 hitpoints, which you can note on a piece of paper or through some other counter.</p>
+        <p>You should have a reasonable amount of six-sided dice (preferably at least 10&ndash;20 dice), and some objects such as coins or poker chips to use as counters. You must also determine who goes first. One suggested method is for each player to roll two six-sided dice and for the player with the highest roll to go first.</p>
+
+        <h3 id="field">The Field</h3>
+        <p>Each player's field contains the following zones:</p>
+        <ul>
+            <li>Deck: Typically to the right of your Trap Zone. The deck's contents are not revealed to anyone, and it is shuffled before the start of the game.</li>
+            <li>Graveyard: Typically to the right of your Deck. Any card which is destroyed or sacrificed is sent here, face-down. The contents of the graveyard are not public knowledge, but its owner may look through it at any time.</li>
+            <li>Reserves: Typically to the left of your Trap Zone. Cards in your reserves are not used directly, but can be switched out with any card in your hand at any time during your Resource Phase.</li>
+            <li>Creature Zone: Typically above your Trap Zone. Contains your &ldquo;in play&rdquo; creatures. The contents of this zone are public knowledge.  There is no limit to the number of cards that can be in your Creature Zone.</li>
+            <li>Trap Zone: Typically to the left of your Deck. Contains your &ldquo;in play&rdquo; spells (a.k.a. &ldquo;traps&rdquo;). The contents of this zone are not public knowledge, but its owner may look at the cards within at any time.  There is no limit to the number of cards that can be in your Trap Zone.</li>
+            <li>Resource Zone: Typically below your your Trap Zone. Contains your resources. The contents of this zone are not public knowledge, but its owner may look at the cards within at any time. There is no limit to the number of cards that can be in your Resource Zone. Note: Cards in this zone are not considered to be &ldquo;in play&rdquo;.</li>
+            <li>Hand: The cards you currently have available to play, held in your hand. The contents of a hand are not public knowledge, but its owner may look at the cards within at any time. There is no limit to the number of cards that can be in your hand.</li>
+        </ul>
+        <img class="example" src="images/zones.png" alt="">
+
+        <h3 id="turnorder">Turn Order</h3>
+        <p>Each turn in Keeper of the Cards consists of the following phases:</p>
+        <ol>
+            <li>Resource Phase: Place up to two cards from your hand, face-down, onto the Resource Zone, unexhausted. Then draw a number of cards equal to two minus the number of cards you placed into the Resource Zone. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources placed); <b>(b)</b> place one resource and draw one card; or <b>(c)</b> place two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resource placement.
+                <ul>
+                    <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the Resource Zone OR draws one card. They can still exchange cards in their hand with cards in their reserves as described in the next bullet point.</li>
+                    <li>At any time during the Resource Phase, including before, after, or at the same time as any of the actions described above, you may exchange any number of cards in your hand for any of the same number of cards in your reserves. For example, if your reserves contains card A, which you want, and card B is in your hand, you can place card B into your reserves in order to place card A into your hand. You can do this as many times as you like before ending your Resource Phase.</li>
+                </ul>
+            </li>
+            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps with no activation condition. See <a href="#creatures">Creatures</a> and <a href="spells">Casting Spells and Setting Traps</a> for more information.</li>
+            <li>Battle Phase: You may do battle with your unexhausted creatures. See <a href="#battles">Battles</a> for more information.</li>
+            <li>Recovery Phase: Every card in play and every resource is unexhausted. Every creature in play has its offense and defense reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
+        </ol>
+
+        <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
+        <p>Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the Resource Zone unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the Resource Zone, it is always played face-down, as its identity is not public knowledge.</p>
+        <p>It is important to note that resources are not considered to be &ldquo;in-play&rdquo; cards. &ldquo;In-play cards&rdquo; and &ldquo;cards in play&rdquo; both refer only to creatures in the creature zone and traps in the trap zone (prior to activation). For example, if a card ability requires you to sacrifice an in-play card, you cannot use a resource for said sacrifice. See <a href="#rulings">Ability Clarifications/Rulings</a> for a complete definition of what &ldquo;in-play&rdquo; means, as well as other terms that may be ambiguous.</p>
+        <p>To pay a resource cost is to exhaust a number of unexhausted resources. For example, to pay a resource cost of 3, exhaust three of your currently unexhausted resources by turning them sideways.</p>
+        <p>&ldquo;Exhausted&rdquo;, for any card, means that the card cannot currently be used, and is marked by turning the card sideways. To unexhaust a card, return it to an upright orientation. This is done only during the Recovery Phase.</p>
+        <p>During the Recovery Phase, all cards in every player's Creature Zone, Trap Zone, and Resource Zone are unexhausted. In addition, every creature in every player's Creature Zone has its offense and defense returned to the value printed on its card. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even though this is not explicitly stated in card effects.</p>
+        <p>For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
+
+        <h3 id="creatures">Creatures</h3>
+        <p>Creatures are used to do battle, but may also have special abilities.</p>
+        <p>To summon a creature, pay a number of resources equal to the card's resource cost, and then place it, face-up and exhausted, into the Creature Zone. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
+        <p>Some creatures have &ldquo;caveats&rdquo;, special rules which apply to them. Caveats are always on the first paragraph of the ability text and include the term &ldquo;this creature&rdquo; somewhere in the text. For example, one possible caveat is, &ldquo;You must sacrifice 1 card in play to summon this creature.&rdquo; Caveats may include such things as extra costs for summoning the creature, costs for attacking or defending, and restrictions on what the creature can do. Creatures with caveats that create requirements for summoning (such as the aforementioned caveat) include a silhouette of a padlock behind the ability text (demonstrated by &ldquo;Mourning a Loss&rdquo; under <a href="cardtypes">Card Types and Layout</a>). Such caveats are also conventionally colored red to make them stand out from the rest of the text.</p>
+        <p>Creatures can activate abilities, hold counters, and participate in battles, as described in the following subsections.</p>
+
+        <h4 id="abilities">Creature Abilities</h4>
+        <p>A creature's abilities are indicated in the ability text (after the caveat, if any), one paragraph for each ability. A creature ability may be given a name, designated in all caps at the beginning of the respective ability paragraph, followed by a colon. You can activate an ability of an unexhausted creature by exhausting it. Note: you can only activate one ability at a time.</p>
+        <p>Some abilities have an activation condition, which is a sentence (the first sentence of the ability) indicating when to activate the ability. This sentence starts with the text, &ldquo;Activate when&rdquo;. For example, the following ability has an activation condition: &ldquo;Activate when this in-play card is destroyed. Target this card. Reveal this card, then you may summon this card (paying the usual costs).&rdquo; The activation condition of this ability is, &ldquo;Activate when this in-play card is destroyed.&rdquo;</p>
+        <p>If an ability has an activation condition, you may only use the ability when the activation condition says. If an ability has no explicit activation condition, you may only use it during your own Action Phase. These rules apply to the abilities of spells as well.</p>
+        <p>Some abilities also have an activation cost, which is a special cost (such as removing a certain number of counters, sacrificing one of your cards, or paying a certain number of hitpoints) that you must pay upon activation of the ability. Activation costs are designated at the beginning, after any activation condition, but before any targeting or effect text. If you activate an ability you are unable to fully pay the activation cost for, the effect of the ability disappears. It should be noted for timing purposes that the cost is considered to be paid at the exact same time that the ability is activated.</p>
+
+        <h4 id="counters">Counters</h4>
+        <p>Some abilities manipulate or utilize counters. A counter is a special marker which can be placed on an in-play creature (but not a trap or resource; if an effect places a counter on one of these types of card, that part of the effect is ignored). Any available object can be used as a counter. Counters stay on the creature they are placed on until either the creature leaves the Creature Zone, or an ability removes them.</p>
+        <p>The simplest counters are unnamed counters. On their own, unnamed counters have no effect. These are typically removed from creatures as activation costs, enabling more powerful effects, or simply required for targeting. No player is permitted to remove unnamed counters from any card unless an ability does so.</p>
+        <p>However, some abilities can also place special named counters, which in addition to being usable as normal counters, can be voluntarily removed to trigger special effects. The following rules apply to all named counters:</p>
+        <ul>
+            <li>These counters can be removed (and their effects triggered) literally at any time, that is to say, during any phase of any player's turn, even immediately after placing them, triggering the stated effect.</li>
+            <li>Removing counters for their effects does <strong>not</strong> require exhausting the creature it is on since the effect is that of the counter, not of the creature.</li>
+            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and is the one who can remove it for its effect, regardless of who controls the creature. For example, if you place one of these counters on an opponent's creature, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
+            <li>For timing purposes, note that when an opponent activates an ability, that ability’s activation cost is paid and its target is selected immediately, meaning that e.g. you cannot remove counters for an effect to render an activation cost impossible unless you do so before the opponent indicates their intention to activate the respective ability. As such, to avoid conflict, if you intend to prevent an opponent from using an ability by removing a named counter during the Resource Phase, you should announce this intention prior to the start of that turn.</li>
+        </ul>
+        <p>Following is a list of named counters which are currently available, and an explanation of each one’s special effect (activated by removing the counter). Note that &ldquo;the card&rdquo; refers here to the card that the counter was removed from.</p>
+        <ul>
+            <li>Offense Counter: Increase the card’s offense by 1.</li>
+            <li>Defense Counter: Increase the card’s defense by 5.</li>
+            <li>Weakness Counter: Decrease the card’s offense by 1.</li>
+            <li>Damage Counter: Roll a six-sided die and inflict damage to the card equal to the result.</li>
+            <li>Exhaustion Counter: Exhaust the card.</li>
+            <li>Dice Counter: Re-roll any one die (no matter who rolled the die initially).</li>
+            <li>Immortality Counter: Prevent the card from being destroyed or moved to another zone (Resource Zone, hand, Deck, or Graveyard) by an effect that would explicitly do so.
+                <ul>
+                    <li>This refers the effect portion of an ability only; it does not include costs of abilities that may destroy a card or move it to another zone. It also does not include destruction as a result of damage even if that damage was inflicted by an effect.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4 id="battles">Battles</h4>
+        <p>To battle, go through the following steps (only during the attacking player's Battle Phase):</p>
+        <ol>
+            <li>The attacking player exhausts any number of their unexhausted creatures, which become the attacking team, and declares one target: a player, or a creature. Note: any given player or creature can only be targeted once per battle phase. The attacking player selects and announces the defending order of the attacking team (the order in which these creatures will be damaged).</li>
+            <li>The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these creatures will be damaged).</li>
+            <li>The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
+            <li>Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving creature in the other player's team (based on the respective defending order selected) until either all dice are used or all creatures in the respective team are destroyed.</li>
+            <li>If the target and any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target.</li>
+            <li>If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
+        </ol>
+        <p>For the purposes of timing, steps 4&en;6 are considered to happen simultaneously. This can matter for the timing of certain cards, and it also means that if both players' hitpoints reach zero during a battle, both players will lose simultaneously.</p>
+        <p>To inflict damage to a creature, subtract the damage amount from the creature's defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 damage is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. Note that it is possible for creatures to have 0 defense; in such a case, any amount of damage will destroy the creature.</p>
+        <p>As an example, consider an attacking team with two creatures (Creature A and Creature B) that each have 2 offense and 5 defense plus one creature (Creature C) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Creature C → Creature A → Creature B&rdquo;. The defending player then chooses to defend with two creatures (Creature D and Creature E) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Creature D → Creature E&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking creature (Creature C), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first creature (Creature D), reducing its defense to 0 and destroying it; then apply the two fives to the second creature (Creature E), reducing its defense to 0 and destroying it. Since all of the defending team's creatures have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 hitpoints.</p>
+        <p>During your battle phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining; however, you may not select the same target more than once in the same battle phase. For example, you cannot attack a player with one creature and then attack that same player with another creature within the same battle phase. However, you can use one creature to attack one of a player's creatures and then use a different creature to attack the owner of that creature, for example.</p>
+
+        <h3 id="spells">Casting Spells and Setting Traps</h3>
+        <p>Spells are cards that only have a single ability (shown in the card's ability text in the same manner that a creature ability is; see <a href="#abilities">Creature Abilities</a> for more information). Spells can be used in two ways: they can be cast from your hand, and they can be set as traps for use later.</p>
+        <p>To cast a spell, pay a number of resources equal to the card's resource cost, reveal the spell to all other players, follow the instructions on the card immediately, and send the spell to the graveyard. Note: a spell cast this way is <strong>not</strong> considered to be &ldquo;in play&rdquo; at any stage. Just like with creature abilities, a spell with an activation condition can only be cast (either from the hand or as a trap) at the time that the activation condition says, and a spell with no activation condition can only be cast during your own action phase. Spells with activation conditions include a silhouette of a padlock behind the ability text (demonstrated by &ldquo;Mourning a Loss&rdquo; in the Card Types and Layout section). Spell activation conditions are also conventionally colored red to make them stand out from the rest of the text.</p>
+        <p>Traps function the same way as spells, but the resource cost of a trap is paid when the trap is set and not when it is activated. Additionally, set traps are considered to be &ldquo;in play&rdquo; and can therefore be affected in ways similar to creatures by certain card effects, though it is important to note that unlike creatures, traps cannot be damaged, cannot be attacked, and cannot engage in battle.</p>
+        <p>To set a trap, pay a number of resources equal to the card's resource cost (note: you do <strong>not</strong> reveal the trap), then place the card into the Trap Zone, face-down and exhausted. Note: the identity of the card is not public knowledge.</p>
+        <p>To activate a trap, it must be unexhausted. Note that activating a trap does not incur any additional resource cost. Simply turn the trap over to reveal it to all other players (note: at this point, the trap is no longer &ldquo;in play&rdquo;), follow the instructions on the card, and then send it to the graveyard.</p>
+
+        <h3 id="winning">Winning and Losing</h3>
+        <p>Any given player can lose in one of three ways:</p>
+        <ol>
+            <li>By having their hitpoints reduced to zero.</li>
+            <li>By having an empty deck.</li>
+            <li>By voluntarily forfeiting.</li>
+        </ol>
+        <p>Any player who loses is out of the game and can no longer affect the game in any way. When only one player remains in the game, that player is declared the winner. If all remaining players are eliminated at once (e.g. if all remaining players have their hitpoints reduced to zero at the same time, or by all drawing their last card at the same time), the game ends in a draw.</p>
+
+        <h3 id="rulings">Ability Clarifications/Rulings</h3>
+        <p>This section serves to clarify some things regarding ability texts. It is listed alphabetically based on the text portion at hand.</p>
+        <ul>
+            <li>&ldquo;Activate when this [card] is destroyed.&rdquo;: A card’s ability that activates when it is destroyed is activated while the card is in the graveyard, by the player who owns the zone it was in when it was destroyed. So for example, it is possible for a creature with graveyard-targeting abilities of this nature to target itself, and if a player takes control of an opponent’s card with such an effect, they (and not the owner of the card) get to use that effect if it gets destroyed.</li>
+            <li>&ldquo;A total of&rdquo;: Texts that indicate &ldquo;a total of&rdquo; some number (e.g. for damage) mean that the number indicated is spread out among targets in a way determined by you. You must use the entirety of that number if possible (and otherwise must use as much of it as possible). You may not reduce either the offense or the defense of any one creature below 0 (so for example, if an effect inflicts &ldquo;a total of&rdquo; 10 damage and one of the targets has only 6 defense, you cannot apply all 10 damage to that target; you can apply 6 damage to it only, and the remaining 4 damage must be applied to other cards). You may not manipulate attributes that don't exist on a given card (i.e. offense and defense of spells may not be manipulated because they don't have these attributes).</li>
+            <li>&ldquo;Different player of your choice&rdquo;: This refers not necessarily to opponents, but to players other than the current controller of the card(s) in question. For example, if the effect is talking about a creature controlled by an opponent, the &ldquo;different player&rdquo; can be you, but it cannot be the opponent who currently controls the creature.</li>
+            <li>&ldquo;Each&rdquo;: When the term &ldquo;each&rdquo; is used to refer to targets, it means that each target is affected separately, i.e. any decision required by the effect is made for each card separately. For example, if an ability states, &ldquo;Remove up to 4 counters from each target,&rdquo; you may choose to remove 3 counters from one target while removing only 1 counter from another target.</li>
+            <li>&ldquo;Effect that would explicitly destroy it&rdquo;: This specifically only applies to effects that tell you to immediately destroy a card; it does not apply to damage to a creature of any kind, even if it leads to destruction of the creature.</li>
+            <li>&ldquo;Exactly <var>x</var> cards&rdquo; (note: &ldquo;<var>x</var>&rdquo; is replaced by a number): The term &ldquo;exactly&rdquo; means that it must be that exact number, no more and no less. For example, if a card text requires exactly 10 cards from an opponent’s deck, but the opponent only has 9 cards in their deck, then it cannot be fulfilled properly and therefore the remainder of the ability has no effect.</li>
+            <li>&ldquo;In-play&rdquo;, &ldquo;in play&rdquo;: The terms &ldquo;in-play cards&rdquo; and &ldquo;cards in play&rdquo; refer exclusively to non-destroyed creatures in the Creature Zone and unactivated traps in the Trap Zone. Most notably, resources are never considered to be &ldquo;in-play&rdquo; under any condition. Creatures cease being &ldquo;in-play&rdquo; the moment they are destroyed, sacrificed, or otherwise moved to any location other than the Creature Zone. Traps cease being &ldquo;in-play&rdquo; the moment they are destroyed, activated, or otherwise moved to any location other than the Trap Zone.</li>
+            <li>&ldquo;One player&rdquo;: For texts that say &ldquo;one player&rdquo;, you select the player. It can be any player, including yourself.</li>
+            <li>&ldquo;Place all targets on top of owner's deck in any order&rdquo;: This effect does not imply that you get to look at the targets. If the targets’ identities are unknown to you and the ability does not explicitly show you the identities of the targets, you may not look at them; in this case, you must place the targets on top of the owner’s deck without looking. To designate an ability that does allow you to look at the targets for the purpose of arrangement, the card must include an ability revealing the identity of the targets to you before this effect. The simplest such effect is the &ldquo;See all targets&rdquo; effect.</li>
+            <li>&ldquo;Reveal&rdquo;: To &ldquo;reveal&rdquo; a card is to show it to all players, including yourself.</li>
+            <li>&ldquo;Sacrifice&rdquo;: To &ldquo;sacrifice&rdquo; a card is to send it to the graveyard as an activation cost. You can only sacrifice &ldquo;your&rdquo; cards (see the definition of &ldquo;your&rdquo; below) unless the card text says otherwise. A sacrificed card is not &ldquo;destroyed&rdquo; and therefore does not trigger any abilities that respond to destruction.</li>
+            <li>&ldquo;Selected by an opponent&rdquo;: When a variable number of targets are selected by an opponent, you choose the number; the opponent must choose that number of cards for you to target. For example, the respective opponent cannot choose to target zero cards if you indicate that four cards are to be targeted. However, note that the opponent does not have to choose targets that make sense for the effect. For example, if the effect inflicts damage to targets, the opponent may wish to choose traps that are in play, since traps cannot be damaged, and creatures on your field, since that may force you to inflict damage to your own creatures.</li>
+            <li>&ldquo;Target&rdquo;: Any sentence which has you &ldquo;target&rdquo; something is a target selection. All targets continue to be targeted throughout the respective ability regardless of what happens to them; for example, if an in-play target is sent to its owner’s hand, it is still a target and therefore can still be affected by applicable effects.
+                <ul>
+                    <li>It is important to note that Keeper of the Cards uses the term &ldquo;target&rdquo; in a manner different from some other popular card games. In particular, while you choose exactly what is targeted by default (within certain parameters specified by the card text), many target selections instead either designate exactly what to target, select a target randomly, or leave the decision of what to target up to an opponent. The key distinction here is that the aforementioned card games typically use the word &ldquo;target&rdquo; as an adjective, while Keeper of the Cards uses the word as a verb.</li>
+                </ul>
+            </li>
+            <li>&ldquo;You must [do X] to attack with, defend with, or use an ability of this creature&rdquo;: These caveats mean that each time the creature attempts to attack, defend, or use any of its abilities, you must do X in addition to the usual requirements.</li>
+            <li>&ldquo;Your&rdquo;: A card is considered to be &ldquo;yours&rdquo; if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your creature zone, it is &ldquo;your&rdquo; in-play creature and you can use it the same way as cards that came from your own deck.</li>
+        </ul>
+
+        <h3 id="revised">Revised Ability Text</h3>
+        <p>This section lists old ability text portions which have been revised in a way that changes their meaning. If you see any of these old text portions in a card, you must use the card in the way indicated by the new text. These are listed in alphabetical order (based on the original text). Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards.</p>
+        <table>
+            <tr>
+                <th>Original Text</th>
+                <th>Revised Text</th>
+            </tr>
+            <tr>
+                <td>Activate when this card as a resource is destroyed.</td>
+                <td>Activate when this card as a resource is destroyed <ins>by paying this card’s resource cost</ins>.</td>
+            </tr>
+            <tr>
+                <td>Activate when this card in your deck is destroyed.</td>
+                <td>Activate when this card in your deck is destroyed <ins>by paying this card’s resource cost</ins>.</td>
+            </tr>
+            <tr>
+                <td>Activate when this card in your hand is destroyed.</td>
+                <td>Activate when this card in your hand is destroyed <ins>by paying this card’s resource cost</ins>.</td>
+            </tr>
+            <tr>
+                <td>Activate when you take damage.</td>
+                <td>Activate when you take <ins>at least 5</ins> damage.</td>
+            </tr>
+            <tr>
+                <td>Exhaust <var>x</var> of your unexhausted <del>cards</del> in play.</td>
+                <td>Exhaust <var>x</var> of your unexhausted <ins>creatures</ins> in play.</td>
+            </tr>
+            <tr>
+                <td>Exhaust <var>x</var> of your unexhausted <del>cards</del> in play chosen by an opponent of your choice.</td>
+                <td>Exhaust <var>x</var> of your unexhausted <ins>creatures</ins> in play chosen by an opponent of your choice.</td>
+            </tr>
+            <tr>
+                <td>Target up to <var>x</var> resources.</td>
+                <td>Target up to <var>x</var> <ins>of your</ins> resources.</td>
+            </tr>
+            <tr>
+                <td>You may re-roll up to <var>x</var> dice for the rest of this turn <del>(excluding the current chain)</del> up to <var>y</var> times each.</td>
+                <td>You may re-roll up to <var>x</var> dice for the rest of this turn up to <var>y</var> times each.</td>
+            </tr>
+            <tr>
+                <td>You must exhaust <var>x</var> of your unexhausted <del>cards</del> in play chosen by an opponent of your choice to summon this creature.</td>
+                <td>You must exhaust <var>x</var> of your unexhausted <ins>creatures</ins> in play chosen by an opponent of your choice to summon this creature.</td>
+            </tr>
+        </table>
+
+        <h3 id="redacted">Redacted Ability Text (Banned Cards)</h3>
+        <p>This section lists ability texts which have been redacted. This is generally because the text results in cards that are too powerful or create a bad game experience. Any card with any of these texts is considered to be banned, i.e. may not be used in a game. Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards.</p>
+        <ul>
+            <li>Activate in response to an opponent’s summon.</li>
+            <li>Activate in response to an opponent's attack.</li>
+            <li>Activate in response to an opponent's card effect.</li>
+            <li>Destroy <var>x</var> cards on the top of your deck.</li>
+            <li>Inflict a total of <var>x</var> damage to targets.</li>
+            <li>Inflict <var>x</var> damage to any one player.</li>
+            <li>Negate activated effect of all targets.</li>
+            <li>Negate attack of all targets.</li>
+            <li>Pay <var>x</var> hitpoints.</li>
+            <li>Sacrifice <var>x</var> cards on the top of your deck.</li>
+            <li>Target up to <var>x</var> cards in the current chain.</li>
+            <li>Target up to <var>x</var> cards in your graveyard.</li>
+            <li>This creature cannot attack or defend.</li>
+            <li>You may re-roll up to <var>x</var> dice in the current chain up to <var>y</var> times each.</li>
+            <li>You must destroy <var>x</var> cards on the top of your deck to summon this creature.</li>
+            <li>You must pay <var>x</var> hitpoints to summon this creature.</li>
+            <li>You must sacrifice <var>x</var> cards on the top of your deck to summon this creature.</li>
+        </ul>
+
+        <h3 id="costs">Revised Costs</h3>
+        <p>This section lists ability texts whose costs have been revised, and the edition in which such revision occurred. Any card bearing any of these texts <strong>must</strong> bear an Edition Indicator (see <a href="#cardtypes">Card Types and Layout</a>), which <strong>must</strong> indicate an edition number no less than the cost revision edition for the respective text(s). For instance, if a text cost was revised as of 10<sup>th</sup>  Edition, then cards indicated as 10<sup>th</sup> Edition, 11<sup>th</sup> Edition, etc are allowed, but cards indicated as 9<sup>th</sup> Edition, or whose edition is not indicated, are banned. Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards.</p>
+        <ul>
+            <li>&ldquo;Decrease targets' offense by a total of <var>x</var>.&rdquo; (11<sup>th</sup> Edition)</li>
+            <li>&ldquo;Destroy all targets.&rdquo; (11<sup>th</sup> Edition)</li>
+            <li>&ldquo;Draw <var>x</var> cards.&rdquo; (9<sup>th</sup> Edition)</li>
+            <li>&ldquo;Increase targets' defense by a total of <var>x</var>.&rdquo; (11<sup>th</sup> Edition)</li>
+            <li>&ldquo;Increase targets' offense by a total of <var>x</var>.&rdquo; (11<sup>th</sup> Edition)</li>
+            <li>&ldquo;Place <var>x</var> counters on each target.&rdquo; (9<sup>th</sup> Edition)</li>
+            <li>&ldquo;Roll <var>x</var> six-sided dice and inflict the result of each die as damage to one target.&rdquo;
+(11<sup>th</sup> Edition)</li>
+            <li>&ldquo;See all targets.&rdquo; (9<sup>th</sup> Edition)</li>
+            <li>&ldquo;This creature cannot attack.&rdquo; (9<sup>th</sup> Edition)</li>
+            <li>&ldquo;This creature cannot defend.&rdquo; (9<sup>th</sup> Edition)</li>
+        </ul>
+    </main>
+
+    <div class="footer">
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC BY-SA" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This page is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+</body>
+
+</html>

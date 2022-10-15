@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Card Building Guide - Keeper of the Cards</title>
+    <meta name="description" content="The ultimate DIY trading card game" />
+    <meta name="keywords" content="kotc" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+            "HTML-CSS": {
+            linebreaks: { automatic: true, width: "container" }
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <h1 class="header">Keeper of the Cards</h1>
+
+    <main>
+        <h2>Card Building Guide (11<sup>th</sup> Edition)</h2>
+
+        <p>This guide teaches how to design cards for Keeper of the Cards.</p>
+
+        <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, resource cost (the number indicated on top of the green circle on the bottom) is strictly defined based on what statistics you assign to your card. As such, your job is to make cards that play well, but are not prohibitively expensive to use.</p>
+
+        <p>There are two types of cards: creatures, and spells. Creatures have an offensive power (&ldquo;offense&rdquo;), a defensive power (&ldquo;defense&rdquo;), and any number of abilities. Offense and defense must each be no lower than 0 and no higher than 99. Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
+
+        <h3>Contents</h3>
+        <nav>
+            <ol type="1">
+                <li><a href="#instructions">Design Instructions</a></li>
+                    <ol type="a">
+                        <li><a href="#inst-abilities">Constructing Abilities</a></li>
+                        <li><a href="#inst-caveats">Choosing a Caveat</a></li>
+                        <li><a href="#inst-changes">Rule/Text Changes</a></li>
+                        <li><a href="#inst-cost">Resource Cost</a></li>
+                        <li><a href="#inst-creation">Creating the Card</a></li>
+                    </ol>
+                <li><a href="#texts">Card Texts</a>
+                    <ol type="a">
+                        <li><a href="#caveats">Caveats</a></li>
+                        <li><a href="#conditions">Activation Conditions</a></li>
+                        <li><a href="#costs">Activation Costs</a></li>
+                        <li><a href="#targeting">Target Selections</a></li>
+                        <li><a href="#effects">Effects</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+
+        <h3 id="instructions">Design Instructions</h3>
+        <p>There are two types of cards: creatures, and spells.</p>
+        <p>Creatures have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities and/or any one caveat. Offense and defense must each be no lower than 0 and no higher than 99.</p>
+        <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
+
+        <h4 id="inst-abilities">Constructing Abilities</h4>
+        <p>Abilities are the one gameplay element that all types of card can have. Abilities are composed of up to four components:</p>
+        <ol>
+            <li>One activation condition (optional)</li>
+            <li>One activation cost (optional)</li>
+            <li>One target selection (optional)</li>
+            <li>One or more effects (required)</li>
+        </ol>
+        <p>These components must be listed on the card in that order, and must be in the same paragraph (<strong>do not</strong> split the text of one ability into multiple paragraphs). You must choose non-redacted components from the lists in the <a href="#texts">Card Texts</a> section only. Within these restrictions, you may design any ability you wish.</p>
+        <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
+        <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability of the paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your hitpoints by the result.&rdquo; Ability names, like card names, serve no function in the game; they are merely allowed for aesthetic purposes. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
+        <p>Some abilities may lead to confusing wording. It is acceptable to either leave such confusing wording as-is, or you can modify it to be easier to understand without changing its meaning. For example, one possible confusing ability would be: &ldquo;Draw 1 card. All players draw 1 card.&rdquo; It would be acceptable to change this to: &ldquo;Draw 1 card, then all players draw 1 card.&rdquo;</p>
+
+        <h4 id="inst-caveats">Choosing a Caveat</h4>
+        <p>Caveats are a special type of component which can only be used by creatures. Any creature may have no more than one caveat, listed before any abilities the creature has. Caveats always do something negative, but reduce the cost of the creature's offense and defense values.</p>
+
+        <h4 id="inst-changes">Rule/Text Changes</h4>
+        <p>Between editions, the rules and card text in Keeper of the Cards may be changed. You as a card designer need to consider these when updating old cards. The following are possible changes to texts:</p>
+        <ul>
+            <li><b>Revised Components:</b> Components whose text has been changed compared to previous editions of the game. Old card text is considered to stand for the new revised text, and behavior is adjusted accordingly if necessary. These changes are documented in the <a href="rulebook.html#revised">Rulebook: Revised Ability Text section</a>.</li>
+            <li><b>Redacted Components:</b> Components which are no longer legal for use. Redacted components are crossed out on the <a href="#texts">Card Texts</a> section. Any card using a redacted component is considered to be a banned card (meaning it cannot be used in a game) and should be revised accordingly.</li>
+            <li><b>Cost Revisions:</b> Costs and reliefs for components (here referred to just as &ldquo;costs&rdquo;) can be revised in some updates. Cost revisions are indicated under each component. If any cost for any component used in a card has been revised, the card <strong>must</strong> include an Edition Indicator (see in the rulebook the <a href="rulebook.html#cardtypes">Card Types and Layout</a> section). Any card with an ability whose cost has been revised, not bearing an Edition Indicator, is assumed to be using the old cost; it is therefore considered to be a banned card (meaning it cannot be used in the game) and should be revised accordingly. Similarly, any card with an ability whose cost has been revised, where the Edition Indicator indicates an edition prior to the edition in which the cost revision occurred, is considered to be a banned card.</li>
+        </ul>
+
+        <h4 id="inst-cost">Resource Cost</h4>
+        <p>Resource costs are determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat, activation condition, and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>Effect cost formulas may have the special variable <var>t</var> in them. In this case, replace the variable <var>t</var> with the calculated cost of the target selection. For example, if your target selection cost is 4 and an effect cost is listed as
+        <math display="inline">
+            <mrow>
+                <mn>3</mn>
+                <mo>&InvisibleTimes;</mo>
+                <mi>t</mi>
+            </mrow>
+        </math>,
+        then that becomes
+        <math>
+            <mrow>
+                <mn>3</mn>
+                <mo>&times;</mo>
+                <mn>4</mn>
+            </mrow>
+        </math>,
+        i.e. 12.</p>
+        <p>To determine the resource cost of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and if less than 0, set to 0. Then add the creature's ability cost and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
+        <p>To determine the resource cost of a spell, take the spell's ability cost and round up to the next integer. If less than 1, set to 1.</p>
+        <p>To determine the total relief of an ability, add together the activation cost relief, if any, and the activation condition relief, if any.</p>
+        <p>To determine an ability cost for either a creature or a spell, subtract the total relief from the sum total of all effect costs (note: this does not include target costs, as those are factored directly into the effect costs via the special variable <var>t</var>). If less than 1, set to 1.</p>
+
+        <h4 id="inst-creation">Creating the Card</h4>
+        <p>Once you have decided the parameters of your card and calculated the resource cost, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
+        <p>If the card is a creature and has caveats that create requirements for summoning, or if the card is a spell and has an activation condition, you should make the &ldquo;Play Restriction&rdquo; layer visible. You should also change the color of these kinds of caveats as well as all activation conditions on both spells and creatures in dark red (HTML code 800000), or another color that stands out. This will make it more obvious to players that they must satisfy certain conditions to play these cards.</p>
+        <p>You can paste an image to represent your card into the &ldquo;Image&rdquo; layer. You can also indicate the copyright license and author(s) of the card and/or image via the &ldquo;Card License&rdquo; text layer.</p>
+        <p>You may modify the look of the card as long as the layout remains the same and all important text (i.e. the ability text, offense, defense, resource cost, and Edition Indicator) is clearly legible. You may also resize any text if necessary to fit it on the card.</p>
+        <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). This does not have to be exact as long as sleeves are used that are the same size and opaque when viewed from the back.</p>
+        For the back of cards, an image is provided as &ldquo;card_base/card_back.png&rdquo;. A file for a sheet of card backs is available as sets/backs.pdf; you can simply print this onto the back of a sheet which has cards printed on it. This is optional as long as sleeves are used that are opaque when viewed from the back.
+
+        <h3 id="texts">Card Texts</h3>
+
+        <h4 id="caveats">Caveats</h4>
+        <p>Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the resource cost of their power levels. Of course, caveats can only be given to creatures, not spells. The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</p>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must exhaust <var>x</var> of your unexhausted creatures in play to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must exhaust <var>x</var> of your unexhausted creatures in play chosen by an opponent of your choice to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> random cards in your hand to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> cards in play to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> cards in play chosen by an opponent of your choice to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>4</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> random cards in your hand to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your cards in play to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your cards in play chosen by an opponent of your choice to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your resources to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your resources chosen by an opponent of your choice to summon this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must remove <var>x</var> counters from this card to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must exhaust <var>x</var> of your resources to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must exhaust <var>x</var> of your other unexhausted creatures in play to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must exhaust <var>x</var> of your unexhausted creatures in play chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.&rdquo;
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> random cards in your hand to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> cards in play to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>6</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must sacrifice <var>x</var> cards in play chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> random cards in your hand to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your other cards in play to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your other cards in play chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your resources to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You must destroy <var>x</var> of your resources chosen by an opponent of your choice to attack with, defend with, or use an ability of this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;This creature cannot attack.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;This creature cannot defend.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;If this in-play creature is unexhausted at the end of your own Battle Phase, destroy this creature.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>1.5</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;This creature cannot attack or defend.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;You must pay <var>x</var> hitpoints to summon this creature.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;You must sacrifice <var>x</var> cards on the top of your deck to summon this creature.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;You must destroy <var>x</var> cards on the top of your deck to summon this creature.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+        </ul>
+
+        <h4 id="conditions">Activation Conditions</h4>
+        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. Some activation conditions also reduce the resource cost of the ability; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when this card is damaged, but not destroyed.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when this in-play card is destroyed.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when this card as a resource is destroyed by paying this card’s resource cost.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when this card in your hand is destroyed by paying this card’s resource cost.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when this card in your deck is destroyed by paying this card’s resource cost.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when at least <var>x</var> of your cards in play (excluding this card) are damaged, but not destroyed.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when at least <var>x</var> of your cards in play (excluding this card) are destroyed.&rdquo;
+            </li> destroyed.&rdquo; (8<sup>th</sup> Edition)
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when at least <var>x</var> cards in your hand are destroyed.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when at least <var>x</var> cards in your deck are destroyed.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>5</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when your cards in play take a total of at least <var>x</var> damage.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>5</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Activate when you take at least <var>x</var> damage.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>0</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Activate in response to an opponent's summon.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>0</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Activate in response to an opponent's attack.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>0</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Activate in response to an opponent's card effect.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+        </ul>
+
+        <h4 id="costs">Activation Costs</h4>
+        <p>Activation costs serve to reduce the resource cost of an ability by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Remove <var>x</var> counters from this card.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Exhaust <var>x</var> of your resources.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Exhaust <var>x</var> of your unexhausted creatures in play.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Exhaust <var>x</var> of your unexhausted creatures in play chosen by an opponent of your choice.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Sacrifice <var>x</var> random cards in your hand.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Sacrifice <var>x</var> cards in play.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>6</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Sacrifice <var>x</var> cards in play chosen by an opponent of your choice.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy <var>x</var> random cards in your hand.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy <var>x</var> of your cards in play.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy <var>x</var> of your cards in play chosen by an opponent of your choice.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy <var>x</var> of your resources.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy <var>x</var> of your resources chosen by an opponent of your choice.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Pay <var>x</var> hitpoints.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Sacrifice <var>x</var> cards on the top of your deck.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Destroy <var>x</var> cards on the top of your deck.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+        </ul>
+
+        <h4 id="targeting">Target Selections</h4>
+        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>t</var> is indicated in parentheses.</p>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mn>0.5</mn>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target this card.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in play.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>y</mi>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in play with at least <var>y</var> counters.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> of your resources.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> exhausted cards in play.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in play selected by an opponent of your choice.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in your hand.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Show all cards in your hand to one player of your choice and target up to <var>x</var> cards in your hand selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in one player's hand randomly.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in one opponent’s hand selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards on the top of one player's deck.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <msup>
+                                    <mi>y</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Have one opponent look at exactly <var>x</var> cards on top of your deck and target up to <var>y</var> of those cards selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <msup>
+                                    <mi>y</mi>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Have one opponent look at exactly <var>x</var> cards on top of their own deck and target up to <var>y</var> of those cards selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in one player's graveyard randomly.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Show all cards in your graveyard to an opponent of your choice and target up to <var>x</var> cards in your graveyard selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in one opponent’s graveyard selected by that player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Target up to <var>x</var> cards in the current chain.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Target up to <var>x</var> cards in your graveyard.&rdquo;</del>
+                <i>Redacted (9<sup>th</sup> Edition)</i>
+            </li>
+        </ul>
+
+        <h4 id="effects">Effects</h4>
+        <p>Effects are the main component of abilities, and at least one is required for any given ability. Every effect has a cost, listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see the <a href="targeting">Target Selections section</a>).</p>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> counters on each target.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Remove up to <var>x</var> counters from each target.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> offense counters on each target; remove to increase offense by 1.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> defense counters on each target; remove to increase defense by 5.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> weakness counters on each target; remove to decrease offense by 1.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> damage counters on each target; remove to roll a six-sided die and inflict damage equal to the result.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> exhaustion counters on each target; remove to exhaust.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> dice counters on each target; remove to re-roll any one die.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>6</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place <var>x</var> immortality counters on each target; remove to prevent effect destruction or movement to another zone.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;See all targets.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Exhaust all targets.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target in-play cards will not be unexhausted during this turn’s Recovery Phase.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Send all targets to the resource zone of their owners (exhausted).&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Destroy all targets.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Increase targets' offense by a total of <var>x</var>.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>12</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Increase targets' defense by a total of <var>x</var>.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Decrease targets' offense by a total of <var>x</var>.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>4</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Roll <var>x</var> six-sided dice and inflict the result of each die as damage to one target.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Reveal all targets, then summon or cast any number of targets that are not in play (paying the usual costs).&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Switch control of each target in-play creature to a different player of your choice until the end of this turn.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Place all targets on top of owner's deck in any order.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Draw <var>x</var> cards.&rdquo;
+                <ul>
+                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
+                </ul>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;All players draw <var>x</var> cards.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Increase your hitpoints by <var>x</var>.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Roll <var>x</var> six-sided dice and increase your hitpoints by the result.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Roll <var>x</var> six-sided dice and increase your hitpoints by the result, then roll <var>x</var> six-sided dice and increase the hitpoints of one opponent by the result.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Roll <var>x</var> six-sided dice and inflict the result as damage to yourself, then roll <var>x</var> six-sided dice and inflict the result as damage to any one player.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>y</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;You may re-roll up to <var>x</var> dice for the rest of this turn up to <var>y</var> times each.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mfrac>
+                            <mi>x</mi>
+                            <mn>4</mn>
+                        </mfrac>
+                        <mo>+</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Inflict a total of <var>x</var> damage to targets.&rdquo;</del>
+                <i>Redacted (2<sup>nd</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Inflict <var>x</var> damage to any one player.&rdquo;</del>
+                <i>Redacted (2<sup>nd</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>5</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Negate attack of all targets.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>5</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Negate activated effect of all targets.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>y</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;You may re-roll up to <var>x</var> dice in the current chain up to <var>y</var> times each.&rdquo;</del>
+                <i>Redacted (7<sup>th</sup> Edition)</i>
+            </li>
+        </ul>
+    </main>
+
+    <div class="footer">
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC BY-SA" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This page is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+</body>
+
+</html>
