@@ -41,7 +41,6 @@
                 <li><a href="#spells">Casting Spells and Setting Traps</a></li>
                 <li><a href="#winning">Winning and Losing</a></li>
                 <li><a href="#keywords">Keywords</a></li>
-                <li><a href="#rulings">Ability Clarifications/Rulings</a></li>
                 <li><a href="#revised">Revised Ability Text</a></li>
                 <li><a href="#redacted">Redacted Ability Text (Banned Cards)</a></li>
                 <li><a href="#costs">Revised Costs</a></li>
@@ -100,18 +99,17 @@
 
         <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
         <p>Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the Resource Zone unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the Resource Zone, it is always played face-down, as its identity is not public knowledge.</p>
-        <p>It is important to note that resources are not considered to be &ldquo;in-play&rdquo; cards. &ldquo;In-play cards&rdquo; and &ldquo;cards in play&rdquo; both refer only to creatures in the creature zone and traps in the trap zone (prior to activation). For example, if a card ability requires you to sacrifice an in-play card, you cannot use a resource for said sacrifice. See <a href="#rulings">Ability Clarifications/Rulings</a> for a complete definition of what &ldquo;in-play&rdquo; means, as well as other terms that may be ambiguous.</p>
         <p>To pay a resource cost is to exhaust a number of unexhausted resources. For example, to pay a resource cost of 3, exhaust three of your currently unexhausted resources by turning them sideways.</p>
-        <p>&ldquo;Exhausted&rdquo;, for any card, means that the card cannot currently be used, and is marked by turning the card sideways. To unexhaust a card, return it to an upright orientation. This is done only during the Recovery Phase.</p>
+        <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used, and is marked by turning the card sideways. To unexhaust a card, return it to an upright orientation. This is done only during the Recovery Phase.</p>
         <p>During the Recovery Phase, all cards in every player's Creature Zone, Trap Zone, and Resource Zone are unexhausted. In addition, every creature in every player's Creature Zone has its offense and defense returned to the value printed on its card. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even though this is not explicitly stated in card effects.</p>
         <p>For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
 
         <h3 id="creatures">Creatures</h3>
         <p>Creatures are used to do battle, but may also have special abilities.</p>
         <p>To summon a creature, pay a number of resources equal to the card's resource cost, and then place it, face-up and exhausted, into the Creature Zone. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
-        <p>Some creatures have &ldquo;caveats&rdquo;, special rules which apply to them. Caveats are always on the first paragraph of the ability text. Most caveats make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
+        <p>Some creatures have <dfn>caveats</dfn>, special rules which apply to them. Caveats are always on the first paragraph of the ability text. Most caveats make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
         <p>Caveats may include such things as extra costs for summoning the creature, costs for attacking or defending, and restrictions on what the creature can do. Creatures with caveats that create requirements for summoning include a silhouette of a padlock behind the ability text (demonstrated by &ldquo;Mourning a Loss&rdquo; under <a href="cardtypes">Card Types and Layout</a>). Such caveats are also conventionally colored red to make them stand out from the rest of the text.</p>
-        <p>It is important to note that costs defined by caveats must be paid from your own resources and zones unless the caveat text explicitly says otherwise. For example, if a summon cost calls for destroying two in-play cards, that exclusively means <em>your</em> resources even though the text does not say this explicitly. Additionally, any payment for a cost defined by a caveat must result in a corresponding real change of game state, e.g. you cannot declare that you are exhausting a creature which is already exhausted.</p>
+        <p>It is important to note that costs defined by caveats must be paid from your own assets and zones unless the caveat text explicitly says otherwise. For example, if a summon cost calls for destroying two in-play cards, that exclusively means <em>your</em> resources even though the text does not say this explicitly. Additionally, any payment for a cost defined by a caveat must result in a corresponding real change of game state, e.g. you cannot declare that you are exhausting a creature which is already exhausted.</p>
         <p>Creatures can activate abilities, hold counters, and participate in battles, as described in the following subsections.</p>
 
         <h4 id="abilities">Creature Abilities</h4>
@@ -222,12 +220,16 @@
         <p>You must excavate only the exact number of cards indicated. If your deck currently has fewer cards than the number of cards the ability instructs you to excavate, no cards are excavated; thus, the ability in question cannot continue and has no further effect.</p>
         <p>You may not look at the excavated cards unless the card text says you can. However, if the excavated cards are used for an enemy's choice selection, the chosen opponent gets to see the excavated cards.</p>
 
+        <h4>Exhaust</h4>
+        <p>To <dfn>exhaust</dfn> a card means to turn it sideways. Conversely, to <dfn>unexhaust</dfn> a card means to turn it upright. Only in-play cards and resources can be exhausted.</p>
+
         <h4>Hypnotize</h4>
         <p>To <dfn>hypnotize</dfn> a card means to change control of the target to a different player. For example, you could hypnotize an opponent's creature so that you control the creature instead.</p>
         <p>Only in-play creatures can be hypnotized.</p>
 
         <h4>In-play</h4>
-        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed creatures in the Creature Zone, and unactivated traps. Note: resources are never considered to be &ldquo;in-play&rdquo; under any circumstance. Creatures cease being &ldquo;in-play&rdquo; the moment they are destroyed, sacrificed, or otherwise moved to any location other than the Creature Zone. Traps cease being &ldquo;in-play&rdquo; the moment they are destroyed, activated, or otherwise moved to any location other than the Trap Zone.</p>
+        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed creatures in the Creature Zone, and unactivated traps. Creatures cease being in-play the moment they are destroyed, sacrificed, or otherwise moved to any location other than the Creature Zone. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the Trap Zone.</p>
+        <p>Resources are never considered to be in-play under any circumstance. Additionally, spells activated from the Hand are not considered to be in-play at any point.</p>
 
         <h4>Owner</h4>
         <p>The <dfn>owner</dfn> of a card is always the player whose deck it originates from, regardless of who currently controls it.</p>
@@ -265,14 +267,6 @@
 
         <h4>Your</h4>
         <p>A card is considered to be <dfn>yours</dfn> if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your creature zone, it is &ldquo;your&rdquo; in-play creature and you can use it the same way as cards that came from your own deck.</p>
-
-        <h3 id="rulings">Ability Clarifications/Rulings</h3>
-        <p>This section serves to clarify some things regarding ability texts. It is listed alphabetically based on the text portion at hand.</p>
-        <ul>
-            <li>&ldquo;A total of&rdquo;: Texts that indicate &ldquo;a total of&rdquo; some number (e.g. for damage) mean that the number indicated is spread out among targets in a way determined by you. You must use the entirety of that number if possible (and otherwise must use as much of it as possible). You may not reduce either the offense or the defense of any one creature below 0 (so for example, if an effect inflicts &ldquo;a total of&rdquo; 10 damage and one of the targets has only 6 defense, you cannot apply all 10 damage to that target; you can apply 6 damage to it only, and the remaining 4 damage must be applied to other cards). You may not manipulate attributes that don't exist on a given card (i.e. offense and defense of spells may not be manipulated because they don't have these attributes).</li>
-            <li>&ldquo;One player&rdquo;: For texts that say &ldquo;one player&rdquo;, you select the player. It can be any player, including yourself.</li>
-            <li>&ldquo;Place all targets on top of owner's deck in any order&rdquo;: This effect does not imply that you get to look at the targets. If the targets’ identities are unknown to you and the ability does not explicitly show you the identities of the targets, you may not look at them; in this case, you must place the targets on top of the owner’s deck without looking. To designate an ability that does allow you to look at the targets for the purpose of arrangement, the card must include an ability revealing the identity of the targets to you before this effect. The simplest such effect is the &ldquo;See all targets&rdquo; effect.</li>
-        </ul>
 
         <h3 id="revised">Revised Ability Text</h3>
         <p>This section lists old ability text portions which have been revised in a way that changes their meaning. If you see any of these old text portions in a card, you must use the card in the way indicated by the new text. These are listed in alphabetical order (based on the original text). Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards.</p>
