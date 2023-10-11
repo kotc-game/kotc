@@ -28,7 +28,7 @@
 
         <p>This guide teaches how to design cards for Keeper of the Cards.</p>
 
-        <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, resource cost (the number indicated on top of the green circle on the bottom) is strictly defined based on what statistics you assign to your card. As such, your job is to make cards that play well, but are not prohibitively expensive to use.</p>
+        <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, a card's level (the number indicated on top of the green circle on the bottom) is strictly defined based on what statistics you assign to your card. As such, your job is to make cards that play well, but are not prohibitively expensive to use.</p>
 
         <p>There are two types of cards: creatures, and spells. Creatures have an offensive power (&ldquo;offense&rdquo;), a defensive power (&ldquo;defense&rdquo;), and any number of abilities. Offense and defense must each be no lower than 0 and no higher than 99. Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
@@ -40,7 +40,7 @@
                         <li><a href="#inst-abilities">Constructing Abilities</a></li>
                         <li><a href="#inst-caveats">Choosing a Caveat</a></li>
                         <li><a href="#inst-changes">Rule/Text Changes</a></li>
-                        <li><a href="#inst-cost">Resource Cost</a></li>
+                        <li><a href="#inst-level">Level</a></li>
                         <li><a href="#inst-creation">Creating the Card</a></li>
                     </ol>
                 <li><a href="#texts">Card Texts</a>
@@ -84,8 +84,8 @@
             <li><b>Cost Revisions:</b> Costs and reliefs for components (here referred to just as &ldquo;costs&rdquo;) can be revised in some updates. Cost revisions are indicated under each component. If any cost for any component used in a card has been revised, the card <strong>must</strong> include an Edition Indicator (see in the rulebook the <a href="rulebook.html#cardtypes">Card Types and Layout</a> section). Any card with an ability whose cost has been revised, not bearing an Edition Indicator, is assumed to be using the old cost; it is therefore considered to be a banned card (meaning it cannot be used in the game) and should be revised accordingly. Similarly, any card with an ability whose cost has been revised, where the Edition Indicator indicates an edition prior to the edition in which the cost revision occurred, is considered to be a banned card.</li>
         </ul>
 
-        <h4 id="inst-cost">Resource Cost</h4>
-        <p>Resource costs are determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat, activation condition, and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <h4 id="inst-level">Level</h4>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat, activation condition, and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>Effect cost formulas may have the special variable <var>t</var> in them. In this case, replace the variable <var>t</var> with the calculated cost of the target selection. For example, if your target selection cost is 4 and an effect cost is listed as
         <math display="inline">
             <mrow>
@@ -103,23 +103,23 @@
             </mrow>
         </math>,
         i.e. 12.</p>
-        <p>To determine the resource cost of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and if less than 0, set to 0. Then add the creature's ability cost and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
-        <p>To determine the resource cost of a spell, take the spell's ability cost and round up to the next integer. If less than 1, set to 1.</p>
+        <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and if less than 0, set to 0. Then add the creature's total ability standard costs and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
+        <p>To determine the level of a spell, take the spell's ability standard cost and round up to the next integer. If less than 1, set to 1.</p>
         <p>To determine the total relief of an ability, add together the activation cost relief, if any, and the activation condition relief, if any.</p>
-        <p>To determine an ability cost for either a creature or a spell, subtract the total relief from the sum total of all effect costs (note: this does not include target costs, as those are factored directly into the effect costs via the special variable <var>t</var>). If less than 1, set to 1.</p>
+        <p>To determine an ability standard cost for either a creature or a spell, subtract the total relief from the sum total of all effect costs (note: this does not include target costs, as those are factored directly into the effect costs via the special variable <var>t</var>). If less than 1, set to 1.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
-        <p>Once you have decided the parameters of your card and calculated the resource cost, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
+        <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
         <p>If the card is a creature and has caveats that create requirements for summoning, or if the card is a spell and has an activation condition, you should make the &ldquo;Play Restriction&rdquo; layer visible. You should also change the color of these kinds of caveats as well as all activation conditions on both spells and creatures in dark red (HTML code 800000), or another color that stands out. This will make it more obvious to players that they must satisfy certain conditions to play these cards.</p>
         <p>You can paste an image to represent your card into the &ldquo;Image&rdquo; layer. You can also indicate the copyright license and author(s) of the card and/or image via the &ldquo;Card License&rdquo; text layer.</p>
-        <p>You may modify the look of the card as long as the layout remains the same and all important text (i.e. the ability text, offense, defense, resource cost, and Edition Indicator) is clearly legible. You may also resize any text if necessary to fit it on the card.</p>
-        <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). This does not have to be exact as long as sleeves are used that are the same size and opaque when viewed from the back.</p>
+        <p>You may modify the look of the card as much as you want as long as the meaning of the meaning of the components is understood by all players. In general, it is recommended to keep it as close as possible to the official layout to avoid confusion.</p>
+        <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). You do not have to follow this size if you don't want to as long as all of your cards are the same size and appearance when viewed from the back. (You can achieve this easily with sleeves if you print in a standard card size.)</p>
         For the back of cards, an image is provided as &ldquo;card_base/card_back.png&rdquo;. A file for a sheet of card backs is available as sets/backs.pdf; you can simply print this onto the back of a sheet which has cards printed on it. This is optional as long as sleeves are used that are opaque when viewed from the back.
 
         <h3 id="texts">Card Texts</h3>
 
         <h4 id="caveats">Caveats</h4>
-        <p>Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the resource cost of their power levels. Of course, caveats can only be given to creatures, not spells. The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the level of the creature in exchange. Of course, caveats can only be given to creatures, not spells. The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -499,7 +499,7 @@
         </ul>
 
         <h4 id="conditions">Activation Conditions</h4>
-        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. Some activation conditions also reduce the resource cost of the ability; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. Some activation conditions also reduce the ability standard cost; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -657,7 +657,7 @@
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
-        <p>Activation costs serve to reduce the resource cost of an ability by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
+        <p>Activation costs serve to reduce an ability standard cost by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -1150,7 +1150,7 @@
         </ul>
 
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least one is required for any given ability. Every effect has a cost, listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see the <a href="targeting">Target Selections section</a>).</p>
+        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see the <a href="targeting">Target Selections section</a>).</p>
         <ul>
             <li>
                 <math display="inline">
