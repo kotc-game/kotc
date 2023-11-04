@@ -658,6 +658,7 @@
 
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability standard cost by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
+        <p>For better coherence at the cost of brevity, for abilities which have both an activation cost <em>and</em> a target selection, you may replace the semicolon in the activation cost with a comma followed by the word &ldquo;then&rdquo;. For example, you can change, &ldquo;Exhaust 1 resource; Target this card;&rdquo; into, &ldquo;Exhaust 1 resource, then target this card;&rdquo; if desired.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -850,6 +851,7 @@
 
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>t</var> is indicated in parentheses.</p>
+        <p>For brevity, the words &ldquol;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card&rdquo; can be replaced with &ldquo;Target 1 in-play card&rdquo;.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -861,7 +863,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target this card.&rdquo;
+                &ldquo;Target this card;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -873,7 +875,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> in-play cards.&rdquo;
+                &ldquo;Target up to <var>x</var> in-play cards;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -894,7 +896,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> level <var>y</var> or lower enemy creatures.&rdquo;
+                &ldquo;Target up to <var>x</var> level <var>y</var> or lower enemy creatures;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -915,7 +917,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> in-play cards with at least <var>y</var> counters.&rdquo;
+                &ldquo;Target up to <var>x</var> in-play cards with at least <var>y</var> counters;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -927,7 +929,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> of your resources.&rdquo;
+                &ldquo;Target up to <var>x</var> of your resources;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -946,7 +948,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> exhausted in-play cards.&rdquo;
+                &ldquo;Target up to <var>x</var> exhausted in-play cards;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -965,7 +967,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> in-play cards (enemy's choice).&rdquo;
+                &ldquo;Target up to <var>x</var> in-play cards (enemy's choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -977,7 +979,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in your hand.&rdquo;
+                &ldquo;Target up to <var>x</var> cards in your hand;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -996,7 +998,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in your hand (enemy's choice).&rdquo;
+                &ldquo;Target up to <var>x</var> cards in your hand (enemy's choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1008,7 +1010,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in one player's hand randomly.&rdquo;
+                &ldquo;Target up to <var>x</var> cards in one player's hand randomly;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1027,7 +1029,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in one opponent’s hand (their choice).&rdquo;
+                &ldquo;Target up to <var>x</var> cards in one opponent’s hand (their choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1039,7 +1041,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards on the top of one player's deck.&rdquo;
+                &ldquo;Target up to <var>x</var> cards on the top of one player's deck;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1061,7 +1063,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Excavate <var>x</var> cards and target up to <var>y</var> excavated cards (enemy's choice).&rdquo;
+                &ldquo;Excavate <var>x</var> cards and target up to <var>y</var> excavated cards (enemy's choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1083,7 +1085,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Have one opponent excavate and see <var>x</var> cards, then target up to <var>y</var> excavated cards (their choice).&rdquo;
+                &ldquo;Have one opponent excavate and see <var>x</var> cards, then target up to <var>y</var> excavated cards (their choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1095,7 +1097,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in one player's graveyard randomly.&rdquo;
+                &ldquo;Target up to <var>x</var> cards in one player's graveyard randomly;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1114,7 +1116,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in your graveyard (enemy's choice).&rdquo;
+                &ldquo;Target up to <var>x</var> cards in your graveyard (enemy's choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1133,7 +1135,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> cards in one opponent’s graveyard (their choice).&rdquo;
+                &ldquo;Target up to <var>x</var> cards in one opponent’s graveyard (their choice);&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1172,6 +1174,8 @@
 
         <h4 id="effects">Effects</h4>
         <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see the <a href="targeting">Target Selections section</a>).</p>
+        <p>For brevity, any instance of the phrases "each target" and "the target" can be replaced with "it" if the number of targets is never greater than 1 <strong>and</strong> the meaning of the effect is not made ambiguous by the substitution.</p>
+        <p>For better coherence at the cost of brevity, you may chain consecutive effects in an ability together with a comma followed by the word &ldquo;then&rdquo; or &ldquo;also&rdquo; instead of a period. For example, you can change, &ldquo;Deck-stack the targets. Draw 2 cards.&rdquo; into, &ldquo;Deck-stack the targets, then draw 2 cards.&rdquo; </p>
         <ul>
             <li>
                 <math display="inline">
@@ -1331,7 +1335,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Reduce targets' level by <var>x</var> until the end of this turn.&rdquo;
+                &ldquo;Reduce the targets' level by <var>x</var> until the end of this turn.&rdquo;
             </li>
             <li>
                 <math display="inline">
