@@ -71,7 +71,6 @@
         <p>These components must be listed on the card in that order, and must be in the same paragraph (<strong>do not</strong> split the text of one ability into multiple paragraphs). You must choose non-redacted components from the lists in the <a href="#texts">Card Texts</a> section only. Within these restrictions, you may design any ability you wish.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
         <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability of the paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your HP by the result.&rdquo; Ability names, like card names, serve no function in the game. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
-        <p>Some abilities may inherently have clunky or even confusing wording as a consequence of the chosen series of effects. It is acceptable to either leave such confusing wording as-is, or you can modify it to be easier to understand without changing its meaning or obscuring which components the ability is composed from. For example, one possible confusing ability would be: &ldquo;Draw 1 card. All players draw 1 card.&rdquo; It would be acceptable to change this to: &ldquo;Draw 1 card, then all players draw 1 card.&rdquo;</p>
 
         <h4 id="inst-caveats">Choosing a Caveat</h4>
         <p>Caveats are a special type of component which can only be used by creatures. Any creature may have no more than one caveat, listed before any abilities the creature has. Caveats always do something negative, but reduce the cost of the creature's offense and defense values.</p>
@@ -1525,12 +1524,17 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;All players draw <var>x</var> cards.&rdquo;
+                &ldquo;Deal <var>x</var> cards.&rdquo;
             </li>
             <li>
                 <math display="inline">
