@@ -85,7 +85,7 @@
         </ul>
 
         <h4 id="inst-level">Level</h4>
-        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat, activation condition, and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>Effect cost formulas may have the special variable <var>t</var> in them. In this case, replace the variable <var>t</var> with the calculated cost of the target selection. For example, if your target selection cost is 4 and an effect cost is listed as
         <math display="inline">
             <mrow>
@@ -105,8 +105,7 @@
         i.e. 12.</p>
         <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and if less than 0, set to 0. Then add the creature's total ability standard costs and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
         <p>To determine the level of a spell, take the spell's ability standard cost and round up to the next integer. If less than 1, set to 1.</p>
-        <p>To determine the total relief of an ability, add together the activation cost relief, if any, and the activation condition relief, if any.</p>
-        <p>To determine an ability standard cost for either a creature or a spell, subtract the total relief from the sum total of all effect costs (note: this does not include target costs, as those are factored directly into the effect costs via the special variable <var>t</var>). If less than 1, set to 1.</p>
+        <p>To determine an ability standard cost for either a creature or a spell, subtract the cost relief from the sum total of all effect costs. If less than 1, set to 1.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
         <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
@@ -502,13 +501,23 @@
         </ul>
 
         <h4 id="conditions">Activation Conditions</h4>
-        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. Some activation conditions also reduce the ability standard cost; the amount of relief an activation condition provides is listed in parentheses. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>Every activation condition sets the variable <var>a</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>a</var> is indicated in parentheses. If no activation condition is used, the value of <var>a</var> is set to 1.</p>
         <ul>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -518,7 +527,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -528,7 +546,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -538,7 +565,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -548,7 +584,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -558,7 +603,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -568,7 +622,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -578,7 +641,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -588,7 +660,16 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>1</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -597,14 +678,20 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>5</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>5</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                                <mo>&InvisibleTimes;</mo>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;When your in-play cards take at least <var>x</var> total damage:&rdquo;
@@ -612,14 +699,20 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>5</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>5</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                                <mo>&InvisibleTimes;</mo>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;When you take at least <var>x</var> damage:&rdquo;
@@ -628,7 +721,9 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>0</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mn>1</mn>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -639,7 +734,9 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>0</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mn>1</mn>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -650,7 +747,9 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>0</mn>
+                        <mi>a</mi>
+                        <mo>=</mo>
+                        <mn>1</mn>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -854,7 +953,7 @@
 
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>t</var> is indicated in parentheses.</p>
-        <p>For brevity, the words &ldquol;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card&rdquo; can be replaced with &ldquo;Target 1 in-play card&rdquo;.</p>
+        <p>For brevity, the words &ldquo;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card&rdquo; can be replaced with &ldquo;Target 1 in-play card&rdquo;.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -1176,7 +1275,7 @@
         </ul>
 
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see the <a href="targeting">Target Selections section</a>).</p>
+        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see <a href="targeting">Target Selections</a>). Similarly, the variable <var>a</var> is either the value given by the formula of the activation condition used, or if no activation condition is used, it is set to 1 (see <a href="conditions">Activation Conditions</a>).</p>
         <p>For brevity, any instance of the phrases &ldquo;each target&rdquo; and &ldquo;the target&rdquo; can be replaced with &ldquo;it&rdquo; if the number of targets is never greater than 1 <strong>and</strong> the meaning of the effect is not made ambiguous by the substitution. If the number of targets is never greater than 1, but the word &ldquo;it&rdquo; would be ambiguous, the phrase &ldquo;the target&rdquo; should always be used instead (forgoing the word &ldquo;each&rdquo; if normally present).</p>
         <p>For better coherence at the cost of brevity, you may chain consecutive effects in an ability together with a comma followed by the word &ldquo;then&rdquo; or &ldquo;also&rdquo; instead of a period. For example, you can change, &ldquo;Deck-stack the targets. Draw 2 cards.&rdquo; into, &ldquo;Deck-stack the targets, then draw 2 cards.&rdquo; </p>
         <ul>
@@ -1185,6 +1284,8 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1204,6 +1305,8 @@
                     <mrow>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1219,6 +1322,8 @@
                     <mrow>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1232,6 +1337,8 @@
                         <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1247,6 +1354,8 @@
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1260,6 +1369,8 @@
                         <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1275,6 +1386,8 @@
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1288,6 +1401,8 @@
                         <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1303,6 +1418,8 @@
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1317,6 +1434,8 @@
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1328,6 +1447,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1341,6 +1462,8 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1352,6 +1475,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1368,6 +1493,8 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1383,6 +1510,8 @@
                     <mrow>
                         <mn>3</mn>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1394,6 +1523,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1407,6 +1538,8 @@
                     <mrow>
                         <mn>3</mn>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1418,6 +1551,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1431,6 +1566,8 @@
                     <mfrac>
                         <mrow>
                             <mi>x</mi>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>a</mi>
                             <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
@@ -1449,6 +1586,8 @@
                         <mrow>
                             <mi>x</mi>
                             <mo>+</mo>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1469,6 +1608,8 @@
                         <mrow>
                             <mi>x</mi>
                             <mo>+</mo>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1489,6 +1630,8 @@
                         <mrow>
                             <mi>x</mi>
                             <mo>+</mo>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1509,6 +1652,8 @@
                         <mrow>
                             <mi>x</mi>
                             <mo>+</mo>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1529,6 +1674,8 @@
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1542,6 +1689,8 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
+                            <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
                             <msup>
                                 <mi>x</mi>
                                 <mn>2</mn>
@@ -1560,6 +1709,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1575,6 +1726,8 @@
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1588,6 +1741,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1603,6 +1758,8 @@
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1615,6 +1772,8 @@
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>y</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1629,6 +1788,8 @@
                             <mn>4</mn>
                         </mfrac>
                         <mo>+</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1642,6 +1803,8 @@
                     <mfrac>
                         <mrow>
                             <mi>x</mi>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>a</mi>
                         </mrow>
                         <mrow>
                             <mn>2</mn>
@@ -1658,6 +1821,8 @@
                     <mrow>
                         <mn>5</mn>
                         <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1670,6 +1835,8 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>5</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1685,6 +1852,8 @@
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>y</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
