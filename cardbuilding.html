@@ -39,9 +39,9 @@
                     <ol type="a">
                         <li><a href="#inst-abilities">Constructing Abilities</a></li>
                         <li><a href="#inst-caveats">Choosing a Caveat</a></li>
-                        <li><a href="#inst-changes">Rule/Text Changes</a></li>
                         <li><a href="#inst-level">Level</a></li>
                         <li><a href="#inst-creation">Creating the Card</a></li>
+                        <li><a href="#inst-changes">Rule/Text Changes</a></li>
                     </ol>
                 <li><a href="#texts">Card Texts</a>
                     <ol type="a">
@@ -76,14 +76,6 @@
         <h4 id="inst-caveats">Choosing a Caveat</h4>
         <p>Caveats are a special type of component which can only be used by creatures. Any creature may have no more than one caveat, listed before any abilities the creature has. Caveats always do something negative, but reduce the cost of the creature's offense and defense values.</p>
 
-        <h4 id="inst-changes">Rule/Text Changes</h4>
-        <p>Between editions, the rules and card text in Keeper of the Cards may be changed. You as a card designer need to consider these when updating old cards. The following are possible changes to texts:</p>
-        <ul>
-            <li><b>Revised Components:</b> Components whose text has been changed compared to previous editions of the game. Old card text is considered to stand for the new revised text, and behavior is adjusted accordingly if necessary. These changes are documented in the <a href="rulebook.html#revised">Rulebook: Revised Ability Text section</a>.</li>
-            <li><b>Redacted Components:</b> Components which are no longer legal for use. Redacted components are crossed out on the <a href="#texts">Card Texts</a> section. Any card using a redacted component is considered to be a banned card (meaning it cannot be used in a game) and should be revised accordingly.</li>
-            <li><b>Cost Revisions:</b> Costs and reliefs for components (here referred to just as &ldquo;costs&rdquo;) can be revised in some updates. Cost revisions are indicated under each component. If any cost for any component used in a card has been revised, the card <strong>must</strong> include an Edition Indicator (see in the rulebook the <a href="rulebook.html#cardtypes">Card Types and Layout</a> section). Any card with an ability whose cost has been revised, not bearing an Edition Indicator, is assumed to be using the old cost; it is therefore considered to be a banned card (meaning it cannot be used in the game) and should be revised accordingly. Similarly, any card with an ability whose cost has been revised, where the Edition Indicator indicates an edition prior to the edition in which the cost revision occurred, is considered to be a banned card.</li>
-        </ul>
-
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>Effect cost formulas may have the special variable <var>t</var> in them. In this case, replace the variable <var>t</var> with the calculated cost of the target selection. For example, if your target selection cost is 4 and an effect cost is listed as
@@ -115,6 +107,9 @@
         <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). You do not have to follow this size if you don't want to as long as all of your cards are the same size and appearance when viewed from the back. (You can achieve this easily with sleeves if you print in a standard card size.)</p>
         For the back of cards, an image is provided as &ldquo;card_base/card_back.png&rdquo;. A file for a sheet of card backs is available as sets/backs.pdf; you can simply print this onto the back of a sheet which has cards printed on it. This is optional as long as sleeves are used that are opaque when viewed from the back.
 
+        <h4 id="inst-changes">Rule/Text Changes</h4>
+        <p>Between editions, the rules and card text in Keeper of the Cards may be changed. You as a card designer need to consider these when updating old cards. See the <a href="rulebook.html#banned">Rulebook: Revised and Banned Cards section</a> for information on which cards need to be updated.</p>
+
         <h3 id="texts">Card Texts</h3>
 
         <h4 id="caveats">Caveats</h4>
@@ -145,16 +140,11 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Summon cost: Sacrifice <var>x</var> random cards in your hand.&rdquo;
@@ -163,7 +153,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -175,7 +165,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -193,7 +183,7 @@
                             <mi>x</mi>
                         </mrow>
                         <mrow>
-                            <mn>4</mn>
+                            <mn>2</mn>
                         </mrow>
                     </mfrac>
                     <mtext>)</mtext>
@@ -204,6 +194,8 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -213,16 +205,11 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Summon cost: Self-destroy <var>x</var> in-play cards (enemy's choice).&rdquo;
@@ -231,6 +218,8 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -240,16 +229,11 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Summon cost: Self-destroy <var>x</var> resources (enemy's choice).&rdquo;
@@ -308,7 +292,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -320,7 +304,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
+                        <mn>8</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -332,7 +316,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>6</mn>
+                        <mn>12</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -343,16 +327,11 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Action cost: Self-destroy <var>x</var> random cards in your hand.&rdquo;
@@ -361,7 +340,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -373,7 +352,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -385,7 +364,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -397,7 +376,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -414,9 +393,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Cannot attack.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -427,9 +403,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Cannot defend.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -443,60 +416,6 @@
                 <ul>
                     <li>Suggested tutorial text: <i>&ldquo;Destroyed if unexhausted at the end of your own Battle Phase.&rdquo;</i></li>
                 </ul>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>1.5</mn>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;This creature cannot attack or defend.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;You must pay <var>x</var> hitpoints to summon this creature.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;You must sacrifice <var>x</var> cards on the top of your deck to summon this creature.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;You must destroy <var>x</var> cards on the top of your deck to summon this creature.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
             </li>
         </ul>
 
@@ -717,45 +636,6 @@
                 </math>
                 &ldquo;When you take at least <var>x</var> damage:&rdquo;
             </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mn>1</mn>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Activate in response to an opponent's summon.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mn>1</mn>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Activate in response to an opponent's attack.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mn>1</mn>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Activate in response to an opponent's card effect.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
@@ -817,7 +697,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -829,7 +709,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
+                        <mn>8</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -841,7 +721,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>6</mn>
+                        <mn>12</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -852,16 +732,11 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Self-destroy <var>x</var> random cards in your hand;&rdquo;
@@ -870,7 +745,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -882,7 +757,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -894,7 +769,7 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
+                        <mn>4</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
@@ -906,48 +781,13 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>3</mn>
+                        <mn>6</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Self-destroy <var>x</var> resources (enemy's choice);&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Pay <var>x</var> hitpoints.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Sacrifice <var>x</var> cards on the top of your deck.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Destroy <var>x</var> cards on the top of your deck.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
             </li>
         </ul>
 
@@ -1239,39 +1079,6 @@
                 </math>
                 &ldquo;Target up to <var>x</var> cards in one opponent’s graveyard (their choice);&rdquo;
             </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>t</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>x</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Target up to <var>x</var> cards in the current chain.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>t</mi>
-                        <mo>=</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Target up to <var>x</var> cards in your graveyard.&rdquo;</del>
-                <i>Redacted (9<sup>th</sup> Edition)</i>
-            </li>
         </ul>
 
         <h4 id="effects">Effects</h4>
@@ -1295,34 +1102,28 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;See the targets.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Place <var>x</var> generic counters on each target.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1334,11 +1135,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1350,11 +1151,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1366,11 +1167,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1382,11 +1183,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1398,11 +1199,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1414,11 +1215,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1430,11 +1231,11 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>6</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
+                        <mn>3</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1446,8 +1247,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1460,8 +1259,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1483,9 +1280,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Hypnotize the targets until the end of this turn.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -1500,9 +1294,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Destroy the targets.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -1565,9 +1356,9 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>x</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>a</mi>
+                            <mo>&InvisibleTimes;</mo>
+                            <mi>x</mi>
                             <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
@@ -1584,11 +1375,14 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>x</mi>
-                            <mo>+</mo>
                             <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>t</mi>
+                            <mo>(</mo>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>+</mo>
+                                <mi>t</mi>
+                            </mrow>
+                            <mo>)</mo>
                         </mrow>
                         <mrow>
                             <mn>2</mn>
@@ -1597,20 +1391,20 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Batch add <var>x</var> to targets' offense.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>x</mi>
-                            <mo>+</mo>
                             <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>t</mi>
+                            <mo>(</mo>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>+</mo>
+                                <mi>t</mi>
+                            </mrow>
+                            <mo>)</mo>
                         </mrow>
                         <mrow>
                             <mn>12</mn>
@@ -1619,20 +1413,20 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Batch add <var>x</var> to targets' defense.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>x</mi>
-                            <mo>+</mo>
                             <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>t</mi>
+                            <mo>(</mo>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>+</mo>
+                                <mi>t</mi>
+                            </mrow>
+                            <mo>)</mo>
                         </mrow>
                         <mrow>
                             <mn>2</mn>
@@ -1641,20 +1435,20 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Batch subtract <var>x</var> from targets' offense.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>x</mi>
-                            <mo>+</mo>
                             <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>t</mi>
+                            <mo>(</mo>
+                            <mrow>
+                                <mi>x</mi>
+                                <mo>+</mo>
+                                <mi>t</mi>
+                            </mrow>
+                            <mo>)</mo>
                         </mrow>
                         <mrow>
                             <mn>4</mn>
@@ -1663,9 +1457,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;<var>x</var>-dice-damage the targets.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -1673,16 +1464,13 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Draw <var>x</var> cards.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (9<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -1708,16 +1496,13 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Gain <var>x</var> HP.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
@@ -1725,41 +1510,36 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;<var>x</var>-dice-heal yourself.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;<var>x</var>-dice-heal yourself and one opponent.&rdquo;
-                <ul>
-                    <li><i>Cost Revised (11<sup>th</sup> Edition)</i></li>
-                </ul>
             </li>
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -1769,96 +1549,15 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
+                        <mi>a</mi>
+                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>y</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
                 &ldquo;You may re-roll up to <var>x</var> dice for the rest of this turn up to <var>y</var> times each.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mfrac>
-                            <mi>x</mi>
-                            <mn>4</mn>
-                        </mfrac>
-                        <mo>+</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>t</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Inflict a total of <var>x</var> damage to targets.&rdquo;</del>
-                <i>Redacted (2<sup>nd</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>a</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Inflict <var>x</var> damage to any one player.&rdquo;</del>
-                <i>Redacted (2<sup>nd</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>5</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>t</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Negate attack of all targets.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>5</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>t</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;Negate activated effect of all targets.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>y</mi>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                <del>&ldquo;You may re-roll up to <var>x</var> dice in the current chain up to <var>y</var> times each.&rdquo;</del>
-                <i>Redacted (7<sup>th</sup> Edition)</i>
             </li>
         </ul>
     </main>
