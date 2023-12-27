@@ -77,24 +77,24 @@
         <p>Keeper of the Cards can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than two players, each player works alone with their own HP and field.</p>
 
         <h3 id="field">The Field</h3>
-        <p>Each player's field contains the following zones:</p>
+        <p>Each player has a <dfn>field</dfn>: a designated area where cards are played, divided into several distinct <dfn>zones</dfn> which each have a specific purpose. Each zone's contents are classified as either <dfn>public knowledge</dfn>, in which case all players are entitled to know what cards are in the zone; <dfn>private knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but only its owner is entitled to know what cards are in the zone; or <dfn>restricted knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but no player (not even its owner) is entitled to know what cards are in the zone. The zones are as follows:</p>
         <ul>
-            <li>Deck: Typically to the right of your Trap Zone. The deck's contents are not revealed to anyone, and it is shuffled before the start of the game.</li>
-            <li>Graveyard: Typically to the right of your deck. Any card which is destroyed or sacrificed is immediately sent here, face-down. The contents of the graveyard are not public knowledge, but its owner may look thru it at any time.</li>
-            <li>Reserves: Typically to the left of your Trap Zone. You can retrieve a card of your choice from the reserves instead of drawing a card from your deck, either when drawing a card during your Resource Phase or when drawing a card due to a card effect.</li>
-            <li>Creature Zone: Typically above your Trap Zone. Contains your &ldquo;in-play&rdquo; creatures. The contents of this zone are public knowledge.  There is no limit to the number of cards that can be in your Creature Zone.</li>
-            <li>Trap Zone: Typically to the left of your deck. Contains your &ldquo;in-play&rdquo; spells (a.k.a. &ldquo;traps&rdquo;). The contents of this zone are not public knowledge, but its owner may look at the cards within at any time.  There is no limit to the number of cards that can be in your Trap Zone.</li>
-            <li>Resource Zone: Typically below your your Trap Zone. Contains your resources. The contents of this zone are not public knowledge, but its owner may look at the cards within at any time. There is no limit to the number of cards that can be in your Resource Zone. Note: Cards in this zone are not considered to be &ldquo;in-play&rdquo;.</li>
-            <li>Hand: The cards you currently have available to play, held in your hand. The contents of a hand are not public knowledge, but its owner may look at the cards within at any time. There is no limit to the number of cards that can be in your hand.</li>
+            <li>Deck: Typically to the right of the trapfield. The contents of the deck are restricted knowledge.</li>
+            <li>Graveyard: Typically to the right of the deck. Any card which is destroyed or sacrificed is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
+            <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Resource Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
+            <li>Battlefield: Typically above the trapfield. Contains its owner's &ldquo;in-play&rdquo; creatures. The contents of the battlefield are public knowledge.</li>
+            <li>Trapfield: Typically to the left of the deck. Contains its owner's &ldquo;in-play&rdquo; spells (a.k.a. &ldquo;traps&rdquo;). The contents of the trapfield are private knowledge.</li>
+            <li>Granary: Typically below the trapfield. Contains its owner's resources. The contents of the granary are private knowledge. Note: Cards in the granary are not considered to be &ldquo;in-play&rdquo;.</li>
+            <li>Hand: Typically held in the hand. Contains the cards its owner currently has available to play. The contents of the hand are private knowledge.</li>
         </ul>
         <img class="example" src="images/zones.png" alt="">
 
         <h3 id="turnorder">Turn Order</h3>
         <p>Each turn in Keeper of the Cards consists of the following phases:</p>
         <ol>
-            <li>Resource Phase: Place up to two cards from your hand, face-down, onto the Resource Zone, unexhausted. Then draw a number of cards equal to two minus the number of cards you placed into the Resource Zone. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources placed); <b>(b)</b> place one resource and draw one card; or <b>(c)</b> place two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resource placement.
+            <li>Resource Phase: Place up to two cards from your hand, face-down, onto the granary, unexhausted. Then draw a number of cards equal to two minus the number of cards you placed into the granary. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources placed); <b>(b)</b> place one resource and draw one card; or <b>(c)</b> place two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resource placement.
                 <ul>
-                    <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the Resource Zone OR draws one card.</li>
+                    <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
                 </ul>
             </li>
             <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps which have no activation condition. See <a href="#creatures">Creatures</a> and <a href="spells">Casting Spells and Setting Traps</a> for more information.</li>
@@ -103,15 +103,15 @@
         </ol>
 
         <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
-        <p>Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the Resource Zone unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the Resource Zone, it is always played face-down, as its identity is not public knowledge.</p>
+        <p>Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the granary unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
         <p>To pay a resource cost is to exhaust a number of unexhausted resources equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
-        <p>During the Recovery Phase, all cards in every player's Creature Zone, Trap Zone, and Resource Zone are unexhausted. In addition, every creature in every player's Creature Zone has its offense, defense, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every creature in every player's battlefield has its offense, defense, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
         <p>For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
 
         <h3 id="creatures">Creatures</h3>
         <p>Creatures are used to do battle, but may also have special abilities.</p>
-        <p>To summon a creature, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the Creature Zone. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
+        <p>To summon a creature, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
         <p>Some creatures have <dfn>caveats</dfn>, special rules which apply to them. Caveats are always on the first paragraph of the ability text. Most caveats make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
         <p>Caveats may include such things as extra costs for summoning the creature, costs for attacking or defending, and restrictions on what the creature can do. Creatures with caveats that create requirements for summoning include a silhouette of a padlock behind the ability text (demonstrated by &ldquo;Mourning a Loss&rdquo; under <a href="cardtypes">Card Types and Layout</a>). Such caveats are also conventionally colored red to make them stand out from the rest of the text.</p>
         <p>Creatures can activate abilities, hold counters, and participate in battles, as described in the following subsections.</p>
@@ -124,7 +124,7 @@
         <p>Many abilities make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
 
         <h4 id="counters">Counters</h4>
-        <p>Some abilities manipulate or utilize counters. A counter is a special marker which can be placed on an in-play creature (but not a trap or resource; if an effect places a counter on one of these types of card, that part of the effect is ignored). Any available object can be used as a counter. Counters stay on the creature they are placed on until either the creature leaves the Creature Zone, or an ability removes them.</p>
+        <p>Some abilities manipulate or utilize counters. A counter is a special marker which can be placed on an in-play creature (but not a trap or resource; if an effect places a counter on one of these types of card, that part of the effect is ignored). Any available object can be used as a counter. Counters stay on the creature they are placed on until either the creature leaves the battlefield, or an ability removes them.</p>
         <p>The simplest counters are generic counters. On their own, generic counters have no effect. These are typically removed from creatures as activation costs, enabling more powerful effects, or simply required for targeting. No player is permitted to remove generic counters from any card unless an ability does so.</p>
         <p>However, some abilities can also place special named counters, which in addition to being usable as normal counters, can be voluntarily removed to trigger special effects. The following rules apply to all named counters:</p>
         <ul>
@@ -169,7 +169,7 @@
         <p>To cast a spell, pay its resource cost, reveal the spell to all other players, follow the instructions on the card immediately, and send the spell to the graveyard. Note: a spell cast this way is <strong>not</strong> considered to be &ldquo;in-play&rdquo; at any stage. Just like with creature abilities, a spell with an activation condition can only be cast (either from the hand or as a trap) at the time that the activation condition says, and a spell with no activation condition can only be cast during your own action phase. Spells with activation conditions include a silhouette of a padlock behind the ability text (demonstrated by &ldquo;Mourning a Loss&rdquo; in <a href="#cardtypes">Card Types and Layout</a>). Spell activation conditions are also conventionally colored red to make them stand out from the rest of the text.</p>
         <p>Casting a spell starts a chain; see <a href="#chains">Chains</a> for more information.</p>
         <p>Traps function the same way as spells, but the resource cost of a trap is paid when the trap is set and not when it is activated. Additionally, set traps are considered to be &ldquo;in-play&rdquo; and can therefore be affected in ways similar to creatures by certain card effects, thô it is important to note that unlike creatures, traps cannot be damaged, cannot be attacked, and cannot engage in battle.</p>
-        <p>To set a trap, pay its resource cost, then place the card into the Trap Zone, face-down and exhausted. Note: the identity of the card is not public knowledge.</p>
+        <p>To set a trap, pay its resource cost, then place the card into the trapfield, face-down and exhausted. Note: the identity of the card is not public knowledge.</p>
         <p>Only unexhausted traps can be activated. Note that activating a trap does not incur any additional resource cost. Simply turn the trap over to reveal it to all other players (note: at this point, the trap is no longer &ldquo;in-play&rdquo;), follow the instructions on the card, and then send it to the graveyard.</p>
 
         <h3 id="chains">Chains</h3>
@@ -230,7 +230,7 @@
             <li>Cast the card (if it is a spell).</li>
             <li>Set the card as a trap (if it is a spell).</li>
         </ol>
-        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable summon costs for creatures and activation costs for spells, and any creature summoned or trap set is placed onto the Creature Zone or Trap Zone exhausted.</p>
+        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable summon costs for creatures and activation costs for spells, and any creature summoned or trap set is placed onto the battlefield or trapfield exhausted.</p>
         <p>Cards which are already in-play cannot be deployed and thus are excluded.</p>
 
         <h4>Destroy</h4>
@@ -270,7 +270,7 @@
         <p>Only in-play creatures and traps can be hypnotized.</p>
 
         <h4>In-play</h4>
-        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed creatures in the Creature Zone, and unactivated traps. Creatures cease being in-play the moment they are destroyed, sacrificed, or otherwise moved to any location other than the Creature Zone. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the Trap Zone.</p>
+        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed creatures in the battlefield, and unactivated traps. Creatures cease being in-play the moment they are destroyed, sacrificed, or otherwise moved to any location other than the battlefield. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the trapfield.</p>
         <p>Resources are never considered to be in-play under any circumstance. Additionally, spells activated from the Hand are not considered to be in-play at any point.</p>
 
         <h4>It</h4>
@@ -295,7 +295,7 @@
         <p>To <dfn>self-exhaust</dfn> a card is to exhaust one of your unexhausted cards as a cost. The text will specify which of your cards you are to self-exhaust.</p>
 
         <h4>Silo</h4>
-        <p>To <dfn>silo</dfn> a card means to place it into its owner's Resource Zone, exhausted. As with placing resources normally, siloed cards are placed onto the Resource Zone face-down.</p>
+        <p>To <dfn>silo</dfn> a card means to place it into its owner's granary, exhausted. As with placing resources normally, siloed cards are placed onto the granary face-down.</p>
 
         <h4>Summon Cost</h4>
         <p>A <dfn>summon cost</dfn> is a caveat indicating an additional cost that must be paid to summon the creature in addition to exhausting resources as normal.</p>
@@ -307,7 +307,7 @@
         <p>Used in target selections, the phrase "up to" precisely means any integer between 1 and the indicated number (selected by the player who controls the card). For example, "up to 3" means the player who controls the card chooses 1, 2, or 3. (Note: the number 0 cannot be selected; if there is no valid target, the ability has no further effect.)</p>
 
         <h4>Your</h4>
-        <p>A card is considered to be <dfn>your</dfn> card if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your creature zone, it is &ldquo;your&rdquo; in-play creature and you can use it the same way as cards that came from your own deck.</p>
+        <p>A card is considered to be <dfn>your</dfn> card if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, it is &ldquo;your&rdquo; in-play creature and you can use it the same way as cards that came from your own deck.</p>
 
         <h3 id="banned">Revised and Banned Cards</h3>
         <p>As the game develops, cards made for old editions become outdated and no longer valid in new editions. This section documents all such cases, as well as cases where card text modifications have been applied that retroactively change the behavior of previously designed cards.</p>
