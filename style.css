@@ -180,12 +180,12 @@ th, td
     }
     h3 {
         text-align: center;
-        break-before: always;
+        page-break-before: always;
     }
     .manual-break {
-        break-before: always;
+        page-break-before: always;
     }
     .no-break {
-        break-inside: avoid;
+        page-break-inside: avoid;
     }
 }
