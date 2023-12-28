@@ -188,4 +188,7 @@ th, td
     .no-break {
         break-inside: avoid;
     }
+    .no-break-before {
+        break-before: auto;
+    }
 }
