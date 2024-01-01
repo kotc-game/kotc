@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-__version__ = "2.0.1"
+__version__ = "3.0"
 
 
 import math
@@ -82,11 +82,6 @@ def ask_float(question):
 
 
 def get_ability():
-    if ask_bool("Does the ability have an activation condition?"):
-        condition_relief = ask_float("What is the relief of the activation condition?")
-    else:
-        condition_relief = 0
-
     if ask_bool("Does the ability have an activation cost?"):
         cost_relief = ask_float("What is the relief of the activation cost?")
     else:
@@ -98,7 +93,7 @@ def get_ability():
         effect_costs += ask_float("What is the cost of effect #{}?".format(n))
         n += 1
         if not ask_bool("Does the ability have another effect?"):
-            return max(1, effect_costs - condition_relief - cost_relief)
+            return max(1, effect_costs - cost_relief)
 
 
 card_type = ask_choice("What type of card is it?", ["Creature", "Spell"])
