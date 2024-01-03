@@ -139,7 +139,7 @@
             <li>These counters can be removed (and their effects triggered) literally at any time, that is to say, during any phase of any player's turn, even immediately after placing them, triggering the stated effect.</li>
             <li>With the exception of Dice Counters and Immortality Counters, removing a named counter to trigger its effect starts a chain or, alternatively, you can remove a named counter to trigger its effect in response to an existing chain. See <a href="#chains">Chains</a> for more information.</li>
             <li>Removing counters for their effects does <strong>not</strong> require exhausting the creature it is on since the effect is that of the counter, not of the creature.</li>
-            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and is the one who can remove it for its effect, regardless of who controls the creature. For example, if you place one of these counters on an opponent's creature, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
+            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the creature is. For example, if you place one of these counters on a creature controlled by an opponent, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
             <li>For timing purposes, note that when an opponent activates an ability, that ability’s activation cost is paid and its target is selected immediately, meaning that e.g. you cannot remove counters for an effect to render an activation cost impossible unless you do so before the opponent indicates their intention to activate the respective ability. As such, to avoid conflict, if you intend to prevent an opponent from using an ability by removing a named counter during the Resource Phase, you should announce this intention prior to the start of that turn.</li>
         </ul>
         <div class="no-break">
@@ -240,6 +240,12 @@
         </div>
 
         <div class="no-break">
+        <h4>Controller</h4>
+        <p>The <dfn>controller</dfn> of a card is the player whose zone it is in, regardless of who its owner is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, you are its controller and can use it the same way as cards in your battlefield that came from your own deck.</p>
+        <p>When controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the field of its new controller, in the zone it was in when its controller changed. For example, if a creature in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Counter</h4>
         <p>See <a href="#counters">Counters</a> for an explanation of what counters are and how they work, including a list of special named counters.</p>
         </div>
@@ -313,8 +319,8 @@
 
         <div class="no-break">
         <h4>Hypnotize</h4>
-        <p>To <dfn>hypnotize</dfn> a card means to change control of the target to a different player. For example, you could hypnotize an opponent's creature so that you control the creature instead.</p>
-        <p>Only in-play creatures and traps can be hypnotized.</p>
+        <p>To <dfn>hypnotize</dfn> a card means to change the target's controller to a different player. For example, you could hypnotize a creature controlled by an opponent so that you control the creature instead.</p>
+        <p>Only in-play creatures and traps can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
         </div>
 
         <div class="no-break">
@@ -330,7 +336,7 @@
 
         <div class="no-break">
         <h4>Owner</h4>
-        <p>The <dfn>owner</dfn> of a card is always the player whose deck it originates from, regardless of who currently controls it.</p>
+        <p>The <dfn>owner</dfn> of a card is always the player whose deck it originates from, regardless of who its controller is.</p>
         </div>
 
         <div class="no-break">
@@ -375,12 +381,12 @@
 
         <div class="no-break">
         <h4>Up to</h4>
-        <p>Used in target selections, the phrase "up to" precisely means any integer between 1 and the indicated number (selected by the player who controls the card). For example, "up to 3" means the player who controls the card chooses 1, 2, or 3. (Note: the number 0 cannot be selected; if there is no valid target, the ability has no further effect.)</p>
+        <p>Used in target selections, the phrase "up to" precisely means any integer between 1 and the indicated number (selected by the card's controller). For example, "up to 3" means the controller of the card chooses 1, 2, or 3. (Note: the number 0 cannot be selected; if there is no valid target, the ability has no further effect.)</p>
         </div>
 
         <div class="no-break">
-        <h4>Your</h4>
-        <p>A card is considered to be <dfn>your</dfn> card if it is in any zone you control, regardless of who the owner of the card is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, it is &ldquo;your&rdquo; in-play creature and you can use it the same way as cards that came from your own deck.</p>
+        <h4>You</h4>
+        <p>As used in card text, <dfn>you</dfn>, <dfn>your</dfn>, and <dfn>yourself</dfn> always refer to the player who is using the card in question, i.e. its controller or the player summoning or casting it, regardless of who its owner is.</p>
         </div>
 
         <h3 id="banned">Revised and Banned Cards</h3>
