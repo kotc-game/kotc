@@ -1066,7 +1066,13 @@
 
         <h4 id="effects">Effects</h4>
         <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see <a href="#targeting">Target Selections</a>). Similarly, the variable <var>a</var> is either the value given by the formula of the activation condition used, or if no activation condition is used, it is set to 1 (see <a href="#conditions">Activation Conditions</a>).</p>
-        <p>For brevity, any instance of the phrases &ldquo;each target&rdquo; and &ldquo;the target&rdquo; can be replaced with &ldquo;it&rdquo; if the number of targets is never greater than 1 <strong>and</strong> the meaning of the effect is not made ambiguous by the substitution. If the number of targets is never greater than 1, but the word &ldquo;it&rdquo; would be ambiguous, the phrase &ldquo;the target&rdquo; should always be used instead (forgoing the word &ldquo;each&rdquo; if normally present).</p>
+        <p>For brevity and to avoid confusion, if the number of targets is never greater than 1, the following substitutions are recommended:</p>
+        <ul>
+            <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
+            <li>&ldquo;Each target's&rdquo; and &ldquo;the targets'&rdquo; should be replaced with &ldquo;the target's&rdquo;, or alternatively, they can be replaced with &ldquo;its&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
+            <li>&ldquo;Batch add&rdquo; should be replaced with just &ldquo;add&rdquo;.</li>
+            <li>&ldquo;Batch subtract&rdquo; should be replaced with just &ldquo;subtract&rdquo;.</li>
+        </ul>
         <p>For better coherence at the cost of brevity, you may chain consecutive effects in an ability together with a comma followed by the word &ldquo;then&rdquo; or &ldquo;also&rdquo; instead of a period. For example, you can change, &ldquo;Deck-stack the targets. Draw 2 cards.&rdquo; into, &ldquo;Deck-stack the targets, then draw 2 cards.&rdquo; </p>
         <ul>
             <li>
@@ -1359,7 +1365,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Reduce the targets' level by <var>x</var> until the end of this turn.&rdquo;
+                &ldquo;Reduce each target's level by <var>x</var> until the end of this turn.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1376,12 +1382,12 @@
                             <mo>)</mo>
                         </mrow>
                         <mrow>
-                            <mn>8</mn>
+                            <mn>4</mn>
                         </mrow>
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Batch add <var>x</var> to targets' offense.&rdquo;
+                &ldquo;Batch add <var>x</var> to the targets' offense.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1398,12 +1404,12 @@
                             <mo>)</mo>
                         </mrow>
                         <mrow>
-                            <mn>24</mn>
+                            <mn>12</mn>
                         </mrow>
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Batch add <var>x</var> to targets' defense.&rdquo;
+                &ldquo;Batch add <var>x</var> to the targets' defense.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1420,12 +1426,12 @@
                             <mo>)</mo>
                         </mrow>
                         <mrow>
-                            <mn>8</mn>
+                            <mn>4</mn>
                         </mrow>
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Batch subtract <var>x</var> from targets' offense.&rdquo;
+                &ldquo;Batch subtract <var>x</var> from the targets' offense.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -1442,7 +1448,7 @@
                             <mo>)</mo>
                         </mrow>
                         <mrow>
-                            <mn>8</mn>
+                            <mn>4</mn>
                         </mrow>
                     </mfrac>
                     <mtext>)</mtext>
