@@ -6,8 +6,8 @@ If you want to go further, example card contributions are absolutely welcome. We
 
 1. It must not be a banned card (see the rulebook).
 2. It must not break any U.S. laws (in particular, copyright law and trademark law).
-3. It must not pornographic in nature.
-4. It must carry a libre/open content license.
+3. It must not be pornographic in nature.
+4. It must carry an open content license.
 
 Recommended licenses are the [Creative Commons Attribution License (CC BY)](https://creativecommons.org/licenses/by/4.0/), the [Creative Commons Attribution-ShareAlike License (CC BY-SA)](https://creativecommons.org/licenses/by-sa/4.0/), and the [Creative Commons Public Domain Dedication tool (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).
 
@@ -19,5 +19,5 @@ We do not accept the GNU GPL or the GNU FDL for example cards; these licenses re
 
 Please also note that the lack of a copyright notice on an image **does not** mean that the image is in the public domain. By international convention, all works "fixed in a tangible medium" are automatically placed under copyright. A work only enters the public domain if its copyright expires, or if its author explicitly dedicates it to the public domain. As such, most images found on the Internet are *not* in the public domain. A good place to find actual public domain images, as well as images under other libre/open content licensing terms, is the Wikimedia Commons.
 
-In any case, if you would like to contribute, you can either use Git (if you know how to use it), or you can open an issue; either works fine.
+In any case, if you would like to contribute, you can either use Git (if you know how to use it), or you can post on the Discussions page; either works fine.
 
