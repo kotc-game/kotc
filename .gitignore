@@ -6,8 +6,7 @@
 
 # PNG exports
 cards/*.png
-tip-cards/*.png
+tip_cards/*.png
 
 # PDF exports
-card_building_guide.pdf
-rules.pdf
+*.pdf
