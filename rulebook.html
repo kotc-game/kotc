@@ -15,7 +15,7 @@
     <h1 class="header">Keeper of the Cards</h1>
 
     <main>
-        <h2>Rulebook (11<sup>th</sup> Edition)</h2>
+        <h2>Rulebook (12<sup>th</sup> Edition)</h2>
 
         <p>Keeper of the Cards is a trading card game, loosely inspired by elements from various popular trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don't just trade cards; you <em>create</em> cards.</p>
 
@@ -38,7 +38,7 @@
                 <li><a href="#battles">Battles</a></li>
                 <li><a href="#spells">Casting Spells and Setting Traps</a></li>
                 <li><a href="#chains">Chains</a></li>
-                <li><a href="#winning">Winning and Losing</a></li>
+                <li><a href="#winning">Endgame</a></li>
                 <li><a href="#keywords">Keywords</a></li>
                 <li><a href="#banned">Revised and Banned Cards</a>
                     <ol type="a">
@@ -175,7 +175,7 @@
             <li>If the target and any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target.</li>
             <li>If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
         </ol>
-        <p>For the purposes of timing, steps 4&ndash;6 are considered to happen simultaneously. This can matter for certain abilities, and it also means that if both players' HP reach zero during a battle, both players will lose simultaneously. To facilitate this, any action which starts a chain cannot be taken during this time frame and must wait until step 6 is completed.</p>
+        <p>For the purposes of timing, steps 4&ndash;6 are considered to happen simultaneously. To facilitate this, any action which starts a chain cannot be taken during this time frame and must wait until step 6 is completed.</p>
         <p>To inflict damage to a creature, subtract the damage amount from the creature's defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 damage is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. Note: it is possible for creatures to initially have 0 defense; in such a case, any amount of damage will destroy the creature.</p>
         <p>As an example, consider an attacking team with two creatures (Creature <var>A</var> and Creature <var>B</var>) that each have 2 offense and 5 defense plus one creature (Creature <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Creature <var>C</var> → Creature <var>A</var> → Creature <var>B</var>&rdquo;. The defending player then chooses to defend with two creatures (Creature <var>D</var> and Creature <var>E</var>) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Creature <var>D</var> → Creature <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking creature (Creature <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first creature (Creature <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second creature (Creature <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's creatures have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
         <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining; however, you may not select the same target more than once in the same Battle Phase. For example, you cannot attack a player with one creature and then attack that same player with another creature within the same Battle Phase. However, you can use one creature to attack one of a player's creatures and then use a different creature to attack the owner of that creature, for example.</p>
@@ -202,14 +202,14 @@
         </ol>
         <p>Only one chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a creature ability or spell, said creature ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
 
-        <h3 id="winning">Winning and Losing</h3>
-        <p>Any given player can lose in one of three ways:</p>
+        <h3 id="winning">Endgame</h3>
+        <p>The winner of any game of Keeper of the Cards is the player who has the most HP when any of the following <dfn>endgame conditions</dfn> are met:</p>
         <ol>
-            <li>By having their HP reduced to zero.</li>
-            <li>By having an empty deck.</li>
-            <li>By voluntarily forfeiting.</li>
+            <li>When all players have zero HP.</li>
+            <li>When all players but one have zero HP.</li>
+            <li>When any player is made to draw a card while their deck is empty.</li>
         </ol>
-        <p>Any player who loses is out of the game and can no longer affect the game in any way. When only one player remains in the game, that player is declared the winner. If all remaining players are eliminated at once (e.g. if all remaining players have their HP reduced to zero at the same time, or by all drawing their last card at the same time), the game ends in a draw.</p>
+        <p>A player's HP cannot be be lower than zero. Until an endgame condition is met, players with zero HP, referred to as <dfn>zombie players</dfn>, continue to play as normal. Zombie players can regain a chance at winning the game by gaining HP before an endgame condition is met.</p>
 
         <h3 id="keywords">Keywords</h3>
         <p>This section lists common keywords used in card text, including any important nuances for said keywords.</p>
