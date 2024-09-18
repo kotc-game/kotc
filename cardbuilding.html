@@ -57,28 +57,28 @@
 
         <h3 id="instructions">Design Instructions</h3>
         <p>There are two types of cards: creatures, and spells.</p>
-        <p>Creatures have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities and/or any one caveat. Offense and defense must each be no lower than 0 and no higher than 99.</p>
+        <p>Creatures have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities and/or any one caveat. Offense and defense must each be no lower than 0.</p>
         <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
         <h4 id="inst-abilities">Constructing Abilities</h4>
-        <p>Abilities are the one gameplay element that all types of card can have. Abilities are composed of up to four components:</p>
+        <p>Abilities are the one gameplay element that all types of card can have. To increase flexibility in card creation, an ability is composed of 1 or more <dfn>sub-abililities</dfn>. Each sub-ability is composed of up to four components:</p>
         <ol>
             <li>One activation condition (optional)</li>
             <li>One activation cost (optional)</li>
             <li>One target selection (optional)</li>
             <li>One or more effects (required)</li>
         </ol>
-        <p>These components must be listed on the card in that order, and must be in the same paragraph (<strong>do not</strong> split the text of one ability into multiple paragraphs). You must choose non-redacted components from the lists in the <a href="#texts">Card Texts</a> section only. Within these restrictions, you may design any ability you wish.</p>
+        <p>These components must be listed on the card in that order. You must choose non-redacted components from the lists in the <a href="#texts">Card Texts</a> section only. Within these restrictions, you may design any sub-ability you wish, and may then chain as many sub-abilities to form the ability. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
-        <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability of the paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your HP by the result.&rdquo; Ability names, like card names, serve no function in the game. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
+        <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your HP by the result.&rdquo; Ability names, like card names, serve no function in the game. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
         <h4 id="inst-caveats">Choosing a Caveat</h4>
-        <p>Caveats are a special type of component which can only be used by creatures. Any creature may have no more than one caveat, listed before any abilities the creature has. Caveats always do something negative, but reduce the cost of the creature's offense and defense values.</p>
+        <p>Caveats are a special type of component which can only be used by creatures. Any creature may have any number of caveats, listed before any abilities the creature has on a single paragraph. Caveats always do something negative, but reduce the cost of the creature's offense and defense values.</p>
 
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
-        <p>To determine an ability cost, take the sum of all effect formulas corresponding to effect texts used in the ability, then subtract the activation cost relief (if any). If less than 1, set to 1.</p>
+        <p>To determine a sub-ability cost, take the sum of all effect formulas corresponding to effect texts used in the sub-ability, then subtract the activation cost relief (if any). If less than 1, set to 1. To determine an ability cost, add together the ability's sub-ability costs.</p>
         <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and if less than 0, set to 0. Then, add all of the creature's ability costs and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
         <p>To determine the level of a spell, take the spell's ability cost and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
 
@@ -97,6 +97,7 @@
 
         <h4 id="caveats">Caveats</h4>
         <p>Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the level of the creature in exchange. Of course, caveats can only be given to creatures, not spells. The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>For cards that have multiple "Summon cost" and "Action cost" caveats, these caveats should be combined into a single "Summon cost" caveat and/or a single "Action cost" caveat, separating each cost component in the respective combined caveat with a comma followed by the word "also".</p>
         <ul>
             <li>
                 <math display="inline">
@@ -628,18 +629,6 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Remove <var>x</var> counters from this card;&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
                     <mfrac>
                         <mrow>
                             <mi>x</mi>
@@ -771,6 +760,21 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Self-destroy <var>x</var> resources (enemy's choice);&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                <del>&ldquo;Remove <var>x</var> counters from this card;&rdquo;</del>
+                <ul>
+                    <li><i>Redacted (12<sup>th</sup> Edition)</i></li>
+                </ul>
             </li>
         </ul>
 
