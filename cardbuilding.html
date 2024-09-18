@@ -61,14 +61,13 @@
         <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
         <h4 id="inst-abilities">Constructing Abilities</h4>
-        <p>Abilities are the one gameplay element that all types of card can have. To increase flexibility in card creation, an ability is composed of 1 or more <dfn>sub-abililities</dfn>. Each sub-ability is composed of up to four components:</p>
+        <p>Abilities are the one gameplay element that all types of card can have. To increase flexibility in card creation, an ability is composed of 1 optional activation condition found in the <a href="#conditions">Activation Conditions</a> section followed by 1 or more <dfn>sub-abililities</dfn>. Each sub-ability is composed of up to three components:</p>
         <ol>
-            <li>One activation condition (optional)</li>
-            <li>One activation cost (optional)</li>
-            <li>One target selection (optional)</li>
-            <li>One or more effects (required)</li>
+            <li>One activation cost from the <a href="#costs">Activation Costs</a> section (optional)</li>
+            <li>One target selection from the <a href="#targeting">Target Selections</a> section (optional)</li>
+            <li>One or more effects from the <a href="#effects">Effects</a> section (required)</li>
         </ol>
-        <p>These components must be listed on the card in that order. You must choose non-redacted components from the lists in the <a href="#texts">Card Texts</a> section only. Within these restrictions, you may design any sub-ability you wish, and may then chain as many sub-abilities to form the ability. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
+        <p>These components must be listed in that order for each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any sub-ability you wish, and may then chain as many sub-abilities as you want. All text of the ability, including all sub-abilities, must be on the same paragraph, ordered so that the activation condition is first, followed by all sub-abilities.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
         <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your HP by the result.&rdquo; Ability names, like card names, serve no function in the game. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
