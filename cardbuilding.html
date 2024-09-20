@@ -61,15 +61,20 @@
         <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
         <h4 id="inst-abilities">Constructing Abilities</h4>
-        <p>Abilities are the one gameplay element that all types of card can have. To increase flexibility in card creation, an ability is composed of 1 optional activation condition found in the <a href="#conditions">Activation Conditions</a> section followed by 1 or more <dfn>sub-abililities</dfn>. Each sub-ability is composed of up to three components:</p>
+        <p>Abilities are the one gameplay element that all types of card can have. An ability is composed of the following components:</p>
         <ol>
-            <li>One activation cost from the <a href="#costs">Activation Costs</a> section (optional)</li>
-            <li>One target selection from the <a href="#targeting">Target Selections</a> section (optional)</li>
-            <li>One or more effects from the <a href="#effects">Effects</a> section (required)</li>
+            <li>1 activation condition from the <a href="#conditions">Activation Conditions</a> section (optional)</li>
+            <li>1 or more activation costs from the <a href="#costs">Activation Costs</a> section (optional)</li>
+            <li>1 or more sub-abilities (required)</li>
         </ol>
-        <p>These components must be listed in that order for each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any sub-ability you wish, and may then chain as many sub-abilities as you want. All text of the ability, including all sub-abilities, must be on the same paragraph, ordered so that the activation condition is first, followed by all sub-abilities.</p>
+        <p>A <dfn>sub-ability</dfn> is composed of the following components:</p>
+        <ol>
+            <li>1 target selection from the <a href="#targeting">Target Selections</a> section (optional)</li>
+            <li>1 or more effects from the <a href="#effects">Effects</a> section (required)</li>
+        </ol>
+        <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any ability you wish. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
-        <p>You may give a name to any creature ability. If you do so, it must be designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). One example might be, &ldquo;HEALING: Roll 2 six-sided dice and increase your HP by the result.&rdquo; Ability names, like card names, serve no function in the game. Naming creature abilities is not required, but highly encouraged as it helps make the function of creature abilities clearer and aids in communication between players.</p>
+        <p>Any creature ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
         <h4 id="inst-caveats">Choosing a Caveat</h4>
@@ -77,9 +82,8 @@
 
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
-        <p>To determine a sub-ability level, take the sum of all effect formulas corresponding to effect texts used in the sub-ability, then subtract the activation cost relief (if any) and round up to the next integer if it isn't one already. If less than 1, set to 1. To determine a spell or ability level, add together the spell or ability's sub-ability levels.</p>
-        <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add all of the creature's ability levels.</p>
-        <p>To determine the level of a spell, take the spell's ability cost and round up to the next integer if it isn't one already.</p>
+        <p>To determine a sub-ability level, take the sum of all effect formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then subtract the activation cost relief (if any) and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
+        <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the creature's abilities to the creature's level.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
         <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
@@ -590,7 +594,7 @@
 
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability cost by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
-        <p>For better coherence at the cost of brevity, for abilities which have both an activation cost <em>and</em> a target selection, you may replace the semicolon in the activation cost with a comma followed by the word &ldquo;then&rdquo;. For example, you can change, &ldquo;Exhaust 1 resource; Target this card;&rdquo; into, &ldquo;Exhaust 1 resource, then target this card;&rdquo; if desired.</p>
+        <p>Consecutive activation costs in an ability are connected with a comma followed by the word &ldquo;also&rdquo;. An example would be: &ldquo;Self-exhaust 1 resource, also sacrifice 1 in-play card→&rdquo;</p>
         <ul>
             <li>
                 <math display="inline">
@@ -605,7 +609,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-exhaust <var>x</var> resources;&rdquo;
+                &ldquo;Self-exhaust <var>x</var> resources→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -617,7 +621,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-exhaust <var>x</var> creatures;&rdquo;
+                &ldquo;Self-exhaust <var>x</var> creatures→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -629,7 +633,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-exhaust <var>x</var> creatures (enemy's choice);&rdquo;
+                &ldquo;Self-exhaust <var>x</var> creatures (enemy's choice)→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -641,7 +645,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Sacrifice <var>x</var> random cards in your hand;&rdquo;
+                &ldquo;Sacrifice <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -653,7 +657,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Sacrifice <var>x</var> in-play cards;&rdquo;
+                &ldquo;Sacrifice <var>x</var> in-play cards→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -665,7 +669,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Sacrifice <var>x</var> in-play cards (enemy's choice);&rdquo;
+                &ldquo;Sacrifice <var>x</var> in-play cards (enemy's choice)→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -677,7 +681,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> random cards in your hand;&rdquo;
+                &ldquo;Self-destroy <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -689,7 +693,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> in-play cards;&rdquo;
+                &ldquo;Self-destroy <var>x</var> in-play cards→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -701,7 +705,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> in-play cards (enemy's choice);&rdquo;
+                &ldquo;Self-destroy <var>x</var> in-play cards (enemy's choice)→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -713,7 +717,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> resources;&rdquo;
+                &ldquo;Self-destroy <var>x</var> resources→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -725,13 +729,13 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> resources (enemy's choice);&rdquo;
+                &ldquo;Self-destroy <var>x</var> resources (enemy's choice)→&rdquo;
             </li>
         </ul>
 
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>t</var> is indicated in parentheses.</p>
-        <p>For brevity, the words &ldquo;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card&rdquo; can be replaced with &ldquo;Target 1 in-play card&rdquo;.</p>
+        <p>For brevity, the words &ldquo;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card;&rdquo; can be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -1015,7 +1019,7 @@
             <li>&ldquo;Batch add&rdquo; should be replaced with just &ldquo;add&rdquo;.</li>
             <li>&ldquo;Batch subtract&rdquo; should be replaced with just &ldquo;subtract&rdquo;.</li>
         </ul>
-        <p>For better coherence at the cost of brevity, you may chain consecutive effects in an ability together with a comma followed by the word &ldquo;also&rdquo; instead of a period. For example, you can change, &ldquo;Deck-stack the targets. Draw 2 cards.&rdquo; into, &ldquo;Deck-stack the targets, also draw 2 cards.&rdquo; </p>
+        <p>Consecutive effects in a sub-ability are connected with a comma followed by the word &ldquo;then&rdquo;. An example would be: &ldquo;Draw 1 card, then destroy the targets.&rdquo;</p>
         <ul>
             <li>
                 <math display="inline">
