@@ -375,225 +375,24 @@
 
         <h4 id="conditions">Activation Conditions</h4>
         <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
-        <p>Every activation condition sets the variable <var>a</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>a</var> is indicated in parentheses. If no activation condition is used, the value of <var>a</var> is set to 1.</p>
         <ul>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>6</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When this card is damaged, but not destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When this in-play card is destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When this card as a resource is destroyed (must pay resource cost):&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When this card in your hand is destroyed (must pay resource cost):&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When this card in your deck is destroyed (must pay resource cost):&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When at least <var>x</var> of your in-play cards (excluding this card) are damaged, but not destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When at least <var>x</var> of your in-play cards (excluding this card) are destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When at least <var>x</var> cards in your hand are destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mi>1</mi>
-                            </mrow>
-                            <mrow>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When at least <var>x</var> cards in your deck are destroyed:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mn>5</mn>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                                <mo>&InvisibleTimes;</mo>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When your in-play cards take at least <var>x</var> total damage:&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>a</mi>
-                        <mo>=</mo>
-                        <mfrac>
-                            <mrow>
-                                <mn>5</mn>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                                <mo>&InvisibleTimes;</mo>
-                                <mi>x</mi>
-                            </mrow>
-                        </mfrac>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;When you take at least <var>x</var> damage:&rdquo;
-            </li>
+            <li>&ldquo;When this card attacks (after the Attack Formation Step):&rdquo;</li>
+            <li>&ldquo;When this card defends (after the Defense Formation Step):&rdquo;</li>
+            <li>&ldquo;When this in-play card is damaged (ghost-play):&rdquo;</li>
+            <li>&ldquo;When this in-play card is destroyed (ghost-play):&rdquo;</li>
+            <li>&ldquo;When this card as a resource is destroyed (ghost-play, must pay resource cost):&rdquo;</li>
+            <li>&ldquo;When this card in your hand is destroyed (ghost-play, must pay resource cost):&rdquo;</li>
+            <li>&ldquo;When this card in your deck is destroyed (ghost-play, must pay resource cost):&rdquo;</li>
+            <li>&ldquo;When your in-play card(s) (excluding this card) is damaged:&rdquo;</li>
+            <li>&ldquo;When your in-play card(s) is destroyed:&rdquo;</li>
+            <li>&ldquo;When a card(s) in your hand is destroyed:&rdquo;</li>
+            <li>&ldquo;When a card(s) in your deck is destroyed:&rdquo;</li>
+            <li>&ldquo;When you take damage:&rdquo;</li>
+            <li>&ldquo;When you gain HP:&rdquo;</li>
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
-        <p>Activation costs serve to reduce an ability cost by &ldquo;paying&rdquo; in other ways. Only one activation cost can be used per ability. The amount of relief an activation cost provides is listed in parentheses.</p>
+        <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The amount of relief an activation cost provides is listed in parentheses.</p>
         <p>Consecutive activation costs in an ability are connected with a comma followed by the word &ldquo;also&rdquo;. An example would be: &ldquo;Self-exhaust 1 resource, also sacrifice 1 in-play card→&rdquo;</p>
         <ul>
             <li>
@@ -1011,7 +810,7 @@
         </ul>
 
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see <a href="#targeting">Target Selections</a>). Similarly, the variable <var>a</var> is either the value given by the formula of the activation condition used, or if no activation condition is used, it is set to 1 (see <a href="#conditions">Activation Conditions</a>).</p>
+        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see <a href="#targeting">Target Selections</a>).</p>
         <p>For brevity and to avoid confusion, if the number of targets is never greater than 1, the following substitutions are recommended:</p>
         <ul>
             <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
@@ -1026,8 +825,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1043,8 +840,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                             <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
@@ -1062,8 +857,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                             <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
@@ -1080,8 +873,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1094,8 +885,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1108,8 +897,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1122,8 +909,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1136,8 +921,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1150,8 +933,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1166,8 +947,6 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
@@ -1181,8 +960,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1198,8 +975,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
                         </mrow>
                         <mrow>
@@ -1214,8 +989,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1227,8 +1000,6 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1242,8 +1013,6 @@
                     <mrow>
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1255,8 +1024,6 @@
                     <mtext>(</mtext>
                     <mrow>
                         <mn>3</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
                         <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
@@ -1270,8 +1037,6 @@
                     <mrow>
                         <mn>3</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1284,8 +1049,6 @@
                     <mrow>
                         <mn>3</mn>
                         <mo>&InvisibleTimes;</mo>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>t</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1297,8 +1060,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                             <mo>&InvisibleTimes;</mo>
                             <mi>t</mi>
@@ -1316,14 +1077,9 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>(</mo>
-                            <mrow>
-                                <mi>x</mi>
-                                <mo>+</mo>
-                                <mi>t</mi>
-                            </mrow>
-                            <mo>)</mo>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
                         </mrow>
                         <mrow>
                             <mn>4</mn>
@@ -1338,14 +1094,9 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>(</mo>
-                            <mrow>
-                                <mi>x</mi>
-                                <mo>+</mo>
-                                <mi>t</mi>
-                            </mrow>
-                            <mo>)</mo>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
                         </mrow>
                         <mrow>
                             <mn>12</mn>
@@ -1360,14 +1111,9 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>(</mo>
-                            <mrow>
-                                <mi>x</mi>
-                                <mo>+</mo>
-                                <mi>t</mi>
-                            </mrow>
-                            <mo>)</mo>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
                         </mrow>
                         <mrow>
                             <mn>4</mn>
@@ -1382,14 +1128,9 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>(</mo>
-                            <mrow>
-                                <mi>x</mi>
-                                <mo>+</mo>
-                                <mi>t</mi>
-                            </mrow>
-                            <mo>)</mo>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>t</mi>
                         </mrow>
                         <mrow>
                             <mn>4</mn>
@@ -1403,8 +1144,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1416,8 +1155,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <msup>
                                 <mi>x</mi>
                                 <mn>2</mn>
@@ -1436,8 +1173,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                         </mrow>
                         <mrow>
@@ -1452,8 +1187,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
@@ -1465,8 +1198,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                         </mrow>
                         <mrow>
@@ -1481,8 +1212,6 @@
                 <math display="inline">
                     <mtext>(</mtext>
                     <mrow>
-                        <mi>a</mi>
-                        <mo>&InvisibleTimes;</mo>
                         <msup>
                             <mi>x</mi>
                             <mn>2</mn>
@@ -1497,8 +1226,6 @@
                     <mtext>(</mtext>
                     <mfrac>
                         <mrow>
-                            <mi>a</mi>
-                            <mo>&InvisibleTimes;</mo>
                             <mi>x</mi>
                         </mrow>
                         <mrow>
