@@ -33,11 +33,11 @@
                 <li><a href="#turnorder">Turn Order</a></li>
                 <li><a href="#resources">Resources, Exhaustion, and Recovery</a></li>
                 <li><a href="#creatures">Creatures</a></li>
+                <li><a href="#spells">Spells</a></li>
                 <li><a href="#abilities">Abilities</a></li>
                 <li><a href="#counters">Counters</a></li>
-                <li><a href="#battles">Battles</a></li>
-                <li><a href="#spells">Casting Spells and Setting Traps</a></li>
                 <li><a href="#chains">Chains</a></li>
+                <li><a href="#battles">Battles</a></li>
                 <li><a href="#winning">Endgame</a></li>
                 <li><a href="#keywords">Keywords</a></li>
                 <li><a href="#banned">Revised and Banned Cards</a>
@@ -96,7 +96,7 @@
                     <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
                 </ul>
             </li>
-            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps which have no activation condition. See <a href="#creatures">Creatures</a> and <a href="spells">Casting Spells and Setting Traps</a> for more information.</li>
+            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps which have no activation condition. See <a href="#creatures">Creatures</a> and <a href="spells">Spells</a> for more information.</li>
             <li>Battle Phase: You may do battle with your unexhausted creatures. See <a href="#battles">Battles</a> for more information.</li>
             <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play creature has its offense, defense, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
@@ -161,27 +161,15 @@
                     <li>Unlike other named counters, removing a Dice Counter to activate its effect does <em>not</em> start a chain and <em>cannot</em> be done in response to a chain; instead, the Dice Counter is removed at the moment a die roll happens that you want to re-roll. As a result, its usage can be hindered by effects that remove counters as long as those effects are timed correctly.</li>
                 </ul>
             </li>
-            <li><dfn>Immortality Counter</dfn>: Prevent the card from being destroyed, siloed, bounced, deck-stacked, or hypnotized by an effect that would explicitly do so.
+            <li><dfn>Immortality Counter</dfn>: Prevent the card from being explicitly destroyed, siloed, bounced, buried, or hypnotized by an effect.
                 <ul>
-                    <li>This refers the effect portion of an ability only; it does not include costs of abilities that may destroy a card. It also does not include destruction as a result of damage even if that damage was inflicted by an effect.</li>
+                    <li>This does not include destruction as a result of damage even if that damage was inflicted by an effect.</li>
+                    <li>Costs are not effects, and so you <em>cannot</em> remove an Immortality Counter to prevent e.g. a self-destroy cost from actually destroying the card.</li>
                     <li>Unlike other named counters, removing an Immortality Counter to activate its effect does <em>not</em> start a chain and <em>cannot</em> be done in response to a chain; instead, the Immortality Counter is removed in place of an applicable effect at the moment the effect is resolved. As a result, its usage can be hindered by effects that remove counters as long as those effects are timed correctly.</li>
                 </ul>
             </li>
         </ul>
         </div>
-
-        <h3 id="battles">Battles</h3>
-        <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
-        <ol>
-            <li><dfn>Attack Formation Step</dfn>: The attacking player exhausts any number of their unexhausted creatures, which become the attacking team, and declares one target: a player, or a creature. Any given player or creature can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these creatures will be damaged).</li>
-            <li><dfn>Defense Formation Step</dfn>: The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these creatures will be damaged).</li>
-            <li><dfn>Dice Step</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
-            <li><dfn>Battle Step</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving creature in the other player's team (based on the respective defending order selected) until either all dice are used or all creatures in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
-        </ol>
-        <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
-        <p>To inflict damage to a creature, subtract the damage amount from the creature's defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 damage is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. Note: it is possible for creatures to initially have 0 defense; in such a case, any amount of damage will destroy the creature.</p>
-        <p>As an example, consider an attacking team with two creatures (Creature <var>A</var> and Creature <var>B</var>) that each have 2 offense and 5 defense plus one creature (Creature <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Creature <var>C</var> → Creature <var>A</var> → Creature <var>B</var>&rdquo;. The defending player then chooses to defend with two creatures (Creature <var>D</var> and Creature <var>E</var>) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Creature <var>D</var> → Creature <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking creature (Creature <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first creature (Creature <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second creature (Creature <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's creatures have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
-        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining and valid targets for attacks remain.</p>
 
         <h3 id="chains">Chains</h3>
         <p>Due to activation conditions on abilities and the nature of how named counters work, it is possible for multiple players to simultaneously be able to perform certain actions. <dfn>Chains</dfn> exist to clarify what exactly happens in these situations.</p>
@@ -204,6 +192,19 @@
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
         <p>Only one chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a creature ability or spell, said creature ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
+
+        <h3 id="battles">Battles</h3>
+        <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
+        <ol>
+            <li><dfn>Attack Formation Step</dfn>: The attacking player exhausts any number of their unexhausted creatures, which become the attacking team, and declares one target: a player, or a creature. Any given player or creature can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these creatures will be damaged).</li>
+            <li><dfn>Defense Formation Step</dfn>: The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these creatures will be damaged).</li>
+            <li><dfn>Dice Step</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
+            <li><dfn>Battle Step</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving creature in the other player's team (based on the respective defending order selected) until either all dice are used or all creatures in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
+        </ol>
+        <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
+        <p>To inflict damage to a creature, subtract the damage amount from the creature's defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 damage is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. Note: it is possible for creatures to initially have 0 defense; in such a case, any amount of damage will destroy the creature.</p>
+        <p>As an example, consider an attacking team with two creatures (Creature <var>A</var> and Creature <var>B</var>) that each have 2 offense and 5 defense plus one creature (Creature <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Creature <var>C</var> → Creature <var>A</var> → Creature <var>B</var>&rdquo;. The defending player then chooses to defend with two creatures (Creature <var>D</var> and Creature <var>E</var>) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Creature <var>D</var> → Creature <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking creature (Creature <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first creature (Creature <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second creature (Creature <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's creatures have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
+        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining and valid targets for attacks remain.</p>
 
         <h3 id="winning">Endgame</h3>
         <p>The winner of any game of Keeper of the Cards is the player who has the most HP when any of the following <dfn>endgame conditions</dfn> are met:</p>
@@ -244,6 +245,11 @@
         </div>
 
         <div class="no-break">
+        <h4>Bury</h4>
+        <p>To <dfn>bury</dfn> a card is to place it on the bottom of its owner's deck. When burying multiple cards at once, you choose the order.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Controller</h4>
         <p>The <dfn>controller</dfn> of a card is the player whose zone it is in, regardless of who its owner is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, you are its controller and can use it the same way as cards in your battlefield that came from your own deck.</p>
         <p>When the controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the field of its new controller, in the zone it was in when its controller changed. For example, if a creature in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
@@ -257,11 +263,6 @@
         <div class="no-break">
         <h4>Deal</h4>
         <p>To <dfn>deal</dfn> a number of cards is to cause all players to draw that number of cards from their respective decks (including yourself).</p>
-        </div>
-
-        <div class="no-break">
-        <h4>Deck-stack</h4>
-        <p>To <dfn>deck-stack</dfn> a card is to place it on top of its owner's deck. When deck-stacking multiple cards, you can place them on top of their respective owners' decks in any order.</p>
         </div>
 
         <div class="no-break">
