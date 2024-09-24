@@ -38,14 +38,12 @@
                 <li><a href="#instructions">Design Instructions</a></li>
                     <ol type="a">
                         <li><a href="#inst-abilities">Constructing Abilities</a></li>
-                        <li><a href="#inst-caveats">Choosing a Caveat</a></li>
                         <li><a href="#inst-level">Level</a></li>
                         <li><a href="#inst-creation">Creating the Card</a></li>
                         <li><a href="#inst-changes">Rule/Text Changes</a></li>
                     </ol>
                 <li><a href="#texts">Card Texts</a>
                     <ol type="a">
-                        <li><a href="#caveats">Caveats</a></li>
                         <li><a href="#conditions">Activation Conditions</a></li>
                         <li><a href="#costs">Activation Costs</a></li>
                         <li><a href="#targeting">Target Selections</a></li>
@@ -57,7 +55,7 @@
 
         <h3 id="instructions">Design Instructions</h3>
         <p>There are two types of cards: creatures, and spells.</p>
-        <p>Creatures have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities and/or any one caveat. Offense and defense must each be no lower than 0.</p>
+        <p>Creatures have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities. Offense and defense must each be no lower than 0.</p>
         <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
         <h4 id="inst-abilities">Constructing Abilities</h4>
@@ -77,17 +75,14 @@
         <p>Any creature ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
-        <h4 id="inst-caveats">Choosing Caveats</h4>
-        <p>Caveats are a special type of component which can only be used by creatures. Any creature may have any number of caveats, listed before any abilities the creature has on a single paragraph. Caveats always do something negative, but add <dfn>relief</dfn> which reduces the cost of the creature's offense and defense values.</p>
-
         <h4 id="inst-level">Level</h4>
-        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each caveat and activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>To determine a sub-ability level, take the sum of all effect formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then subtract the activation cost relief (if any) and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
-        <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense, subtract the creature's caveat relief (if any), and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the creature's abilities to the creature's level.</p>
+        <p>To determine the level of a creature, add together the creature's offense and one fifth of its defense and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the creature's abilities to the creature's level.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
         <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Creature Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a creature, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
-        <p>If the card is a creature and has caveats that create requirements for summoning, or if the card is a spell and has an activation condition, you should make the &ldquo;Play Restriction&rdquo; layer visible. You should also change the color of these kinds of caveats as well as all activation conditions on both spells and creatures to dark red (HTML code 800000), or another color that stands out. This will make these critical conditions more obvious during gameplay.</p>
+        <p>If the card is a spell and has an activation condition, you should make the &ldquo;Play Restriction&rdquo; layer visible. This is meant to help avoid mistakes during gameplay which give away hand knowledge.</p>
         <p>You can paste an image to represent your card into the &ldquo;Image&rdquo; layer. You can also indicate the copyright license and author(s) of the card and/or image via the &ldquo;Card License&rdquo; text layer.</p>
         <p>You may modify the look of the card as much as you want as long as the meaning of the meaning of the components is understood by all players. In general, it is recommended to keep it as close as possible to the official layout to avoid confusion.</p>
         <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). You do not have to follow this size if you don't want to as long as all of your cards are the same size and appearance when viewed from the back. (You can achieve this easily with sleeves if you print in a standard card size.)</p>
@@ -98,283 +93,8 @@
 
         <h3 id="texts">Card Texts</h3>
 
-        <h4 id="caveats">Caveats</h4>
-        <p>Caveats are special conditions of creatures, used to weaken them in certain areas and reduce the level of the creature in exchange. Of course, caveats can only be given to creatures, not spells. The amount of relief a caveat provides is listed in parentheses. It is highly recommended (but not required) to color caveats that create summoning requirements dark red (HTML code 800000), or some other color that stands out.</p>
-        <p>For cards that have multiple &ldquo;Summon cost&rdquo; and &ldquo;Action cost&rdquo; caveats, these caveats should be combined into a single &ldquo;Summon cost&rdquo; caveat and/or a single &ldquo;Action cost&rdquo; caveat, separating each cost component in the respective combined caveat with a comma followed by the word &ldquo;also&rdquo;.</p>
-        <ul>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-exhaust <var>x</var> creatures.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-exhaust <var>x</var> creatures (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>3</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Sacrifice <var>x</var> random cards in your hand.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Sacrifice <var>x</var> in-play cards.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>6</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Sacrifice <var>x</var> in-play cards (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mn>3</mn>
-                            <mo>&InvisibleTimes;</mo>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-destroy <var>x</var> random cards in your hand.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-destroy <var>x</var> in-play cards.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>3</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-destroy <var>x</var> in-play cards (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-destroy <var>x</var> resources.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>3</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Summon cost: Self-destroy <var>x</var> resources (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Remove <var>x</var> counters from this card.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-exhaust <var>x</var> resources.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-exhaust <var>x</var> other in-play creatures.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-exhaust <var>x</var> other in-play creatures (enemy's choice).&rdquo;
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>6</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Sacrifice <var>x</var> random cards in your hand.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>8</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Sacrifice <var>x</var> other in-play cards.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>12</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Sacrifice <var>x</var> other in-play cards (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>3</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-destroy <var>x</var> random cards in your hand.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-destroy <var>x</var> other in-play cards.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>6</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-destroy <var>x</var> other in-play cards (enemy's choice).&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-destroy <var>x</var> resources.&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>6</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Action cost: Self-destroy <var>x</var> resources (enemy's choice).&rdquo;
-            </li>
-        </ul>
-
         <h4 id="conditions">Activation Conditions</h4>
-        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. It is highly recommended (but not required) to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
+        <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. It is highly recommended to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
         <ul>
             <li>&ldquo;When this card attacks (after the Attack Formation Step, ghost-play):&rdquo;</li>
             <li>&ldquo;When this card defends (after the Defense Formation Step, ghost-play):&rdquo;</li>
