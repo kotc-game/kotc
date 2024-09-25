@@ -193,10 +193,10 @@
         <h3 id="battles">Battles</h3>
         <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
         <ol>
-            <li><dfn>Attack Formation Step</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the attacking team, and declares one target: a player, or a minion. Any given player or minion can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these minions will be damaged).</li>
-            <li><dfn>Defense Formation Step</dfn>: The target player, or the owner of the target minion, may exhaust any number of their own unexhausted minions (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these minions will be damaged).</li>
-            <li><dfn>Dice Step</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
-            <li><dfn>Battle Step</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective defending order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
+            <li><dfn>Attack Formation</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the attacking team, and declares one target: a player, or a minion. Any given player or minion can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these minions will be damaged).</li>
+            <li><dfn>Defense Formation</dfn>: The target player, or the owner of the target minion, may exhaust any number of their own unexhausted minions (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these minions will be damaged).</li>
+            <li><dfn>Battle Dice</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
+            <li><dfn>Battle Damage</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective defending order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
         </ol>
         <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
         <p>To inflict damage to a minion, subtract the damage amount from the minion's defense, and then if the defense is less than or equal to zero, destroy the minion. For example, if 8 damage is inflicted to a minion with 15 defense, that minion will have 7 defense left and not be destroyed. If 8 damage is inflicted to a minion with 8 defense, however, that minion will have 0 defense left and be destroyed. Note: it is possible for minions to initially have 0 defense; in such a case, any amount of damage will destroy the minion.</p>
@@ -222,6 +222,11 @@
 
         <h3 id="keywords">Keywords</h3>
         <p>This section lists common keywords used in card text, including any important nuances for said keywords.</p>
+
+        <div class="no-break">
+        <h4>Ability-targeted</h4>
+        <p>A card is <dfn>ability-targeted</dfn> when it is selected as a target for any ability.</p>
+        </div>
 
         <div class="no-break">
         <h4>Batch Add</h4>
