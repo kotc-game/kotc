@@ -33,7 +33,7 @@
                 <li><a href="#turnorder">Turn Order</a></li>
                 <li><a href="#resources">Resources, Exhaustion, and Recovery</a></li>
                 <li><a href="#abilities">Abilities</a></li>
-                <li><a href="#creatures">Creatures</a></li>
+                <li><a href="#minions">Minions</a></li>
                 <li><a href="#spells">Spells</a></li>
                 <li><a href="#counters">Counters</a></li>
                 <li><a href="#chains">Chains</a></li>
@@ -53,9 +53,9 @@
         </div>
 
         <h3 id="cardtypes">Card Types and Layout</h3>
-        <p>There are two types of cards in Keeper of the Cards: creatures, and spells. Here are some examples of both:</p>
+        <p>There are two types of cards in Keeper of the Cards: minions, and spells. Here are some examples of both:</p>
         <img class="example" src="images/card_examples.png" alt="Visual of two cards (&ldquo;Velociraptor&rdquo; and &ldquo;Mourning a Loss&rdquo;).">
-        <p>The card on the left is a creature, and the card on the right is a spell. They are visually very similar; the only noteworthy difference is that spells have a pair of triangles instead of the additional elements found on a creature.</p>
+        <p>The card on the left is a minion, and the card on the right is a spell. They are visually very similar; the only noteworthy difference is that spells have a pair of triangles instead of the additional elements found on a minion.</p>
         <p>The elements marked on the cards are:</p>
         <ol>
             <li>The name of the card. This is purely cosmetic and has no effect on the game.</li>
@@ -82,7 +82,7 @@
             <li>Deck: Typically to the right of the trapfield. The contents of the deck are restricted knowledge.</li>
             <li>Graveyard: Typically to the right of the deck. Any card which is destroyed or sacrificed is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
             <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Resource Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
-            <li>Battlefield: Typically above the trapfield. Contains its owner's in-play creatures. The contents of the battlefield are public knowledge.</li>
+            <li>Battlefield: Typically above the trapfield. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
             <li>Trapfield: Typically to the left of the deck. Contains its owner's in-play traps. The contents of the trapfield are private knowledge.</li>
             <li>Granary: Typically below the trapfield. Contains its owner's resources. The contents of the granary are private knowledge.</li>
             <li>Hand: Typically held in the hand. Contains the cards its owner currently has available to play. The contents of the hand are private knowledge.</li>
@@ -96,23 +96,23 @@
                     <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
                 </ul>
             </li>
-            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play creature abilities and in-play traps which have no activation condition. See <a href="#creatures">Creatures</a> and <a href="#spells">Spells</a> for more information.</li>
-            <li>Battle Phase: You may do battle with your unexhausted creatures. See <a href="#battles">Battles</a> for more information.</li>
-            <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play creature has its offense, defense, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
+            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities and in-play traps which have no activation condition. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
+            <li>Battle Phase: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
+            <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play minion has its offense, defense, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
 
         <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
-        <p>Resources are used to summon creatures and cast spells. A resource can be any card. Resources are placed into the granary unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
+        <p>Resources are used to summon minions and cast spells. A resource can be any card. Resources are placed into the granary unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
         <p>To pay a resource cost is to exhaust a number of unexhausted resources equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
-        <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 creature has its level reduced by 4, it becomes a level 1 creature and you must exhaust 1 resource to summon it.</p>
-        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every creature in every player's battlefield has its offense, defense, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
-        <p>For example, suppose you control a creature with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another creature (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this creature's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
+        <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 minion has its level reduced by 4, it becomes a level 1 minion and you must exhaust 1 resource to summon it.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its offense, defense, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
+        <p>For example, suppose you control a minion with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another minion (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this minion's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
 
         <h3 id="abilities">Abilities</h3>
         <p>A card's <dfn>abilities</dfn> are indicated in the ability text. Each ability is composed of the following components in the following order:</p>
         <ol>
-            <li>Ability name (creature abilities only): The name of the creature ability, designated with all capital letters. Has no effect on gameplay.</li>
+            <li>Ability name (minion abilities only): The name of the minion ability, designated with all capital letters. Has no effect on gameplay.</li>
             <li><dfn>Activation condition</dfn>: Indicates when the ability can be activated, followed by a colon (:). If no explicit activation condition is present, the ability's activation condition is the <dfn>standard activation condition</dfn>, meaning it may be used only during your own Action Phase.</li>
             <li><dfn>Activation cost</dfn>: Indicates a special cost paid upon activation of the ability, followed by an arrow (→). If you activate an ability you are unable to pay the activation cost for, the ability has no effect.</li>
             <li><dfn>Sub-abilities</dfn>: Composed of an optional <dfn>target selection</dfn>, indicating what cards are treated as targets for the sub-ability, and 1 or more <dfn>effects</dfn>, indicating what the sub-ability does. Each ability can have any number of sub-abilities; each sub-ability is a separate sentence.</li>
@@ -124,11 +124,11 @@
         </ol>
         <p>Many abilities make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
 
-        <h3 id="creatures">Creatures</h3>
-        <p><dfn>Creatures</dfn> are cards which are used to do battle and may also have special abilities. Creatures must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
-        <p>To summon a creature, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
-        <p>Creatures can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a creature ability whose activation condition is met, the creature must be in-play and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
-        <p>Creatures can also hold counters and participate in battles; see <a href="#counters">Counters</a> and <a href="#battles">Battles</a> for more information.</p>
+        <h3 id="minions">Minions</h3>
+        <p><dfn>Minions</dfn> are cards which are used to do battle and may also have special abilities. Minions must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
+        <p>To summon a minion, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
+        <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a minion ability whose activation condition is met, the minion must be in-play and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
+        <p>Minions can also hold counters and participate in battles; see <a href="#counters">Counters</a> and <a href="#battles">Battles</a> for more information.</p>
 
         <h3 id="spells">Spells</h3>
         <p><dfn>Spells</dfn> are cards that only have a single ability. Spells can be used in two ways: they can be <dfn>cast</dfn> from your hand, and they can be set as traps for use later.</p>
@@ -136,13 +136,13 @@
         <p>To set a spell as a trap, pay its resource cost, then place the card into the trapfield, face-down and exhausted. Only unexhausted traps can be activated. To activate a trap, turn it over to reveal it to all other players, perform the steps described for the activation of an ability in <a href="#abilities">Abilities</a>, and then send the spell to the graveyard.</p>
 
         <h3 id="counters">Counters</h3>
-        <p>Some abilities manipulate or utilize counters. A <dfn>counter</dfn> is a special marker which can be placed on an in-play creature (but not a trap or resource). Any available object can be used as a counter. Counters stay on the creature they are placed on until either the creature leaves the battlefield, or an ability removes them.</p>
+        <p>Some abilities manipulate or utilize counters. A <dfn>counter</dfn> is a special marker which can be placed on an in-play minion (but not a trap or resource). Any available object can be used as a counter. Counters stay on the minion they are placed on until either the minion leaves the battlefield, or an ability removes them.</p>
         <p>There are several different types of counters. Each type has a name and can be voluntarily removed to trigger a particular special effect. The following rules apply to all counters:</p>
         <ul>
             <li>These counters can be removed (and their effects triggered) literally at any time, that is to say, during any phase of any player's turn, even immediately after placing them, triggering the stated effect.</li>
             <li>With the exception of Dice Counters and Immortality Counters, removing a counter to trigger its effect starts a chain or, alternatively, you can remove a counter to trigger its effect in response to an existing chain. See <a href="#chains">Chains</a> for more information.</li>
-            <li>Removing counters for their effects does <strong>not</strong> require exhausting the creature it is on since the effect is that of the counter, not of the creature.</li>
-            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the creature is. For example, if you place one of these counters on a creature controlled by an opponent, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
+            <li>Removing counters for their effects does <strong>not</strong> require exhausting the minion it is on since the effect is that of the counter, not of the minion.</li>
+            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the minion is. For example, if you place one of these counters on a minion controlled by an opponent, it is you who can then remove the counters to trigger the effect, and the opponent cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
             <li>For timing purposes, note that when an opponent activates an ability, that ability’s activation cost is paid and its target is selected immediately, meaning that e.g. you cannot remove counters for an effect to render an activation cost impossible unless you do so before the opponent indicates their intention to activate the respective ability.</li>
         </ul>
         <div class="no-break">
@@ -172,13 +172,13 @@
         <p>Due to activation conditions on abilities and the nature of how counters work, it is possible for multiple players to simultaneously be able to perform certain actions. <dfn>Chains</dfn> exist to clarify what exactly happens in these situations.</p>
         <p>The following actions all start a chain:</p>
         <ul>
-            <li>Activating a creature's ability (after paying the activation cost).</li>
+            <li>Activating a minion's ability (after paying the activation cost).</li>
             <li>Casting a spell (after paying its required cost).</li>
             <li>Removing a counter to activate its effect.</li>
         </ul>
         <p>When a chain starts, the action which started the chain becomes the first <dfn>chain link</dfn>. Then, all players, starting with the player to the left of the player who started the chain and then going clockwise, are given an opportunity to respond to the chain in one of the following ways, creating an additional chain link instead of starting a new chain:</p>
         <ul>
-            <li>By activating a creature ability or spell with an activation condition that has been met (immediately paying the activation cost).</li>
+            <li>By activating a minion ability or spell with an activation condition that has been met (immediately paying the activation cost).</li>
             <li>By removing a counter to activate its effect.</li>
         </ul>
         <p>If any player decides to respond to the chain, all players are again given the opportunity to respond to the chain, this time starting with the player to the left of the player who last responded and then going clockwise. This process is repeated until all players decide not to respond to the chain.</p>
@@ -188,20 +188,20 @@
             <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the offense of the card it was on by 1.</li>
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
-        <p>Only one chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a creature ability or spell, said creature ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
+        <p>Only one chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a minion ability or spell, said minion ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
 
         <h3 id="battles">Battles</h3>
         <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
         <ol>
-            <li><dfn>Attack Formation Step</dfn>: The attacking player exhausts any number of their unexhausted creatures, which become the attacking team, and declares one target: a player, or a creature. Any given player or creature can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these creatures will be damaged).</li>
-            <li><dfn>Defense Formation Step</dfn>: The target player, or the owner of the target creature, may exhaust any number of their own unexhausted creatures (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these creatures will be damaged).</li>
+            <li><dfn>Attack Formation Step</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the attacking team, and declares one target: a player, or a minion. Any given player or minion can only be targeted once per Battle Phase. The attacking player selects and announces the defending order of the attacking team (the order in which these minions will be damaged).</li>
+            <li><dfn>Defense Formation Step</dfn>: The target player, or the owner of the target minion, may exhaust any number of their own unexhausted minions (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the defending order of the defending team (the order in which these minions will be damaged).</li>
             <li><dfn>Dice Step</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
-            <li><dfn>Battle Step</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving creature in the other player's team (based on the respective defending order selected) until either all dice are used or all creatures in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
+            <li><dfn>Battle Step</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective defending order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
         </ol>
         <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
-        <p>To inflict damage to a creature, subtract the damage amount from the creature's defense, and then if the defense is less than or equal to zero, destroy the creature. For example, if 8 damage is inflicted to a creature with 15 defense, that creature will have 7 defense left and not be destroyed. If 8 damage is inflicted to a creature with 8 defense, however, that creature will have 0 defense left and be destroyed. Note: it is possible for creatures to initially have 0 defense; in such a case, any amount of damage will destroy the creature.</p>
-        <p>As an example, consider an attacking team with two creatures (Creature <var>A</var> and Creature <var>B</var>) that each have 2 offense and 5 defense plus one creature (Creature <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Creature <var>C</var> → Creature <var>A</var> → Creature <var>B</var>&rdquo;. The defending player then chooses to defend with two creatures (Creature <var>D</var> and Creature <var>E</var>) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Creature <var>D</var> → Creature <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking creature (Creature <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first creature (Creature <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second creature (Creature <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's creatures have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
-        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted creatures remaining and valid targets for attacks remain.</p>
+        <p>To inflict damage to a minion, subtract the damage amount from the minion's defense, and then if the defense is less than or equal to zero, destroy the minion. For example, if 8 damage is inflicted to a minion with 15 defense, that minion will have 7 defense left and not be destroyed. If 8 damage is inflicted to a minion with 8 defense, however, that minion will have 0 defense left and be destroyed. Note: it is possible for minions to initially have 0 defense; in such a case, any amount of damage will destroy the minion.</p>
+        <p>As an example, consider an attacking team with two minions (Minion <var>A</var> and Minion <var>B</var>) that each have 2 offense and 5 defense plus one minion (Minion <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their defending order as &ldquo;Minion <var>C</var> → Minion <var>A</var> → Minion <var>B</var>&rdquo;. The defending player then chooses to defend with two minions (Minion <var>D</var> and Minion <var>E</var>) that each have 1 offense and 10 defense, and declares their defending order as &ldquo;Minion <var>D</var> → Minion <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking minion (Minion <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first minion (Minion <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second minion (Minion <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's minions have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
+        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted minions remaining and valid targets for attacks remain.</p>
 
         <h3 id="winning">Endgame</h3>
         <p>The game ends when any of the following <dfn>endgame conditions</dfn> are met:</p>
@@ -216,7 +216,7 @@
         <ol>
             <li>The player who was not made to draw while their deck was empty.</li>
             <li>The player with the most HP.</li>
-            <li>The player whose in-play creatures' total combined levels is the highest.</li>
+            <li>The player whose in-play minions' total combined levels is the highest.</li>
             <li>The player with the largest number of cards in their deck.</li>
         </ol>
 
@@ -231,7 +231,7 @@
         <div class="no-break">
         <h4>Batch Subtract</h4>
         <p>To <dfn>batch subtract</dfn> is to subtract a total amount from the indicated stat of the targets, distributed among them. For example, if an effect tells you to batch subtract 7 offense from two targets, you might subtract 2 offense from the first target and subtract 5 offense from the second target.</p>
-        <p>You are not allowed to reduce a creature's offense or defense stats below 0. For example, if an effect tells you to batch subtract 3 offense from two targets, where the first target has 1 offense and the second target has 5 offense, you can only subtract 1 from the first target, meaning the second target must lose at least 2 offense.</p>
+        <p>You are not allowed to reduce a minion's offense or defense stats below 0. For example, if an effect tells you to batch subtract 3 offense from two targets, where the first target has 1 offense and the second target has 5 offense, you can only subtract 1 from the first target, meaning the second target must lose at least 2 offense.</p>
         </div>
 
         <div class="no-break">
@@ -246,8 +246,8 @@
 
         <div class="no-break">
         <h4>Controller</h4>
-        <p>The <dfn>controller</dfn> of a card is the player whose zone it is in, regardless of who its owner is. So for example, if you use an effect to summon an opponent’s creature, the owner of that creature is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, you are its controller and can use it the same way as cards in your battlefield that came from your own deck.</p>
-        <p>When the controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the field of its new controller, in the zone it was in when its controller changed. For example, if a creature in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
+        <p>The <dfn>controller</dfn> of a card is the player whose zone it is in, regardless of who its owner is. So for example, if you use an effect to summon an opponent’s minion, the owner of that minion is still your opponent (and therefore it gets sent to that player’s graveyard when destroyed, for example); but while it remains in your battlefield, you are its controller and can use it the same way as cards in your battlefield that came from your own deck.</p>
+        <p>When the controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the field of its new controller, in the zone it was in when its controller changed. For example, if a minion in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
         </div>
 
         <div class="no-break">
@@ -259,11 +259,11 @@
         <h4>Deploy</h4>
         <p>To <dfn>deploy</dfn> a card means to play it as if it was in your hand. This is optional for each deployed target. In other words, it means for each deployed target, you may (but are not required to) do one of the following:</p>
         <ol>
-            <li>Summon the card (if it is a creature).</li>
+            <li>Summon the card (if it is a minion).</li>
             <li>Cast the card (if it is a spell).</li>
             <li>Set the card as a trap (if it is a spell).</li>
         </ol>
-        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable summon costs for creatures and activation costs for spells, and any creature summoned or trap set is placed onto the battlefield or trapfield exhausted.</p>
+        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable summon costs for minions and activation costs for spells, and any minion summoned or trap set is placed onto the battlefield or trapfield exhausted.</p>
         <p>Cards which are already in-play cannot be deployed and thus are excluded.</p>
         </div>
 
@@ -274,7 +274,7 @@
 
         <div class="no-break">
         <h4>Dice-damage</h4>
-        <p>To <dfn>dice-damage</dfn> a set of targets is to roll the indicated number of six-sided dice and inflict damage to targeted in-play creatures utilizing the results of the dice (as if in a battle). Each die can be used to damage any targeted in-play creature, and the decision of which die to use is made after rolling all of the dice.</p>
+        <p>To <dfn>dice-damage</dfn> a set of targets is to roll the indicated number of six-sided dice and inflict damage to targeted in-play minions utilizing the results of the dice (as if in a battle). Each die can be used to damage any targeted in-play minion, and the decision of which die to use is made after rolling all of the dice.</p>
         </div>
 
         <div class="no-break">
@@ -285,7 +285,7 @@
         <div class="no-break">
         <h4>Down-level</h4>
         <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level. A card's level can never be lower than 1; for example, if you down-level a level 3 card by 3, its resulting level will be 1 and not 0, since no card is allowed to be level 0.</p>
-        <p>The down-level effect persists for the card until the Recovery Phase, regardless of where the card was when it was down-leveled and where it moves to. This means, for example, that you can down-level a creature in your hand to reduce the number of resources needed to summon it.</p>
+        <p>The down-level effect persists for the card until the Recovery Phase, regardless of where the card was when it was down-leveled and where it moves to. This means, for example, that you can down-level a minion in your hand to reduce the number of resources needed to summon it.</p>
         </div>
 
         <div class="no-break">
@@ -316,18 +316,18 @@
 
         <div class="no-break">
         <h4>Ghost-play</h4>
-        <p>Found in activation conditions, an ability with <dfn>ghost-play</dfn> can be activated regardless of where the card is and, for creatures, does not require exhaustion.</p>
+        <p>Found in activation conditions, an ability with <dfn>ghost-play</dfn> can be activated regardless of where the card is and, for minions, does not require exhaustion.</p>
         </div>
 
         <div class="no-break">
         <h4>Hypnotize</h4>
-        <p>To <dfn>hypnotize</dfn> a card means to change the target's controller to a different player. For example, you could hypnotize a creature controlled by an opponent so that you control the creature instead.</p>
-        <p>Only in-play creatures and traps can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
+        <p>To <dfn>hypnotize</dfn> a card means to change the target's controller to a different player. For example, you could hypnotize a minion controlled by an opponent so that you control the minion instead.</p>
+        <p>Only in-play minions and traps can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
         </div>
 
         <div class="no-break">
         <h4>In-play</h4>
-        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed creatures in the battlefield, and unactivated traps. Creatures cease being in-play the moment they are destroyed, sacrificed, or otherwise moved to any location other than the battlefield. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the trapfield.</p>
+        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed minions in the battlefield, and unactivated traps. Minions cease being in-play the moment they are destroyed, sacrificed, or otherwise moved to any location other than the battlefield. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the trapfield.</p>
         <p>Resources are never considered to be in-play under any circumstance. Additionally, spells activated from the Hand are not considered to be in-play at any point.</p>
         </div>
 
@@ -378,7 +378,7 @@
 
         <div class="no-break">
         <h4>Target</h4>
-        <p>Used as a verb, the word <dfn>target</dfn> instructs on how to select the targets of an ability. Used as a noun, <dfn>target</dfn> or <dfn>targets</dfn> refers to all cards which have been selected by the aforementioned target selection text. (All targeted cards remain targeted throughout execution of the ability, regardless of where they are. For example, while it wouldn't make much sense, it would be entirely possible and allowed for an ability to summon a creature and then destroy that same creature, even thô the creature's location changed when it was summoned.)</p>
+        <p>Used as a verb, the word <dfn>target</dfn> instructs on how to select the targets of an ability. Used as a noun, <dfn>target</dfn> or <dfn>targets</dfn> refers to all cards which have been selected by the aforementioned target selection text. (All targeted cards remain targeted throughout execution of the ability, regardless of where they are. For example, while it wouldn't make much sense, it would be entirely possible and allowed for an ability to summon a minion and then destroy that same minion, even thô the minion's location changed when it was summoned.)</p>
         <p>The same card cannot be selected as a target multiple times at once for a given ability activation. For example, if an ability instructs you to target up to 5 in-play cards, you must select 5 <em>separate</em> in-play cards; you cannot "stack" the ability's effect by targeting a single card multiple times.</p>
         </div>
 
