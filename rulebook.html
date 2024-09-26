@@ -91,7 +91,7 @@
         <h3 id="turnorder">Turn Order</h3>
         <p>Each turn in Keeper of the Cards consists of the following phases:</p>
         <ol>
-            <li>Resource Phase: Place up to two cards from your hand, face-down, onto the granary, unexhausted. Then draw a number of cards equal to two minus the number of cards you placed into the granary. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources placed); <b>(b)</b> place one resource and draw one card; or <b>(c)</b> place two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resource placement.
+            <li>Resource Phase: Sow up to two resources. Then draw a number of cards equal to two minus the number of resources sowed. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources sowed); <b>(b)</b> sow one resource and draw one card; or <b>(c)</b> sow two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about sowing resources.
                 <ul>
                     <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
                 </ul>
@@ -102,7 +102,7 @@
         </ol>
 
         <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
-        <p>Resources are used to summon minions and cast spells. A resource can be any card. Resources are placed into the granary unexhausted (oriented vertically) during the Resource Phase (as explained above). When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
+        <p>Resources are used to summon minions and cast spells. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) during the Resource Phase. When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
         <p>To pay a resource cost is to exhaust a number of unexhausted resources equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
         <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 minion has its level reduced by 4, it becomes a level 1 minion and you must exhaust 1 resource to summon it.</p>
@@ -378,7 +378,12 @@
 
         <div class="no-break">
         <h4>Silo</h4>
-        <p>To <dfn>silo</dfn> a card means to place it into its owner's granary, exhausted. As with placing resources normally, siloed cards are placed onto the granary face-down.</p>
+        <p>To <dfn>silo</dfn> a card means to place it into its owner's granary, exhausted and face-down.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Sow</h4>
+        <p>To <dfn>sow</dfn> a resource means to place a card from your hand into your granary, unexhausted and face-down, during the Resource Phase.</p>
         </div>
 
         <div class="no-break">
