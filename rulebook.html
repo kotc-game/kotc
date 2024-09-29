@@ -31,7 +31,7 @@
                 <li><a href="#setup">Setup and Deck Building</a></li>
                 <li><a href="#field">Fields</a></li>
                 <li><a href="#turnorder">Turn Order</a></li>
-                <li><a href="#resources">Resources, Exhaustion, and Recovery</a></li>
+                <li><a href="#resources">Exhaustion and Recovery</a></li>
                 <li><a href="#abilities">Abilities</a></li>
                 <li><a href="#minions">Minions</a></li>
                 <li><a href="#spells">Spells</a></li>
@@ -91,7 +91,7 @@
         <h3 id="turnorder">Turn Order</h3>
         <p>Each turn in Keeper of the Cards consists of the following phases:</p>
         <ol>
-            <li>Resource Phase: Sow up to two resources. Then draw a number of cards equal to two minus the number of resources sowed. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources sowed); <b>(b)</b> sow one resource and draw one card; or <b>(c)</b> sow two resources (no cards drawn). See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about sowing resources.
+            <li>Resource Phase: Sow up to two resources. Then draw a number of cards equal to two minus the number of resources sowed. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources sowed); <b>(b)</b> sow one resource and draw one card; or <b>(c)</b> sow two resources (no cards drawn). A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.
                 <ul>
                     <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
                 </ul>
@@ -101,10 +101,9 @@
             <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
 
-        <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
-        <p>Resources are used to summon minions and cast spells. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) during the Resource Phase. When you place a resource into the granary, it is always played face-down, as its identity is not public knowledge.</p>
+        <h3 id="resources">Exhaustion and Recovery</h3>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
-        <p>To pay a resource cost is to exhaust a number of unexhausted resources equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
+        <p>To pay a resource cost is to exhaust a number of unexhausted resources in your granary equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
         <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 minion has its level reduced by 4, it becomes a level 1 minion and you must exhaust 1 resource to summon it.</p>
         <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
@@ -125,7 +124,7 @@
 
         <h3 id="minions">Minions</h3>
         <p><dfn>Minions</dfn> are cards which are used to do battle and may also have special abilities. Minions must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
-        <p>To summon a minion, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
+        <p>To summon a minion, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Exhaustion and Recovery</a> for more information about resources and exhaustion.)</p>
         <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a minion ability whose activation condition is met, the minion must be in-play and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
         <p>Additionally, minions have <dfn><abbr title="strength points">SP</abbr></dfn> &ndash; the minion's capability for inflicting damage in battles; and <dfn><abbr title="hitpoints">HP</abbr></dfn> &ndash; the minion's tolerance for taking damage. <dfn>Damage</dfn> is the reduction of a minion's HP by the given amount, followed by destroying the minion if its HP is less than or equal to zero. For example, if 8 damage is inflicted to a minion with 15 HP, that minion will have 7 HP left and not be destroyed. If 8 damage is inflicted to a minion with 8 HP, however, that minion will have 0 HP left and be destroyed. Note: it is possible for minions to initially have 0 HP; in such a case, any amount of damage will destroy the minion. Damage is central to battles, which all minions can participate in; see <a href="#battles">Battles</a> for more information.</p>
         <p>Minions can also hold counters; see <a href="#counters">Counters</a> for more information.</p>
@@ -385,11 +384,6 @@
         <div class="no-break">
         <h4>Silo</h4>
         <p>To <dfn>silo</dfn> a card means to place it into its owner's granary, exhausted and face-down.</p>
-        </div>
-
-        <div class="no-break">
-        <h4>Sow</h4>
-        <p>To <dfn>sow</dfn> a resource means to place a card from your hand into your granary, unexhausted and face-down, during the Resource Phase.</p>
         </div>
 
         <div class="no-break">
