@@ -64,8 +64,8 @@
             <li>Edition Indicator indicating the edition of the game the card was designed for.</li>
             <li>The level of the card.</li>
             <li>The flavor text of the card. This is purely cosmetic and has no effect on the game.</li>
-            <li>The offensive power (&ldquo;offense&rdquo;) of the card.</li>
-            <li>The defensive power (&ldquo;defense&rdquo;) of the card.</li>
+            <li>The <abbr title="strength points">SP</abbr> of the card.</li>
+            <li>The <abbr title="hitpoints">HP</abbr> of the card.</li>
         </ol>
 
         <h3 id="setup">Setup and Deck Building</h3>
@@ -80,7 +80,7 @@
         <p>Each player has a <dfn>field</dfn>: a designated area where cards are played, divided into several distinct <dfn>zones</dfn> which each have a specific purpose. Each zone's contents are classified as either <dfn>public knowledge</dfn>, in which case all players are entitled to know what cards are in the zone; <dfn>private knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but only its owner is entitled to know what cards are in the zone; or <dfn>restricted knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but no player (not even its owner) is entitled to know what cards are in the zone. The zones are as follows:</p>
         <ul>
             <li>Deck: Typically to the right of the trapfield. The contents of the deck are restricted knowledge.</li>
-            <li>Graveyard: Typically to the right of the deck. Any card which is destroyed is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
+            <li>Graveyard: Typically to the right of the deck. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
             <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Resource Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
             <li>Battlefield: Typically above the trapfield. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
             <li>Trapfield: Typically to the left of the deck. Contains its owner's in-play traps. The contents of the trapfield are private knowledge.</li>
@@ -98,7 +98,7 @@
             </li>
             <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities and in-play traps which have no activation condition. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
             <li>Battle Phase: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
-            <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play minion has its offense, defense, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
+            <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
 
         <h3 id="resources">Resources, Exhaustion, and Recovery</h3>
@@ -106,8 +106,7 @@
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
         <p>To pay a resource cost is to exhaust a number of unexhausted resources equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
         <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 minion has its level reduced by 4, it becomes a level 1 minion and you must exhaust 1 resource to summon it.</p>
-        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its offense, defense, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
-        <p>For example, suppose you control a minion with a printed offense of 3 and a printed defense of 10. You could cast a spell to increase its offense by 4, at which point its offense becomes 7. It could then take 8 damage during a battle with another minion (see <a href="#battles">Battles</a>), at which point its defense becomes 2. However, during the Recovery Phase, all of this minion's stats are reset to what is printed on its card, so its offense becomes 3 and its defense becomes 10.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
         <h3 id="abilities">Abilities</h3>
         <p>A card's <dfn>abilities</dfn> are indicated in the ability text. Each ability is composed of the following components in the following order:</p>
@@ -128,7 +127,8 @@
         <p><dfn>Minions</dfn> are cards which are used to do battle and may also have special abilities. Minions must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
         <p>To summon a minion, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Resources, Exhaustion, and Recovery</a> for more information about resources and exhaustion.)</p>
         <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a minion ability whose activation condition is met, the minion must be in-play and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
-        <p>Minions can also hold counters and participate in battles; see <a href="#counters">Counters</a> and <a href="#battles">Battles</a> for more information.</p>
+        <p>Additionally, minions have <dfn><abbr title="strength points">SP</abbr></dfn> &ndash; the minion's capability for inflicting damage in battles; and <dfn><abbr title="hitpoints">HP</abbr></dfn> &ndash; the minion's tolerance for taking damage. <dfn>Damage</dfn> is the reduction of a minion's HP by the given amount, followed by destroying the minion if its HP is less than or equal to zero. For example, if 8 damage is inflicted to a minion with 15 HP, that minion will have 7 HP left and not be destroyed. If 8 damage is inflicted to a minion with 8 HP, however, that minion will have 0 HP left and be destroyed. Note: it is possible for minions to initially have 0 HP; in such a case, any amount of damage will destroy the minion. Damage is central to battles, which all minions can participate in; see <a href="#battles">Battles</a> for more information.</p>
+        <p>Minions can also hold counters; see <a href="#counters">Counters</a> for more information.</p>
 
         <h3 id="spells">Spells</h3>
         <p><dfn>Spells</dfn> are cards that only have a single ability. Spells can be used in two ways: they can be <dfn>cast</dfn> from your hand, and they can be set as traps for use later.</p>
@@ -148,9 +148,9 @@
         <div class="no-break">
         <p>Following is a list of counter types which are currently available, and an explanation of each one’s special effect (activated by removing the counter). Note: &ldquo;the card&rdquo; refers here to the card that the counter was removed from.</p>
         <ul>
-            <li><dfn>Offense Counter</dfn>: Increase the card’s offense by 1.</li>
-            <li><dfn>Defense Counter</dfn>: Increase the card’s defense by 5.</li>
-            <li><dfn>Weakness Counter</dfn>: Decrease the card’s offense by 1.</li>
+            <li><dfn>Sword Counter</dfn>: Increase the card’s SP by 1.</li>
+            <li><dfn>Shield Counter</dfn>: Increase the card’s HP by 5.</li>
+            <li><dfn>Weakness Counter</dfn>: Decrease the card’s SP by 1.</li>
             <li><dfn>Damage Counter</dfn>: Roll a six-sided die and inflict damage to the card equal to the result.</li>
             <li><dfn>Exhaustion Counter</dfn>: Exhaust the card.</li>
             <li><dfn>Dice Counter</dfn>: Re-roll any one die (no matter who rolled the die initially).
@@ -185,7 +185,7 @@
         <p>Once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
         <p>For example, when resolving a chain where chain link 1 is an ability with the effect, &ldquo;Destroy the targets,&rdquo;, and chain link 2 is the effect of a Weakness Counter, then resolution of the chain goes as follows:</p>
         <ol>
-            <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the offense of the card it was on by 1.</li>
+            <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the SP of the card it was on by 1.</li>
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
         <p>Only one chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a minion ability or spell, said minion ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
@@ -193,15 +193,12 @@
         <h3 id="battles">Battles</h3>
         <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
         <ol>
-            <li><dfn>Attack Formation</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the attacking team, and declares one target: a player, or a minion. Any given player or minion can only be targeted once per Battle Phase. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team – the order in which these minions will take damage.</li>
-            <li><dfn>Defense Formation</dfn>: The target player, or the owner of the target minion, may exhaust any number of their own unexhausted minions (which may or may not include the target itself), which become the defending team. If they do this, they then select and announce the formation order of the defending team.</li>
-            <li><dfn>Battle Dice</dfn>: The attacking player rolls a number of six-sided dice equal to the total offense of the attacking team, and the defending player rolls a number of six-sided dice equal to the total offense of the defending team.</li>
-            <li><dfn>Battle Damage</dfn>: Each player must take each of their dice, one at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the target. If the target was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
+            <li><dfn>Attack Formation</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the <dfn>attacking team</dfn>, and declares one <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player or minion can only be declared as a victim once per Battle Phase. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
+            <li><dfn>Defense Formation</dfn>: The defending player may exhaust any number of their own unexhausted minions (which may or may not include the victim itself), which become the <dfn>defending team</dfn>. If they do this, they then select and announce the formation order of the defending team.</li>
+            <li><dfn>Damage Allocation</dfn>: The attacking player rolls a number of six-sided dice equal to the total SP of the attacking team, and the defending player rolls a number of six-sided dice equal to the total SP of the defending team. Then, each player must take each of their rolled dice, one at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the victim. If the victim was a player and any of the defending team's dice remain, inflict the total result of these remaining dice as damage to the attacking player.</li>
         </ol>
         <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
-        <p>To inflict damage to a minion, subtract the damage amount from the minion's defense, and then if the defense is less than or equal to zero, destroy the minion. For example, if 8 damage is inflicted to a minion with 15 defense, that minion will have 7 defense left and not be destroyed. If 8 damage is inflicted to a minion with 8 defense, however, that minion will have 0 defense left and be destroyed. Note: it is possible for minions to initially have 0 defense; in such a case, any amount of damage will destroy the minion.</p>
-        <p>As an example, consider an attacking team with two minions (Minion <var>A</var> and Minion <var>B</var>) that each have 2 offense and 5 defense plus one minion (Minion <var>C</var>) that has 2 offense and 10 defense, targeting a player. The attacking player declares that they are attacking the defending player, and declares their formation order as &ldquo;Minion <var>C</var> → Minion <var>A</var> → Minion <var>B</var>&rdquo;. The defending player then chooses to defend with two minions (Minion <var>D</var> and Minion <var>E</var>) that each have 1 offense and 10 defense, and declares their formation order as &ldquo;Minion <var>D</var> → Minion <var>E</var>&rdquo;. The attacking player rolls 6 dice, and the defending player rolls 2 dice. Suppose the attacking player rolls the following numbers: one, six, five, five, three, six; while the defending player rolls the following numbers: six, two. The defending player applies both the six and the two to the first attacking minion (Minion <var>C</var>), reducing its defense to 2; it survives. The attacking player chooses to apply a six, a three, and the one to the first minion (Minion <var>D</var>), reducing its defense to 0 and destroying it; then apply the two fives to the second minion (Minion <var>E</var>), reducing its defense to 0 and destroying it. Since all of the defending team's minions have been destroyed and one die is left over, the remaining die (the other six) is applied as damage to the target (in this case, the defending player), so the defending player loses 6 HP.</p>
-        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted minions remaining and valid targets for attacks remain.</p>
+        <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted minions remaining and valid potential victims remain.</p>
 
         <h3 id="winning">Endgame</h3>
         <p>The game ends when any of the following <dfn>endgame conditions</dfn> are met:</p>
@@ -229,6 +226,11 @@
         </div>
 
         <div class="no-break">
+        <h4>Attack</h4>
+        <p>A minion <dfn>attacks</dfn> when it is selected and exhausted by an attacking player to include it in an attacking team.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Bounce</h4>
         <p>To <dfn>bounce</dfn> a card is to place it in its owner's hand.</p>
         </div>
@@ -247,6 +249,16 @@
         <div class="no-break">
         <h4>Counter</h4>
         <p>See <a href="#counters">Counters</a> for an explanation of what counters are and how they work.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Damage</h4>
+        <p>A minion is <dfn>damaged</dfn> when any amount of damage greater than zero is inflicted to it.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Defend</h4>
+        <p>A minion <dfn>defends</dfn> when it is selected and exhausted by a defending player to include it in a defending team.</p>
         </div>
 
         <div class="no-break">

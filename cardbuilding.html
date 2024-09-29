@@ -25,12 +25,7 @@
 
     <main>
         <h2>Card Building Guide (11<sup>th</sup> Edition)</h2>
-
         <p>This guide teaches how to design cards for Keeper of the Cards.</p>
-
-        <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, a card's level (the number indicated on top of the green circle on the bottom) is strictly defined based on what statistics you assign to your card. As such, your job is to make cards that play well, but are not prohibitively expensive to use.</p>
-
-        <p>There are two types of cards: minions, and spells. Minions have an offensive power (&ldquo;offense&rdquo;), a defensive power (&ldquo;defense&rdquo;), and any number of abilities. Offense and defense must each be no lower than 0. Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
 
         <h3>Contents</h3>
         <nav>
@@ -54,9 +49,12 @@
         </nav>
 
         <h3 id="instructions">Design Instructions</h3>
+        <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, a card's level (the number indicated on top of the green circle on the bottom) is strictly defined based on what stats and abilities you give your card. As such, to create competitively viable cards, you need to strike a balance to make cards that play well, but are not prohibitively expensive to use.</p>
         <p>There are two types of cards: minions, and spells.</p>
-        <p>Minions have an offensive power (&ldquo;offense&rdquo;) and a defensive power (&ldquo;defense&rdquo;), and may also have any number of abilities. Offense and defense must each be no lower than 0.</p>
-        <p>Spells have only a single ability (which may itself be referred to as a &ldquo;spell&rdquo;).</p>
+        <ul>
+            <li>Minions have <abbr title="strength points">SP</abbr>, <abbr title="hitpoints">HP</abbr>, and any number of abilities. SP and HP must each be no lower than 0.</li>
+            <li>Spells have only a single ability.</li>
+        </ul>
 
         <h4 id="inst-abilities">Constructing Abilities</h4>
         <p>Abilities are the one gameplay element that all types of card can have. An ability is composed of the following components:</p>
@@ -78,10 +76,10 @@
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>To determine a sub-ability level, take the sum of all effect formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then subtract the activation cost relief (if any) and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
-        <p>To determine the level of a minion, add together the minion's offense and one fifth of its defense and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
+        <p>To determine the level of a minion, add together the minion's SP and one fifth of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
-        <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Minion Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a minion, or vice-versa if designing a spell. If designing a spell, also make sure to remove the offense and defense numbers from the bottom-left and bottom-right of the card, respectively.</p>
+        <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Minion Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a minion, or vice-versa if designing a spell. If designing a spell, also make sure to remove the SP and HP numbers from the bottom-left and bottom-right of the card, respectively.</p>
         <p>If the card is a spell and has an activation condition, you should make the &ldquo;Play Restriction&rdquo; layer visible. This is meant to help avoid mistakes during gameplay which give away hand knowledge.</p>
         <p>You can paste an image to represent your card into the &ldquo;Image&rdquo; layer. You can also indicate the copyright license and author(s) of the card and/or image via the &ldquo;Card License&rdquo; text layer.</p>
         <p>You may modify the look of the card as much as you want as long as the meaning of the meaning of the components is understood by all players. In general, it is recommended to keep it as close as possible to the official layout to avoid confusion.</p>
@@ -96,8 +94,8 @@
         <h4 id="conditions">Activation Conditions</h4>
         <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability. It is highly recommended to color all activation conditions dark red (HTML code 800000), or some other color that stands out.</p>
         <ul>
-            <li>&ldquo;When this card attacks (after Attack Formation, ghost-play):&rdquo;</li>
-            <li>&ldquo;When this card defends (after Defense Formation, ghost-play):&rdquo;</li>
+            <li>&ldquo;When this card attacks, after Attack Formation (ghost-play):&rdquo;</li>
+            <li>&ldquo;When this card defends, after Defense Formation (ghost-play):&rdquo;</li>
             <li>&ldquo;When this in-play card is ability-targeted:&rdquo;</li>
             <li>&ldquo;When this in-play card is damaged:&rdquo;</li>
             <li>&ldquo;When this in-play card is destroyed (ghost-play):&rdquo;</li>
@@ -111,7 +109,7 @@
             <li>&ldquo;When you take damage:&rdquo;</li>
             <li>&ldquo;When an opponent sows:&rdquo;</li>
             <li>&ldquo;When an opponent summons:&rdquo;</li>
-            <li>&ldquo;When an opponent attacks (after Attack Formation):&rdquo;</li>
+            <li>&ldquo;When an opponent attacks, after Attack Formation:&rdquo;</li>
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
@@ -445,7 +443,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Offense Counters on each target.&rdquo;
+                &ldquo;Place <var>x</var> Sword Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -457,7 +455,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Defense Counters on each target.&rdquo;
+                &ldquo;Place <var>x</var> Shield Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
