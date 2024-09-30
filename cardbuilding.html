@@ -69,13 +69,13 @@
             <li>1 or more effects from the <a href="#effects">Effects</a> section (required)</li>
         </ol>
         <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any ability you wish. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
-        <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's cost formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
+        <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
         <p>Any minion ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
         <h4 id="inst-level">Level</h4>
-        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated cost, and each activation cost has a designated relief, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
-        <p>To determine a sub-ability level, take the sum of all effect formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then subtract the activation cost relief (if any) and round up to the next integer if it isn't one already. If less than 1, set to 1.</p>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level relief formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level relief calculated by the level relief formula. Round the result up to the next integer if it isn't one already. If less than 1, set to 1.</p>
         <p>To determine the level of a minion, add together the minion's SP and one fifth of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
@@ -111,7 +111,7 @@
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
-        <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The amount of relief an activation cost provides is listed in parentheses.</p>
+        <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level relief an activation cost provides is listed in parentheses.</p>
         <p>Consecutive activation costs in an ability are connected with a comma followed by the word &ldquo;also&rdquo;. An example would be: &ldquo;Self-exhaust 1 resource, also self-destroy 1 in-play card→&rdquo;</p>
         <ul>
             <li>
@@ -245,7 +245,7 @@
         </ul>
 
         <h4 id="targeting">Target Selections</h4>
-        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulae of the respective effect(s); the formula for finding <var>t</var> is indicated in parentheses.</p>
+        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
         <p>For brevity, the words &ldquo;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card;&rdquo; can be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
         <ul>
             <li>
@@ -376,7 +376,7 @@
         </ul>
 
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least one is required for any given ability. Effect costs are listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used (see <a href="#targeting">Target Selections</a>).</p>
+        <p>Effects are the main component of abilities, and at least one is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
         <p>For brevity and to avoid confusion, if the number of targets is never greater than 1, the following substitutions are recommended:</p>
         <ul>
             <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
