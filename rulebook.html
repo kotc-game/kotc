@@ -82,7 +82,7 @@
         <ul>
             <li>Deck: Typically to the right of the trapfield. The contents of the deck are restricted knowledge.</li>
             <li>Graveyard: Typically to the right of the deck. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
-            <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Resource Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
+            <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Draw Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
             <li>Battlefield: Typically above the trapfield. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
             <li>Trapfield: Typically to the left of the deck. Contains its owner's in-play traps. The contents of the trapfield are private knowledge.</li>
             <li>Granary: Typically below the trapfield. Contains its owner's resources. The contents of the granary are private knowledge.</li>
@@ -92,20 +92,20 @@
         <h3 id="turnorder">Turn Order</h3>
         <p>Each turn in Keeper of the Cards consists of the following phases:</p>
         <ol>
-            <li>Resource Phase: Sow up to two resources. Then draw a number of cards equal to two minus the number of resources sowed. In other words, choose <strong>one</strong> of the following: <b>(a)</b> draw two cards (no resources sowed); <b>(b)</b> sow one resource and draw one card; or <b>(c)</b> sow two resources (no cards drawn). A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.
+            <li><dfn>Draw Phase</dfn>: Draw 1 card. To <dfn>draw</dfn> a card, take the top card from your deck and add it into your hand.
                 <ul>
-                    <li><b>Special exception</b>: on the first turn of the game, the starting player only either places one card onto the granary OR draws one card.</li>
+                    <li><b>Special exception</b>: on the first turn of the game, the player who goes first skips this phase.</li>
                 </ul>
             </li>
-            <li>Action Phase: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities and in-play traps which have no activation condition. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
-            <li>Battle Phase: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
-            <li>Recovery Phase: Every in-play card and every resource is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
+            <li><dfn>Resource Phase</dfn>: You may optionally sow 1 resource. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.</li>
+            <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities and in-play traps which have no activation condition. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
+            <li><dfn>Battle Phase</dfn>: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
+            <li><dfn>Recovery Phase</dfn>: Every in-play card and every resource (for all players) is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
 
         <h3 id="resources">Exhaustion and Recovery</h3>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
-        <p>To pay a resource cost is to exhaust a number of unexhausted resources in your granary equal to a card's level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
-        <p>A card's level, and thus the number of resources you must exhaust for its resource cost, can never be less than 1. So for example, if a level 4 minion has its level reduced by 4, it becomes a level 1 minion and you must exhaust 1 resource to summon it.</p>
+        <p>All cards inherently have a <dfn>resource cost</dfn>. To pay a card's resource cost is to exhaust a number of unexhausted resources in your granary equal to its level. For example, to pay the resource cost of a level 3 card, exhaust three of your currently unexhausted resources by turning them sideways.</p>
         <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
         <h3 id="abilities">Abilities</h3>
@@ -296,7 +296,7 @@
 
         <div class="no-break">
         <h4>Down-level</h4>
-        <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level. A card's level can never be lower than 0.</p>
+        <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level. A card's level can never be less than 0.</p>
         <p>The down-level effect persists for the card until the Recovery Phase, regardless of where the card was when it was down-leveled and where it moves to.</p>
         </div>
 
