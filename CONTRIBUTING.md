@@ -17,7 +17,7 @@ If you are not the copyright owner of the entire card (e.g. because the image wa
 
 We do not accept the GNU GPL or the GNU FDL for example cards; these licenses require inclusion of the full text of the license for copying and redistribution, which would mean that a card under one of these licenses would require a supplimentary page if you print it and then give it to someone else. This is a burden for professional card printing services and a waste of paper.
 
-Please also note that the lack of a copyright notice on an image **does not** mean that the image is in the public domain. By international convention, all works "fixed in a tangible medium" are automatically placed under copyright. A work only enters the public domain if its copyright expires, or if its author explicitly dedicates it to the public domain. As such, most images found on the Internet are *not* in the public domain. A good place to find actual public domain images, as well as images under other libre/open content licensing terms, is the Wikimedia Commons.
+Please also note that the lack of a copyright notice on an image **does not** mean that the image is in the public domain. By international convention, all works "fixed in a tangible medium" are automatically placed under copyright. A work only enters the public domain if its copyright expires, or if its author explicitly dedicates it to the public domain. As such, most images found on the Internet are *not* in the public domain. A good place to find actual public domain images, as well as images under other open content licensing terms, is the Wikimedia Commons.
 
 In any case, if you would like to contribute, you can either use Git (if you know how to use it), or you can post on the Discussions page; either works fine.
 
