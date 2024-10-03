@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Card Building Examples - Keeper of the Cards</title>
+    <meta name="description" content="The ultimate DIY trading card game" />
+    <meta name="keywords" content="kotc" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
+            "HTML-CSS": {
+            linebreaks: { automatic: true, width: "container" }
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <h1 class="header">Keeper of the Cards</h1>
+
+    <main>
+        <h2>Card Building Examples (12<sup>th</sup> Edition)</h2>
+        <p>This page is a supplement to the <a href="cardbuilding.html">Card Building Guide</a>. It goes over how to recreate specific examples of cards from the starter decks.</p>
+
+        <h3>Contents</h3>
+        <nav>
+            <ol type="1">
+                <li><a href="#velociraptor">Example: Velociraptor</a></li>
+                <li><a href="#antibiotic">Example: Antibiotic</a></li>
+                <li><a href="#thunderstrike">Example: Thunderstrike</a></li>
+            </ol>
+        </nav>
+
+        <h3 id="velociraptor">Example: Velociraptor</h3>
+        <img class="example" src="images/build-examples/velociraptor.png" alt="Velociraptor: level 4 minion with 2 SP, 10 HP, and no abilities.">
+        <p>This is a simple minion with no abilities. The following steps recreate this minion:</p>
+        <ol>
+            <li>Begin with the minion's level set to 0.</li>
+            <li>Choose the minion's SP. You can choose any number. In this case, we choose 2.</li>
+            <li>Add the minion's SP to its level, bringing it to 2.</li>
+            <li>Choose the minion's HP. You can choose any number, but a multiple of 5 is recommended. In this case, we choose 10.</li>
+            <li>Take the minion's SP and divide it by 5. Add the result to the minion's level, bringing it to 4.</li>
+            <li>The minion's final level in this example is 4.</li>
+        </ol>
+
+        <h3 id="antibiotic">Example: Antibiotic</h3>
+        <img class="example" src="images/build-examples/antibiotic.png" alt="Antibiotic: level 2 spell with ability: &ldquo;2-dice-heal yourself.&rdquo;">
+        <p>This is an example of the simplest possible spell, composed only of a single effect. The following steps recreate this spell:</p>
+        <ol>
+            <li>Begin with the spell's level set to 0.</li>
+            <li>Choose the effect you want from <a href="cardbuilding.html#effects">Card Building Guide: Effects</a>. In this case, it's, &ldquo;<var>x</var>-dice-heal yourself.&rdquo;</li>
+            <li>Since the effect has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 2.</li>
+            <li>Check the effect's level increase formula. In this case, the formula is
+                <math display="inline">
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>.</mtext>
+                </math>
+                Replace the variable <var>x</var> in this formula with the number chosen in the previous step; in this case, 2. Since the formula is only a simple variable, we're done; we add 2 to the spell's level.</li>
+            <li>The spell's final level in this example is 2.</li>
+        </ol>
+
+        <h3 id="thunderstrike">Example: Thunderstrike</h3>
+        <img class="example" src="images/build-examples/thunderstrike.png" alt="Thunderstrike: level 2 spell with ability: &ldquo;Target 1 in-play card; destroy it.&rdquo;">
+        <p>This spell is slightly more complex than Antibiotic, but still fairly simple, composed of a single target selection and a single effect. The following steps recreate this spell:</p>
+        <ol>
+            <li>Begin with the spell's level set to 0.</li>
+            <li>Choose the effect you want from <a href="cardbuilding.html#effects">Card Building Guide: Effects</a>. In this case, it's, &ldquo;Destroy the targets.&rdquo;</li>
+            <li>Since the chosen effect does something with targets, we must include a target selection for this to do anything. Choose the target selection you want from <a href="cardbuilding.html#targeting">Card Building Guide: Target Selections</a>. In this case, we choose, &ldquo;Target up to <var>x</var> in-play cards;&rdquo;</li>
+            <li>Since the target selection has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 1.</li>
+            <li>Check the target selection's formula for the variable <var>t</var>. In this case, the formula is
+                <math display="inline">
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>.</mtext>
+                </math>
+                Replace the variable <var>x</var> in this formula with the number chosen in the previous step; in this case, 1. Doing so, we get
+                <math display="inline">
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mn>1</mn>
+                    </mrow>
+                    <mtext>.</mtext>
+                </math>
+                Therefore, the variable <var>t</var> is set to 1.
+            </li>
+            <li>Check the effect's level increase formula. In this case, the formula is
+                <math display="inline">
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>.</mtext>
+                </math>
+                Replace the variable <var>t</var> in this formula with the number calculated in the previous step; in this case, 1. Doing so, we get
+                <math display="inline">
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>*</mo>
+                        <mn>1</mn>
+                    </mrow>
+                    <mtext>.</mtext>
+                </math>
+                We can now solve the formula; doing so, we get 2 and therefore add 2 to the spell's level.
+            </li>
+            <li>The spell's sub-ability text is the target selection followed by the effect. In this case, we get, &ldquo;Target up to 1 in-play cards; Destroy the targets.&rdquo;</li>
+            <li>Since the sub-ability is a single sentence, change the capital D in the word &ldquo;destroy&rdquo; to lowercase, giving us: &ldquo;Target up to 1 in-play cards; destroy the targets.&rdquo;</li>
+            <li>Since only 1 in-play card can be targeted, we remove the words "up to", change the plural &ldquo;cards&rdquo; to the singular &ldquo;card&rdquo;, and change the plural &ldquo;the targets&rdquo; to the singular &ldquo;it&rdquo;, giving us: &ldquo;Target 1 in-play card; destroy it.&rdquo;</li>
+            <li>The spell's final level in this example is 2.</li>
+        </ol>
+    </main>
+
+    <div class="footer">
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC BY-SA" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This page is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+</body>
+
+</html>
