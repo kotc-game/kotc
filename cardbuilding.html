@@ -51,7 +51,7 @@
 
         <h3 id="instructions">Design Instructions</h3>
         <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, a card's level (the number indicated on top of the green circle on the bottom) is strictly defined based on what stats and abilities you give your card. As such, to create competitively viable cards, you need to strike a balance to make cards that play well, but are not prohibitively expensive to use.</p>
-        <p>There are two types of cards: minions, and spells.</p>
+        <p>There are 2 types of cards: minions, and spells.</p>
         <ul>
             <li>Minions have <abbr title="strength points">SP</abbr>, <abbr title="hitpoints">HP</abbr>, and any number of abilities. SP and HP must each be no lower than 0.</li>
             <li>Spells have only a single ability.</li>
@@ -70,7 +70,7 @@
             <li>1 or more effects from the <a href="#effects">Effects</a> section (required)</li>
         </ol>
         <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any ability you wish. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
-        <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers. Variable amounts must be positive, non-zero integers. You should also change any plural forms referring to a variable to singular if you choose the number &ldquo;1&rdquo; for that variable.</p>
+        <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers. Variable amounts must be positive, non-zero integers.</p>
         <p>Any minion ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
@@ -246,7 +246,7 @@
         </ul>
 
         <h4 id="targeting">Target Selections</h4>
-        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
+        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only 1 target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
         <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 in-play cards;&rdquo; should be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
         <ul>
             <li>
@@ -377,7 +377,7 @@
         </ul>
 
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least one is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
+        <p>Effects are the main component of abilities, and at least 1 is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
         <p>If an effect does not follow any target selection or any other effect within the sub-ability, its first letter should be capitalized.</p>
         <p>If a number is never greater than 1, other words which refer to that number should be changed to singular. Additionally, the following substitutions are recommended if the number of targets is never greater than 1:</p>
         <ul>
