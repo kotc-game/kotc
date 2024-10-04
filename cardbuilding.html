@@ -247,7 +247,7 @@
 
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only one target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
-        <p>For brevity, the words &ldquo;up to&rdquo; can be removed from any targeting text if the corresponding number is exactly 1. For example, &ldquo;Target up to 1 in-play card;&rdquo; can be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
+        <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 in-play cards;&rdquo; should be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -378,7 +378,8 @@
 
         <h4 id="effects">Effects</h4>
         <p>Effects are the main component of abilities, and at least one is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
-        <p>For brevity and to avoid confusion, if the number of targets is never greater than 1, the following substitutions are recommended:</p>
+        <p>If an effect does not follow any target selection or any other effect within the sub-ability, its first letter should be capitalized.</p>
+        <p>If a number is never greater than 1, other words which refer to that number should be changed to singular. Additionally, the following substitutions are recommended if the number of targets is never greater than 1:</p>
         <ul>
             <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
             <li>&ldquo;Each target's&rdquo; and &ldquo;the targets'&rdquo; should be replaced with &ldquo;the target's&rdquo;, or alternatively, they can be replaced with &ldquo;its&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
@@ -400,7 +401,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Remove up to <var>x</var> counters from each target.&rdquo;
+                &ldquo;remove up to <var>x</var> counters from each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -412,7 +413,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Sword Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Sword Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -424,7 +425,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Shield Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Shield Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -436,7 +437,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Weakness Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Weakness Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -448,7 +449,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Damage Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Damage Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -460,7 +461,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Exhaustion Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Exhaustion Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -472,7 +473,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Place <var>x</var> Dice Counters on each target.&rdquo;
+                &ldquo;place <var>x</var> Dice Counters on each target.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -484,7 +485,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Down-level each target by <var>x</var>.&rdquo;
+                &ldquo;down-level each target by <var>x</var>.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -494,7 +495,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Reveal and deploy the targets.&rdquo;
+                &ldquo;reveal and deploy the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -504,7 +505,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Exhaust and fatigue the targets.&rdquo;
+                &ldquo;exhaust and fatigue the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -514,7 +515,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Bounce the targets.&rdquo;
+                &ldquo;bounce the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -526,7 +527,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Silo the targets.&rdquo;
+                &ldquo;silo the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -538,7 +539,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Hypnotize the targets until the end of this turn.&rdquo;
+                &ldquo;hypnotize the targets until the end of this turn.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -550,7 +551,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Sheathe the targets.&rdquo;
+                &ldquo;sheathe the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -562,7 +563,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Destroy the targets.&rdquo;
+                &ldquo;destroy the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -574,7 +575,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Bury the targets.&rdquo;
+                &ldquo;bury the targets.&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -584,7 +585,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Draw <var>x</var> cards.&rdquo;
+                &ldquo;draw <var>x</var> cards.&rdquo;
             </li>
             <li>
                 <math display="inline">
