@@ -75,8 +75,8 @@
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text. For card texts where this is particularly useful, a suggested tutorial text is included.</p>
 
         <h4 id="inst-level">Level</h4>
-        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level relief formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
-        <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level relief calculated by the level relief formula. Round the result up to the next integer if it isn't one already. If less than 1, set to 1.</p>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level decrease formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability. To determine a spell or ability level, add together the spell or ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 1, set to 1.</p>
         <p>To determine the level of a minion, add together the minion's SP and one fifth of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
 
         <h4 id="inst-creation">Creating the Card</h4>
@@ -112,8 +112,9 @@
         </ul>
 
         <h4 id="costs">Activation Costs</h4>
-        <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level relief an activation cost provides is listed in parentheses.</p>
-        <p>Consecutive activation costs in an ability are connected with a comma followed by the word &ldquo;also&rdquo;. An example would be: &ldquo;Self-exhaust 1 resource, also self-destroy 1 in-play card→&rdquo;</p>
+        <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level decrease an activation cost provides is listed in parentheses.</p>
+        <p>If an activation cost does not follow any activation condition or any other activation cost within the ability, its first letter should be capitalized.</p>
+        <p>Consecutive activation costs in an ability are connected with a comma followed by the word &ldquo;also&rdquo;, replacing the arrow of the preceding activation cost. An example would be: &ldquo;Self-exhaust 1 resource, also self-destroy 1 in-play card→&rdquo;</p>
         <ul>
             <li>
                 <math display="inline">
@@ -128,7 +129,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-exhaust <var>x</var> resources→&rdquo;
+                &ldquo;self-exhaust <var>x</var> resources→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -138,7 +139,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-exhaust <var>x</var> minions→&rdquo;
+                &ldquo;self-exhaust <var>x</var> minions→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -148,7 +149,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-bounce <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-bounce <var>x</var> in-play cards→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -158,7 +159,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-sheathe <var>x</var> random cards in your hand→&rdquo;
+                &ldquo;self-sheathe <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -170,7 +171,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-sheathe <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-sheathe <var>x</var> in-play cards→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -185,7 +186,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> resources→&rdquo;
+                &ldquo;self-destroy <var>x</var> resources→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -195,29 +196,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-destroy <var>x</var> random cards in your hand→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Self-destroy <var>x</var> in-play cards→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;Self-bury <var>x</var> resources→&rdquo;
+                &ldquo;self-destroy <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -229,7 +208,29 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-bury <var>x</var> random cards in your hand→&rdquo;
+                &ldquo;self-destroy <var>x</var> in-play cards→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-bury <var>x</var> resources→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-bury <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -241,7 +242,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Self-bury <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-bury <var>x</var> in-play cards→&rdquo;
             </li>
         </ul>
 
