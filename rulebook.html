@@ -69,7 +69,7 @@
         </ol>
 
         <h3 id="setup">Setup and Deck Building</h3>
-        <p>Prior to starting a game of Keeper of the Cards, you must assemble a deck and (optionally) a reserves. The deck must contain 40&ndash;60 cards, while the reserves can contain up to 5 cards. All cards must look the same from the back (this can be achieved by using sleeves if necessary). Other than that, there are no restrictions on what legal cards you can put in your deck.</p>
+        <p>Prior to starting a game of Keeper of the Cards, you must assemble a deck. The deck must contain 40&ndash;60 cards. All cards must look the same from the back (this can be achieved by using sleeves if necessary). Other than that, there are no restrictions on what legal cards you can put in your deck.</p>
         <p>You can find preëxisting sets of example cards, as well as instructions for how to print them, in the <a href="https://kotc-game.github.io/play.html">Starter Set</a>.</p>
         <p>Before each game, shuffle your deck. Take the 5 cards from your deck and place them into your hand. You begin the game with 35 <abbr title="hitpoints">HP</abbr>, which you can note on a piece of paper or thru some other counter.</p>
         <p>You should have a reasonable amount of six-sided dice (preferably at least 10&ndash;20 dice), and some objects such as coins or poker chips to use as counters. You must also determine who goes first. One suggested method is for each player to roll 2 six-sided dice and for the player with the highest roll to go first.</p>
@@ -79,25 +79,23 @@
         <img class="example" src="images/zones.png" alt="">
         <p>Each player has a <dfn>field</dfn>: a designated area where cards are played, divided into several distinct <dfn>zones</dfn> which each have a specific purpose. Each zone's contents are classified as either <dfn>public knowledge</dfn>, in which case all players are entitled to know what cards are in the zone; <dfn>private knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but only its owner is entitled to know what cards are in the zone; or <dfn>restricted knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but no player (not even its owner) is entitled to know what cards are in the zone. The zones are as follows:</p>
         <ul>
-            <li>Deck: Typically to the right of the trapfield. The contents of the deck are restricted knowledge.</li>
-            <li>Graveyard: Typically to the right of the deck. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
-            <li>Reserves: Typically to the left of the trapfield. You can retrieve a card of your choice from your reserves instead of drawing a card from the deck, either when drawing a card during the Draw Phase or when drawing a card due to a card effect. The contents of the reserves are private knowledge.</li>
-            <li>Battlefield: Typically above the trapfield. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
-            <li>Trapfield: Typically to the left of the deck. Contains its owner's in-play traps. The contents of the trapfield are private knowledge.</li>
-            <li>Granary: Typically below the trapfield. Contains its owner's resources. The contents of the granary are private knowledge.</li>
+            <li>Deck: Typically below the graveyard, to the right of the granary. The contents of the deck are restricted knowledge.</li>
+            <li>Graveyard: Typically above the deck, to the right of the battlefield. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the graveyard are private knowledge.</li>
+            <li>Battlefield: Typically above the granary, to the left of the graveyard. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
+            <li>Granary: Typically below the battlefield. Contains its owner's resources. The contents of the granary are private knowledge.</li>
             <li>Hand: Typically held in the hand. Contains the cards its owner currently has available to play. The contents of the hand are private knowledge.</li>
         </ul>
 
         <h3 id="turnorder">Turn Order</h3>
         <p>Each turn in Keeper of the Cards consists of the following phases:</p>
         <ol>
-            <li><dfn>Draw Phase</dfn>: Draw 1 card. To <dfn>draw</dfn> a card is to take the topmost card from your deck, or alternatively, take any card of your choice from your reserves, and add that card to your hand.
+            <li><dfn>Draw Phase</dfn>: Draw 1 card. To <dfn>draw</dfn> a card is to take the topmost card from your deck and add that card to your hand.
                 <ul>
                     <li><b>Special exception</b>: on the first turn of the game, the player who goes first skips this phase.</li>
                 </ul>
             </li>
             <li><dfn>Resource Phase</dfn>: You may optionally sow 1 resource. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.</li>
-            <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities and in-play traps which have no activation condition. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
+            <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
             <li><dfn>Battle Phase</dfn>: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
             <li><dfn>Recovery Phase</dfn>: Every in-play card and every resource (for all players) is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or stat changes due to card abilities).</li>
         </ol>
@@ -105,7 +103,7 @@
         <h3 id="resources">Exhaustion and Recovery</h3>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase. (Players of <cite>Magic: The Gathering</cite> and some other games may recognize the exhaustion system as functionally identical to what those games call &ldquo;tapping&rdquo;.)</p>
         <p>All cards inherently have a <dfn>resource cost</dfn>. To pay a card's resource cost is to exhaust a number of unexhausted resources in your granary equal to its level. For example, to pay the resource cost of a level 3 card, exhaust 3 of your currently unexhausted resources by turning them sideways.</p>
-        <p>During the Recovery Phase, all cards in every player's battlefield, trapfield, and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any stat changes that might have happened, including damage. As such, these stat changes effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
         <h3 id="abilities">Abilities</h3>
         <p>A card's <dfn>abilities</dfn> are indicated in the ability text. Each ability is composed of the following components in the following order:</p>
@@ -133,12 +131,10 @@
         <p>Minions can also hold counters; see <a href="#counters">Counters</a> for more information.</p>
 
         <h3 id="spells">Spells</h3>
-        <p><dfn>Spells</dfn> are cards that only have a single ability. Spells can be used in 2 ways: they can be <dfn>cast</dfn> from your hand, and they can be set as traps for use later.</p>
-        <p>To cast a spell whose activation condition is met, pay its resource cost, reveal the spell to all other players, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>, and then send the spell to the graveyard.</p>
-        <p>To set a spell as a trap, pay its resource cost, then place the card into the trapfield, face-down and exhausted. Only unexhausted traps can be activated. To activate a trap, turn it over to reveal it to all other players, perform the steps described for the activation of an ability in <a href="#abilities">Abilities</a>, and then send the spell to the graveyard.</p>
+        <p><dfn>Spells</dfn> are cards that only have a single ability. Spells can be <dfn>cast</dfn> from your hand. To cast a spell whose activation condition is met, pay its resource cost, reveal the spell to all other players (at this point the spell does not exist in any zone), perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>, and then send the spell to the graveyard.</p>
 
         <h3 id="counters">Counters</h3>
-        <p>Some abilities manipulate or utilize counters. A <dfn>counter</dfn> is a special marker which can be placed on an in-play minion (but not a trap or resource). Any available object can be used as a counter. Counters stay on the minion they are placed on until either the minion leaves the battlefield, or an ability removes them.</p>
+        <p>Some abilities manipulate or utilize counters. A <dfn>counter</dfn> is a special marker which can be placed on an in-play minion (but not a resource). Any available object can be used as a counter. Counters stay on the minion they are placed on until either the minion leaves the battlefield, or an ability removes them.</p>
         <p>There are several different types of counters. Each type has a name and can be voluntarily removed to trigger a particular special effect. The following rules apply to all counters:</p>
         <ul>
             <li>These counters can be removed (and their effects triggered) literally at any time, that is to say, during any phase of any player's turn, even immediately after placing them, triggering the stated effect.</li>
@@ -262,9 +258,8 @@
         <ol>
             <li>Summon the card (if it is a minion).</li>
             <li>Cast the card (if it is a spell).</li>
-            <li>Set the card as a trap (if it is a spell).</li>
         </ol>
-        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable activation costs for spells, and any minion summoned or trap set is placed onto the battlefield or trapfield exhausted.</p>
+        <p>Just as when playing the card normally, you must pay all usual costs, including any applicable activation costs for spells, and any minion summoned is placed onto the battlefield exhausted.</p>
         <p>Cards which are already in-play cannot be deployed and thus are excluded.</p>
         </div>
 
@@ -286,7 +281,7 @@
 
         <div class="no-break">
         <h4>Draw</h4>
-        <p>To <dfn>draw</dfn> a card is to take the topmost card from your deck, or alternatively, take any card of your choice from your reserves, and add that card to your hand.</p>
+        <p>To <dfn>draw</dfn> a card is to take the topmost card from your deck and add that card to your hand.</p>
         </div>
 
         <div class="no-break">
@@ -318,13 +313,13 @@
         <div class="no-break">
         <h4>Hypnotize</h4>
         <p>To <dfn>hypnotize</dfn> a card means to change the target's controller to a different player. For example, you could hypnotize a minion controlled by an opponent so that you control the minion instead.</p>
-        <p>Only in-play minions and traps can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
+        <p>Only in-play minions can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
         </div>
 
         <div class="no-break">
         <h4>In-play</h4>
-        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed minions in the battlefield, and unactivated traps. Minions cease being in-play the moment they are destroyed or otherwise moved to any location other than the battlefield. Traps cease being in-play the moment they are destroyed, activated, or otherwise moved to any location other than the trapfield.</p>
-        <p>Resources are never considered to be in-play under any circumstance. Additionally, spells activated from the Hand are not considered to be in-play at any point.</p>
+        <p>The term <dfn>in-play</dfn> refers exclusively to non-destroyed minions in the battlefield. Minions cease being in-play the moment they are destroyed or otherwise moved to any location other than the battlefield.</p>
+        <p>Resources are never considered to be in-play under any circumstance. Additionally, spells are not considered to be in-play at any point.</p>
         </div>
 
         <div class="no-break">
