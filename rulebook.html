@@ -160,25 +160,20 @@
 
         <h3 id="chains">Chains</h3>
         <p>Due to activation conditions on abilities and the nature of how counters work, it is possible for multiple players to simultaneously be able to perform certain actions. <dfn>Chains</dfn> exist to clarify what exactly happens in these situations.</p>
-        <p>The following actions all start a chain:</p>
+        <p>The following actions are all <dfn>chaining actions</dfn>, meaning they can start or respond to a chain:</p>
         <ul>
-            <li>Activating a minion's ability (after paying the activation cost).</li>
-            <li>Casting a spell (after paying its required cost).</li>
-            <li>Removing a counter to activate its effect.</li>
+            <li>Activating a minion's ability whose activation condition is met.</li>
+            <li>Casting a spell whose activation condition is met.</li>
+            <li>Removing a counter to trigger its proactive counter effect.</li>
         </ul>
-        <p>When a chain starts, the action which started the chain becomes the first <dfn>chain link</dfn>. Then, all players, starting with the player to the left of the player who started the chain and then going clockwise, are given an opportunity to respond to the chain in one of the following ways, creating an additional chain link instead of starting a new chain:</p>
-        <ul>
-            <li>By activating a minion ability or spell with an activation condition that has been met (immediately paying the activation cost).</li>
-            <li>By removing a counter to activate its effect.</li>
-        </ul>
-        <p>If any player decides to respond to the chain, all players are again given the opportunity to respond to the chain, this time starting with the player to the left of the player who last responded and then going clockwise. This process is repeated until all players decide not to respond to the chain.</p>
-        <p>Once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
+        <p>When a chaining action is performed and it isn't in response to an existing chain, a new chain starts and said chaining action becomes the first <dfn>chain link</dfn> of said chain. Then, all players, starting with the player to the left of the player who started the chain and then going clockwise, are given an opportunity to respond to the chain by performing chaining actions of their own. If any player decides to respond to the chain, all players are again given the opportunity to respond to the chain, this time starting with the player to the left of the player who last responded and then going clockwise. This process is repeated until all players consecutively decide not to respond to the chain.</p>
+        <p>Whenever any chaining action is performed, any applicable activation cost is paid immediately. Effects, however, are not executed immediately. Instead, once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
         <p>For example, when resolving a chain where chain link 1 is an ability with the effect, &ldquo;Destroy the targets,&rdquo;, and chain link 2 is the effect of a Weakness Counter, then resolution of the chain goes as follows:</p>
         <ol>
             <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the SP of the card it was on by 1.</li>
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
-        <p>Only 1 chain can be active at a time, and no actions which start a chain can be performed while a chain is resolving. If the effects performed within a chain satisfy an activation condition of a minion ability or spell, said minion ability or spell can be activated after the chain finishes resolving, starting a new chain.</p>
+        <p>Only 1 chain can be active at a time, and no chaining actions can be performed while a chain is resolving; if a chain is resolving, any player who wishes to perform a chaining action must wait until the chain finishes resolving, and can then start a new chain.</p>
 
         <h3 id="battles">Battles</h3>
         <p>To battle, go thru the following steps (only during the attacking player's Battle Phase):</p>
