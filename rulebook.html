@@ -153,7 +153,7 @@
         <p>Additionally, the following rules apply to all counters:</p>
         <ul>
             <li>Removing counters for their effects does <strong>not</strong> require exhausting the minion it is on since the effect is that of the counter, not of the minion.</li>
-            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the minion is. For example, if you place one of these counters on a minion controlled by another player, it is you who can then remove the counters to trigger the effect, and other players – including the minion's controller – cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
+            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the minion is. For example, if you place one of these counters on a minion whose controller is another player, it is you who can then remove the counters to trigger the effect, and other players – including the minion's controller – cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
             <li>Removing the counter to trigger its effect is treated the same as an activation cost of an ability, and thus is done immediately when the effect is triggered.</li>
         </ul>
         <div class="no-break">
@@ -274,6 +274,12 @@
         <div class="no-break">
         <h4>Destroy</h4>
         <p>To <dfn>destroy</dfn> a card is to cause it to be sent to the grave, just as if defeated by battle. This can be used to trigger effects which activate on destruction of a card.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Dice-damage</h4>
+        <p>To <dfn>dice-damage</dfn> a the battlefield is to roll the indicated number of six-sided dice, assign each die to an in-play minion whose controller is an enemy, and inflict damage to the respective minion equal to the roll of the respective die. If at any point there is no in-play minion whose controller is an enemy, for each die left over, inflict damage to an enemy equal to the result of the respective die. For example, if you 2-dice-damage the battlefield, roll 2 six-sided dice; if there is a single minion whose controller is an enemy, said minion has 2 HP, and the results of the die rolls are 2 and 4, you can inflict 2 damage to the minion, destroying it, and then inflict 4 damage to the enemy.</p>
+        <p>Dice-damaging the battlefield is similar to to the Damage Allocation step of battles, except that the player dice-damaging the battlefield has full control over what minions are damaged and how the dice are distributed.</p>
         </div>
 
         <div class="no-break">
