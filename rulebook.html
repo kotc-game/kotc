@@ -153,7 +153,7 @@
         <p>Additionally, the following rules apply to all counters:</p>
         <ul>
             <li>Removing counters for their effects does <strong>not</strong> require exhausting the minion it is on since the effect is that of the counter, not of the minion.</li>
-            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the minion is. For example, if you place one of these counters on a minion whose controller is another player, it is you who can then remove the counters to trigger the effect, and other players – including the minion's controller – cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
+            <li>The player who placed a counter is considered to be the counter’s &ldquo;owner&rdquo; and &ldquo;controller&rdquo; and is the one who can remove it for its effect, regardless of who the controller of the minion is. For example, if you place one of these counters on an enemy minion, it is you who can then remove the counters to trigger the effect, and other players – including the minion's controller – cannot do so. Note that this restriction only applies to the effect of the counter itself; there is no restriction on how any counter, including a counter with an effect, can be removed for an activation cost or by a card effect.</li>
             <li>Removing the counter to trigger its effect is treated the same as an activation cost of an ability, and thus is done immediately when the effect is triggered.</li>
         </ul>
         <div class="no-break">
@@ -224,6 +224,11 @@
         </div>
 
         <div class="no-break">
+        <h4>Ally minion</h4>
+        <p>An <dfn>ally minion</dfn> is a minion whose controller is you, regardless of its owner.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Attack</h4>
         <p>A minion <dfn>attacks</dfn> when it is selected and exhausted by an attacking player to include it in an attacking team.</p>
         </div>
@@ -278,13 +283,19 @@
 
         <div class="no-break">
         <h4>Dice-burn</h4>
-        <p>To <dfn>dice-burn</dfn> a the battlefield is to roll the indicated number of six-sided dice, assign each die to an in-play minion whose controller is an enemy, and inflict damage to the respective minion equal to the roll of the respective die. If at any point there is no in-play minion whose controller is an enemy, for each die left over, inflict damage to an enemy equal to the result of the respective die. For example, if you 2-dice-burn the battlefield, roll 2 six-sided dice; if there is a single minion whose controller is an enemy, said minion has 2 HP, and the results of the die rolls are 2 and 4, you can inflict 2 damage to the minion, destroying it, and then inflict 4 damage to the enemy.</p>
-        <p>Dice-damaging the battlefield is similar to to the Damage Allocation step of battles, except that the player dice-damaging the battlefield has full control over what minions are damaged and how the dice are distributed.</p>
+        <p>To <dfn>dice-burn</dfn> the battlefield is to roll the indicated number of six-sided dice, assign each die to an in-play enemy minion, and inflict damage to the respective minion equal to the roll of the respective die. If at any point during this process there are no in-play enemy minions, for each die left over, inflict damage to an enemy equal to the result of the respective die. For example, if you 2-dice-burn the battlefield, roll 2 six-sided dice; if there is a single enemy minion, said minion has 2 HP, and the results of the die rolls are 2 and 4, you can inflict 2 damage to the minion, destroying it, and then inflict 4 damage to the enemy.</p>
+        <p>Dice-burning the battlefield is similar to to the Damage Allocation step of a battle where you attack an enemy, except that you (the player dice-burning the battlefield) have full control over what enemy minions are damaged and how the dice are distributed.</p>
         </div>
 
         <div class="no-break">
         <h4>Dice-heal</h4>
         <p>To <dfn>dice-heal</dfn> a player is to roll the indicated number of six-sided dice and increase their HP by the total indicated on the dice. For example, to 3-dice-heal a player, roll 3 six-sided dice; if the results of the dice are 4, 1, and 3, the player gains 8 HP.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Dice-self-burn</h4>
+        <p>To <dfn>dice-self-burn</dfn> the battlefield is to roll the indicated number of six-sided dice, assign each die to an ally minion, and inflict damage to the respective minion equal to the roll of the respective die. If at any point during this process there are no in-play ally minions, inflict damage to yourself equal to the total result of the respective dice. For example, if you 2-dice-self-burn the battlefield, roll 2 six-sided dice; if there is a single ally minion, said minion has 2 HP, and the results of the die rolls are 2 and 4, inflict 2 damage to the minion, destroying it, and then inflict 4 damage to yourself.</p>
+        <p>Dice-self-burning the battlefield is similar to to the Damage Allocation step of a battle where an enemy attacks you, except that you (the player dice-self-burning the battlefield) have full control over what minions are damaged and how the dice are distributed.</p>
         </div>
 
         <div class="no-break">
@@ -306,6 +317,11 @@
         <div class="no-break">
         <h4>Enemy</h4>
         <p><dfn>Enemy</dfn> means any player except for yourself, chosen by you if there is a choice to be made.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Enemy minion</h4>
+        <p>An <dfn>enemy minion</dfn> is a minion whose controller is any player except you, regardless of its owner.</p>
         </div>
 
         <div class="no-break">
@@ -408,7 +424,7 @@
 
         <div class="no-break">
         <h4>You</h4>
-        <p>As used in card text, <dfn>you</dfn> and <dfn>yourself</dfn> always refer to the player who is using the card in question, i.e. its controller or the player summoning or casting it, regardless of who its owner is. Similarly, <dfn>your</dfn> always refers to that player's field, and cards whose controller is that player.</p>
+        <p><dfn>You</dfn> and <dfn>yourself</dfn> always refer to the player who is using the card in question, i.e. its controller or the player summoning or casting it, regardless of who its owner is. Similarly, <dfn>your</dfn> always refers to that player's field, and minions whose controller is that player, regardless of who their owners are.</p>
         </div>
 
         <h3 id="banned">Refurbished and Pruned Cards</h3>
