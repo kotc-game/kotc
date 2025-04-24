@@ -1,12 +1,12 @@
 body
 {
-    color: black;
-    background: #D0A5A5;
+    color: white;
+    background: #555;
 }
 
 h1.header
 {
-    color: #802000;
+    color: #CCC;
     text-align: center;
 }
 
@@ -17,26 +17,26 @@ h1.header img
 
 a
 {
-    color: #008;
+    color: #88F;
     font-weight: bold;
     text-decoration: underline;
 }
 
 a:visited
 {
-    color: #408;
+    color: #BBF;
 }
 
 a:hover
 {
-    color: #C00;
+    color: #F88;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav.header
 {
-    background: #5B0D0D;
+    background: #222;
     border-style: hidden;
     border-radius: 12px;
     width: 94%;
@@ -85,12 +85,13 @@ nav.header a, nav.header a:hover, nav.header a:visited
 
 nav.header li.current a, nav.header a:hover
 {
-    background: #C00;
+    background: #777;
     box-shadow: 3px 3px black;
 }
 
 main
 {
+    color: black;
     background: #DDD;
     width: 90%;
     max-width: 60em;
@@ -101,6 +102,25 @@ main
     padding-top: 4px;
     padding-bottom: 4px;
     overflow: auto;
+}
+
+main a
+{
+    color: #008;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main a:visited
+{
+    color: #648;
+}
+
+main a:hover
+{
+    color: #C00;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 table
