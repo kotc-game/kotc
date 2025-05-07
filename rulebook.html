@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Rulebook (15th Edition) - Keeper of the Cards</title>
+    <title>Rulebook (16th Edition) - Keeper of the Cards</title>
     <meta name="description" content="The ultimate DIY trading card game" />
     <meta name="keywords" content="kotc" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -15,7 +15,7 @@
     <h1 class="header">Keeper of the Cards</h1>
 
     <main>
-        <h2>Rulebook (15<sup>th</sup> Edition)</h2>
+        <h2>Rulebook (16<sup>th</sup> Edition)</h2>
 
         <p>Keeper of the Cards is a trading card game, loosely inspired by elements from various popular trading card games you may be familiar with. The primary distinguishing factor of Keeper of the Cards, however, is that you don't just trade cards; you <em>create</em> cards.</p>
 
@@ -135,13 +135,6 @@
 
         <h3 id="pawns">Pawns</h3>
         <p><dfn>Pawns</dfn> are special minions which do not exist as true cards and are summoned only by abilities. Unlike normal minions, pawns only ever exist on the battlefield; when destroyed or otherwise moved to any zone other than the battlefield, they are instead permanently removed from the game. In every other respect, however, they are exactly the same as normal minions.</p>
-        <p>Just like normal minions, pawns have a level, SP, and HP. A pawn's level is determined by the ability which summons it. Its SP and HP are determined by the player who summons it based on its level; a number of times equal to the pawn's level, the player decides whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
-        <p>For example, a level 2 pawn could have one of the following distributions of SP and HP, determined by the player who summons it:</p>
-        <ul>
-            <li>2 SP and 0 HP</li>
-            <li>1 SP and 2 HP</li>
-            <li>0 SP and 4 HP</li>
-        </ul>
 
         <h3 id="counters">Counters</h3>
         <p>A <dfn>counter</dfn> is an element, generally represented by arbitrary objects such as coins or Poker ships, which can be placed on an in-play minion, preparing an effect for future use. It stays on the minion it is placed on until either the minion is moved to a zone other than the battlefield, an ability removes the counter, or the counter's effect is triggered.</p>
@@ -253,6 +246,18 @@
         <div class="no-break">
         <h4>Counter</h4>
         <p>See <a href="#counters">Counters</a> for an explanation of what counters are and how they work.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Craft</h4>
+        <p>To <dfn>craft</dfn> a pawn is to summon a pawn of a given level, assigning SP and HP based on said level.</p>
+        <p>To determine the SP and HP of a crafted pawn: a number of times equal to the pawn's level, decide whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
+        <p>For example, a level 2 crafted pawn could have one of the following distributions of SP and HP:</p>
+        <ul>
+            <li>2 SP and 0 HP</li>
+            <li>1 SP and 2 HP</li>
+            <li>0 SP and 4 HP</li>
+        </ul>
         </div>
 
         <div class="no-break">
@@ -439,6 +444,10 @@
             <tr>
                 <td>ghost-play, must pay resource cost</td>
                 <td>hex-play</td>
+            </tr>
+            <tr>
+                <td>summon <var>x</var> level <var>y</var> pawns</td>
+                <td>craft <var>x</var> level <var>y</var> pawns</td>
             </tr>
         </table>
 
