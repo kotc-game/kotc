@@ -100,14 +100,14 @@
             <li>&ldquo;When this card attacks, after Attack Formation (ghost-play):&rdquo;</li>
             <li>&ldquo;When this card defends, after Defense Formation (ghost-play):&rdquo;</li>
             <li>&ldquo;When this card attacks or defends, after Damage Allocation (ghost-play):&rdquo;</li>
-            <li>&ldquo;When this in-play card is ability-targeted:&rdquo;</li>
-            <li>&ldquo;When this in-play card is damaged:&rdquo;</li>
-            <li>&ldquo;When this in-play card is destroyed (ghost-play):&rdquo;</li>
+            <li>&ldquo;When this on-field minion is ability-targeted:&rdquo;</li>
+            <li>&ldquo;When this on-field minion is damaged:&rdquo;</li>
+            <li>&ldquo;When this on-field minion is destroyed (ghost-play):&rdquo;</li>
             <li>&ldquo;When this card in your granary is destroyed (hex-play):&rdquo;</li>
             <li>&ldquo;When this card in your hand is destroyed (hex-play):&rdquo;</li>
             <li>&ldquo;When this card in your deck is destroyed (hex-play):&rdquo;</li>
-            <li>&ldquo;When your in-play card(s) (excluding this card) is damaged:&rdquo;</li>
-            <li>&ldquo;When your in-play card(s) is destroyed:&rdquo;</li>
+            <li>&ldquo;When your on-field minion(s) (excluding this card) is damaged:&rdquo;</li>
+            <li>&ldquo;When your on-field minion(s) is destroyed:&rdquo;</li>
             <li>&ldquo;When a card(s) in your hand is destroyed:&rdquo;</li>
             <li>&ldquo;When a card(s) in your deck is destroyed:&rdquo;</li>
             <li>&ldquo;When you take damage:&rdquo;</li>
@@ -117,7 +117,7 @@
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level decrease an activation cost provides is listed in parentheses.</p>
         <p>If an activation cost does not follow any activation condition or any other activation cost within the ability, its first letter should be capitalized.</p>
-        <p>If an ability has exactly 2 activation costs, the arrow in the first activation cost is replaced by the word &ldquo;and&rdquo;. If an ability has 3 or more activation costs, all of its activation costs are connected as a comma-separated list, using the word &ldquo;and&rdquo; as a coördinating conjunction, replacing each activation cost's arrow except for the final one listed. An example would be: &ldquo;Self-exhaust 1 resource, self-destroy 1 in-play card, and self-sheathe 1 random card in your hand→&rdquo;</p>
+        <p>If an ability has exactly 2 activation costs, the arrow in the first activation cost is replaced by the word &ldquo;and&rdquo;. If an ability has 3 or more activation costs, all of its activation costs are connected as a comma-separated list, using the word &ldquo;and&rdquo; as a coördinating conjunction, replacing each activation cost's arrow except for the final one listed. An example would be: &ldquo;Self-exhaust 1 resource, self-destroy 1 on-field minion, and self-sheathe 1 random card in your hand→&rdquo;</p>
         <ul>
             <li>
                 <math display="inline">
@@ -152,7 +152,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-bounce <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-bounce <var>x</var> on-field minions→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -174,7 +174,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-sheathe <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-sheathe <var>x</var> on-field minions→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -211,7 +211,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-destroy <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-destroy <var>x</var> on-field minions→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -245,13 +245,13 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-bury <var>x</var> in-play cards→&rdquo;
+                &ldquo;self-bury <var>x</var> on-field minions→&rdquo;
             </li>
         </ul>
 
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only 1 target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
-        <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 in-play cards;&rdquo; should be replaced with &ldquo;Target 1 in-play card;&rdquo;.</p>
+        <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 on-field minions;&rdquo; should be replaced with &ldquo;Target 1 on-field minion;&rdquo;.</p>
         <ul>
             <li>
                 <math display="inline">
@@ -275,7 +275,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;Target up to <var>x</var> in-play cards;&rdquo;
+                &ldquo;Target up to <var>x</var> on-field minions;&rdquo;
             </li>
             <li>
                 <math display="inline">

@@ -82,7 +82,7 @@
         <ul>
             <li>Deck: Typically below the grave, to the right of the granary. The contents of the deck are restricted knowledge.</li>
             <li>Grave: Typically above the deck, to the right of the battlefield. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the grave are private knowledge.</li>
-            <li>Battlefield: Typically above the granary, to the left of the grave. Contains its owner's in-play minions. The contents of the battlefield are public knowledge.</li>
+            <li>Battlefield: Typically above the granary, to the left of the grave. Contains its owner's on-field minions. The contents of the battlefield are public knowledge.</li>
             <li>Granary: Typically below the battlefield. Contains its owner's resources. The contents of the granary are private knowledge.</li>
             <li>Hand: Typically held in the hand. Contains the cards its owner currently has available to play. The contents of the hand are private knowledge.</li>
         </ul>
@@ -96,15 +96,15 @@
                 </ul>
             </li>
             <li><dfn>Resource Phase</dfn>: You may optionally sow 1 resource. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.</li>
-            <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate in-play minion abilities. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
+            <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate on-field minion abilities. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
             <li><dfn>Battle Phase</dfn>: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
-            <li><dfn>Recovery Phase</dfn>: Every in-play card and every resource (for all players) is unexhausted. Every in-play minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or other changes to SP, HP, or level due to card abilities).</li>
+            <li><dfn>Recovery Phase</dfn>: Every on-field minion and every resource (for all players) is unexhausted. Every on-field minion has its SP, HP, and level reset to the respective values printed on the card (reversing any damage or other changes to SP, HP, or level due to card abilities).</li>
         </ol>
 
         <h3 id="resources">Exhaustion and Recovery</h3>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase.</p>
         <p>All cards inherently have a <dfn>resource cost</dfn>. To pay a card's resource cost is to exhaust a number of unexhausted resources in your granary equal to its level. For example, to pay the resource cost of a level 3 card, exhaust 3 of your currently unexhausted resources by turning them sideways.</p>
-        <p>During the Recovery Phase, all cards in every player's battlefield and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any changes to these values that might have happened, including damage. As such, changes to an in-play minion's SP, HP, and level effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to the respective values printed on it. This effectively reverses any changes to these values that might have happened, including damage. As such, changes to an on-field minion's SP, HP, and level effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
         <h3 id="abilities">Abilities</h3>
         <p>A card's <dfn>abilities</dfn> are indicated in the ability text. Each ability is composed of the following components in the following order:</p>
@@ -124,7 +124,7 @@
         <h3 id="minions">Minions</h3>
         <p><dfn>Minions</dfn> are cards which are used to do battle and may also have special abilities. Minions must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
         <p>To summon a minion, pay a number of resources equal to the card's level, and then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Exhaustion and Recovery</a> for more information about resources and exhaustion.)</p>
-        <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a minion ability whose activation condition is met, the minion must be in-play and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
+        <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. To activate a minion ability whose activation condition is met, the minion must be on-field and you must exhaust it, unless the ability has ghost-play. After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
         <p>Additionally, minions have <dfn><abbr title="strength points">SP</abbr></dfn> &ndash; the minion's capability for inflicting damage in battles; and <dfn><abbr title="hitpoints">HP</abbr></dfn> &ndash; the minion's tolerance for taking damage. <dfn>Damage</dfn> is the reduction of a player's or minion's HP by a given amount. When a minion takes an amount of damage greater than or equal to its HP, it is destroyed. Additionally, if the amount of damage is greater than the minion's HP, the difference is inflicted as <dfn>piercing damage</dfn> to its controller. For example, if 6 damage is inflicted to a minion with 4 HP, the minion will be destroyed and its controller will take 2 HP of piercing damage.</p>
         <p>Note: it is possible for a minion to initially have 0 HP; in such a case, any amount of damage will destroy the minion and be inflicted to its controller in full as piercing damage.</p>
         <p>Damage is central to battles, which all minions can participate in; see <a href="#battles">Battles</a> for more information.</p>
@@ -137,7 +137,7 @@
         <p><dfn>Pawns</dfn> are special minions which do not exist as true cards and are summoned only by abilities. Unlike normal minions, pawns only ever exist on the battlefield; when destroyed or otherwise moved to any zone other than the battlefield, they are instead permanently removed from the game. In every other respect, however, they are exactly the same as normal minions.</p>
 
         <h3 id="counters">Counters</h3>
-        <p>A <dfn>counter</dfn> is an element, generally represented by arbitrary objects such as coins or Poker ships, which can be placed on an in-play minion, preparing an effect for future use. It stays on the minion it is placed on until either the minion is moved to a zone other than the battlefield, an ability removes the counter, or the counter's effect is triggered.</p>
+        <p>A <dfn>counter</dfn> is an element, generally represented by arbitrary objects such as coins or Poker ships, which can be placed on an on-field minion, preparing an effect for future use. It stays on the minion it is placed on until either the minion is moved to a zone other than the battlefield, an ability removes the counter, or the counter's effect is triggered.</p>
         <p>There are several different types of counters, each of which has a different effect. These effects broadly are classified into two categories: proactive counter effects, and reactive counter effects.</p>
         <ul>
             <li>A <dfn>proactive</dfn> counter effect starts a chain or, alternatively, responds to existing chain, similar to abilities. However, it can be triggered in any phase of any player's turn, restricted only by chain rules. See <a href="#chains">Chains</a> for more information.</li>
@@ -183,11 +183,11 @@
         <p>Only 1 chain can be active at a time, and no chaining actions can be performed while a chain is resolving; if a chain is resolving, any player who wishes to perform a chaining action must wait until the chain finishes resolving, and can then start a new chain.</p>
 
         <h3 id="battles">Battles</h3>
-        <p>Battles are the primary way for players to advance the game state of Keeper of the Cards. Battles enable damaging other players' HP and destroying their in-play minions. They are initiated by the player whose turn it is during the Battle Phase; this player becomes the <dfn>attacking player</dfn>. Each battle consists of the following steps:</p>
+        <p>Battles are the primary way for players to advance the game state of Keeper of the Cards. Battles enable damaging other players' HP and destroying their on-field minions. They are initiated by the player whose turn it is during the Battle Phase; this player becomes the <dfn>attacking player</dfn>. Each battle consists of the following steps:</p>
         <ol>
             <li><dfn>Attack Formation</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the <dfn>attacking team</dfn>, and declares 1 <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player or minion can only be declared as a victim once per Battle Phase. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
             <li><dfn>Defense Formation</dfn>: The defending player may exhaust any number of their own unexhausted minions (which may or may not include the victim itself), which become the <dfn>defending team</dfn>. If they do this, they then select and announce the formation order of the defending team.</li>
-            <li><dfn>Damage Allocation</dfn>: The attacking player rolls a number of six-sided dice equal to the total SP of the attacking team, and the defending player rolls a number of six-sided dice equal to the total SP of the defending team. Then, each player must take each of their rolled dice, 1 at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the victim, or if the victim is a minion which is no longer in-play, to the victim's controller instead.</li>
+            <li><dfn>Damage Allocation</dfn>: The attacking player rolls a number of six-sided dice equal to the total SP of the attacking team, and the defending player rolls a number of six-sided dice equal to the total SP of the defending team. Then, each player must take each of their rolled dice, 1 at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the victim, or if the victim is a minion which is no longer on-field, to the victim's controller instead.</li>
         </ol>
         <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
         <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted minions remaining and valid potential victims remain.</p>
@@ -205,7 +205,7 @@
         <ol>
             <li>The player who was not made to draw while their deck was empty.</li>
             <li>The player with the most HP.</li>
-            <li>The player whose in-play minions' total combined levels is the highest.</li>
+            <li>The player whose on-field minions' total combined levels is the highest.</li>
             <li>The player with the largest number of cards in their deck.</li>
         </ol>
 
@@ -278,7 +278,7 @@
             <li>Cast the card (if it is a spell).</li>
         </ol>
         <p>Just as when playing the card normally, you must pay all usual costs, including any applicable activation costs for spells, and any minion summoned is placed onto the battlefield exhausted.</p>
-        <p>Cards which are already in-play cannot be deployed and thus are excluded.</p>
+        <p>Minions which are already on-field cannot be deployed and thus are excluded.</p>
         <p>When casting a deployed spell, the spell does not start a new chain, but instead resolves immediately as if it were a part of the ability which deployed it. Additionally, the spell's activation condition is ignored; any deployed spell can be cast regardless of its activation condition.</p>
         </div>
 
@@ -289,7 +289,7 @@
 
         <div class="no-break">
         <h4>Dice-burn</h4>
-        <p>To <dfn>dice-burn</dfn> the battlefield is to roll the indicated number of six-sided dice, assign each die to an in-play enemy minion, and inflict damage to the respective minion equal to the roll of the respective die.</p>
+        <p>To <dfn>dice-burn</dfn> the battlefield is to roll the indicated number of six-sided dice, assign each die to an on-field enemy minion, and inflict damage to the respective minion equal to the roll of the respective die.</p>
         <p>Dice-burning the battlefield is similar to to the Damage Allocation step of a battle, except that you (the player dice-burning the battlefield) have full control over what enemy minions are damaged and how the dice are distributed.</p>
         </div>
 
@@ -332,7 +332,7 @@
 
         <div class="no-break">
         <h4>Exhaust</h4>
-        <p>To <dfn>exhaust</dfn> a card is to turn it sideways. Conversely, to <dfn>unexhaust</dfn> a card is to turn it upright. Only in-play cards and resources can be exhausted.</p>
+        <p>To <dfn>exhaust</dfn> a card is to turn it sideways. Conversely, to <dfn>unexhaust</dfn> a card is to turn it upright. Only on-field minions and resources can be exhausted.</p>
         </div>
 
         <div class="no-break">
@@ -352,18 +352,18 @@
 
         <div class="no-break">
         <h4>Hypnotize</h4>
-        <p>To <dfn>hypnotize</dfn> a card is to change its controller to you; this moves it to your field and allows you to use it as if it was your own card. Only in-play minions can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
-        </div>
-
-        <div class="no-break">
-        <h4>In-play</h4>
-        <p>The term <dfn>in-play</dfn> refers exclusively to minions in the battlefield. Minions cease being in-play the moment they are destroyed or otherwise moved to any location other than the battlefield.</p>
-        <p>Resources are never considered to be in-play under any circumstance. Additionally, spells are not considered to be in-play at any point.</p>
+        <p>To <dfn>hypnotize</dfn> a card is to change its controller to you; this moves it to your field and allows you to use it as if it was your own card. Only on-field minions can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
         </div>
 
         <div class="no-break">
         <h4>It</h4>
         <p>The term <dfn>it</dfn> within an ability refers to the ability's target. The term is used only in cases where the ability can only ever have a single target.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>On-field</h4>
+        <p>The term <dfn>on-field</dfn> refers exclusively to minions in the battlefield. Minions cease being on-field the moment they are destroyed or otherwise moved to any location other than the battlefield.</p>
+        <p>Resources and spells are never considered to be on-field at any point.</p>
         </div>
 
         <div class="no-break">
@@ -419,7 +419,7 @@
         <div class="no-break">
         <h4>Target</h4>
         <p>Used as a verb, the word <dfn>target</dfn> instructs on how to select the targets of a sub-ability. Used as a noun, <dfn>target</dfn> or <dfn>targets</dfn> refers to all cards which have been selected by the aforementioned target selection text within the same sub-ability. (Each sub-ability is on a separate sentence within the ability and designates its own targets separately. If a sub-ability does not explicitly instruct on how to select targets, it has no targets and any effects that would do something to targets has no effect.)</p>
-        <p>It is <em>not</em> possible to &ldquo;stack&rdquo; a sub-ability's effects by targeting one card multiple times within the same sub-ability. For example, if an ability targets 2 in-play cards and places 1 counter on each target, but there is only 1 in-play minion to target, you still can only place 1 counter on said minion.</p>
+        <p>It is <em>not</em> possible to &ldquo;stack&rdquo; a sub-ability's effects by targeting one card multiple times within the same sub-ability. For example, if an ability targets 2 on-field minions and places 1 counter on each target, but there is only 1 on-field minion to target, you still can only place 1 counter on said minion.</p>
         </div>
 
         <div class="no-break">
@@ -444,6 +444,10 @@
             <tr>
                 <td>ghost-play, must pay resource cost</td>
                 <td>hex-play</td>
+            </tr>
+            <tr>
+                <td>in-play card</td>
+                <td>on-field minion</td>
             </tr>
             <tr>
                 <td>summon <var>x</var> level <var>y</var> pawns</td>
