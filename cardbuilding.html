@@ -137,12 +137,37 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-destroy <var>x</var> resources→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
                     <mrow>
                         <mi>x</mi>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-exhaust <var>x</var> minions→&rdquo;
+                &ldquo;self-bury <var>x</var> resources→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-exhaust <var>x</var> on-field minions→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -153,16 +178,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;self-bounce <var>x</var> on-field minions→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;self-sheathe <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -179,17 +194,36 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>2</mn>
-                        </mrow>
-                    </mfrac>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-destroy <var>x</var> resources→&rdquo;
+                &ldquo;self-destroy <var>x</var> on-field minions→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-bury <var>x</var> on-field minions→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-sheathe <var>x</var> random cards in your hand→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -211,41 +245,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-destroy <var>x</var> on-field minions→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;self-bury <var>x</var> resources→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
                 &ldquo;self-bury <var>x</var> random cards in your hand→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>4</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;self-bury <var>x</var> on-field minions→&rdquo;
             </li>
         </ul>
 
@@ -334,8 +334,6 @@
                         <mi>t</mi>
                         <mo>=</mo>
                         <mi>x</mi>
-                        <mo>+</mo>
-                        <mn>1</mn>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
@@ -350,8 +348,6 @@
                         <mn>2</mn>
                         <mo>&InvisibleTimes;</mo>
                         <mi>x</mi>
-                        <mo>+</mo>
-                        <mn>1</mn>
                     </mrow>
                     <mtext>)</mtext>
                 </math>
