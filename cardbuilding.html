@@ -114,6 +114,27 @@
             <li>&ldquo;When enemy attacks, after Attack Formation:&rdquo;</li>
         </ul>
 
+        <h5 id="conditions-ultra">Ultra Activation Conditions</h5>
+        <p>Ultra activation conditions are activation conditions which increase the Ultra Points total of the cards they're on. The Ultra Points cost for each effect is listed in square brackets.</p>
+        <ul>
+            <li>
+                [+1]
+                &ldquo;When this card is summoned:&rdquo;
+            </li>
+            <li>
+                [+1]
+                &ldquo;When enemy summons a minion:&rdquo;
+            </li>
+            <li>
+                [+1]
+                &ldquo;When enemy casts a spell or activates an ability:&rdquo;
+            </li>
+            <li>
+                [+1]
+                &ldquo;When enemy defends, after Defense Formation:&rdquo;
+            </li>
+        </ul>
+
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level decrease an activation cost provides is listed in parentheses.</p>
         <p>If an activation cost does not follow any activation condition or any other activation cost within the ability, its first letter should be capitalized.</p>
@@ -318,6 +339,33 @@
             </li>
         </ul>
 
+        <h5 id="costs-ultra">Ultra Activation Costs</h5>
+        <p>Ultra activation costs are activation costs which increase the Ultra Points total of the cards they're on. The Ultra Points cost for each effect is listed in square brackets.</p>
+        <ul>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;pay <var>x</var> HP→&rdquo;
+            </li>
+            <li>
+                [+2]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;self-destroy <var>x</var> cards on top of your deck→&rdquo;
+            </li>
+        </ul>
+
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only 1 target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
         <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 on-field minions;&rdquo; should be replaced with &ldquo;Target 1 on-field minion;&rdquo;.</p>
@@ -333,6 +381,18 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Target this card;&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in the current chain;&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -456,6 +516,114 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;Excavate <var>x</var> cards and target up to <var>y</var> excavated cards;&rdquo;
+            </li>
+        </ul>
+
+        <h5 id="targeting-ultra">Ultra Target Selections</h5>
+        <p>Ultra target selections are target selections which increase the Ultra Points total of the cards they're on. The Ultra Points cost for each effect is listed in square brackets.</p>
+        <ul>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target all level <var>x</var> or lower on-field minions;&rdquo;
+            </li>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target all level <var>x</var> or lower minions in attacking team;&rdquo;
+            </li>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target all level <var>x</var> or lower minions in defending team;&rdquo;
+            </li>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Target up to <var>x</var> cards in your grave;&rdquo;
+            </li>
+            <li>
+                [+2]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mn>3</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;Search your deck and target up to <var>x</var> cards therein;&rdquo;
+            </li>
+            <li>
+                [+9]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>t</mi>
+                        <mo>=</mo>
+                        <mn>4</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;See enemy's granary and target up to <var>x</var> cards therein;&rdquo;
             </li>
         </ul>
 
@@ -677,6 +845,21 @@
             <li>
                 <math display="inline">
                     <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>t</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;distract the targets.&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
                     <mrow>
                         <mi>t</mi>
                     </mrow>
@@ -775,6 +958,35 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;craft <var>x</var> level <var>y</var> pawns.&rdquo;
+            </li>
+        </ul>
+
+        <h5 id="effects-ultra">Ultra Effects</h5>
+        <p>Ultra effects are effects which increase the Ultra Points total of the cards they're on. The Ultra Points cost for each effect is listed in square brackets.</p>
+        <ul>
+            <li>
+                [+1]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;<var>x</var>-dice-wound enemy.&rdquo;
+            </li>
+            <li>
+                [+2]
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>t</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;counter the targets.&rdquo;
             </li>
         </ul>
     </main>
