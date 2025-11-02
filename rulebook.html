@@ -186,10 +186,11 @@
         <h3 id="battles">Battles</h3>
         <p>Battles are the primary way for players to advance the game state of Keeper of the Cards. Battles enable damaging other players' HP and destroying their on-field minions. They are initiated by the player whose turn it is during the Battle Phase; this player becomes the <dfn>attacking player</dfn>. Each battle consists of the following steps:</p>
         <ol>
-            <li><dfn>Attack Formation</dfn>: The attacking player exhausts any number of their unexhausted minions, which become the <dfn>attacking team</dfn>, and declares 1 <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player or minion can only be declared as a victim once per Battle Phase. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
-            <li><dfn>Defense Formation</dfn>: The defending player may exhaust any number of their own unexhausted minions (which may or may not include the victim itself), which become the <dfn>defending team</dfn>. If they do this, they then select and announce the formation order of the defending team.</li>
+            <li><dfn>Attack Formation</dfn>: The attacking player <dfn>enlists</dfn> any number of their on-field unexhausted minions by exausting them – the enlisted minions become the <dfn>attacking team</dfn> – and declares 1 <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player or minion can only be declared as a victim once per Battle Phase. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
+            <li><dfn>Defense Formation</dfn>: The defending player may enlist any number of their on-field unexhausted minions (which may or may not include the victim itself) by exhausting them – the enlisted minions become the <dfn>defending team</dfn>. If they do this, they then select and announce the formation order of the defending team.</li>
             <li><dfn>Damage Allocation</dfn>: The attacking player rolls a number of six-sided dice equal to the total SP of the attacking team, and the defending player rolls a number of six-sided dice equal to the total SP of the defending team. Then, each player must take each of their rolled dice, 1 at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the victim, or if the victim is a minion which is no longer on-field, to the victim's controller instead.</li>
         </ol>
+        <p>Any enlisted minion which moves to another zone or whose controller changes after it is enlisted is implicitly withdrawn from its respective team.</p>
         <p>For the purposes of timing, everything which occurs in each step is considered to occur simultaneously. As such, any action which starts a chain cannot be taken during one of the steps and must wait until the respective step is completed.</p>
         <p>During your Battle Phase, you may initiate as many battles as you want to as long as you have unexhausted minions remaining and valid potential victims remain.</p>
 
@@ -215,7 +216,7 @@
 
         <div class="no-break">
         <h4>Attack</h4>
-        <p>A minion <dfn>attacks</dfn> when it is selected and exhausted by an attacking player to include it in an attacking team.</p>
+        <p>A minion <dfn>attacks</dfn> when it is enlisted by an attacking player into an attacking team.</p>
         </div>
 
         <div class="no-break">
@@ -235,7 +236,7 @@
 
         <div class="no-break">
         <h4>Conscript</h4>
-        <p>To <dfn>conscript</dfn> a minion is to, if there is currently a battle ongoing for which the minion's controller is the attacking player or defending player: exhaust the minion and add it to its controller's respective team in the battle, but if it was exhausted when it was conscripted, fatigue it. If this happens after the respective formation step, the controller of the minion then reselects their team's formation order.</p>
+        <p>To <dfn>conscript</dfn> a minion is to, if there is currently a battle ongoing for which the minion's controller is the attacking player or defending player: exhaust the minion and enlist it into its controller's respective team in the battle, but if it was already exhausted when it was conscripted, fatigue it. If this happens after the respective formation step, the controller of the minion then reselects their team's formation order.</p>
         <p>Only an on-field minion which is <em>either</em> unexhausted <em>or</em> not fatigued can be conscripted.</p>
         </div>
 
@@ -269,7 +270,7 @@
 
         <div class="no-break">
         <h4>Defend</h4>
-        <p>A minion <dfn>defends</dfn> when it is selected and exhausted by a defending player to include it in a defending team.</p>
+        <p>A minion <dfn>defends</dfn> when it is enlisted by a defending player into a defending team.</p>
         </div>
 
         <div class="no-break">
@@ -334,6 +335,12 @@
         <div class="no-break">
         <h4>Enemy minion</h4>
         <p>An <dfn>enemy minion</dfn> is a minion whose controller is any player except you, regardless of its owner.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Enlist</h4>
+        <p>To <dfn>enlist</dfn> a minion is to add it to either the attacking team or the defending team in a battle.</p>
+        <p>See <a href="#battles">Battles</a> for an explanation of how battles work.</p>
         </div>
 
         <div class="no-break">
