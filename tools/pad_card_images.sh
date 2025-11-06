@@ -5,6 +5,6 @@
 # License: CC0 (public domain)
 
 mogrify -extent 1200x1600 -gravity Center -fill white ../cards/*.png ../tip_cards/*.png
-mv ../cards/*.png ../cards-png
-mv ../tip_cards/*.png ../tip_cards-png
+mv ../cards/*.png ../cards-padded
+mv ../tip_cards/*.png ../tip_cards-padded
 
