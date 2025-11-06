@@ -29,7 +29,7 @@
             <ol type="1">
                 <li><a href="#cardtypes">Card Types and Layout</a></li>
                 <li><a href="#setup">Setup and Deck Building</a></li>
-                <li><a href="#field">Fields</a></li>
+                <li><a href="#zones">Zones</a></li>
                 <li><a href="#turnorder">Turn Order</a></li>
                 <li><a href="#resources">Exhaustion and Recovery</a></li>
                 <li><a href="#abilities">Abilities</a></li>
@@ -74,11 +74,11 @@
         <p>You can find preëxisting sets of example cards, as well as instructions for how to print them, in the <a href="https://kotc-game.github.io/play.html">Starter Set</a>.</p>
         <p>Before each game, shuffle your deck. You begin the game with 35 <abbr title="hitpoints">HP</abbr>, which you can note on a piece of paper or thru some other counter. Draw 5 cards; to <dfn>draw</dfn> a card is to take the topmost card from your deck and add that card to your hand. Once, optionally, you may then <dfn>bury</dfn> – place on the bottom of your deck in any order – any number of cards in your hand, then draw a number of cards equal to the number of cards buried.</p>
         <p>You should have a reasonable amount of six-sided dice (preferably at least 10&ndash;20 dice), and some objects such as coins or poker chips to use as counters. You must also determine who goes first. One suggested method is for each player to roll 2 six-sided dice and for the player with the highest roll to go first.</p>
-        <p>Keeper of the Cards can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than 2 players, each player works alone with their own HP and field.</p>
+        <p>Keeper of the Cards can be played by 2 or more players. There is theoretically no limit, but it is recommended to keep the number of players small, preferably between 2 and 8. In the case of a game with more than 2 players, each player works alone with their own HP and play area.</p>
 
-        <h3 id="field">Fields</h3>
+        <h3 id="zones">Zones</h3>
         <img class="example" src="images/zones.png" alt="">
-        <p>Each player has a <dfn>field</dfn>: a designated area where cards are played, divided into several distinct <dfn>zones</dfn> which each have a specific purpose. Each zone's contents are classified as either <dfn>public knowledge</dfn>, in which case all players are entitled to know what cards are in the zone; <dfn>private knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but only its owner is entitled to know what cards are in the zone; or <dfn>restricted knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but no player (not even its owner) is entitled to know what cards are in the zone. The zones are as follows:</p>
+        <p>Each player has a <dfn>play area</dfn>: a designated area where cards are played, divided into several distinct <dfn>zones</dfn> which each have a specific purpose. Each zone's contents are classified as either <dfn>public knowledge</dfn>, in which case all players are entitled to know what cards are in the zone; <dfn>private knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but only its owner is entitled to know what cards are in the zone; or <dfn>restricted knowledge</dfn>, in which case all players are entitled to know the number of cards in the zone, but no player (not even its owner) is entitled to know what cards are in the zone. The zones are as follows:</p>
         <ul>
             <li>Deck: Typically below the grave, to the right of the granary. The contents of the deck are restricted knowledge.</li>
             <li>Grave: Typically above the deck, to the right of the battlefield. Any card which is <dfn>destroyed</dfn> is immediately sent here, face-down. The contents of the grave are private knowledge.</li>
@@ -243,7 +243,7 @@
         <div class="no-break">
         <h4>Controller</h4>
         <p>The <dfn>controller</dfn> of a card is the player whose zone it is in, regardless of who its owner is. So for example, if you use an effect to summon a minion owned by another player, you are its controller while it remains in your battlefield and can use it the same way as minions in your battlefield owned by you.</p>
-        <p>When the controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the field of its new controller, in the zone it was in when its controller changed. For example, if a minion in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
+        <p>When the controller of a card changes (as can happen with the hypnotize effect), its location is implicitly changed to the play area of its new controller, in the zone it was in when its controller changed. For example, if a minion in the battlefield of player 1 is hypnotized and its controller changed to player 2, it is moved to the battlefield of player 2.</p>
         </div>
 
         <div class="no-break">
@@ -376,7 +376,7 @@
 
         <div class="no-break">
         <h4>Hypnotize</h4>
-        <p>To <dfn>hypnotize</dfn> a card is to change its controller to you; this moves it to your field and allows you to use it as if it was your own card. Only on-field minions can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
+        <p>To <dfn>hypnotize</dfn> a card is to change its controller to you; this moves it to your play area and allows you to use it as if it was your own card. Only on-field minions can be hypnotized. When the hypnotize effect ends, the hypnotized card's controller is changed back to the controller it had prior to the hypnotize effect resolving.</p>
         </div>
 
         <div class="no-break">
@@ -468,7 +468,7 @@
 
         <div class="no-break">
         <h4>You</h4>
-        <p><dfn>You</dfn> and <dfn>yourself</dfn> always refer to the player who is using the card in question, i.e. its controller or the player summoning or casting it, regardless of who its owner is. Similarly, <dfn>your</dfn> always refers to that player's field, and minions whose controller is that player, regardless of who their owners are.</p>
+        <p><dfn>You</dfn> and <dfn>yourself</dfn> always refer to the player who is using the card in question, i.e. its controller or the player summoning or casting it, regardless of who its owner is. Similarly, <dfn>your</dfn> always refers to that player's play area, and minions whose controller is that player, regardless of who their owners are.</p>
         </div>
 
         <h3 id="banned">Refurbished and Pruned Cards</h3>
