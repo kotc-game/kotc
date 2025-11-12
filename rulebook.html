@@ -219,6 +219,19 @@
         <p>This section lists common keywords used in card text, including any important nuances for said keywords.</p>
 
         <div class="no-break">
+        <h4>Animate</h4>
+        <p>To <dfn>animate</dfn> a spell is to summon a pawn of the spell's level plus the indicated <dfn>level-boost</dfn>, setting its level to the level of the spell plus the level-boost and assigning SP and HP based on the level-boost.</p>
+        <p>To determine the SP and HP of a crafted pawn: a number of times equal to the pawn's level-boost, decide whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
+        <p>For example, the pawn animated by an spell with a level-boost of 2 could have one of the following distributions of SP and HP:</p>
+        <ul>
+            <li>2 SP and 0 HP</li>
+            <li>1 SP and 2 HP</li>
+            <li>0 SP and 4 HP</li>
+        </ul>
+        <p>Only spells can be animated; minions cannot be animated.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Attack</h4>
         <p>A minion <dfn>attacks</dfn> when it is enlisted by an attacking player into an attacking team.</p>
         </div>
@@ -386,6 +399,19 @@
         <div class="no-break">
         <h4>It</h4>
         <p>The term <dfn>it</dfn> within an ability refers to the ability's target. The term is used only in cases where the ability can only ever have a single target.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Mutate</h4>
+        <p>To <dfn>mutate</dfn> a minion is to reveal it and then summon a pawn with the exact same level and abilities as the minion (paying the usual cost for summoning a minion of that level), but modifying its SP and HP, using the following steps:
+        <ol>
+            <li>Clone the minion. The cloned minion is the <dfn>mutant</dfn>.
+            <li>Set the <dfn>mutation power</dfn> to 0.</li>
+            <li>A number of times equal to the mutant's SP, decrease the mutant's SP by 1 and increase the mutation power by 1.
+            <li>A number of times equal to the mutant's HP divided by 2 (rounded down), decrease the mutant's HP by 2 and increase the mutation power by 1.</li>
+            <li>A number of times equal to the mutation power, decide whether to add 1 SP to the mutant or to add 2 HP to the mutant. This directly mirrors the relationship between level, SP, and HP in normal minions.</li>
+        </ol>
+        <p>Only minions can be cloned; spells cannot be cloned.</p>
         </div>
 
         <div class="no-break">
