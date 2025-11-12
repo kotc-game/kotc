@@ -155,7 +155,7 @@
             <li><dfn>Sword Counter</dfn> (proactive): Increase the host’s SP by 1.</li>
             <li><dfn>Shield Counter</dfn> (reactive): When the host would take damage from a die: Zero the damage of that die.</li>
             <li><dfn>Voodoo Counter</dfn> (reactive): When the host takes damage from a die: Inflict damage to any enemy minion equal to the result of that die.</li>
-            <li><dfn>Weakness Counter</dfn> (proactive): Decrease the host’s SP by 1.</li>
+            <li><dfn>Weakness Counter</dfn> (proactive): Decrease the host’s SP to 0.</li>
             <li><dfn>Damage Counter</dfn> (proactive): Roll a six-sided die and inflict damage to the host equal to the result.</li>
             <li><dfn>Exhaustion Counter</dfn> (proactive): Exhaust the host.</li>
             <li><dfn>Fatigue Counter</dfn> (proactive): Fatigue the host.</li>
@@ -182,7 +182,7 @@
         <p>Whenever any chaining action is performed, any applicable activation cost is paid immediately. Effects, however, are not executed immediately. Instead, once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
         <p>For example, when resolving a chain where chain link 1 is an ability with the effect, &ldquo;Destroy the targets,&rdquo;, and chain link 2 is the effect of a Weakness Counter, then resolution of the chain goes as follows:</p>
         <ol>
-            <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the SP of the card it was on by 1.</li>
+            <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the SP of the card it was on to 0.</li>
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
         <p>Only 1 chain can be active at a time, and no chaining actions can be performed while a chain is resolving; if a chain is resolving, any player who wishes to perform a chaining action must wait until the chain finishes resolving, and can then start a new chain.</p>
