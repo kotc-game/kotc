@@ -219,20 +219,6 @@
         <p>This section lists common keywords used in card text, including any important nuances for said keywords.</p>
 
         <div class="no-break">
-        <h4>Animate</h4>
-        <p>To <dfn>animate</dfn> a spell is to summon a pawn with the spell's ability, setting its level to the level of the spell or 1 (whichever is greater) plus the indicated <dfn>level-boost</dfn> and assigning SP and HP based on the level-boost.</p>
-        <p>To determine the SP and HP of the pawn: a number of times equal to the pawn's level-boost, decide whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
-        <p>The resulting pawn is guaranteed to also be a valid normal minion design.</p>
-        <p>For example, a pawn created by animating an spell with a level-boost of 2 could have one of the following distributions of SP and HP:</p>
-        <ul>
-            <li>2 SP and 0 HP</li>
-            <li>1 SP and 2 HP</li>
-            <li>0 SP and 4 HP</li>
-        </ul>
-        <p>Only spells can be animated; minions cannot be animated.</p>
-        </div>
-
-        <div class="no-break">
         <h4>Attack</h4>
         <p>A minion <dfn>attacks</dfn> when it is enlisted by an attacking player into an attacking team.</p>
         </div>
@@ -346,6 +332,20 @@
         </div>
 
         <div class="no-break">
+        <h4>Embody</h4>
+        <p>To <dfn>embody</dfn> a spell is to summon a pawn with the spell's ability, setting its level to the level of the spell or 1 (whichever is greater) plus <dfn>body-level</dfn> indicated by the embody effect, and assigning SP and HP based on the body-level.</p>
+        <p>To determine the SP and HP of the pawn: a number of times equal to the body-level, decide whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
+        <p>The resulting pawn is guaranteed to also be a valid normal minion design.</p>
+        <p>For example, a pawn created by embodying an spell with a body-level of 2 could have one of the following distributions of SP and HP:</p>
+        <ul>
+            <li>2 SP and 0 HP</li>
+            <li>1 SP and 2 HP</li>
+            <li>0 SP and 4 HP</li>
+        </ul>
+        <p>Only spells can be embodied; minions cannot be embodied.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Enemy</h4>
         <p><dfn>Enemy</dfn> means any player except for yourself, chosen by you if there is a choice to be made.</p>
         </div>
@@ -400,20 +400,6 @@
         <div class="no-break">
         <h4>It</h4>
         <p>The term <dfn>it</dfn> within an ability refers to the ability's target. The term is used only in cases where the ability can only ever have a single target.</p>
-        </div>
-
-        <div class="no-break">
-        <h4>Mutate</h4>
-        <p>To <dfn>mutate</dfn> a minion is to reveal it and then summon a pawn with the exact same level and abilities as the minion (paying the usual cost for summoning a minion of that level), but modifying its SP and HP, using the following steps:
-        <ol>
-            <li>Clone the minion. The cloned minion is the <dfn>mutant</dfn>.
-            <li>Set the <dfn>mutation power</dfn> to 0.</li>
-            <li>A number of times equal to the mutant's SP, decrease the mutant's SP by 1 and increase the mutation power by 1.
-            <li>A number of times equal to the mutant's HP divided by 2 (rounded down), decrease the mutant's HP by 2 and increase the mutation power by 1.</li>
-            <li>A number of times equal to the mutation power, decide whether to add 1 SP to the mutant or to add 2 HP to the mutant. This directly mirrors the relationship between level, SP, and HP in normal minions.</li>
-        </ol>
-        <p>These steps, in summary, reassign the minion's SP and HP in a manner consistent with its level and the rules for card building. The resulting pawn is guaranteed to also be a valid normal minion design.</p>
-        <p>Only minions can be mutated; spells cannot be mutated.</p>
         </div>
 
         <div class="no-break">
@@ -496,6 +482,12 @@
         <h4>Target</h4>
         <p>Used as a verb, the word <dfn>target</dfn> instructs on how to select the targets of a sub-ability. Used as a noun, <dfn>target</dfn> or <dfn>targets</dfn> refers to all cards which have been selected by the aforementioned target selection text within the same sub-ability. (Each sub-ability is on a separate sentence within the ability and designates its own targets separately. If a sub-ability does not explicitly instruct on how to select targets, it has no targets and any effects that would do something to targets has no effect.)</p>
         <p>It is <em>not</em> possible to &ldquo;stack&rdquo; a sub-ability's effects by targeting one card multiple times within the same sub-ability. For example, if an ability targets 2 on-field minions and places 1 counter on each target, but there is only 1 on-field minion to target, you still can only place 1 counter on said minion.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Transmutate-clone</h4>
+        <p>To <dfn>transmutate-clone</dfn> a minion is to reveal it and then summon a pawn with the exact same level and abilities as the minion (paying the usual cost for summoning a minion of that level), but optionally converting SP to HP or vice-versa, where 1 SP is equal to 2 HP (i.e. you can either reduce the minion's SP by 1 to increase its HP by 2, or you can reduce the minion's HP by 2 to increase its SP by 1; you can do this as many times as you like). The resulting pawn is guaranteed to also be a valid normal minion design.</p>
+        <p>Only minions can be transmutate-cloned; spells cannot be transmutate-cloned.</p>
         </div>
 
         <div class="no-break">
