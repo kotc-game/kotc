@@ -220,7 +220,7 @@
 
         <div class="no-break">
         <h4>Animate</h4>
-        <p>To <dfn>animate</dfn> a spell is to summon a pawn of the spell's level plus the indicated <dfn>level-boost</dfn>, setting its level to the level of the spell plus the level-boost and assigning SP and HP based on the level-boost.</p>
+        <p>To <dfn>animate</dfn> a spell is to summon a pawn with the spell's ability, setting its level to the level of the spell plus the indicated <dfn>level-boost</dfn> and assigning SP and HP based on the level-boost.</p>
         <p>To determine the SP and HP of a crafted pawn: a number of times equal to the pawn's level-boost, decide whether to add 1 SP to the pawn or to add 2 HP to the pawn. This directly mirrors the relationship between level, SP, and HP in normal minions.</p>
         <p>For example, the pawn animated by an spell with a level-boost of 2 could have one of the following distributions of SP and HP:</p>
         <ul>
@@ -278,6 +278,7 @@
             <li>1 SP and 2 HP</li>
             <li>0 SP and 4 HP</li>
         </ul>
+        <p>A crafted pawn is guaranteed to also be a valid normal minion design.</p>
         </div>
 
         <div class="no-break">
@@ -411,7 +412,8 @@
             <li>A number of times equal to the mutant's HP divided by 2 (rounded down), decrease the mutant's HP by 2 and increase the mutation power by 1.</li>
             <li>A number of times equal to the mutation power, decide whether to add 1 SP to the mutant or to add 2 HP to the mutant. This directly mirrors the relationship between level, SP, and HP in normal minions.</li>
         </ol>
-        <p>Only minions can be cloned; spells cannot be cloned.</p>
+        <p>These steps, in summary, reassign the minion's SP and HP in a manner consistent with its level and the rules for card building. The resulting pawn is guaranteed to also be a valid normal minion design.</p>
+        <p>Only minions can be mutated; spells cannot be mutated.</p>
         </div>
 
         <div class="no-break">
