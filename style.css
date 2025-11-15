@@ -104,6 +104,11 @@ main
     overflow: auto;
 }
 
+main h3
+{
+    padding-top: 1em;
+}
+
 main a
 {
     color: #008;
