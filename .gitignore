@@ -7,6 +7,8 @@
 # PNG exports
 cards/*.png
 tip_cards/*.png
+cards-padded/*.png
+tip_cards-padded/*.png
 
 # PDF exports
 *.pdf

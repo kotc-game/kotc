@@ -4,7 +4,9 @@
 # Requires ImageMagick (package "imagemagick" in Debian and its derivatives)
 # License: CC0 (public domain)
 
-mogrify -extent 1200x1600 -gravity Center -fill white ../cards/*.png ../tip_cards/*.png
-mv ../cards/*.png ../cards-padded
-mv ../tip_cards/*.png ../tip_cards-padded
+mkdir ../cards-padded
+mkdir ../tip_cards-padded
+cp ../cards/*.png ../cards-padded
+cp ../tip_cards/*.png ../tip_cards-padded
+mogrify -extent 1200x1600 -gravity Center -fill white ../cards-padded/*.png ../tip_cards-padded/*.png
 
