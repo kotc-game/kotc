@@ -17,13 +17,11 @@ Rules for the game can be found in this directory as "rulebook.html". For creati
 
 To start playing, you can find starter decks which you can print in the "decks" directory. These starter decks are built using cards found in the "cards" directory. The "decks" directory also includes a printable set of "tip cards" which you can use to help introduce the game to others.
 
-For custom deck building, feel free to use LibreOffice Draw or any other program which supports the ODG format to edit the existing deck files, or alternatively, you might consider sending the individual card images to a card printing service.
+For custom deck building, feel free to use LibreOffice Draw or any other program which supports the ODG format to edit the existing deck files, or alternatively, you might consider sending the individual card images to a card printing service. Padded card images, which are better for card printing services in general, can be found in the "cards-padded" directory.
 
 
 # Licensing
 
 Cards found under the "cards" directory are under their own licenses (usually CC BY, CC BY-SA, or CC0), indicated by the text below the images.
-
-Python scripts found under the "tools" directory are licensed under the Apache License.
 
 All other files in this directory and its sub-directories are dedicated to the public domain via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
