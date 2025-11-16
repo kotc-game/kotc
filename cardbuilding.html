@@ -27,7 +27,8 @@
         <h2>Card Building Guide (17<sup>th</sup> Edition)</h2>
         <p>This guide instructs how to design cards for Keeper of the Cards. It is written in a manner focused on precision and clarity as a reference moreso than ease of learning, so for a more gradual introduction, <a href="examples.html">Card Building Examples</a> is also available.</p>
 
-        <h3>Contents</h3>
+        <div class="no-break">
+        <h3 id="toc" class="no-break-before">Contents</h3>
         <nav>
             <ol type="1">
                 <li><a href="#instructions">Design Instructions</a>
@@ -49,6 +50,7 @@
                 </li>
             </ol>
         </nav>
+        </div>
 
         <h3 id="instructions">Design Instructions</h3>
         <p>When designing a card, you have a great deal of free reign with regard to what that card does. However, a card's level (the number indicated on top of the green circle on the bottom) is strictly defined based on what stats and abilities you give your card. As such, to create competitively viable cards, you need to strike a balance to make cards that play well, but are not prohibitively expensive to use.</p>
@@ -58,6 +60,7 @@
             <li>Spells have only a single ability.</li>
         </ul>
 
+        <div class="no-break">
         <h4 id="inst-abilities">Constructing Abilities</h4>
         <p>Abilities are the one gameplay element that all types of card can have. An ability is composed of the following components:</p>
         <ol>
@@ -74,18 +77,24 @@
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number, which <em>must</em> be a <strong>positive, non-zero integer</strong> (i.e. at least 1), for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers.</p>
         <p>Any minion ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords or game mechanics to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text.</p>
+        </div>
 
+        <div class="no-break">
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level decrease formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability.</p>
         <p>To determine a level of an ability, add together the ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 0, set to 0. If the ability is a minion ability and its level is less than 1, set to 1. (In other words, spell abilities are allowed to be level 0, but minion abilities must always be at least level 1.)</p>
         <p>To determine the level of a minion, add together the minion's SP and one half of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
         <p>The level of a spell is equal to the level of its ability.</p>
+        </div>
 
+        <div class="no-break">
         <h4 id="inst-ultra">Ultra Points</h4>
         <p>Certain card texts are classed as ultra card texts, meaning they increase the number of Ultra Points a card is worth. Ultra Points have no effect on the gameplay, but a deck cannot have more than 10 total Ultra Points.</p>
         <p>To calculate how many Ultra Points a card is worth, add together the Ultra Points value of each card text. Any card text which has no indicated Ultra Points value implicitly has an Ultra Points value of 0.</p>
+        </div>
 
+        <div class="no-break">
         <h4 id="inst-creation">Creating the Card</h4>
         <p>Once you have decided the parameters of your card and calculated the level, edit &ldquo;card.xcf&rdquo; in an image editor that supports the format (such as the GNU Image Manipulation Program or Photoshop), and edit the text fields appropriately. Make sure the &ldquo;Minion Template&rdquo; layer is visible while the &ldquo;Spell Template&rdquo; layer is invisible if designing a minion, or vice-versa if designing a spell. If designing a spell, also make sure to remove the SP and HP numbers from the bottom-left and bottom-right of the card, respectively.</p>
         <p>If the card is worth 0 Ultra Points, you should hide the &ldquo;Ultra Points&rdquo; and &ldquo;Ultra Points Symbol&rdquo; layers. Doing so creates a more apparent visual distinction between regular cards and ultra cards, which makes keeping track of total Ultra Points for deckbuilding easier.</p>
@@ -94,12 +103,16 @@
         <p>You may modify the look of the card as much as you want as long as the meaning of the meaning of the components is understood by all players. In general, it is recommended to keep it as close as possible to the official layout to avoid confusion.</p>
         <p>The standard size for cards is 2.5 inches wide and 3.5 inches tall (or 66 mm × 91 mm). You do not have to follow this size if you don't want to as long as all of your cards are the same size and appearance when viewed from the back. (You can achieve this easily with sleeves if you print in a standard card size.)</p>
         For the back of cards, an image is provided as &ldquo;card_base/card_back.png&rdquo;. Using this is optional as long as sleeves are used that are opaque when viewed from the back.
+        </div>
 
+        <div class="no-break">
         <h4 id="inst-changes">Rule/Text Changes</h4>
         <p>Between editions, the rules and card text in Keeper of the Cards may be changed. You as a card designer need to consider these when updating old cards. See the <a href="rulebook.html#banned">Rulebook: Refurbished and Pruned Cards section</a> for information on which cards need to be updated.</p>
+        </div>
 
         <h3 id="texts">Card Texts</h3>
 
+        <div class="no-break">
         <h4 id="conditions">Activation Conditions</h4>
         <p>Activation conditions indicate special conditions under which the spell or ability is to be activated. If a spell or ability has an activation condition, it may only be activated under that condition. Otherwise, it may only be activated during your own action phase. Only one activation condition can be used per ability.</p>
         <ul>
@@ -119,7 +132,9 @@
             <li>&ldquo;When enemy attacks, after Attack Formation:&rdquo;</li>
             <li>&ldquo;When enemy defends, after Defense Formation:&rdquo;</li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h5 id="conditions-ultra">Ultra Activation Conditions</h5>
         <p>Ultra activation conditions are activation conditions which increase the Ultra Points of the cards they're on. The Ultra Points value for each effect is listed in square brackets.</p>
         <ul>
@@ -140,7 +155,9 @@
                 &ldquo;When enemy casts a spell or activates an ability:&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level decrease an activation cost provides is listed in parentheses.</p>
         <p>If an activation cost does not follow any activation condition or any other activation cost within the ability, its first letter should be capitalized.</p>
@@ -344,7 +361,9 @@
                 &ldquo;gift-summon <var>x</var> minions in your hand→&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h5 id="costs-ultra">Ultra Activation Costs</h5>
         <p>Ultra activation costs are activation costs which increase the Ultra Points of the cards they're on. The Ultra Points value for each effect is listed in square brackets.</p>
         <ul>
@@ -381,7 +400,9 @@
                 &ldquo;self-destroy <var>x</var> cards on top of your deck→&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h4 id="targeting">Target Selections</h4>
         <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only 1 target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
         <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 on-field minions;&rdquo; should be replaced with &ldquo;Target 1 on-field minion;&rdquo;.</p>
@@ -534,7 +555,9 @@
                 &ldquo;Excavate <var>x</var> cards and target up to <var>y</var> excavated cards;&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h5 id="targeting-ultra">Ultra Target Selections</h5>
         <p>Ultra target selections are target selections which increase the Ultra Points of the cards they're on. The Ultra Points value for each effect is listed in square brackets.</p>
         <ul>
@@ -591,7 +614,9 @@
                 &ldquo;Target up to <var>x</var> cards in your grave;&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h4 id="effects">Effects</h4>
         <p>Effects are the main component of abilities, and at least 1 is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
         <p>If an effect does not follow any target selection or any other effect within the sub-ability, its first letter should be capitalized.</p>
@@ -1010,7 +1035,9 @@
                 &ldquo;craft <var>x</var> level <var>y</var> pawns.&rdquo;
             </li>
         </ul>
+        </div>
 
+        <div class="no-break">
         <h5 id="effects-ultra">Ultra Effects</h5>
         <p>Ultra effects are effects which increase the Ultra Points of the cards they're on. The Ultra Points value for each effect is listed in square brackets.</p>
         <ul>
@@ -1067,6 +1094,7 @@
                 &ldquo;<var>x</var>-dice-wound yourself and enemy.&rdquo;
             </li>
         </ul>
+        </div>
     </main>
 
     <div class="footer">
