@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Card Building Examples (16th Edition) - Keeper of the Cards</title>
+    <title>Card Building Examples (17th Edition) - Keeper of the Cards</title>
     <meta name="description" content="The ultimate DIY trading card game" />
     <meta name="keywords" content="kotc" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -24,7 +24,7 @@
     <h1 class="header">Keeper of the Cards</h1>
 
     <main>
-        <h2>Card Building Examples (16<sup>th</sup> Edition)</h2>
+        <h2>Card Building Examples (17<sup>th</sup> Edition)</h2>
         <p>This page is a supplement to the <a href="cardbuilding.html">Card Building Guide</a>. It goes over how to recreate specific examples of cards from the starter decks, starting with the least complex and gradually moving upward in complexity.</p>
 
         <h3>Contents</h3>
@@ -70,15 +70,16 @@
             <li>Since the spell has no target selection, the sub-ability text is just the effect text. Since the spell has no activation condition and no activation cost, the ability text is just the sub-ability text. This gives us: &ldquo;2-dice-heal yourself.&rdquo;</li>
             <li>The spell's final level in this example is 2.</li>
         </ol>
+        <p>Note: the image also contains tutorial text explaining the dice-heal mechanic. Tutorial text is optional and has no effect on what the card actually does.</p>
 
-        <h3 id="asteroid">Spell: Asteroid Impact</h3>
-        <img class="example" src="images/build-examples/asteroid_impact.png" alt="Asteroid Impact: level 8 spell with ability: &ldquo;Target up to 4 on-field minions; destroy the targets.&rdquo;">
+        <h3 id="asteroid">Spell: Tornado</h3>
+        <img class="example" src="images/build-examples/tornado.png" alt="Tornado: level 4 spell with ability: &ldquo;Target up to 2 on-field minions; destroy the targets.&rdquo;">
         <p>This spell is slightly more complex than Antibiotic, but still fairly simple, composed of a single target selection and a single effect. The following steps recreate this spell:</p>
         <ol>
             <li>Begin with the spell's level set to 0.</li>
             <li>Choose the effect you want from <a href="cardbuilding.html#effects">Card Building Guide: Effects</a>. In this case, it's: &ldquo;destroy the targets.&rdquo;</li>
             <li>Since the chosen effect does something with targets, we must include a target selection for this to do anything. Choose the target selection you want from <a href="cardbuilding.html#targeting">Card Building Guide: Target Selections</a>. In this case, we choose, &ldquo;Target up to <var>x</var> on-field minions;&rdquo;</li>
-            <li>Since the target selection has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 4. This gives us: &ldquo;Target up to 4 on-field minions;&rdquo;</li>
+            <li>Since the target selection has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 2. This gives us: &ldquo;Target up to 2 on-field minions;&rdquo;</li>
             <li>Check the target selection's formula for the variable <var>t</var>. In this case, the formula is
                 <math display="inline">
                     <mrow>
@@ -88,16 +89,16 @@
                     </mrow>
                     <mtext>.</mtext>
                 </math>
-                Replace the variable <var>x</var> in this formula with the number chosen in the previous step; in this case, 4. Doing so, we get
+                Replace the variable <var>x</var> in this formula with the number chosen in the previous step; in this case, 2. Doing so, we get
                 <math display="inline">
                     <mrow>
                         <mi>t</mi>
                         <mo>=</mo>
-                        <mn>4</mn>
+                        <mn>2</mn>
                     </mrow>
                     <mtext>.</mtext>
                 </math>
-                Therefore, the variable <var>t</var> is set to 4.
+                Therefore, the variable <var>t</var> is set to 2.
             </li>
             <li>Check the effect's level increase formula. In this case, the formula is
                 <math display="inline">
@@ -108,20 +109,20 @@
                     </mrow>
                     <mtext>.</mtext>
                 </math>
-                Replace the variable <var>t</var> in this formula with the number calculated in the previous step; in this case, 4. Doing so, we get
+                Replace the variable <var>t</var> in this formula with the number calculated in the previous step; in this case, 2. Doing so, we get
                 <math display="inline">
                     <mrow>
                         <mn>2</mn>
                         <mo>×</mo>
-                        <mn>4</mn>
+                        <mn>2</mn>
                     </mrow>
                     <mtext>.</mtext>
                 </math>
-                We can now solve the level increase formula; doing so, we get 8 and therefore add 8 to the spell's level, bringing it to 8.
+                We can now solve the level increase formula; doing so, we get 4 and therefore add 4 to the spell's level, bringing it to 4.
             </li>
-            <li>The spell's sub-ability text is the target selection followed by the effect.  In this case, we get: &ldquo;Target up to 4 on-field minions; destroy the targets.&rdquo;</li>
-            <li>Since the spell has no activation conditions and no activation costs, the ability text is just the sub-ability text. This gives us: &ldquo;Target up to 4 on-field minions; destroy the targets.&rdquo;</li>
-            <li>The spell's final level in this example is 8.</li>
+            <li>The spell's sub-ability text is the target selection followed by the effect. In this case, we get: &ldquo;Target up to 2 on-field minions; destroy the targets.&rdquo;</li>
+            <li>Since the spell has no activation conditions and no activation costs, the ability text is just the sub-ability text. This gives us: &ldquo;Target up to 2 on-field minions; destroy the targets.&rdquo;</li>
+            <li>The spell's final level in this example is 4.</li>
         </ol>
 
         <h3 id="thunderstrike">Spell: Thunderstrike</h3>
