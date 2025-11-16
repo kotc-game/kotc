@@ -4,6 +4,7 @@
 # Requires ImageMagick (package "imagemagick" in Debian and its derivatives)
 # License: CC0 (public domain)
 
+rm -r ../cards-padded ../tip_cards-padded
 mkdir ../cards-padded
 mkdir ../tip_cards-padded
 cp ../cards/*.png ../cards-padded
