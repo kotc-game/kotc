@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Card Building Guide (17th Edition) - Keeper of the Cards</title>
+    <title>Card Building Guide (18th Edition) - Keeper of the Cards</title>
     <meta name="description" content="The ultimate DIY trading card game" />
     <meta name="keywords" content="kotc" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -24,7 +24,7 @@
     <h1 class="header">Keeper of the Cards</h1>
 
     <main>
-        <h2>Card Building Guide (17<sup>th</sup> Edition)</h2>
+        <h2>Card Building Guide (18<sup>th</sup> Edition)</h2>
         <p>This guide instructs how to design cards for Keeper of the Cards. It is written in a manner focused on precision and clarity as a reference moreso than ease of learning, so for a more gradual introduction, <a href="examples.html">Card Building Examples</a> is also available.</p>
 
         <div class="no-break">
@@ -77,13 +77,14 @@
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number, which <em>must</em> be a <strong>positive, non-zero integer</strong> (i.e. at least 1), for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers.</p>
         <p>Any minion ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords or game mechanics to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text.</p>
+        <p>If a minion has no abilities, it implicitly gains the Haste property. It is recommended to make this explicit by adding the following text to the card: &ldquo;Haste <i>(This minion can be summoned unexhausted.)</i>&rdquo;</p>
         </div>
 
         <div class="no-break">
         <h4 id="inst-level">Level</h4>
         <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level decrease formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
         <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability.</p>
-        <p>To determine a level of an ability, add together the ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 0, set to 0. If the ability is a minion ability and its level is less than 1, set to 1. (In other words, spell abilities are allowed to be level 0, but minion abilities must always be at least level 1.)</p>
+        <p>To determine a level of an ability, add together the ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 0, set to 0. If the ability is a minion ability, the minion already has a previous ability, and its level is less than 1, set to 1. (In other words, spell abilities are always allowed to be level 0, and the first ability of a minion is allowed to be level 0, but further minion abilities after the first one must always be at least level 1.)</p>
         <p>To determine the level of a minion, add together the minion's SP and one half of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
         <p>The level of a spell is equal to the level of its ability.</p>
         </div>
