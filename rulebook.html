@@ -122,7 +122,7 @@
 
         <h3 id="minions">Minions</h3>
         <p><dfn>Minions</dfn> are cards which are used to do battle and may also have special abilities. Minions must be <dfn>summoned</dfn> from your hand to the battlefield before they can be used, but once they are summoned, they can be used indefinitely as long as they remain on the battlefield.</p>
-        <p>To summon a minion: pay its resource cost, then place it, face-up and exhausted, into the battlefield. (See <a href="#resources">Exhaustion and Recovery</a> for more information about resources and exhaustion.)</p>
+        <p>To summon a minion: pay its resource cost, then place it, face-up and exhausted, into the battlefield.</p>
         <p>Minions can have any number of abilities. Each ability is designated on a separate paragraph, with a name indicated. If a minion has multiple abilities, only one can be activated at a time. To activate a minion ability whose activation condition is met, the minion must be on-field and unexhausted, and you must exhaust it as a cost (unless this is overridden by a special keyword, such as ghost-play, in the ability's activation condition). After that, perform the steps described for activation of an ability in <a href="#abilities">Abilities</a>.</p>
         <p>Additionally, minions have <dfn><abbr title="strength points">SP</abbr></dfn> &ndash; the minion's capability for inflicting damage in battles; and <dfn><abbr title="hitpoints">HP</abbr></dfn> &ndash; the minion's tolerance for taking damage. <dfn>Damage</dfn> is the reduction of a player's or minion's HP by a given amount. When a minion takes an amount of damage greater than or equal to its HP, it is destroyed. Additionally, if the amount of damage is greater than the minion's HP, the difference is inflicted as <dfn>piercing damage</dfn> to its controller. For example, if 6 damage is inflicted to a minion with 4 HP, the minion will be destroyed and its controller will take 2 HP of piercing damage.</p>
         <p>If a normal minion has no abilities, it gains the <dfn>Haste</dfn> property; minions with Haste may be summoned unexhausted, allowing them to attack on the turn they are summoned.</p>
@@ -143,23 +143,24 @@
         <ol>
             <li><dfn>Ability name</dfn> (minion abilities only): The name of the minion ability, designated with all capital letters. Has no effect on gameplay.</li>
             <li><dfn>Activation condition</dfn>: Indicates under what condition the ability can be activated, followed by a colon (:). If no explicit activation condition is present, the ability's activation condition is the <dfn>standard activation condition</dfn>, meaning it may be used only during your own Action Phase, and only as chain link 1.</li>
-            <li><dfn>Activation cost</dfn>: Indicates a special cost paid upon activation of the ability, followed by an arrow (→). If you activate an ability you are unable to pay the activation cost for, the ability has no effect.</li>
+            <li><dfn>Activation cost</dfn>: Indicates a special cost paid upon activation of the ability, followed by an arrow (→).</li>
             <li><dfn>Sub-abilities</dfn>: Composed of an optional <dfn>target selection</dfn>, indicating what cards are treated as targets for the sub-ability, and 1 or more <dfn>effects</dfn>, indicating what the sub-ability does. Each ability can have any number of sub-abilities; each sub-ability is a separate sentence.</li>
         </ol>
         <p>Abilities whose activation condition is met can be <dfn>activated</dfn>. The way to do this depends on card type, but once an ability is activated, perform the following steps:</p>
         <ol>
             <li>Immediately pay any activation cost. If you cannot, the ability fails. Otherwise, the ability becomes a chain link and either starts or continues a chain. (See <a href="#chains">Chains</a> for more information.)</li>
-            <li>Wait for the ability to resolve in the chain. When it does, do what every sub-ability says to do in sequence. If any effect is impossible as stated on the card text, it does nothing.</li>
+            <li>Wait for the ability to resolve in the chain. When it does, do what every sub-ability says to do in sequence. If any effect is impossible as stated on the card text, it does nothing, but does not prevent resolution of the rest of the ability.</li>
         </ol>
         <p>Many abilities make use of special keywords; see <a href="#keywords">Keywords</a> for a list of explanations for all of these keywords.</p>
         <p>Abilities can optionally have <dfn>tutorial text</dfn> in parentheses, generally rendered in italics, after the end of the ability text. Tutorial text only exists to teach mechanics, and has no actual effect on the game.</p>
 
         <h3 id="counters">Counters</h3>
-        <p>A <dfn>counter</dfn> is an element, generally represented by arbitrary objects such as coins or Poker chips, which can be placed on an on-field minion, preparing an effect for future use. It stays on the minion it is placed on until either the minion is moved to a zone other than the battlefield, or the counter is removed by some other means.</p>
-        <p>There are several different types of counters, each of which has a different effect which can be triggered by popping it. To <dfn>pop</dfn> a counter is to remove it and then <dfn>trigger</dfn> its effect &ndash; execute it as described in this section for the respective counter type. Counter effects are broadly classified into two categories: proactive counter effects, and reactive counter effects.</p>
+        <p>A <dfn>counter</dfn> is an element, generally represented by arbitrary objects such as coins or poker chips, which can be placed on an on-field minion, preparing an effect for future use. It stays on the minion it is placed on until either the minion is moved to a zone other than the battlefield, or the counter is removed by some other means.</p>
+        <p>There are several different types of counters, each of which has a different effect which can be triggered by popping it. To <dfn>pop</dfn> a counter is to remove it and then <dfn>trigger</dfn> its effect &ndash; execute it as described in this section for the respective counter type. Counter effects are broadly classified into three categories: proactive counter effects, reactive counter effects, and hybrid counter effects.</p>
         <ul>
-            <li>A <dfn>proactive</dfn> counter effect starts a chain or, alternatively, responds to existing chain, similar to abilities. However, it can be triggered in any phase of any player's turn, restricted only by chain rules. See <a href="#chains">Chains</a> for more information.</li>
-            <li>A <dfn>reactive</dfn> counter effect does not start a chain or respond to a chain, and is not restricted by chain rules. However, it can only be triggered in specific circumstances.</li>
+            <li>A <dfn>proactive</dfn> counter effect starts a chain or, alternatively, responds to an existing chain, similar to abilities. However, it can be triggered in any phase of any player's turn, restricted only by chain rules. See <a href="#chains">Chains</a> for more information.</li>
+            <li>A <dfn>reactive</dfn> counter effect does not start a chain or respond to a chain, and is not restricted by chain rules. However, it can only be triggered in specific circumstances. If multiple players are able to pop a reactive counter at the same time, the player whose turn it is gets the first opportunity to pop their reactive counters, followed by all other players going clockwise.</li>
+            <li>A <dfn>hybrid</dfn> counter effect starts a chain or, alternatively, responds to an existing chain, similar to abilities, and also can only be triggered in specific circumstances.</li>
         </ul>
         <p>Additionally, the following rules apply to all counters:</p>
         <ul>
@@ -178,11 +179,11 @@
             <li><dfn>Exhaustion Counter</dfn> (proactive): Exhaust the host.</li>
             <li><dfn>Fatigue Counter</dfn> (proactive): Fatigue the host.</li>
             <li><dfn>Berzerk Counter</dfn> (proactive): Choose a valid victim for the host; immediately after the current chain finishes resolving, force the host to attack the chosen victim (with only itself as the attacking team), as if it was the host's controller's Battle Phase (separate from any other Battle Phase this turn), but do not exhaust the host, also, the host's abilities cannot be activated for the rest of this turn.</li>
-            <li><dfn>Taunt Counter</dfn> (reactive): When the host's controller is the defending player in an attack: Change the victim of the attack to the host.</li>
-            <li><dfn>Medic Counter</dfn> (reactive): When the host attacks or defends, before Damage Allocation: Distract the host, also roll a number of six-sided dice equal to the host's SP and increase the host's controller's HP by the result of the dice.</li>
-            <li><dfn>Assassin Counter</dfn> (reactive): When the host attacks, after Attack Formation, if the host is the only minion in the attacking team and the victim is a minion: Skip Defense Formation.</li>
+            <li><dfn>Taunt Counter</dfn> (hybrid): When the host's controller is the defending player in an attack, after Attack Formation: Change the victim of the attack to the host.</li>
+            <li><dfn>Medic Counter</dfn> (hybrid): When the host attacks or defends, before Damage Allocation: Distract the host, also roll a number of six-sided dice equal to the host's SP and increase the host's controller's HP by the result of the dice.</li>
+            <li><dfn>Assassin Counter</dfn> (hybrid): When the host attacks, after Attack Formation, if the host is the only minion in the attacking team and the victim is a minion: Skip Defense Formation.</li>
             <li><dfn>Dice Counter</dfn> (reactive): When a die is rolled (no matter who rolled the die initially): Re-roll it.</li>
-            <li><dfn>Trap Counter</dfn> (reactive): When a chaining action is performed while the host is unexhausted: The host's controller may exhaust the host to activate any ability of the host, ignoring its activation condition, as a new chain link to the current chain. (See <a href="#chains">Chains</a> for more information.)</li>
+            <li><dfn>Trap Counter</dfn> (reactive): When a chaining action is performed while the host is unexhausted: Once, when the host's controller is given an opportunity to respond to the current chain, they may exhaust the host to activate any ability of the host, ignoring its activation condition, as a new chain link to the current chain. (See <a href="#chains">Chains</a> for more information.)</li>
             <li><dfn>Undying Counter</dfn> (reactive): When the host would be destroyed by an effect, except as a result of taking damage: Prevent the effect that would destroy the host from resolving.</li>
         </ul>
         </div>
@@ -193,7 +194,7 @@
         <ul>
             <li>Activating a minion's ability whose activation condition is met.</li>
             <li>Casting a spell whose activation condition is met.</li>
-            <li>Popping a counter with a proactive counter effect.</li>
+            <li>Popping a counter with a proactive or hybrid counter effect.</li>
         </ul>
         <p>When a chaining action is performed and it isn't in response to an existing chain, a new chain starts and said chaining action becomes the first <dfn>chain link</dfn> of said chain. Then, all players, starting with the player to the left of the player who started the chain and then going clockwise, are given an opportunity to respond to the chain by performing chaining actions of their own. If any player decides to respond to the chain, all players are again given the opportunity to respond to the chain, this time starting with the player to the left of the player who last responded and then going clockwise. This process is repeated until all players consecutively decide not to respond to the chain.</p>
         <p>Whenever any chaining action is performed, any applicable activation cost is paid immediately. Effects, however, are not executed immediately. Instead, once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
@@ -207,7 +208,7 @@
         <h3 id="battles">Battles</h3>
         <p>Battles are the primary way for players to advance the game state of Keeper of the Cards. Battles enable damaging other players' HP and destroying their on-field minions. They are initiated by the player whose turn it is during the Battle Phase; this player becomes the <dfn>attacking player</dfn>. Each battle consists of the following steps:</p>
         <ol>
-            <li><dfn>Attack Formation</dfn>: The attacking player <dfn>enlists</dfn> any number of their on-field unexhausted minions by exhausting them &ndash; the enlisted minions become the <dfn>attacking team</dfn> &ndash; and declares 1 <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player or minion can only be declared as a victim once per Battle Phase. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
+            <li><dfn>Attack Formation</dfn>: The attacking player <dfn>enlists</dfn> any number of their on-field unexhausted minions by exhausting them &ndash; the enlisted minions become the <dfn>attacking team</dfn> &ndash; and declares 1 <dfn>victim</dfn>: a player or a minion which the attacker wants to inflict damage to. Any given player can only be declared as a victim once per Battle Phase, and any given minion can only be declared as a victim once per Battle Phase while it remains on-field. The player declared as a victim, or the controller of the minion declared as a victim, becomes the <dfn>defending player</dfn>. The attacking player selects and announces the <dfn>formation order</dfn> of the attacking team &ndash; the order in which these minions will take damage.</li>
             <li><dfn>Defense Formation</dfn>: The defending player may enlist any number of their on-field unexhausted minions (which may or may not include the victim itself) by exhausting them &ndash; the enlisted minions become the <dfn>defending team</dfn>. If they do this, they then select and announce the formation order of the defending team.</li>
             <li><dfn>Damage Allocation</dfn>: The attacking player rolls a number of six-sided dice equal to the total SP of the attacking team, and the defending player rolls a number of six-sided dice equal to the total SP of the defending team. Then, each player must take each of their rolled dice, 1 at a time (in any order), and inflict the result as damage to the next surviving minion in the other player's team (based on the respective formation order selected) until either all dice are used or all minions in the respective team are destroyed. If any of the attacking team's dice remain, inflict the total result of these remaining dice as damage to the victim, or if the victim is a minion which is no longer on-field, to the victim's controller instead.</li>
         </ol>
@@ -303,7 +304,7 @@
 
         <div class="no-break">
         <h4>Destroy</h4>
-        <p>To <dfn>destroy</dfn> a card is to cause it to be sent to the grave, just as if defeated by battle. This can be used to trigger effects which activate on destruction of a card.</p>
+        <p>To <dfn>destroy</dfn> a card is to cause it to be sent to its owner's grave.</p>
         </div>
 
         <div class="no-break">
@@ -584,10 +585,10 @@
 
         <div class="no-break">
         <h4 id="revised-ultra">Revised Ultra Points</h4>
-        <p>This section lists card texts whose Ultra Points values have been revised, and the edition in which such revision occurred. Any card containing any exact text indicated here, and whose design edition is older than the revision edition for the respective text(s), has its total Ultra Points value modified as indicated in square brackets. Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards. Additionally, &ldquo;the targets&rdquo; might be replaced with &ldquo;it&rdquo; in some card texts.</p>
+        <p>This section lists card texts whose Ultra Points values have been revised, and the edition in which such revision occurred. Any card containing any exact text indicated here, and whose design edition is older than the revision edition for the respective text(s), must have its Ultra Points recalculated for the purpose of determining the total Ultra Points in a deck. Note: <var>x</var>, <var>y</var>, and <var>z</var> are replaced with numbers in cards. Additionally, &ldquo;the targets&rdquo; might be replaced with &ldquo;it&rdquo; in some card texts.</p>
         <ul>
-            <li>[-2] &ldquo;<var>x</var>-dice-wound enemy.&rdquo; <i>(18<sup>th</sup> Edition)</i></li>
-            <li>[-2] &ldquo;<var>x</var>-dice-wound yourself and enemy.&rdquo; <i>(18<sup>th</sup> Edition)</i></li>
+            <li>&ldquo;<var>x</var>-dice-wound enemy.&rdquo; <i>(18<sup>th</sup> Edition)</i></li>
+            <li>&ldquo;<var>x</var>-dice-wound yourself and enemy.&rdquo; <i>(18<sup>th</sup> Edition)</i></li>
         </ul>
         </div>
     </main>
