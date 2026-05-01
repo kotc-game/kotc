@@ -73,7 +73,7 @@
             <li>1 target selection from the <a href="#targeting">Target Selections</a> section (optional)</li>
             <li>1 or more effects from the <a href="#effects">Effects</a> section (required)</li>
         </ol>
-        <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. Within these restrictions, you may design any ability you wish. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
+        <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number, which <em>must</em> be a <strong>positive, non-zero integer</strong> (i.e. at least 1), for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers.</p>
         <p>Any minion ability must be named. The name is designated at the beginning of the ability's paragraph in all capital letters, followed by a colon (&ldquo;:&rdquo;). An example would be, &ldquo;GREED: Draw 2 cards.&rdquo;</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords or game mechanics to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text.</p>
@@ -334,7 +334,8 @@
 
         <div class="no-break">
         <h4 id="targeting">Target Selections</h4>
-        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Only 1 target selection can be used per ability. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
+        <p>Target selections are necessary for some effects to work. They serve to designate what cards an effect is used on. Every target selection sets the variable <var>t</var> for use in the cost formulas of the respective effect(s) (see <a href="#effects">Effects</a>); the formula used to calculate <var>t</var> for a target selection is listed in parentheses.</p>
+        <p>Only 1 target selection can be used per sub-ability, and only if that sub-ability includes at least 1 effect that uses the variable <var>t</var>.</p>
         <p>If the number of targets can never be greater than 1, other words which refer to that number should be changed to singular. Additionally, the words &ldquo;up to&rdquo; should be removed in that case. For example, &ldquo;Target up to 1 on-field minions;&rdquo; should be replaced with &ldquo;Target 1 on-field minion;&rdquo;.</p>
         <ul>
             <li>
@@ -556,8 +557,9 @@
 
         <div class="no-break">
         <h4 id="effects">Effects</h4>
-        <p>Effects are the main component of abilities, and at least 1 is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses. Note: the variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>).</p>
-        <p>If an effect does not follow any target selection or any other effect within the sub-ability, its first letter should be capitalized.</p>
+        <p>Effects are the main component of abilities, and at least 1 is required for any given ability. The formula used to calculate the level increase an effect causes is listed in parentheses.</p>
+        <p>The variable <var>t</var> is given by the formula of the target selection used in the respective sub-ability (see <a href="#targeting">Target Selections</a>). Effects which use the variable <var>t</var> can only be used if the sub-ability includes a target selection.</p>
+        <p>If an effect begins the sub-ability (i.e. does not follow a target selection or effect within the sub-ability), its first letter should be capitalized.</p>
         <p>If a number is never greater than 1, other words which refer to that number should be changed to singular. Additionally, the following substitutions are recommended if the number of targets is never greater than 1:</p>
         <ul>
             <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
