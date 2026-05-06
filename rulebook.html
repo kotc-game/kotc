@@ -33,6 +33,7 @@
                 <li><a href="#minions">Minions</a>
                     <ol type="a">
                         <li><a href="#pawns">Pawns</a></li>
+                        <li><a href="#chimeras">Chimeras</a></li>
                     </ol>
                 </li>
                 <li><a href="#spells">Spells</a></li>
@@ -133,6 +134,15 @@
         <div class="no-break">
         <h4 id="pawns">Pawns</h4>
         <p><dfn>Pawns</dfn> are special minions which do not exist as true cards and are summoned only by abilities. Unlike normal minions, pawns only ever exist on the battlefield. When destroyed, otherwise moved to any zone other than the battlefield, or petrified, a pawn is instead permanently removed from the game and can no longer be targeted or otherwise interacted with. Pawns can never have the Haste property, even if they have no abilities. In every other respect, however, pawns are exactly the same as normal minions.</p>
+        </div>
+
+        <div class="no-break">
+        <h4 id="chimeras">Chimeras</h4>
+        <p><dfn>Chimeras</dfn> are minions that are created by abilities which attach minions. To <dfn>attach</dfn> a minion is to stack it on another on-field minion with the same controller, creating a new chimera. Only on-field minions can be attached.</p>
+        <p>The minions the chimera is made of become its <dfn>constituents</dfn>, and are no longer treated as individual on-field minions. The chimera, on creation, is treated as a brand new minion (not retaining any counters or effects applied to its constituents), and is exhausted. The chimera's original level, SP, and HP are equal to the combined original level, SP, and HP of all of its constituents, and it has each of the abilities of all of its constituents. (If the chimera's constituents change, its original level, original SP, original HP, and abilities are always immediately updated to match its new set of constituents.)</p>
+        <p>To <dfn>detach</dfn> a constituent is to take it off of the chimera it is a constituent of, placing it back onto the battlefield, exhausted, as an individual minion. Detaching a constituent does not affect the chimera's status or counters, but its current level, SP, and HP immediately reset to be equal to its new original level, SP, and HP, as determined by its remaining constituents. Additionally, if a chimera only has one constituent remaining, it ceases to be a chimera and is considered to be a normal minion again.</p>
+        <p>A chimera is used and interacted with in the same way as a normal minion. However, when a chimera would be destroyed or otherwise moved to a location other than the battlefield, or when the chimera would be petrified, the chimera's controller selects and detaches one of the chimera's constituents; the detached constituent is affected instead of the chimera.</p>
+        <p>Creation of a chimera is never a summon, and neither is detaching a constituent.</p>
         </div>
 
         <h3 id="spells">Spells</h3>
@@ -238,10 +248,8 @@
 
         <div class="no-break">
         <h4>Attach</h4>
-        <p>To <dfn>attach</dfn> a minion is to stack it on another on-field minion with the same controller, creating a new <dfn>chimera</dfn>. Only on-field minions can be attached.</p>
-        <p>The minions the chimera is made of become its <dfn>constituents</dfn>, and are no longer treated as individual on-field minions. The chimera, on creation, is treated as a brand new minion (not retaining any counters or effects applied to its constituents), and is exhausted. The chimera's original level, SP, and HP are equal to the combined original level, SP, and HP (respectively) of all of its constituents, and it has all of the abilities of all of its constituents. (If the chimera's constituents change, its original level, original SP, original HP, and abilities are always immediately updated to match its new set of constituents.)</p>
-        <p>A chimera is used and interacted with in the same way as a normal minion. However, when a chimera would be destroyed or otherwise moved out of the battlefield, or when the chimera would be petrified, the chimera's controller selects and <dfn>detaches</dfn> one of the chimera's constituents; the detached constituent is then treated as an on-field minion and affected instead of the chimera, and the chimera's current level, SP, and HP are immediately reset to be equal to its new original level, SP, and HP (respectively).</p>
-        <p>Creation of a chimera is never a summon, and neither is detaching a constituent.</p>
+        <p>To <dfn>attach</dfn> a minion is to stack it on another on-field minion with the same controller, creating a new chimera. Only on-field minions can be attached.</p>
+        <p>See <a href="#chimeras">Chimeras</a> for an explanation of what chimeras are and how they work.</p>
         </div>
 
         <div class="no-break">
@@ -260,6 +268,11 @@
         </div>
 
         <div class="no-break">
+        <h4>Chimera</h4>
+        <p>See <a href="#chimeras">Chimeras</a> for an explanation of what chimeras are and how they work.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Clone</h4>
         <p>To <dfn>clone</dfn> a card is to reveal it and then, if it is a minion, optionally summon a pawn with the exact same original (printed) SP, HP, level, Ultra Points, and abilities as the minion, paying the usual cost for summoning the minion which is being cloned.</p>
         </div>
@@ -268,6 +281,12 @@
         <h4>Conscript</h4>
         <p>To <dfn>conscript</dfn> a minion is to, if there is currently a battle ongoing for which the minion's controller is the attacking player or defending player, and the minion is not in its controller's respective team: exhaust the minion and enlist it into its controller's respective team, but if it was already exhausted when it was conscripted, fatigue it. If the minion is conscripted after the respective formation step, the controller of the minion then reselects their team's formation order.</p>
         <p>Only an on-field minion which is <em>either</em> unexhausted <em>or</em> not fatigued can be conscripted.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Constituent</h4>
+        <p>A <dfn>constituent</dfn> is a minion which forms a part of a chimera.</p>
+        <p>See <a href="#chimeras">Chimeras</a> for an explanation of what chimeras are and how they work.</p>
         </div>
 
         <div class="no-break">
@@ -313,6 +332,12 @@
         <div class="no-break">
         <h4>Destroy</h4>
         <p>To <dfn>destroy</dfn> a card is to cause it to be sent to its owner's grave.</p>
+        </div>
+
+        <div class="no-break">
+        <h4>Detach</h4>
+        <p>To <dfn>detach</dfn> a constituent is to take it off of the chimera it is a constituent of, placing it back onto the battlefield, exhausted, as an individual minion.</p>
+        <p>See <a href="#chimeras">Chimeras</a> for an explanation of what chimeras are and how they work.</p>
         </div>
 
         <div class="no-break">
