@@ -1,12 +1,10 @@
 # About Keeper of the Cards
 
-We've always been a big fan of trading card games. Being able to customize your deck based on what kind of strategy you prefer and what kind of style you like is something that has always appealed to us, and trading card games are a fantastic outlet for that.
+Trading card games are a lot of fun. Being able to customize your deck based on what kind of strategy you prefer and what kind of style you like is something that appeals to many, and trading card games are a fantastic outlet for that. But what if you want to go beyond that?
 
-In fact, we love trading card games so much that we always thought it would be very cool to make our own cards. Unfortunately, that's not an option in most games; after all, how can you allow players to make their own cards and prevent them from playing low-cost cards that just say "you win the game when this spell is cast"?
+Keeper of the Cards goes beyond by allowing you to not only construct your deck, but also design your own cards. Here's how: instead of being designed around a set of specific card pools, Keeper of the Cards is designed around a set of specific card text components, along with specific formulas for how to calculate the stats of a card.
 
-Well, we found a way to make this dream a reality in this game, Keeper of the Cards. Here's how: instead of making effects, powers, and costs of cards arbitrary, as they are in most trading card games, Keeper of the Cards defines a set of rules for how all cards are to be constructed, and what it should cost to play them. So it's a bit like a jigsaw puzzle; you have a set number of "pieces" to choose from, but you can configure them basically in any way you want to create virtually any kind of card within those limitations.
-
-But what good is that if the game is no good? That's why Keeper of the Cards is also designed to be a very fun game, incorporating ideas from several other trading card games. Its particular influences are the Yu-Gi-Oh! Trading Card Game and the Duel Masters Trading Card Game, plus a small amount of influence from another libre trading card game, Arcmage. In short, the rules are designed to minimize luck-based victories, keep the rules relatively simple, and create an engaging, dynamic, and tense play experience.
+Gameplay-wise, Keeper of the Cards takes most of its gameplay inspiration from Duel Masters, with some slight influences from other games as well. The rules are meant to be as simple as possible to ease onboarding, but also to add a unique flair.
 
 
 # About This Set
