@@ -218,7 +218,7 @@
         <h4 id="costs">Activation Costs</h4>
         <p>Activation costs serve to reduce an ability's level by &ldquo;paying&rdquo; in other ways. Each ability can have any number of activation costs. The formula used to calculate the amount of level decrease an activation cost provides is listed in parentheses.</p>
         <p>If an activation cost does not follow any activation condition or any other activation cost within the ability, its first letter should be capitalized.</p>
-        <p>If an ability has exactly 2 activation costs, the arrow in the first activation cost is replaced by the word &ldquo;and&rdquo;. If an ability has 3 or more activation costs, all of its activation costs are connected as a comma-separated list, using the word &ldquo;and&rdquo; as a coördinating conjunction, replacing each activation cost's arrow except for the final one listed. An example would be: &ldquo;Self-exhaust 1 resource, self-destroy 1 on-field minion, and self-sheathe 1 card in your hand→&rdquo;</p>
+        <p>If an ability has exactly 2 activation costs, the arrow in the first activation cost is replaced by the word &ldquo;and&rdquo;. If an ability has 3 or more activation costs, all of its activation costs are connected as a comma-separated list, using the word &ldquo;and&rdquo; as a coördinating conjunction, replacing each activation cost's arrow except for the final one listed. An example would be: &ldquo;Exhaust 1 card in your granary, destroy 1 minion in your battlefield, and sheathe 1 card in your hand→&rdquo;</p>
         <ul>
             <li>
                 <math display="inline">
@@ -280,7 +280,7 @@
                     </mfrac>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-exhaust <var>x</var> resources→&rdquo;
+                &ldquo;exhaust <var>x</var> cards in your granary→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -290,7 +290,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-sheathe <var>x</var> resources→&rdquo;
+                &ldquo;sheathe <var>x</var> cards in your granary→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -300,7 +300,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-destroy <var>x</var> resources→&rdquo;
+                &ldquo;destroy <var>x</var> cards in your granary→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -335,7 +335,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-exhaust <var>x</var> on-field minions→&rdquo;
+                &ldquo;exhaust <var>x</var> minions in your battlefield→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -345,19 +345,7 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-bounce <var>x</var> on-field minions→&rdquo;
-            </li>
-            <li>
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>&InvisibleTimes;</mo>
-                        <mi>x</mi>
-                    </mrow>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;self-sheathe <var>x</var> on-field minions→&rdquo;
+                &ldquo;bounce <var>x</var> minions in your battlefield→&rdquo;
             </li>
             <li>
                 <math display="inline">
@@ -369,7 +357,19 @@
                     </mrow>
                     <mtext>)</mtext>
                 </math>
-                &ldquo;self-destroy <var>x</var> on-field minions→&rdquo;
+                &ldquo;sheathe <var>x</var> minions in your battlefield→&rdquo;
+            </li>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mrow>
+                        <mn>2</mn>
+                        <mo>&InvisibleTimes;</mo>
+                        <mi>x</mi>
+                    </mrow>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;destroy <var>x</var> minions in your battlefield→&rdquo;
             </li>
         </ul>
         </div>
@@ -394,22 +394,6 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;pay <var>x</var> HP→&rdquo;
-            </li>
-            <li>
-                [+4]
-                <math display="inline">
-                    <mtext>(</mtext>
-                    <mfrac>
-                        <mrow>
-                            <mi>x</mi>
-                        </mrow>
-                        <mrow>
-                            <mn>10</mn>
-                        </mrow>
-                    </mfrac>
-                    <mtext>)</mtext>
-                </math>
-                &ldquo;self-destroy <var>x</var> cards on top of your deck→&rdquo;
             </li>
         </ul>
         </div>
