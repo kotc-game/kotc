@@ -362,6 +362,12 @@
         </div>
 
         <div class="no-break">
+        <h4>Donate</h4>
+        <p>To <dfn>donate</dfn> a card is to reveal it and allow enemy (optionally) to summon it (if it is a minion) or cast it (if it is a spell) without paying its resource cost, and (if it is a spell) without paying its activation cost. If enemy opts not to do so, the card remains where it is.</p>
+        <p>When casting a donated spell, the spell does not start a new chain, but instead resolves immediately as if it were a part of the cost which donated it. Additionally, the spell's activation condition is ignored; any donated spell can be cast regardless of its activation condition.</p>
+        </div>
+
+        <div class="no-break">
         <h4>Down-level</h4>
         <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level. A card's level can never be less than 0.</p>
         <p>The down-level effect persists for the card until the Recovery Phase, regardless of where the card was when it was down-leveled and where it moves to.</p>
@@ -417,11 +423,6 @@
         <div class="no-break">
         <h4>Ghost-play</h4>
         <p>A part of certain activation conditions, an ability with <dfn>ghost-play</dfn> can be activated regardless of where the card is and without the usual requirements for activating an ability of the respective card type. If the activation condition is ignored (as when an ability is activated by a Trap Counter), the ghost-play property does not apply.</p>
-        </div>
-
-        <div class="no-break">
-        <h4>Gift-summon</h4>
-        <p>To <dfn>gift-summon</dfn> a minion is to reveal the minion and allow enemy (optionally) to summon it without paying the minion's resource cost.</p>
         </div>
 
         <div class="no-break">
@@ -561,6 +562,10 @@
             <tr>
                 <td>ghost-play, must pay resource cost</td>
                 <td>hex-play</td>
+            </tr>
+            <tr>
+                <td>gift-summon</td>
+                <td>donate</td>
             </tr>
             <tr>
                 <td>in-play card</td>
