@@ -245,7 +245,7 @@
         </ol>
 
         <h3 id="equus-africanus-asinus">Minion: Equus Africanus Asinus</h3>
-        <img class="example" src="images/build-examples/equus_africanus_asinus.png" alt="Equus Africanus Asinus: level 3 minion with 0 SP, 0 HP, and 2 abilities: &ldquo;ASSIST&rdquo; and &ldquo;REASSESS&rdquo;. ASSIST: &ldquo;Draw 1 card.&rdquo; REASSESS: &ldquo;When this on-field minion is destroyed (ghost-play): self-exhaust 2 resources→ Target this card; silo it.&rdquo;">
+        <img class="example" src="images/build-examples/equus_africanus_asinus.png" alt="Equus Africanus Asinus: level 3 minion with 0 SP, 0 HP, and 2 abilities: &ldquo;ASSIST&rdquo; and &ldquo;REASSESS&rdquo;. ASSIST: &ldquo;Draw 1 card.&rdquo; REASSESS: &ldquo;When this on-field minion is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;">
         <p>This minion has no SP or HP, but has two abilities, one of which has a non-standard activation condition and an activation cost. The following steps recreate this minion:</p>
         <ol>
             <li>Begin with the minion's level set to 0.</li>
@@ -316,8 +316,8 @@
             </li>
             <li>REASSESS's sub-ability text is the target selection followed by the effect. In this case, we get: &ldquo;Target this card; silo the targets.&rdquo;</li>
             <li>Since only 1 card can be targeted by REASSESS's sub-ability, following the card building guide's recommendations, we change the plural &ldquo;the targets&rdquo; in the effect to the singular &ldquo;it&rdquo;. This gives us: &ldquo;Target this card; silo it.&rdquo;</li>
-            <li>In this case, we want to include an activation cost in REASSESS. Select the desired activation cost from <a href="cardbuilding.html#costs">Card Building Guide: Activation Costs</a>. In this case, it's: &ldquo;self-exhaust <var>x</var> resources→&rdquo;</li>
-            <li>Since the activation cost has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 2. This gives us: &ldquo;self-exhaust 2 resources→&rdquo;</li>
+            <li>In this case, we want to include an activation cost in REASSESS. Select the desired activation cost from <a href="cardbuilding.html#costs">Card Building Guide: Activation Costs</a>. In this case, it's: &ldquo;exhaust <var>x</var> cards in your granary→&rdquo;</li>
+            <li>Since the activation cost has a variable <var>x</var>, replace that variable with a number. In this case, we choose the number 2. This gives us: &ldquo;exhaust 2 cards in your granary→&rdquo;</li>
             <li>Check the activation cost's level decrease formula. In this case, the formula is
                 <math display="inline">
                     <mfrac>
@@ -345,7 +345,7 @@
                 We can now solve the formula; doing so, we get 1 and therefore subtract 1 from REASSESS's level, bringing it to 1.
             </li>
             <li>Add REASSESS's level (1) to the minion's level, bringing it to 3.</li>
-            <li>REASSESS's ability text is its name (&ldquo;REASSESS&rdquo;), followed by a colon, followed by its activation condition, followed by its activation cost, followed by its sub-ability text. In this case, we get: &ldquo;REASSESS: When this on-field minion is destroyed (ghost-play): self-exhaust 2 resources→ Target this card; silo it.&rdquo;</li>
+            <li>REASSESS's ability text is its name (&ldquo;REASSESS&rdquo;), followed by a colon, followed by its activation condition, followed by its activation cost, followed by its sub-ability text. In this case, we get: &ldquo;REASSESS: When this on-field minion is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;</li>
             <li>The minion's ability text is the ability text of all abilities (ASSIST and REASSESS in this case), each on a separate paragraph.</li>
             <li>The minion's final level in this example is 3.</li>
         </ol>
