@@ -245,7 +245,7 @@
         </ol>
 
         <h3 id="equus-africanus-asinus">Minion: Equus Africanus Asinus</h3>
-        <img class="example" src="images/build-examples/equus_africanus_asinus.png" alt="Equus Africanus Asinus: level 3 minion with 0 SP, 0 HP, and 2 abilities: &ldquo;ASSIST&rdquo; and &ldquo;REASSESS&rdquo;. ASSIST: &ldquo;Draw 1 card.&rdquo; REASSESS: &ldquo;When this on-field minion is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;">
+        <img class="example" src="images/build-examples/equus_africanus_asinus.png" alt="Equus Africanus Asinus: level 3 minion with 0 SP, 0 HP, and 2 abilities: &ldquo;ASSIST&rdquo; and &ldquo;REASSESS&rdquo;. ASSIST: &ldquo;Draw 1 card.&rdquo; REASSESS: &ldquo;When this card in your battlefield is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;">
         <p>This minion has no SP or HP, but has two abilities, one of which has a non-standard activation condition and an activation cost. The following steps recreate this minion:</p>
         <ol>
             <li>Begin with the minion's level set to 0.</li>
@@ -280,7 +280,7 @@
             <li>Since ASSIST has no target selection, the sub-ability text is just the effect text. Since the number chosen was 1, we change the plural "cards" to the singular "card". This gives us: &ldquo;Draw 1 card.&rdquo;</li>
             <li>ASSIST's ability text is its name (&ldquo;ASSIST&rdquo;), followed by a colon, followed by its sub-ability text. This gives us: &ldquo;ASSIST: Draw 1 card.&rdquo;</li>
             <li>Choose a name for the minion's second ability. In this case, we choose &ldquo;REASSESS&rdquo;. Its level starts at 0.</li>
-            <li>In this case, we want to include an activation condition in REASSESS. Select the desired activation condition from <a href="cardbuilding.html#conditions">Card Building Guide: Activation Conditions</a>. In this case, it's: &ldquo;When this on-field minion is destroyed (ghost-play):&rdquo;</li>
+            <li>In this case, we want to include an activation condition in REASSESS. Select the desired activation condition from <a href="cardbuilding.html#conditions">Card Building Guide: Activation Conditions</a>. In this case, it's: &ldquo;When this card in your battlefield is destroyed (ghost-play):&rdquo;</li>
             <li>Choose the effect you want for REASSESS's sub-ability from <a href="cardbuilding.html#effects">Card Building Guide: Effects</a>. In this case, it's: &ldquo;silo the targets.&rdquo;</li>
             <li>Since the chosen effect does something with targets, we must include a target selection for this to do anything. Choose the target selection you want from <a href="cardbuilding.html#targeting">Card Building Guide: Target Selections</a>. In this case, we choose: &ldquo;Target this card;&rdquo;</li>
             <li>Check the target selection's formula for the variable <var>t</var>. In this case, the formula is
@@ -345,7 +345,7 @@
                 We can now solve the formula; doing so, we get 1 and therefore subtract 1 from REASSESS's level, bringing it to 1.
             </li>
             <li>Add REASSESS's level (1) to the minion's level, bringing it to 3.</li>
-            <li>REASSESS's ability text is its name (&ldquo;REASSESS&rdquo;), followed by a colon, followed by its activation condition, followed by its activation cost, followed by its sub-ability text. In this case, we get: &ldquo;REASSESS: When this on-field minion is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;</li>
+            <li>REASSESS's ability text is its name (&ldquo;REASSESS&rdquo;), followed by a colon, followed by its activation condition, followed by its activation cost, followed by its sub-ability text. In this case, we get: &ldquo;REASSESS: When this card in your battlefield is destroyed (ghost-play): exhaust 2 cards in your granary→ Target this card; silo it.&rdquo;</li>
             <li>The minion's ability text is the ability text of all abilities (ASSIST and REASSESS in this case), each on a separate paragraph.</li>
             <li>The minion's final level in this example is 3.</li>
         </ol>
