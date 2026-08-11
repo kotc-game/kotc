@@ -39,7 +39,11 @@
                 <li><a href="#spells">Spells</a></li>
                 <li><a href="#abilities">Abilities</a></li>
                 <li><a href="#counters">Counters</a></li>
-                <li><a href="#chains">Chains</a></li>
+                <li><a href="#chains">Chains</a>
+                    <ol type="a">
+                        <li><a href="#chain-priority">Chain Priority</a></li>
+                    </ol>
+                </li>
                 <li><a href="#battles">Battles</a></li>
                 <li><a href="#winning">Endgame</a></li>
                 <li><a href="#keywords">Keywords</a></li>
@@ -216,6 +220,16 @@
         </ol>
         <p>Only 1 chain can be active at a time, and no chaining actions can be performed while a chain is resolving; if a chain is resolving, any player who wishes to perform a chaining action must wait until the chain finishes resolving, and can then start a new chain.</p>
 
+        <h4 id="chain-priority">Chain Priority</h4>
+        <p>Only the player who currently has <dfn>chain priority</dfn> may perform a chaining action which starts a new chain. During your turn, you have chain priority by default; however, every time one of the following events occurs, you must either start a new chain by performing a chaining action, or pass chain priority to the player to your left:</p>
+        <ul>
+            <li>When you end a phase of your turn.</li>
+            <li>When you summon a minion.</li>
+            <li>After a step in a battle is completed.</li>
+            <li>After a chain finishes resolving.</li>
+        </ul>
+        <p>A player who has chain priority passed to them may choose to either start a new chain by performing a chaining action, or pass chain priority to the player to their left. This process is repeated until either chain priority is passed back to you, or a player who has chain priority chooses to start a new chain (in which case chain priority implicitly returns to you).</p>
+
         <h3 id="battles">Battles</h3>
         <p>Battles are the primary way for players to advance the game state of Keeper of the Cards. Battles enable damaging other players' HP and destroying their on-field minions. During your turn, you may initiate any number of battles during your Battle Phase. When you initiate a battle, you become the <dfn>attacking player</dfn>. Each battle consists of the following steps:</p>
         <ol>
@@ -248,7 +262,7 @@
 
         <div class="no-break">
         <h4>After</h4>
-        <p>When an activation condition references a timing <dfn>after</dfn> a step in the Battle Phase, it refers to the period beginning once that step has finished and ending once the Battle Phase advances to the next step. It does not require the ability to be activated immediately following said step.</p>
+        <p>When an activation condition references a timing <dfn>after</dfn> a step in a battle, it refers to the period beginning once that step has finished and ending once the battle advances to the next step (or in the case of the final step, ending once the Battle Phase either ends or moves on to the next battle).</p>
         </div>
 
         <div class="no-break">
