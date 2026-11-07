@@ -62,7 +62,8 @@
 
         <div class="no-break">
         <h4 id="inst-abilities">Constructing Abilities</h4>
-        <p>Abilities are the one gameplay element that all types of card can have. An ability is composed of the following components:</p>
+        <p>Abilities are the one gameplay element that all types of card can have. In the context of the game's rules, all abilities are the same, but in the context of card design, a distinction is made between <dfn>normal abilities</dfn> (abilities which are designed to be beneficial to the controller of the card) and <dfn>negative abilities</dfn> (abilities which are designed to be detrimental to the controller of the card). Only minions can have negative abilities.</p>
+        <p>A normal ability is composed of the following components:</p>
         <ol>
             <li>1 activation condition from the <a href="#conditions">Activation Conditions</a> section (optional)</li>
             <li>1 or more activation costs from the <a href="#costs">Activation Costs</a> section (optional)</li>
@@ -73,19 +74,27 @@
             <li>1 target selection from the <a href="#targeting">Target Selections</a> section (optional)</li>
             <li>1 or more effects from the <a href="#effects">Effects</a> section (required)</li>
         </ol>
-        <p>These components must be listed in that order for each ability and each sub-ability. You must choose non-redacted components from the respective section only. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
+        <p>These components must be listed in that order for each normal ability and each sub-ability. You must choose non-redacted components from the respective section only. All text of the ability, including all sub-abilities, must be on the same paragraph.</p>
         <p>Many components have variables, indicated as <var>x</var>, <var>y</var>, or <var>z</var>, in them. You are to choose a number, which <em>must</em> be a <strong>positive, non-zero integer</strong> (i.e. at least 1), for each of these components, replace <var>x</var>, <var>y</var>, or <var>z</var> with the chosen number, and replace any <var>x</var>, <var>y</var>, and <var>z</var> in the component's formula with the same respective numbers.</p>
-        <p>Any minion ability should preferably be named. The name is designated at the beginning of the ability's paragraph, and should be made distinct from the actual ability text in some way, such as using all capital letters, using a different font, or enclosing the ability name in brackets.</p>
+        <p>Negative abilities are formatted in the same way as normal abilities, but are not constructed from components; instead, each negative ability is a single monolithic component with only variables for customization. As with normal ability components, you are to choose a number for each variable, and each number <em>must</em> be a <strong>positive, non-zero integer</strong> (i.e. at least 1).</p>
+        <p>Any minion ability (including negative abilities) should preferably be named. The name is designated at the beginning of the ability's paragraph, and should be made distinct from the actual ability text in some way, such as using all capital letters, using a different font, or enclosing the ability name in brackets.</p>
         <p>If a card is simple and has short text, you may include extra tutorial text to help teach keywords or game mechanics to beginners. Any tutorial text must be in parentheses and should be rendered in italics to make it clear that it is separate from the rest of the card text.</p>
         <p>If a minion has no abilities, it implicitly gains the Haste property. It is recommended to make this explicit by including the following text in the Ability Text field: &ldquo;Haste <i>(This minion can be summoned unexhausted.)</i>&rdquo; <strong>Note: The card template includes this text by default. If your card is not a minion, or if it is a minion but has any abilities, you must remove this text from the Ability Text field.</strong></p>
         </div>
 
         <div class="no-break">
         <h4 id="inst-level">Level</h4>
-        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost has a designated level decrease formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
-        <p>To determine a sub-ability level, take the sum of all effect level increase formulas corresponding to effect texts used in the sub-ability.</p>
-        <p>To determine a level of an ability, add together the ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 0, set to 0. If the ability is a minion ability, the minion already has a previous level 0 ability, and its level is less than 1, set to 1. (In other words, spell abilities are always allowed to be level 0, and one ability of a minion is allowed to be level 0, but further minion abilities after the first level 0 ability must always be at least level 1.)</p>
-        <p>To determine the level of a minion, add together the minion's SP and one half of its HP and round up to the next integer if it isn't one already. If less than 0, set to 0. Then, add the levels of all of the minion's abilities to the minion's level.</p>
+        <p>A card's level is determined mathematically by considering the powers and abilities of the card. Each effect and target selection has a designated level increase formula, and each activation cost and negative ability has a designated level decrease formula, listed in parentheses prior to the respective card text in the <a href="#texts">Card Texts</a> section.</p>
+        <p>To determine the level of a sub-ability, take the sum of the level increase calculated by all effect level increase formulas corresponding to effect texts used in the sub-ability.</p>
+        <p>To determine the level of a normal ability, add together the ability's sub-ability levels, then if the ability has an activation cost, subtract the activation cost level decrease calculated by the level decrease formula. Round the result up to the next integer if it isn't one already. If less than 0, set to 0. If the ability is a minion ability, the minion already has a previous level 0 normal ability, and the ability's level is less than 1, set the ability's level to 1. (In other words, spell abilities are always allowed to be level 0, and one normal ability of a minion is allowed to be level 0, but further minion normal abilities after the first level 0 ability must always be at least level 1.)</p>
+        <p>To determine the level of a negative ability, take the result of the negative ability's level decrease formula. Round the result down to the previous integer if it isn't one already.</p>
+        <p>To determine the level of a minion:</p>
+        <ol>
+            <li>Add together the minion's SP and one half of its HP and round up to the next integer if it isn't one already.
+            <li>Add the levels of all of the minion's normal abilities to the minion's level.</li>
+            <li>Subtract the levels of all the minion's negative abilities.</li>
+            <li>If the minion's level is less than 0, set it to 0.</li>
+        </ol>
         <p>The level of a spell is equal to the level of its ability.</p>
         </div>
 
@@ -1412,6 +1421,33 @@
                     <mtext>)</mtext>
                 </math>
                 &ldquo;attach the targets.&rdquo;
+            </li>
+        </ul>
+        </div>
+
+        <div class="no-break">
+        <h4 id="effects">Negative Abilities</h4>
+        <p>Negative abilities are abilities which are added to a minion as a detriment, but decrease the minion's level. The formula used to calculate the level decrease a negative ability causes is listed in parentheses.</p>
+        <p>If a number is never greater than 1, other words which refer to that number should be changed to singular. Additionally, the following substitutions are recommended if the number of targets is never greater than 1:</p>
+        <ul>
+            <li>&ldquo;Each target&rdquo; and &ldquo;the targets&rdquo; should be replaced with &ldquo;the target&rdquo;, or alternatively, they can be replaced with &ldquo;it&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
+            <li>&ldquo;Each target's&rdquo; and &ldquo;the targets'&rdquo; should be replaced with &ldquo;the target's&rdquo;, or alternatively, they can be replaced with &ldquo;its&rdquo; if the meaning of the effect is not made ambiguous by doing so.</li>
+        </ul>
+        <ul>
+            <li>
+                <math display="inline">
+                    <mtext>(</mtext>
+                    <mfrac>
+                        <mrow>
+                            <mi>x</mi>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </mfrac>
+                    <mtext>)</mtext>
+                </math>
+                &ldquo;When you draw a card(s) (impulsive-play): <var>x</var>-dice-wound yourself for each card drawn.&rdquo;
             </li>
         </ul>
         </div>
