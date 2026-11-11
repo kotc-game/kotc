@@ -383,8 +383,8 @@
 
         <div class="no-break">
         <h4>Down-level</h4>
-        <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level. A card's level can never be less than 0.</p>
-        <p>The down-level effect persists for the card until the card is summoned or cast or until the Recovery Phase (whichever occurs sooner), regardless of where the card was when it was down-leveled and where it moves to.</p>
+        <p>To <dfn>down-level</dfn> a card is to subtract the amount from the card's level when summoning or casting it. A card's level can never be less than 0. You can split the total amount down-leveled across as many cards as you like; for example, if an effect lets you &ldquo;down-level a card(s) this turn by 6&rdquo;, you can treat a level 2 card as if it were level 0 and then also treat a level 5 card as if it were level 1.</p>
+        <p>A down-leveled card's level is returned to its original level once it is summoned or cast.</p>
         </div>
 
         <div class="no-break">
@@ -438,11 +438,6 @@
         <h4>Ghost-play</h4>
         <p>A part of certain activation conditions, an ability with <dfn>ghost-play</dfn> can be activated regardless of where the card is and without the usual requirements for activating an ability of the respective card type. If the activation condition is ignored (as when an ability is activated by a Trap Counter), the ghost-play property does not apply.</p>
         <p>Each ability with ghost-play can only be activated once for a given event that satisfies its activation condition. However, this does not prevent the use of multiple separate ghost-play abilities with the same activation condition for the same event.</p>
-        </div>
-
-        <div class="no-break">
-        <h4>Hand-down-level</h4>
-        <p>To <dfn>hand-down-level</dfn> is to down-level cards in your hand by a sum total of the amount, distributed however you wish. For example, if you hand-down-level by 5, you could down-level one card in your hand by 2 and down-level another card in your hand by 3.</p>
         </div>
 
         <div class="no-break">
@@ -580,12 +575,20 @@
                 <td><var>x</var> cards in your granary</td>
             </tr>
             <tr>
+                <td>down-level each target by <var>x</var></td>
+                <td>down-level a card(s) this turn by <var>x</var> times the number of targets</td>
+            </tr>
+            <tr>
                 <td>ghost-play, must pay resource cost</td>
                 <td>hex-play</td>
             </tr>
             <tr>
                 <td>gift-summon</td>
                 <td>donate</td>
+            </tr>
+            <tr>
+                <td>hand-down-level by <var>x</var></td>
+                <td>down-level a card(s) this turn by <var>x</var></td>
             </tr>
             <tr>
                 <td>in-play card</td>
