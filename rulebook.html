@@ -113,12 +113,12 @@
             <li><dfn>Resource Phase</dfn>: You may optionally sow 1 resource. A resource is <dfn>sowed</dfn> by placing any card from your hand into the granary unexhausted (oriented vertically) and face-down.</li>
             <li><dfn>Action Phase</dfn>: You may play any cards from your hand that you are able to, and you may also activate on-field minion abilities. See <a href="#minions">Minions</a> and <a href="#spells">Spells</a> for more information.</li>
             <li><dfn>Battle Phase</dfn>: You may do battle with your unexhausted minions. See <a href="#battles">Battles</a> for more information.</li>
-            <li><dfn>Recovery Phase</dfn>: Every on-field minion and every resource (for all players) is unexhausted. Every on-field minion has its SP, HP, and level reset to its original SP, original HP, and original level, respectively (reversing any damage or other changes to SP, HP, or level due to card abilities).</li>
+            <li><dfn>Recovery Phase</dfn>: Every on-field minion and every resource (for all players) is unexhausted. Every on-field minion has its <abbr title="strength points">SP</abbr>, <abbr title="hitpoints">HP</abbr>, and level reset to its original SP, original HP, and original level, respectively (reversing any damage or other changes to SP, HP, or level due to card abilities).</li>
         </ol>
 
         <h3 id="exhaustion">Exhaustion and Recovery</h3>
         <p><dfn>Exhausted</dfn>, for any card, means that the card cannot currently be used; this is marked by having the card in a horizontal (sideways) orientation. By contrast, <dfn>unexhausted</dfn> means that the card can currently be used; this is marked by having the card in a vertical (upright) orientation. To exhaust a card, rotate it to a horizontal orientation. To unexhaust a card, rotate it to a vertical orientation. Cards are only unexhausted during the Recovery Phase.</p>
-        <p>During the Recovery Phase, all cards in every player's battlefield and granary are unexhausted. In addition, every minion in every player's battlefield has its SP, HP, and level returned to its original SP, original HP, and original level, respectively. This effectively reverses any changes to these values that might have happened, including damage. As such, changes to an on-field minion's SP, HP, and level effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
+        <p>During the Recovery Phase, all cards in every player's battlefield and granary are unexhausted. In addition, every minion in every player's battlefield has its <abbr title="strength points">SP</abbr>, <abbr title="hitpoints">HP</abbr>, and level returned to its original SP, original HP, and original level, respectively. This effectively reverses any changes to these values that might have happened, including damage. As such, changes to an on-field minion's SP, HP, and level effectively last only for the turn in which they take effect, even thô this is not explicitly stated in card effects.</p>
 
         <div class="no-break">
         <h3 id="resource-cost" class="no-break-before">Resource Cost</h3>
@@ -155,7 +155,7 @@
         <p>A card's <dfn>abilities</dfn> are indicated in the ability text. Each ability is composed of the following components in the following order:</p>
         <ol>
             <li><dfn>Ability name</dfn> (minion abilities only): The name of the minion ability. Has no effect on gameplay, but used to help facilitate communication.</li>
-            <li><dfn>Activation condition</dfn>: Indicates under what condition the ability can be activated, followed by a colon (:). If no explicit activation condition is present, the ability's activation condition is the <dfn>standard activation condition</dfn>, meaning it may be used only during your own Action Phase, and only as chain link 1.</li>
+            <li><dfn>Activation condition</dfn>: Indicates under what condition the ability can be activated, followed by a colon (:). If no explicit activation condition is present, the ability's activation condition is the <dfn>standard activation condition</dfn>, meaning it may be used only during your own Action Phase, and only as the first chain link.</li>
             <li><dfn>Activation cost</dfn>: Indicates a special cost paid upon activation of the ability, followed by an arrow (→).</li>
             <li><dfn>Sub-abilities</dfn>: Composed of an optional <dfn>target selection</dfn>, indicating what cards are treated as targets for the sub-ability, and 1 or more <dfn>effects</dfn>, indicating what the sub-ability does. Each ability can have any number of sub-abilities; each sub-ability is a separate sentence.</li>
         </ol>
@@ -216,7 +216,7 @@
         <p>Whenever any chaining action is performed, any applicable activation cost is paid immediately, and any target selections are immediately made. Effects, however, are not executed immediately. Instead, once all players are done responding to the chain, the chain begins <dfn>resolving</dfn>: in reverse order (starting with the most recent chain link and working backwards), each chain link's effects are actually executed, which is referred to as <dfn>resolving</dfn> the effects.</p>
         <p>For example, when resolving a chain where chain link 1 is an ability with the effect, &ldquo;Destroy the targets,&rdquo;, and chain link 2 is the effect of a Weakness Counter, then resolution of the chain goes as follows:</p>
         <ol>
-            <li>The effect of the Weakness Counter removed for chain link 2 resolves, decreasing the SP of the card it was on to 0.</li>
+            <li>The effect of the Weakness Counter popped for chain link 2 resolves, decreasing the SP of the card it was on to 0.</li>
             <li>The effect of the ability activated for chain link 1 resolves, destroying the cards it targeted.</li>
         </ol>
         <p>Only 1 chain can be active at a time, and no chaining actions can be performed while a chain is resolving; if a chain is resolving, any player who wishes to perform a chaining action must wait until the chain finishes resolving, and can then start a new chain.</p>
@@ -358,7 +358,7 @@
         <div class="no-break">
         <h4>Dice-burn</h4>
         <p>To <dfn>dice-burn</dfn> the battlefield is to roll the indicated number of six-sided dice, assign each die to an on-field enemy minion, and inflict damage to the respective minion equal to the roll of the respective die.</p>
-        <p>Dice-burning the battlefield is similar to to the Damage Allocation step of a battle, except that you (the player dice-burning the battlefield) have full control over what enemy minions are damaged and how the dice are distributed.</p>
+        <p>Dice-burning the battlefield is similar to the Damage Allocation step of a battle, except that you (the player dice-burning the battlefield) have full control over what enemy minions are damaged and how the dice are distributed.</p>
         </div>
 
         <div class="no-break">
@@ -432,7 +432,7 @@
 
         <div class="no-break">
         <h4>Fatigue</h4>
-        <p>To <dfn>fatigue</dfn> a card is to prevent it from being affected by the Recovery Phase until its controller's next turn. This means that it will not be unexhausted, and any changes to SP, HP, and level remain in effect, until its controller's next Recovery Phase which occurs after the end of the current turn. This effect does not stack; if 1 card is fatigued twice in a turn(s) prior to its controller's turn, this has the exact same effect as fatiguing the card once in that same timeframe. Only on-field minions and resources can be fatigued.</p>
+        <p>To <dfn>fatigue</dfn> a card is to prevent it from being affected by the Recovery Phase until its controller's next turn. This means that it will not be unexhausted, and any changes to SP, HP, and level remain in effect, until its controller's next Recovery Phase which occurs after the end of the current turn. This effect does not stack; if 1 card is fatigued twice in a turn(s) prior to its controller's turn, this has the exact same effect as fatiguing the card once in that same timeframe. Only cards in the battlefield or granary can be fatigued. If a fatigued on-field minion is moved to a zone other than the battlefield, or if a fatigued card in the granary is moved to a zone other than the granary, it is no longer fatigued.</p>
         </div>
 
         <div class="no-break">
